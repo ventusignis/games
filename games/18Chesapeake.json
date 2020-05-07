@@ -131,86 +131,49 @@
     {
       "name": "2",
       "quantity": 7,
-      "rusts_on": "4",
       "price": 80,
-      "distance": 2,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 6,
-      "rusts_on": "6",
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 5,
-      "rusts_on": "D",
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by D"
-        }
-      ]
+      "rust": "D"
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 630,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "D",
-      "quantity": 6,
+      "quantity": "∞",
+      "print": 11,
       "price": 900,
       "color": "brown",
-      "available_on": "6",
+      "available": "6",
       "description": "Cost $700 when trading in a 4T, 5T or 6T",
       "discount": {
-        "4": 300,
-        "5": 300,
-        "6": 300,
-        "D": 300
-      },
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+        "4": 200,
+        "5": 200,
+        "6": 200
+      }
     }
   ],
   "privates": [
@@ -218,25 +181,53 @@
       "name": "Delaware and Raritan Canal",
       "price": 20,
       "revenue": 5,
-      "description": "No special ability. Blocks hex K3 while owned by a player. Companies may purchase P1 - P5 from a player for half to double the face value."
+      "description": "No special ability. Blocks hex K3 while owned by a player. Companies may purchase P1 - P5 from a player for half to double the face value.",
+      "sym": "D&R",
+      "abilities": [
+        {
+          "type": "blocks_hexes",
+          "hexes": ["K3"]
+        }
+      ]
     },
     {
       "name": "Columbia - Philadelphia Railroad",
       "price": 40,
       "revenue": 10,
-      "description": "Blocks hexes H2 and I3 while owned by a player. The owning company may lay two connected tiles in hexes H2 and I3. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning company does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the company’s tile placement action."
+      "description": "Blocks hexes H2 and I3 while owned by a player. The owning company may lay two connected tiles in hexes H2 and I3. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning company does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the company’s tile placement action.",
+      "sym": "C-P",
+      "abilities": [
+        {
+          "type": "blocks_hexes",
+          "hexes": ["H2", "I3"]
+        }
+      ]
     },
     {
       "name": "Baltimore and Susquehanna Railroad",
       "price": 50,
       "revenue": 10,
-      "description": "Blocks hexes F4 and G5 while owned by a player. The owning company may lay two connected tiles in hexes F4 and G5. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning company does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the company’s tile placement action."
+      "description": "Blocks hexes F4 and G5 while owned by a player. The owning company may lay two connected tiles in hexes F4 and G5. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning company does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the company’s tile placement action.",
+      "sym": "B&S",
+      "abilities": [
+        {
+          "type": "blocks_hexes",
+          "hexes": ["F4", "G5"]
+        }
+      ]
     },
     {
       "name": "Chesapeake and Ohio Canal",
       "price": 80,
       "revenue": 15,
-      "description": "Blocks hex D2 while owned by a player.Owning company may place a tile in hex D2.The company does not need to have a route to this hex.The tile placed counts as the company’ s tile lay action and the company must pay the terrain cost.The company may then immediately place a station token free of charge."
+      "description": "Blocks hex D2 while owned by a player.Owning company may place a tile in hex D2.The company does not need to have a route to this hex.The tile placed counts as the company’ s tile lay action and the company must pay the terrain cost.The company may then immediately place a station token free of charge.",
+      "sym": "C&OC",
+      "abilities": [
+        {
+          "type": "blocks_hexes",
+          "hexes": ["D2"]
+        }
+      ]
     },
     {
       "name": "Baltimore & Ohio Railroad",
@@ -254,44 +245,49 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
+      "rounds": 1,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
+      "rounds": 2,
       "tiles": "green",
-      "notes": "Private companies may be purchased"
+      "on": "3",
+      "buy_companies": true
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
-      "tiles": "green"
+      "limit": 3,
+      "rounds": 2,
+      "on": "4",
+      "tiles": "green",
+      "buy_companies": true
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
-      "notes": "Private companies are closed"
+      "on": "5",
+      "events": {
+        "close_companies": true
+      }
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
+      "limit": 2,
+      "rounds": 3,
+      "on": "6",
       "tiles": "brown",
-      "notes": "D Trains may be purchased"
+      "notes": "D Trains available for purchase"
     },
     {
       "name": "D",
-      "limit": "2",
-      "number": "6",
-      "rust": "4",
+      "limit": 2,
+      "rounds": 3,
+      "on": "D",
       "tiles": "brown"
     }
   ],
@@ -561,7 +557,7 @@
     "2": 1,
     "3": 2,
     "4": 2,
-    "7": 2,
+    "7": 4,
     "8": 12,
     "9": 9,
     "14": 5,
@@ -595,130 +591,372 @@
     "915": 1,
     "X1": {
       "color": "yellow",
-      "values": [{ "angle": 210, "percent": 0.75, "value": 30 }],
-      "labels": [{ "label": "DC", "angle": 155, "percent": 0.75 }],
-      "cities": [{ "size": 1 }],
-      "track": [{ "side": 1 }, { "side": 5 }]
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "DC",
+          "angle": 155,
+          "percent": 0.75
+        }
+      ],
+      "cities": [
+        {
+          "size": 1
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ]
     },
     "X2": {
       "color": "green",
       "rotations": 2,
-      "values": [{ "angle": 330, "percent": 0.8, "value": 40 }],
-      "labels": [{ "label": "DC", "angle": 180, "percent": 0.75 }],
-      "cities": [{ "size": 2 }],
+      "values": [
+        {
+          "angle": 330,
+          "percent": 0.8,
+          "value": 40
+        }
+      ],
+      "labels": [
+        {
+          "label": "DC",
+          "angle": 180,
+          "percent": 0.75
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 3 },
-        { "side": 2 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "X3": {
       "color": "green",
       "rotations": 3,
       "values": [
-        { "angle": 265, "percent": 0.7, "value": 40 },
-        { "angle": 75, "percent": 0.7, "value": 40 }
+        {
+          "angle": 265,
+          "percent": 0.7,
+          "value": 40
+        },
+        {
+          "angle": 75,
+          "percent": 0.7,
+          "value": 40
+        }
       ],
-      "labels": [{ "label": "OO", "angle": 150, "percent": 0.8 }],
+      "labels": [
+        {
+          "label": "OO",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
       "cities": [
-        { "angle": 10, "percent": 0.5 },
-        { "angle": 200, "percent": 0.5 }
+        {
+          "angle": 10,
+          "percent": 0.5
+        },
+        {
+          "angle": 200,
+          "percent": 0.5
+        }
       ],
       "track": [
-        { "type": "gentle", "side": 1 },
-        { "type": "gentle", "side": 4 }
+        {
+          "type": "gentle",
+          "side": 1
+        },
+        {
+          "type": "gentle",
+          "side": 4
+        }
       ]
     },
     "X4": {
       "color": "green",
       "rotations": 2,
       "values": [
-        { "angle": 210, "percent": 0.7, "value": 40 },
-        { "angle": 330, "percent": 0.75, "value": 40 }
+        {
+          "angle": 210,
+          "percent": 0.7,
+          "value": 40
+        },
+        {
+          "angle": 330,
+          "percent": 0.75,
+          "value": 40
+        }
       ],
-      "labels": [{ "label": "OO", "angle": 260, "percent": 0.5 }],
+      "labels": [
+        {
+          "label": "OO",
+          "angle": 260,
+          "percent": 0.5
+        }
+      ],
       "cities": [
-        { "angle": 30, "percent": 0.5 },
-        { "angle": 150, "percent": 0.5 }
+        {
+          "angle": 30,
+          "percent": 0.5
+        },
+        {
+          "angle": 150,
+          "percent": 0.5
+        }
       ],
       "track": [
-        { "type": "sharp", "side": 1 },
-        { "type": "sharp", "side": 3 }
+        {
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        }
       ]
     },
     "X5": {
       "color": "green",
       "values": [
-        { "angle": 50, "percent": 0.8, "value": 40 },
-        { "angle": 135, "percent": 0.8, "value": 40 }
+        {
+          "angle": 50,
+          "percent": 0.8,
+          "value": 40
+        },
+        {
+          "angle": 135,
+          "percent": 0.8,
+          "value": 40
+        }
       ],
-      "labels": [{ "label": "OO", "angle": 90, "percent": 0.6 }],
+      "labels": [
+        {
+          "label": "OO",
+          "angle": 90,
+          "percent": 0.6
+        }
+      ],
       "cities": [
-        { "angle": 190, "percent": 0.5 },
-        { "angle": 360, "percent": 0.5 }
+        {
+          "angle": 190,
+          "percent": 0.5
+        },
+        {
+          "angle": 360,
+          "percent": 0.5
+        }
       ],
       "track": [
-        { "type": "gentle", "cross": "over", "side": 4 },
-        { "type": "gentle", "cross": "under", "side": 5 }
+        {
+          "type": "gentle",
+          "cross": "over",
+          "side": 4
+        },
+        {
+          "type": "gentle",
+          "cross": "under",
+          "side": 5
+        }
       ]
     },
     "X6": {
       "color": "brown",
       "rotations": 1,
-      "cities": [{ "size": 3, "rotate": 180 }],
-      "labels": [{ "size": 20, "label": "DC", "angle": 155, "percent": 0.85 }],
-      "values": [{ "angle": 270, "percent": 0.9, "value": 70 }],
+      "cities": [
+        {
+          "size": 3,
+          "rotate": 180
+        }
+      ],
+      "labels": [
+        {
+          "size": 20,
+          "label": "DC",
+          "angle": 155,
+          "percent": 0.85
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.9,
+          "value": 70
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "X7": {
       "quantity": 2,
       "color": "brown",
-      "cities": [{ "size": 2 }],
-      "labels": [{ "label": "OO", "angle": 180, "percent": 0.7 }],
-      "values": [{ "angle": 330, "percent": 0.8, "value": 50 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "labels": [
+        {
+          "label": "OO",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "values": [
+        {
+          "angle": 330,
+          "percent": 0.8,
+          "value": 50
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 6 },
-        { "side": 5 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 6
+        },
+        {
+          "side": 5
+        }
       ]
     },
     "X8": {
       "color": "gray",
-      "values": [{ "angle": 270, "percent": 0.87, "value": 100 }],
-      "labels": [{ "size": 20, "label": "DC", "angle": 205, "percent": 0.9 }],
-      "cities": [{ "size": 4, "percent": 0.1 }],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.87,
+          "value": 100
+        }
+      ],
+      "labels": [
+        {
+          "size": 20,
+          "label": "DC",
+          "angle": 205,
+          "percent": 0.9
+        }
+      ],
+      "cities": [
+        {
+          "size": 4,
+          "percent": 0.1
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "X9": {
       "color": "gray",
       "rotations": 1,
-      "cities": [{ "size": 3, "rotate": 180 }],
-      "labels": [{ "label": "OO", "angle": 180, "percent": 0.78 }],
-      "values": [{ "angle": 335, "percent": 0.85, "value": 70 }],
+      "cities": [
+        {
+          "size": 3,
+          "rotate": 180
+        }
+      ],
+      "labels": [
+        {
+          "label": "OO",
+          "angle": 180,
+          "percent": 0.78
+        }
+      ],
+      "values": [
+        {
+          "angle": 335,
+          "percent": 0.85,
+          "value": 70
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     }
   },
@@ -764,7 +1002,7 @@
             "cost": 80
           }
         ],
-        "hexes": ["B12", "C13", "D4", "D6", "D10", "E5"]
+        "hexes": ["B12", "D4", "D6", "D10", "E5"]
       },
       {
         "color": "plain",
@@ -778,11 +1016,6 @@
       },
       {
         "color": "offboard",
-        "removeBorders": [1, 6],
-        "hexes": ["A1"]
-      },
-      {
-        "color": "offboard",
         "cities": [
           {
             "companies": ["PLE"]
@@ -793,14 +1026,36 @@
             "side": 6
           }
         ],
-        "removeBorders": [4, 5],
+        "removeBorders": [5],
+        "offBoardRevenue": {
+          "hidden": true,
+          "name": {
+            "name": "Pittsburgh"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "green",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            },
+            {
+              "color": "gray",
+              "cost": "80"
+            }
+          ]
+        },
         "hexes": ["A3"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "angle": 90,
-          "percent": 1,
           "name": {
             "name": "Pittsburgh"
           },
@@ -829,7 +1084,7 @@
             "side": 1
           }
         ],
-        "removeBorders": [2, 3],
+        "removeBorders": [2],
         "hexes": ["B2"]
       },
       {
@@ -871,23 +1126,42 @@
       },
       {
         "color": "offboard",
-        "removeBorders": [1, 6],
+        "removeBorders": [6],
         "track": [
           {
             "type": "offboard",
             "side": 5
           }
         ],
+        "offBoardRevenue": {
+          "hidden": true,
+          "name": {
+            "name": "West Virginia Coal"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "green",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            },
+            {
+              "color": "gray",
+              "cost": "80"
+            }
+          ]
+        },
         "hexes": ["A13"]
       },
       {
         "color": "offboard",
-        "removeBorders": [4, 5],
-        "hexes": ["A15"]
-      },
-      {
-        "color": "offboard",
-        "removeBorders": [2, 3],
+        "removeBorders": [3],
         "track": [
           {
             "type": "offboard",
@@ -899,11 +1173,10 @@
           }
         ],
         "offBoardRevenue": {
+          "reverse": true,
           "name": {
             "name": "West Virginia Coal"
           },
-          "angle": 90,
-          "percent": 1,
           "revenues": [
             {
               "color": "yellow",
@@ -1157,7 +1430,7 @@
             "name": {
               "name": "Richmond"
             },
-            "companies": ["CO"]
+            "companies": ["C&O"]
           }
         ],
         "hexes": ["G13"]
@@ -1215,7 +1488,7 @@
             "name": {
               "name": "Baltimore"
             },
-            "companies": ["BO"]
+            "companies": ["B&O"]
           }
         ],
         "labels": [
@@ -1254,7 +1527,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": "30"
             },
             {
               "color": "green",
@@ -1301,6 +1574,10 @@
       },
       {
         "color": "gray",
+        "name": {
+          "name": "Delmarva Peninsula",
+          "hidden": true
+        },
         "values": [
           {
             "value": 30,
@@ -1388,7 +1665,7 @@
               "name": "Camden"
             },
             "x": -30,
-            "companies": ["CA"]
+            "companies": ["C&A"]
           }
         ],
         "terrain": [
@@ -1402,6 +1679,10 @@
       },
       {
         "color": "gray",
+        "name": {
+          "name": "Easton",
+          "hidden": true
+        },
         "values": [
           {
             "value": 30,

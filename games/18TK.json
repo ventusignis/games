@@ -46,7 +46,9 @@
       "price": 80,
       "revenue": 5,
       "hex": "E15",
-      "token": { "color": "white" },
+      "token": {
+        "color": "white"
+      },
       "description": "Currently operating company may place a free token in Tokyo (E15) Token placement must be consistent with all other placement rules. Owning player must be president of of currently operating company. This action closes the private company"
     },
     {
@@ -96,10 +98,10 @@
     }
   ],
   "tokenTypes": {
-    "minor": [""],
     "1": ["Free"],
     "2": ["Free", 40],
     "3": ["Free", 40, 100],
+    "minor": [""],
     "JNR": [100, 100],
     "Tobu": ["Free", "Free", 40, 100, 100]
   },
@@ -284,288 +286,200 @@
       "quantity": 9,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2E",
       "quantity": 3,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4. Skips Towns"
-        }
-      ]
+      "rust": "4",
+      "description": "Skips Towns"
     },
     {
       "name": "3",
       "quantity": 4,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "3E",
       "quantity": 3,
       "price": 220,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6. Skips Towns"
-        }
-      ]
+      "rust": "6",
+      "description": "Skips Towns"
     },
     {
       "name": "3E [TM]",
       "quantity": 1,
       "color": "green",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, Can't be sold"
-        }
-      ]
+      "description": "Can't be sold"
     },
     {
       "name": "3E [NTY]",
       "quantity": 1,
       "color": "green",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, Can't be sold"
-        }
-      ]
+      "description": "Can't be sold"
     },
     {
       "name": "3 [TTM]",
       "quantity": 1,
       "color": "green",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, Can't be sold"
-        }
-      ]
+      "description": "Can't be sold"
     },
     {
       "name": "3 [SM]",
       "quantity": 1,
       "color": "green",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, Can't be sold"
-        }
-      ]
+      "description": "Can't be sold"
     },
     {
       "name": "4 [TE]",
       "quantity": 1,
       "color": "green",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, Can't be sold"
-        }
-      ]
+      "description": "Can't be sold"
     },
     {
       "name": "4",
       "quantity": 2,
       "price": 280,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "4E",
       "quantity": 3,
       "price": 340,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8. Skips Towns"
-        }
-      ]
+      "rust": "8",
+      "description": "Skip Towns"
     },
     {
       "name": "5E",
       "quantity": 4,
       "price": 480,
       "color": "brown",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, Skips Towns"
-        }
-      ]
+      "description": "Skips Towns"
     },
     {
       "name": "6E",
       "quantity": 3,
       "price": 650,
       "color": "brown",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, skips Towns"
-        }
-      ]
+      "description": "Skips Towns"
     },
     {
       "name": "8E",
       "quantity": 8,
       "price": 1000,
       "color": "gray",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent, Skips Towns"
-        }
-      ]
+      "description": "Skips Towns"
     }
   ],
   "phases": [
     {
       "name": "2",
-      "limit": "4/2",
-      "number": "8/3",
+      "limit": 4,
       "tiles": "yellow",
       "notes": "Trains can only be bought from the bank or bank pool.",
       "minor": false
     },
     {
       "name": "3",
-      "limit": "4/2",
-      "number": "4",
+      "limit": 4,
       "tiles": "green",
       "minor": false
     },
     {
       "name": "3E",
-      "limit": "4/2",
-      "number": "3",
+      "limit": 4,
       "tiles": "green",
       "notes": "Companies may purchase trains from other companies.",
       "minor": false
     },
     {
       "name": "4",
-      "limit": "3/1",
-      "number": "2",
+      "limit": 3,
       "tiles": "green",
-      "rust": "2",
       "minor": false
     },
     {
       "name": "4E",
-      "limit": "3/1",
-      "number": "3",
-      "rust": "2E",
+      "limit": 3,
       "tiles": "green",
       "minor": false
     },
     {
       "name": "5E",
-      "limit": "2/1 (JNR 3)",
-      "number": "4",
+      "limit": 2,
       "tiles": "brown",
       "notes": "JNR established. Privates Close. Late Minors available next SR. Minor 7 closed immediately. All trains and funds are returned to the bank. Token is left and blocks Kawasaki (I11). If Keikyū is established it only recieves 8xPar",
       "minor": false
     },
     {
       "name": "6E",
-      "limit": "2/1 (JNR 3)",
-      "number": "3",
+      "limit": 2,
       "tiles": "gray",
       "notes": "Late Minor Trains do not Rust.",
       "minor": false
     },
     {
       "name": "8E",
-      "limit": "2/1 (JNR 3)",
-      "number": "U",
+      "limit": 2,
       "tiles": "gray",
       "minor": false
     },
     {
       "name": "2",
-      "limit": "2",
+      "limit": 2,
       "tiles": "yellow",
-      "number": "8/3",
       "minor": true
     },
     {
       "name": "3",
-      "limit": "2",
+      "limit": 2,
       "tiles": "green",
-      "number": "4",
       "minor": true
     },
     {
       "name": "3E",
-      "limit": "2",
+      "limit": 2,
       "tiles": "green",
-      "number": "3",
       "notes": "Companies may purchase trains from each other",
       "minor": true
     },
     {
       "name": "4",
-      "limit": "1",
-      "rusts": "2",
+      "limit": 1,
       "tiles": "green",
-      "number": "2",
       "minor": true
     },
     {
       "name": "4E",
-      "limit": "1",
-      "rusts": "2e",
+      "limit": 1,
       "tiles": "green",
-      "number": "3",
       "minor": true
     },
     {
       "name": "5E",
-      "limit": "1",
+      "limit": 1,
       "tiles": "brown",
-      "number": "4",
       "notes": "Late Minors available next SR",
       "minor": true
     },
     {
       "name": "6E",
-      "limit": "1",
-      "rusts": "3/3E",
+      "limit": 1,
       "tiles": "gray",
       "notes": "Late Minor trains are permanent.",
-      "number": "3",
       "minor": true
     },
     {
       "name": "8E",
-      "limit": "1",
+      "limit": 1,
       "tiles": "gray",
-      "number": "U",
       "minor": true
     }
   ],
@@ -689,7 +603,11 @@
         },
         {
           "value": 115,
-          "companies": [{ "abbrev": "JNR" }],
+          "companies": [
+            {
+              "abbrev": "JNR"
+            }
+          ],
           "par": true
         },
         130,
@@ -763,7 +681,11 @@
         70,
         {
           "value": 75,
-          "companies": [{ "abbrev": "TR" }],
+          "companies": [
+            {
+              "abbrev": "TR"
+            }
+          ],
           "par": true
         },
         82,
@@ -873,61 +795,6 @@
     "7": 6,
     "8": 12,
     "9": 10,
-    "57": 3,
-    "58": 3,
-    "Y10": {
-      "color": "yellow",
-      "labels": [
-        {
-          "label": "Y",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "cities": [{}],
-      "values": [
-        {
-          "angle": -150,
-          "percent": 0.75,
-          "value": 20
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 5
-        }
-      ]
-    },
-    "C10": {
-      "color": "yellow",
-      "quantity": 5,
-      "labels": [
-        {
-          "label": "C",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "cities": [{}],
-      "values": [
-        {
-          "angle": -150,
-          "percent": 0.75,
-          "value": 20
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        }
-      ]
-    },
     "16": 1,
     "19": 1,
     "20": 1,
@@ -935,36 +802,21 @@
     "24": 3,
     "25": 2,
     "26": 2,
-    "26": 2,
     "27": 2,
     "28": 2,
     "29": 2,
-    "87": {
-      "color": "green",
-      "quantity": 4,
-      "centerTowns": [{}],
-      "values": [
-        {
-          "angle": -150,
-          "percent": 0.75,
-          "value": 10
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 2
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 2,
+    "45": 2,
+    "46": 2,
+    "47": 2,
+    "57": 3,
+    "58": 3,
+    "70": 1,
     "87": {
       "color": "green",
       "quantity": 4,
@@ -1040,6 +892,61 @@
         },
         {
           "side": 5
+        }
+      ]
+    },
+    "611": 9,
+    "911": 3,
+    "Y10": {
+      "color": "yellow",
+      "labels": [
+        {
+          "label": "Y",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "cities": [{}],
+      "values": [
+        {
+          "angle": -150,
+          "percent": 0.75,
+          "value": 20
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "C10": {
+      "color": "yellow",
+      "quantity": 5,
+      "labels": [
+        {
+          "label": "C",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "cities": [{}],
+      "values": [
+        {
+          "angle": -150,
+          "percent": 0.75,
+          "value": 20
+        }
+      ],
+      "track": [
+        {
+          "side": 1
         }
       ]
     },
@@ -1218,18 +1125,6 @@
         }
       ]
     },
-    "39": 1,
-    "40": 1,
-    "41": 2,
-    "42": 2,
-    "43": 2,
-    "44": 2,
-    "45": 2,
-    "46": 2,
-    "47": 2,
-    "70": 1,
-    "611": 9,
-    "911": 3,
     "P30": {
       "color": "brown",
       "quantity": 4,

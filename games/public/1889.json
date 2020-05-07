@@ -359,74 +359,48 @@
       "name": "2",
       "quantity": 6,
       "price": 80,
-      "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4",
+      "color": "yellow"
     },
     {
       "name": "3",
       "quantity": 5,
       "price": 180,
-      "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6",
+      "color": "green"
     },
     {
       "name": "4",
       "quantity": 4,
       "price": 300,
-      "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by D"
-        }
-      ]
+      "rust": "D",
+      "color": "green"
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 450,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 630,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "D",
-      "quantity": 9,
+      "quantity": "∞",
+      "print": 9,
       "price": 1100,
       "color": "brown",
       "description": "Cost ¥800 when trading in a 4T, 5T or 6T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "available": "6",
+      "discount": {
+        "4": 300,
+        "5": 300,
+        "6": 300
+      }
     }
   ],
   "tokenTypes": {
@@ -500,50 +474,49 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
       "rounds": 1,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "rounds": 2,
       "tiles": "green",
-      "notes": "Private companies can be bought"
+      "on": "3",
+      "buy_companies": true
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
       "rounds": 2,
-      "tiles": "green"
+      "on": "4",
+      "tiles": "green",
+      "buy_companies": true
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "rounds": 3,
       "tiles": "brown",
-      "notes": "Private companies close"
+      "on": "5",
+      "events": {
+        "close_companies": true
+      }
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
+      "limit": 2,
       "rounds": 3,
+      "on": "6",
       "tiles": "brown",
       "notes": "D Trains available for purchase"
     },
     {
       "name": "D",
-      "limit": "2",
-      "number": "∞",
-      "rust": "4",
+      "limit": 2,
       "rounds": 3,
+      "on": "D",
       "tiles": "brown"
     }
   ],
@@ -553,41 +526,89 @@
       "price": 20,
       "revenue": 5,
       "hex": "K4",
-      "description": "Blocks Takamatsu (K4)."
+      "description": "Blocks Takamatsu (K4).",
+      "sym": "TR",
+      "abilities": [
+        {
+          "type": "blocks_hexes",
+          "hexes": ["K4"]
+        }
+      ]
     },
     {
       "name": "Mitsubishi Ferry",
       "price": 30,
       "revenue": 5,
       "tile": "437",
-      "description": "Player owner may place the port tile on a coastal town (B11, G10, I12, or J9) without a tile on it already, outside of the operating rounds of a company controller by another player. The player need not control a company or have connectivity to the placed tile from one of their companies. This does not close the company."
+      "description": "Player owner may place the port tile on a coastal town (B11, G10, I12, or J9) without a tile on it already, outside of the operating rounds of a company controller by another player. The player need not control a company or have connectivity to the placed tile from one of their companies. This does not close the company.",
+      "sym": "MF",
+      "abilities": [
+        {
+          "type": "tile_lay",
+          "hexes": ["B11", "G10", "I12", "J9"],
+          "tiles": ["437"],
+          "owner_type": "player"
+        }
+      ]
     },
     {
-      "name": "Ehime Railroad",
+      "name": "Ehime Railway",
       "price": 40,
       "revenue": 10,
       "hex": "C4",
-      "description": "When this company is sold to a corporation, the selling player may immediately place a green tile on Ohzu (C4), in addition to any tile which it may lay during the same operating round. This does not close the company."
+      "description": "When this company is sold to a corporation, the selling player may immediately place a green tile on Ohzu (C4), in addition to any tile which it may lay during the same operating round. This does not close the company.",
+      "sym": "ER",
+      "abilities": [
+        {
+          "type": "blocks_hexes",
+          "hexes": ["C4"]
+        },
+        {
+          "type": "tile_lay",
+          "hexes": ["C4"],
+          "tiles": ["12", "13", "14", "15", "205", "206"],
+          "when": "sold",
+          "owner_type": "corporation"
+        }
+      ]
     },
     {
       "name": "Sumitomo Mines Railway",
       "price": 50,
       "revenue": 15,
       "icon": "mountain",
-      "description": "Owning corporation may ignore building cost for mountain hexes which do not also contain rivers. This does not close the company."
+      "description": "Owning corporation may ignore building cost for mountain hexes which do not also contain rivers. This does not close the company.",
+      "abilities": [
+        {
+          "type": "ignore_terrain",
+          "terrain": "mountain",
+          "owner_type": "corporation"
+        }
+      ]
     },
     {
       "name": "Dougo Railway",
       "price": 60,
       "revenue": 15,
       "company": "IR",
-      "description": "Owning player may exchange this private company for a 10% share of Iyo Railway from the initial offering."
+      "description": "Owning player may exchange this private company for a 10% share of Iyo Railway from the initial offering.",
+      "abilities": [
+        {
+          "type": "exchange",
+          "corporation": "IR",
+          "owner_type": "player"
+        }
+      ]
     },
     {
       "name": "South Iyo Railway",
       "price": 80,
       "revenue": 20,
-      "token": { "color": "orange", "icon": "train", "iconColor": "orange" },
+      "token": {
+        "color": "orange",
+        "icon": "train",
+        "iconColor": "orange"
+      },
       "minPlayers": 3
     },
     {
@@ -596,7 +617,19 @@
       "revenue": [30, 50],
       "minPlayers": 4,
       "icon": "boat",
-      "description": "Does not close while owned by a player. If owned by a player when the first 5-train is purchased it may no longer be sold to a public company and the revenue is increased to 50."
+      "description": "Does not close while owned by a player. If owned by a player when the first 5-train is purchased it may no longer be sold to a public company and the revenue is increased to 50.",
+      "abilities": [
+        {
+          "type": "never_closes",
+          "owner_type": "player"
+        },
+        {
+          "type": "revenue_change",
+          "revenue": 50,
+          "when": "5",
+          "owner_type": "player"
+        }
+      ]
     }
   ],
   "tiles": {

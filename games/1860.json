@@ -181,96 +181,52 @@
       "quantity": 5,
       "price": 250,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4+2"
-        }
-      ]
+      "rust": "4+2"
     },
     {
       "name": "3+2",
       "quantity": 4,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6+3"
-        }
-      ]
+      "rust": "6+3"
     },
     {
       "name": "4+2",
       "quantity": 3,
       "price": 350,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 7+4"
-        }
-      ]
+      "rust": "7+4"
     },
     {
       "name": "5+3",
       "quantity": 2,
       "price": 400,
       "color": "brown",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 8+4"
-        }
-      ]
+      "rust": "8+4"
     },
     {
       "name": "6+3",
       "quantity": 2,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "7+4",
       "quantity": 1,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "8+4",
       "quantity": 1,
       "price": 700,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "9+5",
       "quantity": 6,
       "price": 800,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     }
   ],
   "privates": [
@@ -312,67 +268,55 @@
   ],
   "phases": [
     {
-      "phase": "2",
       "train": "2+1",
-      "limit": "4",
-      "number": "5",
-      "tiles": "yellow"
+      "limit": 4,
+      "tiles": "yellow",
+      "name": "2"
     },
     {
-      "phase": "3",
       "train": "3+2",
-      "limit": "4",
-      "number": "4",
-      "tiles": "green"
+      "limit": 4,
+      "tiles": "green",
+      "name": "3"
     },
     {
-      "phase": "4",
       "train": "4+2",
-      "rust": "2+1",
-      "limit": "3",
-      "number": "3",
-      "tiles": "green"
+      "limit": 3,
+      "tiles": "green",
+      "name": "4"
     },
     {
-      "phase": "5",
       "train": "5+3",
-      "limit": "3",
-      "number": "2",
-      "tiles": "brown"
+      "limit": 3,
+      "tiles": "brown",
+      "name": "5"
     },
     {
-      "phase": "6",
       "train": "6+3",
-      "limit": "2",
-      "number": "2",
-      "rust": "3+2",
+      "limit": 2,
       "tiles": "brown",
-      "notes": "Fishbourne private available; Purchase of Fishbourne closes shipping companies."
+      "notes": "Fishbourne private available; Purchase of Fishbourne closes shipping companies.",
+      "name": "6"
     },
     {
-      "phase": "7",
       "train": "7+4",
-      "limit": "2",
-      "number": "1",
-      "rust": "4+2",
-      "tiles": "brown"
+      "limit": 2,
+      "tiles": "brown",
+      "name": "7"
     },
     {
-      "phase": "8",
       "train": "8+4",
-      "limit": "2",
-      "number": "1",
-      "rust": "5+3",
+      "limit": 2,
       "tiles": "brown",
-      "notes": "Selling doesn’t reduce share price; no limit on certificates per player."
+      "notes": "Selling doesn’t reduce share price; no limit on certificates per player.",
+      "name": "8"
     },
     {
-      "phase": "9",
       "train": "9+5",
-      "limit": "2",
-      "number": "6+",
+      "limit": 2,
       "tiles": "brown",
-      "notes": "Southern Railway forms; no more track or base building after the next SR."
+      "notes": "Southern Railway forms; no more track or base building after the next SR.",
+      "name": "9"
     }
   ],
   "pools": [
@@ -915,9 +859,20 @@
       "quantity": 3,
       "color": "green",
       "rotations": 3,
-      "values": [{ "angle": -90, "percent": 0.5, "value": 10 }],
+      "values": [
+        {
+          "angle": -90,
+          "percent": 0.5,
+          "value": 10
+        }
+      ],
       "towns": [{}],
-      "track": [{ "type": "straight", "side": 1 }]
+      "track": [
+        {
+          "type": "straight",
+          "side": 1
+        }
+      ]
     }
   },
   "map": [

@@ -141,98 +141,55 @@
     {
       "name": "2",
       "quantity": 9,
-      "price": "$80",
+      "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 6,
-      "price": "$180",
+      "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 4,
-      "price": "$300",
+      "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 3,
-      "price": "$450",
+      "price": 450,
       "color": "brown",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 10"
-        }
-      ]
+      "rust": "10"
     },
     {
       "name": "6",
       "quantity": 3,
-      "price": "$630",
+      "price": 630,
       "color": "brown",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 6D"
-        }
-      ]
+      "rust": "6D"
     },
     {
       "name": "8",
       "quantity": 4,
-      "price": "$800",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 800,
+      "color": "gray"
     },
     {
       "name": "10",
       "quantity": 4,
-      "price": "$950",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 950,
+      "color": "gray"
     },
     {
       "name": "6D",
       "quantity": 9,
-      "price": "$1100",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 1100,
+      "color": "gray"
     }
   ],
   "privates": [
@@ -288,57 +245,44 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "9",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased"
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
-      "limit": "3",
-      "number": "3",
+      "limit": 3,
       "tiles": "brown"
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "3",
-      "rust": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private compaines eliminated"
     },
     {
       "name": "8",
-      "limit": "2",
-      "number": "4",
-      "rust": "4",
+      "limit": 2,
       "tiles": "gray"
     },
     {
       "name": "10",
-      "limit": "2",
-      "number": "4",
-      "rust": "5",
+      "limit": 2,
       "tiles": "gray"
     },
     {
       "name": "6D",
-      "limit": "2",
-      "number": "9",
-      "rust": "6",
+      "limit": 2,
       "tiles": "gray"
     }
   ],
@@ -804,53 +748,6 @@
     "7": 4,
     "8": 4,
     "9": 6,
-    "51": {
-      "quantity": 4,
-      "color": "gray",
-      "cities": [
-        {
-          "size": 2
-        }
-      ],
-      "values": [
-        {
-          "angle": 150,
-          "percent": 0.75,
-          "value": 50
-        }
-      ],
-      "track": [
-        {
-          "type": "city",
-          "side": 1
-        },
-        {
-          "type": "city",
-          "side": 2
-        },
-        {
-          "type": "city",
-          "side": 3
-        },
-        {
-          "type": "city",
-          "side": 4
-        },
-        {
-          "type": "city",
-          "side": 5
-        },
-        {
-          "type": "city",
-          "side": 6
-        }
-      ]
-    },
-    "57": 4,
-    "58": 8,
-    "767": 4,
-    "768": 4,
-    "769": 4,
     "44": {
       "quantity": 2,
       "color": "green",
@@ -899,6 +796,50 @@
         }
       ]
     },
+    "51": {
+      "quantity": 4,
+      "color": "gray",
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "values": [
+        {
+          "angle": 150,
+          "percent": 0.75,
+          "value": 50
+        }
+      ],
+      "track": [
+        {
+          "type": "city",
+          "side": 1
+        },
+        {
+          "type": "city",
+          "side": 2
+        },
+        {
+          "type": "city",
+          "side": 3
+        },
+        {
+          "type": "city",
+          "side": 4
+        },
+        {
+          "type": "city",
+          "side": 5
+        },
+        {
+          "type": "city",
+          "side": 6
+        }
+      ]
+    },
+    "57": 4,
+    "58": 8,
     "80": {
       "quantity": 2,
       "color": "green",
@@ -1069,8 +1010,18 @@
           "value": 50
         }
       ],
-      "cities": [{ "name": { "name": "Union Depot", "reverse": true } }]
+      "cities": [
+        {
+          "name": {
+            "name": "Union Depot",
+            "reverse": true
+          }
+        }
+      ]
     },
+    "767": 4,
+    "768": 4,
+    "769": 4,
     "CLE1": {
       "quantity": 8,
       "color": "green",

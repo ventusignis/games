@@ -52,12 +52,28 @@
     "-30",
     "-30",
     "-30",
-    { "icon": "steamboat", "label": "+20" },
-    { "icon": "steamboat", "label": "20/10" },
-    { "icon": "port" },
-    { "icon": "port" },
-    { "icon": "coal", "label": "$10" },
-    { "icon": "coal", "label": "$20" }
+    {
+      "icon": "steamboat",
+      "label": "+20"
+    },
+    {
+      "icon": "steamboat",
+      "label": "20/10"
+    },
+    {
+      "icon": "port"
+    },
+    {
+      "icon": "port"
+    },
+    {
+      "icon": "coal",
+      "label": "$10"
+    },
+    {
+      "icon": "coal",
+      "label": "$20"
+    }
   ],
   "wip": true,
   "ipo": false,
@@ -97,7 +113,10 @@
         "$100",
         "$100",
         "$100",
-        { "icon": "boat", "label": "$40" }
+        {
+          "icon": "boat",
+          "label": "$40"
+        }
       ]
     },
     {
@@ -157,42 +176,36 @@
   "phases": [
     {
       "name": "2",
-      "number": "6",
       "limit": 4,
       "tiles": "yellow",
       "notes": "50% required to float. Ferry income multiplier $10."
     },
     {
       "name": "3",
-      "number": "5",
       "limit": 3,
       "tiles": "green",
       "notes": "Ferry income multiplier $20."
     },
     {
       "name": "4",
-      "number": "4",
       "limit": 3,
       "tiles": "green",
       "notes": "Ferry income multiplier $20."
     },
     {
       "name": "5",
-      "number": "3",
       "limit": 2,
       "tiles": "brown",
       "notes": "All private companies close. Ferry income multiplier $30."
     },
     {
       "name": "6",
-      "number": "2",
       "limit": 2,
       "tiles": "brown",
       "notes": "60% required to float. Ferry income multiplier $30."
     },
     {
       "name": "8",
-      "number": "5",
       "limit": 2,
       "tiles": "gray",
       "notes": "Ferry income multiplier $10."
@@ -204,72 +217,39 @@
       "quantity": 6,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 5,
       "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 4,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "PERMANENT"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "PERMANENT"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "8",
       "quantity": 5,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "PERMANENT"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "privates": [
@@ -284,7 +264,10 @@
       "name": "Saginaw Bay Mine Co.",
       "price": 40,
       "revenue": 10,
-      "token": { "icon": "coal", "label": "$20" },
+      "token": {
+        "icon": "coal",
+        "label": "$20"
+      },
       "description": "Owning corporation may place the $10/$20 mine token, which increases the value of the city wheree it is placed by $10, or by $20 if placed in Bay City or Saginaw."
     },
     {
@@ -292,7 +275,9 @@
       "name": "Port of Cheboygan",
       "price": 60,
       "revenue": 10,
-      "token": { "icon": "port" },
+      "token": {
+        "icon": "port"
+      },
       "description": "Comes with 2 tokens - one for the map and the other for the charter.  This adds the Ferry value to its runs if it travels to or through Cheboygen, or by itself. The token may be used as if it were a station for the purpose of laying track.  May run even if corporation has no train.  Placing the token closes the Port of Cheboygen."
     },
     {
@@ -300,8 +285,10 @@
       "name": "Mayflower Steamship",
       "price": 70,
       "revenue": 15,
-      "token": { "icon": "steamboat", "label": "+20" },
-      "token": { "icon": "steamboat", "label": "20/10" },
+      "token": {
+        "icon": "steamboat",
+        "label": "20/10"
+      },
       "description": "Owning corporation may place the steamship token in any city that is a port on Lake Erie or the Detroit River.  No connection is required.Counts as token placement for that round.  The +$20 token closes the Mayflower Steamship but gives sole use of the token to the owning corporation.  Placing the +$20/+$10 side instead does not close the Mayflower Steamship, allows the owning corporation to use the $20, and allows other corporations to use the +$10 to/through the chosen city."
     },
     {
@@ -309,7 +296,9 @@
       "name": "Lake George & Muskegon",
       "price": 80,
       "revenue": 20,
-      "token": { "icon": "tree" },
+      "token": {
+        "icon": "tree"
+      },
       "description": "Receives the Shay engines that doubles money for laying track in hexes with tree symbol.  This power ends at the start of phase 6"
     },
     {
@@ -382,12 +371,24 @@
       "color": "gray",
       "centerTowns": [{}],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "AA": {
@@ -419,7 +420,11 @@
     "P1": {
       "quantity": 5,
       "color": "yellow",
-      "track": [{ "side": 1 }],
+      "track": [
+        {
+          "side": 1
+        }
+      ],
       "towns": [{}],
       "icons": [
         {
@@ -439,7 +444,11 @@
     "P1G|green": {
       "quantity": 1,
       "color": "green",
-      "track": [{ "side": 1 }],
+      "track": [
+        {
+          "side": 1
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -466,7 +475,11 @@
     "P1G|brown": {
       "quantity": 1,
       "color": "brown",
-      "track": [{ "side": 1 }],
+      "track": [
+        {
+          "side": 1
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -493,7 +506,14 @@
     "P2G|green": {
       "quantity": 1,
       "color": "green",
-      "track": [{ "side": 1 }, { "side": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -513,7 +533,14 @@
     "P2G|brown": {
       "quantity": 1,
       "color": "brown",
-      "track": [{ "side": 1 }, { "side": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -533,7 +560,17 @@
     "P3G|green": {
       "quantity": 4,
       "color": "green",
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -553,7 +590,17 @@
     "P3G|brown": {
       "quantity": 4,
       "color": "brown",
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -573,7 +620,20 @@
     "P4G|green": {
       "quantity": 2,
       "color": "green",
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 5 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -593,7 +653,20 @@
     "P4G|brown": {
       "quantity": 2,
       "color": "brown",
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 5 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
       "centerTowns": [{}],
       "icons": [
         {
@@ -613,7 +686,14 @@
     "P5": {
       "quantity": 1,
       "color": "yellow",
-      "track": [{ "side": 1 }, { "side": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        }
+      ],
       "cities": [{}],
       "labels": [
         {
@@ -633,7 +713,14 @@
     "P6": {
       "quantity": 1,
       "color": "yellow",
-      "track": [{ "side": 1 }, { "side": 5 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ],
       "cities": [{}],
       "labels": [
         {
@@ -661,7 +748,11 @@
           "value": 30
         }
       ],
-      "cities": [{ "size": 2 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "labels": [
         {
           "label": "P",
@@ -669,7 +760,20 @@
           "percent": 0.8
         }
       ],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 4 }, { "side": 5 }]
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     },
     "P15": {
       "quantity": 1,
@@ -681,7 +785,11 @@
           "value": 30
         }
       ],
-      "cities": [{ "size": 2 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "labels": [
         {
           "label": "P",
@@ -689,12 +797,32 @@
           "percent": 0.8
         }
       ],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+      ]
     },
     "P57": {
       "quantity": 2,
       "color": "yellow",
-      "track": [{ "side": 1 }, { "side": 4 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 4
+        }
+      ],
       "cities": [{}],
       "labels": [
         {
@@ -721,7 +849,11 @@
           "value": 40
         }
       ],
-      "cities": [{ "size": 2 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "labels": [
         {
           "label": "P",
@@ -730,12 +862,24 @@
         }
       ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "P619": {
@@ -756,20 +900,51 @@
           "value": 30
         }
       ],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     },
     "KZ": {
       "quantity": 1,
       "color": "green",
       "track": [
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ],
-      "cities": [{ "size": 2 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "values": [
         {
           "value": 30,
@@ -781,12 +956,32 @@
     "Det|green": {
       "quantity": 1,
       "color": "green",
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ],
       "cities": [
         {
           "size": 3,
           "rotation": 60,
-          "companies": [{ "logo": "MiC", "rotation": -60 }, "PM", "LSMS"]
+          "companies": [
+            {
+              "logo": "MiC",
+              "rotation": -60
+            },
+            "PM",
+            "LSMS"
+          ]
         }
       ],
       "values": [
@@ -807,7 +1002,20 @@
     "Det|brown": {
       "quantity": 1,
       "color": "brown",
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ],
       "cities": [
         {
           "size": 4,
@@ -832,7 +1040,20 @@
     "Det|gray": {
       "quantity": 1,
       "color": "gray",
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ],
       "cities": [
         {
           "size": 4,
@@ -864,14 +1085,30 @@
           "percent": 0.8
         }
       ],
-      "cities": [{ "size": 2 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "GR|gray": {
@@ -891,12 +1128,24 @@
         }
       ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "BC": {
@@ -909,7 +1158,11 @@
           "value": 40
         }
       ],
-      "cities": [{ "size": 2 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "labels": [
         {
           "label": "Bay",
@@ -923,11 +1176,21 @@
         }
       ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
       ]
     },
     "M58": {

@@ -18,42 +18,140 @@
     "Round",
     "+L.20",
     "+L.20",
-    { "icon": "port" },
-    { "icon": "port" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-    { "label": "+L.40", "icon": "mountain" },
-
-    { "label": "+L.80", "icon": "mountain" },
-    { "label": "+L.80", "icon": "mountain" },
-    { "label": "+L.80", "icon": "mountain" },
-    { "label": "+L.80", "icon": "mountain" },
-    { "label": "+L.80", "icon": "mountain" },
-    { "label": "+L.80", "icon": "mountain" },
-    { "label": "+L.80", "icon": "mountain" },
-
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" },
-    { "label": "+L.160", "icon": "mountain" }
+    {
+      "icon": "port"
+    },
+    {
+      "icon": "port"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.40",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.80",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.80",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.80",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.80",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.80",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.80",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.80",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    },
+    {
+      "label": "+L.160",
+      "icon": "mountain"
+    }
   ],
   "ipo": false,
   "bank": 7760,
@@ -93,7 +191,10 @@
       "name": "Compagnia Navale Mediterranea",
       "price": 75,
       "revenue": 15,
-      "token": { "color": "white", "label": "+L.20" },
+      "token": {
+        "color": "white",
+        "label": "+L.20"
+      },
       "description": "The owning Corporation can place the +L. 20 token on any port. This action closes the Company but the Corporation adds L. 20 to the revenue of the port until the end of the game."
     },
     {
@@ -486,84 +587,46 @@
       "quantity": 4,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 8H"
-        }
-      ]
+      "rust": "8H"
     },
     {
       "name": "6H",
       "quantity": 4,
       "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 10H"
-        }
-      ]
+      "rust": "10H"
     },
     {
       "name": "8H",
       "quantity": 3,
       "price": 350,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 16H"
-        }
-      ]
+      "rust": "16H"
     },
     {
       "name": "10H",
       "quantity": 2,
       "price": 550,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "12H",
       "quantity": 1,
       "price": 800,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "16H",
       "quantity": 5,
       "price": 1100,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "R6H",
       "quantity": 2,
       "price": 350,
       "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "available": "16H"
     }
   ],
   "rounds": [
@@ -609,60 +672,45 @@
   ],
   "phases": [
     {
-      "phase": "4",
       "train": "4H",
-      "limit": "4",
-      "number": "4",
+      "limit": 4,
       "tiles": "yellow",
       "notes": "Grey cities score 1st value",
-      "price": 100
+      "name": "4"
     },
     {
-      "phase": "6",
       "train": "6H",
-      "limit": "4",
-      "number": "3/4",
+      "limit": 4,
       "tiles": "green",
       "notes": "Private companies can be bought",
-      "price": 200
+      "name": "6"
     },
     {
-      "phase": "8",
       "train": "8H",
-      "rust": "4H",
-      "limit": "3",
-      "number": "2/3",
+      "limit": 3,
       "tiles": "green",
       "notes": "Grey cities score 2nd value",
-      "price": 350
+      "name": "8"
     },
     {
-      "phase": "10",
       "train": "10H",
-      "rust": "6H",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
       "tiles": "brown",
-      "price": 550
+      "name": "10"
     },
     {
-      "phase": "12",
       "train": "12H",
-      "limit": "2",
-      "number": "1",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private companies close, Messina Earthquake, Grey cities score 3rd value",
-      "price": 800
+      "name": "12"
     },
     {
-      "phase": "16",
       "train": ["16H", "R6H"],
-      "limit": "2",
-      "number": ["4/5", "2"],
-      "rust": "8H",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Stock market tokens can advance in the blue zone",
-      "price": [1100, 350]
+      "name": "16"
     }
   ],
   "shareTypes": {

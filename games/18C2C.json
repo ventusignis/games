@@ -16,33 +16,91 @@
   },
   "tokens": [
     "Round",
-    { "label": "$10/$20", "icon": "token" },
-    { "label": "$20", "icon": "token" },
-    { "label": "$10/$20", "icon": "port" },
-    { "label": "$20", "icon": "port" },
-    { "icon": "meat" },
-    { "icon": "meat" },
-    { "icon": "fish" },
-    { "icon": "fish" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "tree" },
-    { "icon": "tree" },
-    { "icon": "mountain" },
-    { "icon": "mountain" },
-    { "icon": "mountain" },
-    { "icon": "mountain" },
-    { "icon": "mountain" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" },
-    { "icon": "tracks" }
+    {
+      "label": "$10/$20",
+      "icon": "token"
+    },
+    {
+      "label": "$20",
+      "icon": "token"
+    },
+    {
+      "label": "$10/$20",
+      "icon": "port"
+    },
+    {
+      "label": "$20",
+      "icon": "port"
+    },
+    {
+      "icon": "meat"
+    },
+    {
+      "icon": "meat"
+    },
+    {
+      "icon": "fish"
+    },
+    {
+      "icon": "fish"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "tree"
+    },
+    {
+      "icon": "tree"
+    },
+    {
+      "icon": "mountain"
+    },
+    {
+      "icon": "mountain"
+    },
+    {
+      "icon": "mountain"
+    },
+    {
+      "icon": "mountain"
+    },
+    {
+      "icon": "mountain"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    },
+    {
+      "icon": "tracks"
+    }
   ],
   "ipo": ["default"],
   "bank": 48000,
@@ -120,14 +178,20 @@
     {
       "name": "Atchison, Topeka & Santa Fe",
       "abbrev": "SF",
-      "token": { "stripes": "white", "bar": true },
+      "token": {
+        "stripes": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Santa Fe, NM"],
       "color": "blue"
     },
     {
       "name": "Atlantic Coast Line",
       "abbrev": "ACL",
-      "token": { "stripes": "white", "bar": true },
+      "token": {
+        "stripes": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, "Birmingham, AL"],
       "color": "brown"
     },
@@ -152,7 +216,9 @@
     {
       "name": "Chesapeake & Ohio",
       "abbrev": "C&O",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Richmond, VA"],
       "color": "blue"
     },
@@ -165,42 +231,57 @@
     {
       "name": "Chicago, Burlington & Quincy",
       "abbrev": "CBQ",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, "Denver, CO"],
       "color": "gold"
     },
     {
       "name": "Chicago, Rock Island & Pacific",
       "abbrev": "CRP",
-      "token": { "stripes": "white", "bar": true },
+      "token": {
+        "stripes": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Pueblo, CO"],
       "color": "green"
     },
     {
       "name": "Chicago, Milwaukee, St. Paul & Pacific",
       "abbrev": "CMP",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Seattle, WA"],
       "color": "purple"
     },
     {
       "name": "Denver & Rio Grand Western",
       "abbrev": "DRW",
-      "token": { "stripes": "white", "bar": true },
+      "token": {
+        "stripes": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, "Seattle, WA"],
       "color": "red"
     },
     {
       "name": "Erie",
       "abbrev": "E",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Duluth, MN"],
       "color": "yellow"
     },
     {
       "name": "Great Northern",
       "abbrev": "GN",
-      "token": { "stripes": "white", "bar": true },
+      "token": {
+        "stripes": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Milwaukee, WI"],
       "color": "purple"
     },
@@ -219,21 +300,27 @@
     {
       "name": "Louisville & Nashville",
       "abbrev": "L&N",
-      "token": { "square": "white" },
+      "token": {
+        "square": "white"
+      },
       "tokens": ["Free", 40, 100, 100, "New Orleans, LA"],
       "color": "blue"
     },
     {
       "name": "Missouri Pacific",
       "abbrev": "MP",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Dallas, TX"],
       "color": "brown"
     },
     {
       "name": "Missouri-Kansas-Texas",
       "abbrev": "MKT",
-      "token": { "square": "white" },
+      "token": {
+        "square": "white"
+      },
       "tokens": ["Free", 40, 100, 100, "El Paso, TX"],
       "color": "green"
     },
@@ -252,14 +339,19 @@
     {
       "name": "Norfolk & Western",
       "abbrev": "N&W",
-      "token": { "stripes": "white", "bar": true },
+      "token": {
+        "stripes": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "New Orleans, LA"],
       "color": "red"
     },
     {
       "name": "Northern Pacific",
       "abbrev": "NP",
-      "token": { "square": "white" },
+      "token": {
+        "square": "white"
+      },
       "tokens": ["Free", 40, 100, 100, "Chicago, IL"],
       "color": "red"
     },
@@ -272,21 +364,28 @@
     {
       "name": "Seaboard Air Line",
       "abbrev": "SAL",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, "Richmond, VA"],
       "color": "orange"
     },
     {
       "name": "Southern",
       "abbrev": "S",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Baltimore, MD"],
       "color": "green"
     },
     {
       "name": "Southern Pacific",
       "abbrev": "SP",
-      "token": { "stripes": "white", "bar": true },
+      "token": {
+        "stripes": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "New Orleans, LA"],
       "color": "orange"
     },
@@ -299,21 +398,29 @@
     {
       "name": "St. Louis Southwestern",
       "abbrev": "SLS",
-      "token": { "target": "white", "bar": true },
+      "token": {
+        "target": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Mexico City"],
       "color": "blue"
     },
     {
       "name": "Texas & Pacific",
       "abbrev": "T&P",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "San Diego, CA"],
       "color": "black"
     },
     {
       "name": "Union Pacific",
       "abbrev": "UP",
-      "token": { "stripe": "white", "bar": true },
+      "token": {
+        "stripe": "white",
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, 100, "Portland, OR"],
       "color": "blue"
     },
@@ -326,7 +433,9 @@
     {
       "name": "Western Pacific",
       "abbrev": "WP",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "tokens": ["Free", 40, 100, "Denver, CO"],
       "color": "gray"
     },
@@ -334,7 +443,10 @@
       "name": "Amtrack",
       "abbrev": "A",
       "shares": "national",
-      "token": { "bar": true, "quarters": ["blue", "red", "blue", "red"] },
+      "token": {
+        "bar": true,
+        "quarters": ["blue", "red", "blue", "red"]
+      },
       "tokens": [100, 100, 100, 100, 100],
       "color": "blue"
     },
@@ -342,7 +454,10 @@
       "name": "Conrail",
       "abbrev": "C",
       "shares": "national",
-      "token": { "bar": true, "quarters": ["blue", "white", "blue", "white"] },
+      "token": {
+        "bar": true,
+        "quarters": ["blue", "white", "blue", "white"]
+      },
       "tokens": [100, 100, 100, 100, 100],
       "color": "blue"
     }
@@ -353,96 +468,52 @@
       "quantity": 21,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 18,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 15,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 12,
       "price": 450,
       "color": "brown",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 12"
-        }
-      ]
+      "rust": "12"
     },
     {
       "name": "6",
       "quantity": 9,
       "price": 630,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "8",
       "quantity": 39,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "10",
       "quantity": 6,
       "price": 950,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "12",
       "quantity": 18,
       "price": 1100,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "privates": [
@@ -575,60 +646,48 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "21",
+      "limit": 4,
       "tiles": "yellow",
       "notes": "Privatizing costs 125% of market value"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "18",
+      "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased, Privatizing costs 150% of market value"
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "15",
+      "limit": 3,
       "tiles": "green",
       "notes": "Mergers may occur"
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "12",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed, Privatizing costs 200% of market value"
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "9",
-      "rust": "3",
+      "limit": 2,
       "tiles": "gray",
       "notes": "Remove (many) private tokens, Amtrack formation, Privatizing costs 300% of market value"
     },
     {
       "name": "8",
-      "limit": "2",
-      "number": "9",
-      "rust": "4",
+      "limit": 2,
       "tiles": "gray",
       "notes": "Conrail formation"
     },
     {
       "name": "10",
-      "limit": "2",
-      "number": "6",
+      "limit": 2,
       "tiles": "gray"
     },
     {
       "name": "12",
-      "limit": "2",
-      "number": "∞",
-      "rust": "5",
+      "limit": 2,
       "tiles": "gray"
     }
   ],
@@ -1258,10 +1317,41 @@
     "124": {
       "quantity": 2,
       "color": "gray",
-      "values": [{ "angle": 270, "percent": 0.87, "value": 100 }],
-      "labels": [{ "size": 20, "label": "NY", "angle": 205, "percent": 0.84 }],
-      "cities": [{ "size": 4, "percent": 0.1 }],
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.87,
+          "value": 100
+        }
+      ],
+      "labels": [
+        {
+          "size": 20,
+          "label": "NY",
+          "angle": 205,
+          "percent": 0.84
+        }
+      ],
+      "cities": [
+        {
+          "size": 4,
+          "percent": 0.1
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     },
     "125": 5,
     "131": 1,
@@ -1273,8 +1363,14 @@
     "591": 1,
     "592": 7,
     "593": 5,
-    "594": { "tile": 597, "quantity": 5 },
-    "595": { "tile": 172, "quantity": 32 },
+    "594": {
+      "tile": 597,
+      "quantity": 5
+    },
+    "595": {
+      "tile": 172,
+      "quantity": 32
+    },
     "596": 4,
     "619": 12
   },
@@ -4527,7 +4623,7 @@
         ],
         "offBoardRevenue": {
           "angle": 90,
-          "percent": 1.0,
+          "percent": 1,
           "reverse": true,
           "name": {
             "name": "Vancouver & Alaska"
@@ -5198,7 +5294,7 @@
         ],
         "offBoardRevenue": {
           "angle": 45,
-          "percent": 1.0,
+          "percent": 1,
           "reverse": true,
           "name": {
             "name": "Tampa"
@@ -5259,7 +5355,7 @@
         "color": "offboard",
         "offBoardRevenue": {
           "angle": 90,
-          "percent": 1.0,
+          "percent": 1,
           "reverse": true,
           "name": {
             "name": "Mexico City"

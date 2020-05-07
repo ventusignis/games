@@ -11,7 +11,15 @@
     "bgg": "https://www.boardgamegeek.com/boardgame/423/1856-railroading-upper-canada-1856",
     "rules": "https://lcduarte.com/blog/415/1856%20Rules.pdf"
   },
-  "tokens": ["Round", { "icon": "port" }, { "icon": "port" }],
+  "tokens": [
+    "Round",
+    {
+      "icon": "port"
+    },
+    {
+      "icon": "port"
+    }
+  ],
   "ipo": true,
   "bank": 12000,
   "players": [
@@ -154,60 +162,33 @@
       "quantity": 6,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 5,
       "price": 225,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 4,
       "price": 350,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by D"
-        }
-      ]
+      "rust": "D"
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 550,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 700,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "D",
@@ -215,12 +196,12 @@
       "price": 1100,
       "color": "brown",
       "description": "Cost $750 when trading in a 4T, 5T or 6T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "available": "6",
+      "discount": {
+        "4": 300,
+        "5": 300,
+        "6": 300
+      }
     }
   ],
   "privates": [
@@ -269,44 +250,35 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased."
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed."
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
+      "limit": 2,
       "tiles": "gray",
       "notes": "The CGR is started. D Trains may be purchased. +20 Port token removed. Small cities may be upgraded / downgraded."
     },
     {
       "name": "D",
-      "limit": "2",
-      "number": "∞",
-      "rust": "4",
+      "limit": 2,
       "tiles": "gray"
     }
   ],
@@ -801,12 +773,6 @@
     "7": 7,
     "8": 13,
     "9": 13,
-    "55": 1,
-    "56": 1,
-    "57": 4,
-    "58": 3,
-    "69": 1,
-
     "14": 4,
     "15": 4,
     "16": 1,
@@ -821,10 +787,6 @@
     "27": 1,
     "28": 1,
     "29": 1,
-    "59": 2,
-    "120": 1,
-    "121": 2,
-
     "39": 1,
     "40": 1,
     "41": 3,
@@ -834,33 +796,66 @@
     "45": 2,
     "46": 2,
     "47": 2,
+    "55": 1,
+    "56": 1,
+    "57": 4,
+    "58": 3,
+    "59": 2,
     "63": 4,
     "64": 1,
     "65": 1,
     "66": 1,
     "67": 1,
     "68": 1,
+    "69": 1,
     "70": 1,
+    "120": 1,
+    "121": 2,
     "122": 1,
+    "123": 1,
+    "124": 1,
     "125": {
       "quantity": 4,
       "color": "brown",
-      "labels": [{ "label": "L", "angle": 270, "percent": 0.87 }],
-      "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
-      "cities": [{ "size": 2 }],
+      "labels": [
+        {
+          "label": "L",
+          "angle": 270,
+          "percent": 0.87
+        }
+      ],
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "track": [
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "126": 1,
-    "127": 1,
-
-    "123": 1,
-    "124": 1
+    "127": 1
   },
   "map": {
     "hexes": [
@@ -881,7 +876,9 @@
         "offBoardRevenue": {
           "angle": 90,
           "percent": 0.3,
-          "name": { "name": "Detroit - Windsor" },
+          "name": {
+            "name": "Detroit - Windsor"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -898,14 +895,22 @@
           ]
         },
         "track": [
-          { "side": 5, "type": "offboard" },
-          { "side": 6, "type": "offboard" }
+          {
+            "side": 5,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
         ],
         "hexes": ["A20"]
       },
       {
         "color": "offboard",
-        "name": { "name": "Port Huron" },
+        "name": {
+          "name": "Port Huron"
+        },
         "removeBorders": [5],
         "hexes": ["A14"]
       },
@@ -914,7 +919,9 @@
         "offBoardRevenue": {
           "angle": 180,
           "percent": 0.333,
-          "name": { "name": "Sarnia" },
+          "name": {
+            "name": "Sarnia"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -927,8 +934,14 @@
           ]
         },
         "track": [
-          { "side": 1, "type": "offboard" },
-          { "side": 6, "type": "offboard" }
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
         ],
         "removeBorders": [2],
         "hexes": ["B13"]
@@ -953,7 +966,9 @@
         "offBoardRevenue": {
           "angle": 180,
           "percent": 0.6,
-          "name": { "name": "Goderich" },
+          "name": {
+            "name": "Goderich"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -970,9 +985,18 @@
           ]
         },
         "track": [
-          { "side": 5, "type": "gentle" },
-          { "side": 5, "type": "sharp" },
-          { "side": 6, "type": "sharp" }
+          {
+            "side": 5,
+            "type": "gentle"
+          },
+          {
+            "side": 5,
+            "type": "sharp"
+          },
+          {
+            "side": 6,
+            "type": "sharp"
+          }
         ],
         "hexes": ["F9"]
       },
@@ -996,7 +1020,9 @@
         "offBoardRevenue": {
           "angle": 180,
           "percent": 0.333,
-          "name": { "name": "Lake Huron" },
+          "name": {
+            "name": "Lake Huron"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1013,8 +1039,14 @@
           ]
         },
         "track": [
-          { "side": 1, "type": "offboard" },
-          { "side": 6, "type": "offboard" }
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
         ],
         "hexes": ["H5"]
       },
@@ -1030,7 +1062,9 @@
         "offBoardRevenue": {
           "angle": 180,
           "percent": 0.333,
-          "name": { "name": "Georgian Bay" },
+          "name": {
+            "name": "Georgian Bay"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1043,16 +1077,28 @@
           ]
         },
         "track": [
-          { "side": 1, "type": "offboard" },
-          { "side": 6, "type": "offboard" }
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
         ],
         "hexes": ["K2"]
       },
       {
         "color": "offboard",
         "track": [
-          { "side": 1, "type": "offboard" },
-          { "side": 2, "type": "offboard" }
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
         ],
         "removeBorders": [6],
         "hexes": ["N1"]
@@ -1062,7 +1108,9 @@
         "offBoardRevenue": {
           "angle": 120,
           "percent": 1,
-          "name": { "name": "Canadian West" },
+          "name": {
+            "name": "Canadian West"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1079,9 +1127,18 @@
           ]
         },
         "track": [
-          { "side": 1, "type": "offboard" },
-          { "side": 2, "type": "offboard" },
-          { "side": 6, "type": "offboard" }
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
         ],
         "removeBorders": [3],
         "hexes": ["O2"]
@@ -1091,7 +1148,9 @@
         "offBoardRevenue": {
           "angle": 270,
           "percent": 0.3,
-          "name": { "name": "Lower Canada" },
+          "name": {
+            "name": "Lower Canada"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1108,15 +1167,26 @@
           ]
         },
         "track": [
-          { "side": 2, "type": "offboard" },
-          { "side": 3, "type": "offboard" }
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 3,
+            "type": "offboard"
+          }
         ],
         "removeBorders": [1],
         "hexes": ["Q8"]
       },
       {
         "color": "offboard",
-        "track": [{ "side": 3, "type": "offboard" }],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ],
         "removeBorders": [4],
         "hexes": ["Q10"]
       },
@@ -1125,7 +1195,9 @@
         "offBoardRevenue": {
           "angle": 270,
           "percent": 0.3,
-          "name": { "name": "Buffalo" },
+          "name": {
+            "name": "Buffalo"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1138,15 +1210,26 @@
           ]
         },
         "track": [
-          { "side": 2, "type": "offboard" },
-          { "side": 3, "type": "offboard" }
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 3,
+            "type": "offboard"
+          }
         ],
         "removeBorders": [1],
         "hexes": ["P17"]
       },
       {
         "color": "offboard",
-        "track": [{ "side": 3, "type": "offboard" }],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ],
         "removeBorders": [4],
         "hexes": ["P19"]
       },
@@ -1154,7 +1237,9 @@
         "color": "yellow",
         "cities": [
           {
-            "name": { "name": "London" },
+            "name": {
+              "name": "London"
+            },
             "companies": ["GW"]
           }
         ],
@@ -1165,14 +1250,23 @@
             "value": 30
           }
         ],
-        "track": [{ "side": 1 }, { "side": 5 }],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 5
+          }
+        ],
         "hexes": ["F15"]
       },
       {
         "color": "yellow",
         "cities": [
           {
-            "name": { "name": "Barrie" },
+            "name": {
+              "name": "Barrie"
+            },
             "companies": ["CPR"]
           }
         ],
@@ -1183,7 +1277,14 @@
             "value": 30
           }
         ],
-        "track": [{ "side": 1 }, { "side": 5 }],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 5
+          }
+        ],
         "hexes": ["M4"]
       },
       {
@@ -1197,7 +1298,9 @@
         ],
         "cities": [
           {
-            "name": { "name": "Toronto" },
+            "name": {
+              "name": "Toronto"
+            },
             "companies": ["CVR"],
             "angle": 60,
             "percent": 0.5
@@ -1246,7 +1349,9 @@
         ],
         "cities": [
           {
-            "name": { "name": "Kitchener" },
+            "name": {
+              "name": "Kitchener"
+            },
             "angle": 30,
             "percent": 0.5
           },
@@ -1285,7 +1390,10 @@
         "cities": [
           {
             "companies": ["THB"],
-            "name": { "name": "Hamilton", "offset": 55 },
+            "name": {
+              "name": "Hamilton",
+              "offset": 55
+            },
             "angle": 30,
             "percent": 0.5
           },
@@ -1315,7 +1423,9 @@
         ],
         "cities": [
           {
-            "name": { "name": "Welland" },
+            "name": {
+              "name": "Welland"
+            },
             "angle": 30,
             "percent": 0.5
           },
@@ -1336,7 +1446,13 @@
             "destination": true
           }
         ],
-        "cities": [{ "name": { "name": "Woodstock" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Woodstock"
+            }
+          }
+        ],
         "hexes": ["H15"]
       },
       {
@@ -1346,12 +1462,25 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Galt" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Galt"
+            }
+          }
+        ],
         "hexes": ["J13"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Chatham", "offset": 75 } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Chatham",
+              "offset": 75
+            }
+          }
+        ],
         "labels": [
           {
             "angle": 180,
@@ -1363,7 +1492,14 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Burlington", "reverse": true } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Burlington",
+              "reverse": true
+            }
+          }
+        ],
         "labels": [
           {
             "angle": 180,
@@ -1376,7 +1512,13 @@
       {
         "color": "plain",
         "cities": [
-          { "companies": ["GT"], "name": { "name": "Oshawa", "reverse": true } }
+          {
+            "companies": ["GT"],
+            "name": {
+              "name": "Oshawa",
+              "reverse": true
+            }
+          }
         ],
         "labels": [
           {
@@ -1389,7 +1531,14 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "St. Thomas", "offset": 75 } }],
+        "cities": [
+          {
+            "name": {
+              "name": "St. Thomas",
+              "offset": 75
+            }
+          }
+        ],
         "icons": [
           {
             "percent": 0.667,
@@ -1415,7 +1564,14 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Fort Erie", "offset": 75 } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Fort Erie",
+              "offset": 75
+            }
+          }
+        ],
         "icons": [
           {
             "percent": 0.667,
@@ -1436,7 +1592,10 @@
         "cities": [
           {
             "companies": ["LPS"],
-            "name": { "name": "Maudaumin", "offset": 75 }
+            "name": {
+              "name": "Maudaumin",
+              "offset": 75
+            }
           }
         ],
         "icons": [
@@ -1475,7 +1634,14 @@
       },
       {
         "color": "plain",
-        "cities": [{ "companies": ["CA"], "name": { "name": "Glencoe" } }],
+        "cities": [
+          {
+            "companies": ["CA"],
+            "name": {
+              "name": "Glencoe"
+            }
+          }
+        ],
         "hexes": ["D17"]
       },
       {
@@ -1488,12 +1654,26 @@
             "destination": true
           }
         ],
-        "cities": [{ "companies": ["WGB"], "name": { "name": "Guelph" } }],
+        "cities": [
+          {
+            "companies": ["WGB"],
+            "name": {
+              "name": "Guelph"
+            }
+          }
+        ],
         "hexes": ["J11"]
       },
       {
         "color": "plain",
-        "cities": [{ "companies": ["BBG"], "name": { "name": "Brantford" } }],
+        "cities": [
+          {
+            "companies": ["BBG"],
+            "name": {
+              "name": "Brantford"
+            }
+          }
+        ],
         "hexes": ["J15"]
       },
       {
@@ -1506,13 +1686,25 @@
             "destination": true
           }
         ],
-        "cities": [{ "companies": ["TGB"], "name": { "name": "Orangeville" } }],
+        "cities": [
+          {
+            "companies": ["TGB"],
+            "name": {
+              "name": "Orangeville"
+            }
+          }
+        ],
         "hexes": ["K8"]
       },
       {
         "color": "plain",
         "cities": [
-          { "companies": ["WR"], "name": { "name": "Niagara Falls" } }
+          {
+            "companies": ["WR"],
+            "name": {
+              "name": "Niagara Falls"
+            }
+          }
         ],
         "hexes": ["O16"]
       },

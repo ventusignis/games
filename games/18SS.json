@@ -51,31 +51,25 @@
   "phases": [
     {
       "name": "3",
-      "limit": "2",
-      "number": "7",
+      "limit": 2,
       "tiles": "yellow",
       "notes": "2 OR, yellow and green tiles"
     },
     {
       "name": "4",
-      "limit": "2",
-      "number": "6",
+      "limit": 2,
       "tiles": "green"
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "8",
+      "limit": 2,
       "tiles": "brown",
-      "rusts": "3",
       "notes": "Private companies close"
     },
     {
       "name": "8",
-      "limit": "2",
-      "number": "15",
-      "tiles": "brown",
-      "rusts": "4"
+      "limit": 2,
+      "tiles": "brown"
     }
   ],
   "turns": [
@@ -224,8 +218,8 @@
     ]
   },
   "tokenTypes": {
-    "default": ["Free", "Free", "Free"],
-    "2": ["Free", "Free"]
+    "2": ["Free", "Free"],
+    "default": ["Free", "Free", "Free"]
   },
   "companies": [
     {
@@ -333,21 +327,30 @@
       "name": "Tei Tramway",
       "price": 140,
       "revenue": 20,
-      "token": { "color": "white", "label": "優 電鉄" },
+      "token": {
+        "color": "white",
+        "label": "優 電鉄"
+      },
       "description": "When purchasing this private company for the first time, receive the president's 40% share certificate of Yuu Railway free of charge. This company will be closed when Yuu Railway purchases a train."
     },
     {
       "name": "Bo Tramway",
       "price": 170,
       "revenue": 25,
-      "token": { "color": "white", "label": "愛 電鉄" },
+      "token": {
+        "color": "white",
+        "label": "愛 電鉄"
+      },
       "description": "When purchasing this private company for the first time, receive a 20% share certificate of Ai Railway and a 20% share certificate of Yuu Railway free of charge. This company will be closed when the first 6 train is purchased, or when Ai Railway purchases a train. 20% share certificates of Ai Railway obtained through this private company can not be sold until Ai Railway is established."
     },
     {
       "name": "Ki Tramway",
       "price": 200,
       "revenue": 30,
-      "token": { "color": "white", "label": "葉 電鉄" },
+      "token": {
+        "color": "white",
+        "label": "葉 電鉄"
+      },
       "description": "When purchasing this private company for the first time, receive the president's 40% share certificate of Ha Railway free of charge. This company will be closed when the first 6 train is purchased, or when Ha Railway purchases a train."
     }
   ],
@@ -357,48 +360,26 @@
       "quantity": 7,
       "price": 250,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 6,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "6",
       "quantity": 8,
       "price": 450,
-      "color": "brown",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "8",
       "quantity": 15,
       "price": 600,
-      "color": "gray",
-      "info": [
-        {
-          "color": "orange",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "map": [
@@ -653,7 +634,6 @@
               "companies": ["栗 電鉄"]
             }
           ],
-
           "hexes": ["H12"]
         },
         {

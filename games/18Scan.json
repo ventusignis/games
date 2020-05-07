@@ -18,9 +18,15 @@
   },
   "tokens": [
     "Round",
-    { "icon": "boat" },
-    { "icon": "boat" },
-    { "icon": "coal" }
+    {
+      "icon": "boat"
+    },
+    {
+      "icon": "boat"
+    },
+    {
+      "icon": "coal"
+    }
   ],
   "ipo": false,
   "bank": 6000,
@@ -143,120 +149,66 @@
       "quantity": 6,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4/3+3"
-        }
-      ]
+      "rust": ["4", "3+3"]
     },
     {
       "name": "1+1",
       "quantity": 6,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4/3+3"
-        }
-      ]
+      "rust": ["4", "3+3"]
     },
     {
       "name": "3",
       "quantity": 4,
       "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 5/4+4"
-        }
-      ]
+      "rust": ["5", "4+4"]
     },
     {
       "name": "2+2",
       "quantity": 4,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 5/4+4"
-        }
-      ]
+      "rust": ["5", "4+4"]
     },
     {
       "name": "4",
       "quantity": 3,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 4D"
-        }
-      ]
+      "rust": "4D"
     },
     {
       "name": "3+3",
       "quantity": 3,
       "price": 280,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 4D"
-        }
-      ]
+      "rust": "4D"
     },
     {
       "name": "5",
       "quantity": 2,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "4+4",
       "quantity": 2,
       "price": 480,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "5E",
       "quantity": 2,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "4D",
       "quantity": 6,
       "price": 800,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     }
   ],
   "privates": [
@@ -314,101 +266,73 @@
   "phases": [
     {
       "name": "2 / 1+1",
-      "number": "6",
-      "limit": "4",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3 / 2+2",
-      "number": "4",
-      "limit": "4",
+      "limit": 4,
       "tiles": "green"
     },
     {
       "name": "4 / 3+3",
-      "number": "3",
-      "limit": "3",
-      "tiles": "green",
-      "rust": "2 / 1+1"
+      "limit": 3,
+      "tiles": "green"
     },
     {
       "name": "5 / 4+4",
-      "number": "2",
-      "limit": "2",
+      "limit": 2,
       "tiles": "brown",
-      "rust": "3 / 2+2",
-      "notes": [
-        "5E trains may be purchased",
-        "",
-        "Private and Minor Companies are closed",
-        "",
-        "SJ eligible to form"
-      ]
+      "notes": "5E trains may be purchased. Private and Minor Companies are closed. SJ eligible to form."
     },
     {
       "name": "5E",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
       "tiles": "brown",
-      "notes": ["4D trains may be purchased"]
+      "notes": "4D trains may be purchased."
     },
     {
       "name": "4D",
-      "number": "6",
-      "limit": "2",
-      "tiles": "brown",
-      "rust": "4 / 3+3"
+      "limit": 2,
+      "tiles": "brown"
     },
     {
       "company": "SJ",
       "name": "5 / 4+4",
-      "number": "2",
-      "limit": "3",
+      "limit": 3,
       "tiles": "brown",
-      "rust": "3 / 2+2",
-      "notes": [
-        "5E trains may be purchased",
-        "",
-        "Private and Minor Companies are closed"
-      ]
+      "notes": "5E trains may be purchased. Private and Minor Companies are closed."
     },
     {
       "company": "SJ",
       "name": "5E",
-      "limit": "3",
-      "number": "2",
+      "limit": 3,
       "tiles": "brown",
-      "notes": ["4D trains may be purchased"]
+      "notes": "4D trains may be purchased."
     },
     {
       "company": "SJ",
       "name": "4D",
-      "number": "6",
-      "limit": "3",
-      "tiles": "brown",
-      "rust": "4 / 3+3"
+      "limit": 3,
+      "tiles": "brown"
     },
     {
       "minor": true,
       "name": "2 / 1+1",
-      "number": "6",
-      "limit": "2",
+      "limit": 2,
       "tiles": "yellow"
     },
     {
       "minor": true,
       "name": "3 / 2+2",
-      "number": "4",
-      "limit": "2",
+      "limit": 2,
       "tiles": "green"
     },
     {
       "minor": true,
       "name": "4 / 3+3",
-      "number": "3",
-      "limit": "1",
-      "tiles": "green",
-      "rust": "2 / 1+1"
+      "limit": 1,
+      "tiles": "green"
     }
   ],
   "pools": [

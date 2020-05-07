@@ -51,35 +51,50 @@
       "name": "Luxembourg Railway",
       "abbrev": "LUX",
       "tokens": ["Free", 40, 70, 100],
-      "token": { "bar": true, "barHeight": 23.5 },
+      "token": {
+        "bar": true,
+        "barHeight": 23.5
+      },
       "color": "violet"
     },
     {
       "name": "Ostend Railway",
       "abbrev": "OST",
       "tokens": ["Home", 40, 100],
-      "token": { "bar": true, "barHeight": 23.5 },
+      "token": {
+        "bar": true,
+        "barHeight": 23.5
+      },
       "color": "lightBlue"
     },
     {
       "name": "Antwerp Railway",
       "abbrev": "ANT",
       "tokens": ["Home", 100],
-      "token": { "bar": true, "barHeight": 23.5 },
+      "token": {
+        "bar": true,
+        "barHeight": 23.5
+      },
       "color": "yellow"
     },
     {
       "name": "Liege Railway",
       "abbrev": "LIE",
       "tokens": ["Home", 40, 100],
-      "token": { "bar": true, "barHeight": 23.5 },
+      "token": {
+        "bar": true,
+        "barHeight": 23.5
+      },
       "color": "red"
     },
     {
       "name": "Mons Railway",
       "abbrev": "MON",
       "tokens": ["Home", 40, 100],
-      "token": { "bar": true, "barHeight": 23.5 },
+      "token": {
+        "bar": true,
+        "barHeight": 23.5
+      },
       "color": "green"
     }
   ],
@@ -89,73 +104,40 @@
       "quantity": 5,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 4,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 5"
-        }
-      ]
+      "rust": "5"
     },
     {
       "name": "4",
       "quantity": 3,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "5",
       "quantity": 2,
       "price": 450,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 630,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "2T",
       "quantity": 5,
       "price": 700,
       "color": "gray",
-      "description": "Runs between 2 cities, counts all towns, doubles one city.",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "description": "Runs between 2 cities, counts all towns, doubles one city."
     }
   ],
   "privates": [
@@ -184,66 +166,73 @@
       "name": "MNBS/SNCB Electrification",
       "price": 100,
       "revenue": 0,
-      "token": { "color": "gray", "label": "2T" },
+      "token": {
+        "color": "gray",
+        "label": "2T"
+      },
       "description": "At the start of the silver phase after all 4 trains have been removed, the player holding this private must place a 2T train on a railroad's charter. This train costs nothing and can be used immediately. This action closes the private. MAY NOT BE SOLD TO A RAILROAD."
     },
     {
       "name": "Cockerill Locomotive Company",
       "price": 120,
       "revenue": 20,
-      "token": { "color": "yellow", "iconColor": "map-green", "icon": "train" },
+      "token": {
+        "color": "yellow",
+        "iconColor": "map-green",
+        "icon": "train"
+      },
       "description": "Allows owning railroad to purchase a train at half price, closing the private. Can be sold during the YELLOW and GREEN phases."
     },
     {
       "name": "Albert Canal Corporation",
       "price": 150,
       "revenue": 25,
-      "token": { "color": "yellow", "label": "fr." },
+      "token": {
+        "color": "yellow",
+        "label": "fr."
+      },
       "description": "No other ability. Closes in BROWN or if track connects Antwerp to Liege by any route or manner regardless of tokens. Can be sold during the GREEN phase."
     }
   ],
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
+      "rounds": 1,
       "tiles": "yellow",
       "notes": "Some Private companies may be purchased"
     },
     {
       "name": "3",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
+      "rounds": 2,
       "tiles": "green",
       "notes": "All Private companies may be purchased"
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "3",
+      "limit": 3,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "5",
-      "rust": "3",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private companies are closed"
     },
     {
       "name": "6",
-      "limit": "1",
-      "number": "2",
-      "rust": "4",
+      "limit": 1,
+      "rounds": 3,
       "tiles": "gray",
       "notes": "2T may be purchased"
     },
     {
       "name": "2T",
-      "limit": "1",
-      "number": "5",
+      "limit": 1,
+      "rounds": 3,
       "tiles": "gray"
     }
   ],
@@ -684,28 +673,100 @@
     "70": 1,
     "18340": {
       "color": "yellow",
-      "labels": [{ "label": "B", "angle": 150, "percent": 0.85 }],
-      "values": [{ "angle": 335, "percent": 0.825, "value": 30 }],
-      "cities": [{ "size": 1, "name": { "name": "Luxembourg" } }],
-      "track": [{ "side": 2 }]
+      "labels": [
+        {
+          "label": "B",
+          "angle": 150,
+          "percent": 0.85
+        }
+      ],
+      "values": [
+        {
+          "angle": 335,
+          "percent": 0.825,
+          "value": 30
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "name": {
+            "name": "Luxembourg"
+          }
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        }
+      ]
     },
     "18341": {
       "color": "green",
-      "values": [{ "angle": 335, "percent": 0.825, "value": 40 }],
-      "cities": [{ "name": { "name": "Antwerp" }, "size": 2 }],
-      "track": [{ "side": 2 }, { "side": 3 }]
+      "values": [
+        {
+          "angle": 335,
+          "percent": 0.825,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "name": {
+            "name": "Antwerp"
+          },
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
+      ]
     },
     "18342": {
       "color": "brown",
-      "values": [{ "angle": 335, "percent": 0.85, "value": 60 }],
-      "cities": [
-        { "name": { "name": "Antwerp", "offset": 66.67, "y": -5 }, "size": 3 }
+      "values": [
+        {
+          "angle": 335,
+          "percent": 0.85,
+          "value": 60
+        }
       ],
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }]
+      "cities": [
+        {
+          "name": {
+            "name": "Antwerp",
+            "offset": 66.67,
+            "y": -5
+          },
+          "size": 3
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+      ]
     },
     "18343": {
       "color": "gray",
-      "values": [{ "angle": 90, "percent": 0.9, "value": 80 }],
+      "values": [
+        {
+          "angle": 90,
+          "percent": 0.9,
+          "value": 80
+        }
+      ],
       "names": [
         {
           "name": "Antwerp",
@@ -716,8 +777,25 @@
           "x": 10
         }
       ],
-      "cities": [{ "size": 4 }],
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+      "cities": [
+        {
+          "size": 4
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     }
   },
   "map": {

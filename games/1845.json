@@ -36,20 +36,62 @@
   },
   "tokens": [
     "Round",
-    { "icon": "port", "label": "$10" },
-    { "icon": "port", "label": "$10" },
-    { "icon": "port", "label": "$10" },
-    { "icon": "port", "label": "$10" },
-    { "icon": "coal", "label": "$10" },
-    { "icon": "coal", "label": "$10" },
-    { "icon": "coal", "label": "$10" },
-    { "icon": "coal", "label": "$10" },
-    { "icon": "coal", "label": "$10" },
-    { "icon": "coal", "label": "$10" },
-    { "icon": "bridge", "label": "$10" },
-    { "icon": "bridge", "label": "$10" },
-    { "icon": "bridge", "label": "$10" },
-    { "icon": "bridge", "label": "$10" }
+    {
+      "icon": "port",
+      "label": "$10"
+    },
+    {
+      "icon": "port",
+      "label": "$10"
+    },
+    {
+      "icon": "port",
+      "label": "$10"
+    },
+    {
+      "icon": "port",
+      "label": "$10"
+    },
+    {
+      "icon": "coal",
+      "label": "$10"
+    },
+    {
+      "icon": "coal",
+      "label": "$10"
+    },
+    {
+      "icon": "coal",
+      "label": "$10"
+    },
+    {
+      "icon": "coal",
+      "label": "$10"
+    },
+    {
+      "icon": "coal",
+      "label": "$10"
+    },
+    {
+      "icon": "coal",
+      "label": "$10"
+    },
+    {
+      "icon": "bridge",
+      "label": "$10"
+    },
+    {
+      "icon": "bridge",
+      "label": "$10"
+    },
+    {
+      "icon": "bridge",
+      "label": "$10"
+    },
+    {
+      "icon": "bridge",
+      "label": "$10"
+    }
   ],
   "bank": "∞",
   "players": [
@@ -116,70 +158,57 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "∞",
+      "limit": 4,
       "tiles": "yellow",
       "notes": "Only 2-share companies may be started."
     },
     {
       "name": "2+",
-      "limit": "4",
-      "number": "4",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "3",
-      "number": "12",
+      "limit": 3,
       "tiles": "green",
       "notes": "Only 2-/5-share companies may be started."
     },
     {
       "name": "3+",
-      "limit": "3",
-      "number": "12",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "4",
-      "limit": "3",
-      "number": "8",
-      "rust": "2/2+",
+      "limit": 3,
       "tiles": "green",
       "notes": "Only 5-share companies may be started."
     },
     {
       "name": "4+",
-      "limit": "3",
-      "number": "2",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
-      "limit": "3",
-      "number": "6",
+      "limit": 3,
       "tiles": "brown",
       "notes": "Only 5-/10-share companies may be started."
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "5",
-      "rust": "3/3+",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Only 10-share companies may be started."
     },
     {
       "name": "3D",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "tiles": "gray"
     },
     {
       "name": "4D",
-      "limit": "2",
-      "number": "∞",
-      "rust": "4/4+",
+      "limit": 2,
       "tiles": "gray"
     }
   ],
@@ -225,7 +254,10 @@
       "id": "P1",
       "name": "Bridge Builders",
       "price": 20,
-      "token": { "icon": "bridge", "label": "$10" },
+      "token": {
+        "icon": "bridge",
+        "label": "$10"
+      },
       "description": "allows the owning company to place a yellow tile on river hexes without paying the usual 10 fee. Also includes a bridge token which may be placed on a river to increase a route's value by $10."
     },
     {
@@ -233,42 +265,60 @@
       "name": "Small Mail Contract",
       "price": 30,
       "revenue": 5,
-      "token": { "icon": "mail", "label": "$5" },
+      "token": {
+        "icon": "mail",
+        "label": "$5"
+      },
       "description": "If the owning company has a train, it receives $5 at the start of each Operating Round."
     },
     {
       "id": "P3",
       "name": "Minor Coal Mine",
       "price": 30,
-      "token": { "icon": "coal", "label": "$10" },
+      "token": {
+        "icon": "coal",
+        "label": "$10"
+      },
       "description": "When the owning company lays yellow track tile in any mountain hex it may also place one of its coal mine tokens. If it does so, it does not pay the usual $15 mountain tile fee. Mines may be placed on any tile with a mountain symbol. The yellow tile underlying the coal mine may not be upgraded. The coal mine increases the value of any company's route through the hex by $10."
     },
     {
       "id": "P4",
       "name": "Coastal Port",
       "price": 40,
-      "token": { "icon": "port", "label": "$10" },
+      "token": {
+        "icon": "port",
+        "label": "$10"
+      },
       "description": "The owning company receives a port token which may be placed in any coastal city marked by an anchor.  This token increases the value of a route through that port by $10.  No connection is required to place the token."
     },
     {
       "id": "P5",
       "name": "Coastal Port",
       "price": 40,
-      "token": { "icon": "port", "label": "$10" },
+      "token": {
+        "icon": "port",
+        "label": "$10"
+      },
       "description": "The owning company receives a port token which may be placed in any coastal city marked by an anchor.  This token increases the value of a route through that port by $10.  No connection is required to place the token."
     },
     {
       "id": "P6",
       "name": "Bridge Builders",
       "price": 40,
-      "token": { "icon": "bridge", "label": "$10" },
+      "token": {
+        "icon": "bridge",
+        "label": "$10"
+      },
       "description": "allows the owning company to place a yellow tile on river hexes without paying the usual 10 fee. Also includes a bridge token which may be placed on a river to increase a route's value by $10."
     },
     {
       "id": "P7",
       "name": "Bridge Builders",
       "price": 40,
-      "token": { "icon": "bridge", "label": "$10" },
+      "token": {
+        "icon": "bridge",
+        "label": "$10"
+      },
       "description": "allows the owning company to place a yellow tile on river hexes without paying the usual 10 fee. Also includes a bridge token which may be placed on a river to increase a route's value by $10."
     },
     {
@@ -283,7 +333,10 @@
       "name": "Société anonyme des Mines de la Loire",
       "price": 40,
       "tile": "116|45",
-      "token": { "icon": "coal", "label": "$10" },
+      "token": {
+        "icon": "coal",
+        "label": "$10"
+      },
       "description": "Upon floating, the owning company may place the reserved Sainte-Étienne yellow tile. There is no connectivity requirement to lay this tile. No other company may start in that hex. The owning Company also receives one Coal Mine token."
     },
     {
@@ -291,35 +344,50 @@
       "name": "Minor Mail Contract",
       "price": 60,
       "revenue": 10,
-      "token": { "icon": "mail", "label": "$10" },
+      "token": {
+        "icon": "mail",
+        "label": "$10"
+      },
       "description": "If the owning company has a train, it receives $10 at the start of each Operating Round."
     },
     {
       "id": "P11",
       "name": "Coastal Port",
       "price": 60,
-      "token": { "icon": "port", "label": "$10" },
+      "token": {
+        "icon": "port",
+        "label": "$10"
+      },
       "description": "The owning company receives a port token which may be placed in any coastal city marked by an anchor.  This token increases the value of a route through that port by $10.  No connection is required to place the token."
     },
     {
       "id": "P12",
       "name": "Bridge Builders",
       "price": 60,
-      "token": { "icon": "bridge", "label": "$10" },
+      "token": {
+        "icon": "bridge",
+        "label": "$10"
+      },
       "description": "allows the owning company to place a yellow tile on river hexes without paying the usual 10 fee. Also includes a bridge token which may be placed on a river to increase a route's value by $10."
     },
     {
       "id": "P13",
       "name": "Medium Coal Mine",
       "price": 60,
-      "token": { "icon": "coal", "label": "$10" },
+      "token": {
+        "icon": "coal",
+        "label": "$10"
+      },
       "description": "When the owning company lays yellow track tile in any mountain hex it may also place one of its coal mine tokens. If it does so, it does not pay the usual $15 mountain tile fee. Mines may be placed on any tile with a mountain symbol. The yellow tile underlying the coal mine may not be upgraded. The coal mine increases the value of any company's route through the hex by $10."
     },
     {
       "id": "P14",
       "name": "Medium Coal Mine",
       "price": 60,
-      "token": { "icon": "coal", "label": "$10" },
+      "token": {
+        "icon": "coal",
+        "label": "$10"
+      },
       "description": "When the owning company lays yellow track tile in any mountain hex it may also place one of its coal mine tokens. If it does so, it does not pay the usual $15 mountain tile fee. Mines may be placed on any tile with a mountain symbol. The yellow tile underlying the coal mine may not be upgraded. The coal mine increases the value of any company's route through the hex by $10."
     },
     {
@@ -340,7 +408,10 @@
       "id": "P17",
       "name": "Coastal Port",
       "price": 80,
-      "token": { "icon": "port", "label": "$10" },
+      "token": {
+        "icon": "port",
+        "label": "$10"
+      },
       "description": "The owning company receives a port token which may be placed in any coastal city marked by an anchor.  This token increases the value of a route through that port by $10.  No connection is required to place the token."
     },
     {
@@ -348,28 +419,41 @@
       "name": "Large Mail Contract",
       "price": 90,
       "revenue": 15,
-      "token": { "icon": "mail", "label": "$15" },
+      "token": {
+        "icon": "mail",
+        "label": "$15"
+      },
       "description": "If the owning company has a train, it receives $15 at the start of each Operating Round."
     },
     {
       "id": "P19",
       "name": "Major Coal Mine",
       "price": 90,
-      "token": { "icon": "coal", "label": "$10" },
+      "token": {
+        "icon": "coal",
+        "label": "$10"
+      },
       "description": "When the owning company lays yellow track tile in any mountain hex it may also place one of its coal mine tokens. If it does so, it does not pay the usual $15 mountain tile fee. Mines may be placed on any tile with a mountain symbol. The yellow tile underlying the coal mine may not be upgraded. The coal mine increases the value of any company's route through the hex by $10."
     },
     {
       "id": "P20",
       "name": "Major Coal Mine",
       "price": 90,
-      "token": { "icon": "coal", "label": "$10" },
+      "token": {
+        "icon": "coal",
+        "label": "$10"
+      },
       "description": "When the owning company lays yellow track tile in any mountain hex it may also place one of its coal mine tokens. If it does so, it does not pay the usual $15 mountain tile fee. Mines may be placed on any tile with a mountain symbol. The yellow tile underlying the coal mine may not be upgraded. The coal mine increases the value of any company's route through the hex by $10."
     },
     {
       "id": "P21",
       "name": "City Expansion",
       "price": 110,
-      "token": { "icon": "token", "color": "white", "iconColor": "white" },
+      "token": {
+        "icon": "token",
+        "color": "white",
+        "iconColor": "white"
+      },
       "description": "Provides an additional station marker for the owning company. When this is acquired by a company, place a station marker on the company charter. This company is still limited to 8 total station markers."
     },
     {
@@ -377,7 +461,10 @@
       "name": "Major Mail Contract",
       "price": 120,
       "revenue": 20,
-      "token": { "icon": "mail", "label": "$20" },
+      "token": {
+        "icon": "mail",
+        "label": "$20"
+      },
       "description": "If the owning company has a train, it receives $20 at the start of each Operating Round."
     },
     {
@@ -1192,7 +1279,9 @@
         }
       ],
       [
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
         {
           "value": 14,
           "legend": 1,
@@ -1218,8 +1307,12 @@
         }
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         {
           "value": 14,
           "legend": 1,
@@ -1243,9 +1336,15 @@
         }
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         {
           "value": 14,
           "legend": 1,
@@ -1267,10 +1366,18 @@
         }
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         {
           "value": 14,
           "legend": 1,
@@ -1291,10 +1398,18 @@
       ],
       [
         null,
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         {
           "value": 14,
           "legend": 1,
@@ -1309,10 +1424,18 @@
       [
         null,
         null,
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 }
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        }
       ],
       [null],
       [
@@ -1325,33 +1448,93 @@
           "width": 2
         },
         null,
-        { "legend": 0 },
-        { "legend": 0 },
-        { "legend": 0 },
-        { "legend": 0 },
-        { "legend": 0 },
-        { "legend": 0 }
+        {
+          "legend": 0
+        },
+        {
+          "legend": 0
+        },
+        {
+          "legend": 0
+        },
+        {
+          "legend": 0
+        },
+        {
+          "legend": 0
+        },
+        {
+          "legend": 0
+        }
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         40,
         45,
-        { "value": 50, "par": true },
-        { "value": 55, "par": true },
-        { "value": 60, "par": true },
-        { "value": 65, "par": true },
-        { "value": 70, "par": true },
-        { "value": 80, "par": true },
-        { "value": 90, "par": true },
-        { "value": 100, "par": true },
-        { "value": 115, "par": true },
-        { "value": 130, "par": true },
-        { "value": 145, "par": true },
-        { "value": 160, "par": true },
-        { "value": 175, "par": true },
-        { "value": 200, "par": true },
+        {
+          "value": 50,
+          "par": true
+        },
+        {
+          "value": 55,
+          "par": true
+        },
+        {
+          "value": 60,
+          "par": true
+        },
+        {
+          "value": 65,
+          "par": true
+        },
+        {
+          "value": 70,
+          "par": true
+        },
+        {
+          "value": 80,
+          "par": true
+        },
+        {
+          "value": 90,
+          "par": true
+        },
+        {
+          "value": 100,
+          "par": true
+        },
+        {
+          "value": 115,
+          "par": true
+        },
+        {
+          "value": 130,
+          "par": true
+        },
+        {
+          "value": 145,
+          "par": true
+        },
+        {
+          "value": 160,
+          "par": true
+        },
+        {
+          "value": 175,
+          "par": true
+        },
+        {
+          "value": 200,
+          "par": true
+        },
         225,
         250,
         275,
@@ -1360,25 +1543,73 @@
         400
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         40,
         45,
-        { "value": 50, "par": true },
-        { "value": 55, "par": true },
-        { "value": 60, "par": true },
-        { "value": 65, "par": true },
-        { "value": 70, "par": true },
-        { "value": 80, "par": true },
-        { "value": 90, "par": true },
-        { "value": 100, "par": true },
-        { "value": 115, "par": true },
-        { "value": 130, "par": true },
-        { "value": 145, "par": true },
-        { "value": 160, "par": true },
-        { "value": 175, "par": true },
-        { "value": 200, "par": true },
+        {
+          "value": 50,
+          "par": true
+        },
+        {
+          "value": 55,
+          "par": true
+        },
+        {
+          "value": 60,
+          "par": true
+        },
+        {
+          "value": 65,
+          "par": true
+        },
+        {
+          "value": 70,
+          "par": true
+        },
+        {
+          "value": 80,
+          "par": true
+        },
+        {
+          "value": 90,
+          "par": true
+        },
+        {
+          "value": 100,
+          "par": true
+        },
+        {
+          "value": 115,
+          "par": true
+        },
+        {
+          "value": 130,
+          "par": true
+        },
+        {
+          "value": 145,
+          "par": true
+        },
+        {
+          "value": 160,
+          "par": true
+        },
+        {
+          "value": 175,
+          "par": true
+        },
+        {
+          "value": 200,
+          "par": true
+        },
         225,
         250,
         275,
@@ -1387,25 +1618,73 @@
         400
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         40,
         45,
-        { "value": 50, "par": true },
-        { "value": 55, "par": true },
-        { "value": 60, "par": true },
-        { "value": 65, "par": true },
-        { "value": 70, "par": true },
-        { "value": 80, "par": true },
-        { "value": 90, "par": true },
-        { "value": 100, "par": true },
-        { "value": 115, "par": true },
-        { "value": 130, "par": true },
-        { "value": 145, "par": true },
-        { "value": 160, "par": true },
-        { "value": 175, "par": true },
-        { "value": 200, "par": true },
+        {
+          "value": 50,
+          "par": true
+        },
+        {
+          "value": 55,
+          "par": true
+        },
+        {
+          "value": 60,
+          "par": true
+        },
+        {
+          "value": 65,
+          "par": true
+        },
+        {
+          "value": 70,
+          "par": true
+        },
+        {
+          "value": 80,
+          "par": true
+        },
+        {
+          "value": 90,
+          "par": true
+        },
+        {
+          "value": 100,
+          "par": true
+        },
+        {
+          "value": 115,
+          "par": true
+        },
+        {
+          "value": 130,
+          "par": true
+        },
+        {
+          "value": 145,
+          "par": true
+        },
+        {
+          "value": 160,
+          "par": true
+        },
+        {
+          "value": 175,
+          "par": true
+        },
+        {
+          "value": 200,
+          "par": true
+        },
         225,
         250,
         275,
@@ -1414,25 +1693,73 @@
         400
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         40,
         45,
-        { "value": 50, "par": true },
-        { "value": 55, "par": true },
-        { "value": 60, "par": true },
-        { "value": 65, "par": true },
-        { "value": 70, "par": true },
-        { "value": 80, "par": true },
-        { "value": 90, "par": true },
-        { "value": 100, "par": true },
-        { "value": 115, "par": true },
-        { "value": 130, "par": true },
-        { "value": 145, "par": true },
-        { "value": 160, "par": true },
-        { "value": 175, "par": true },
-        { "value": 200, "par": true },
+        {
+          "value": 50,
+          "par": true
+        },
+        {
+          "value": 55,
+          "par": true
+        },
+        {
+          "value": 60,
+          "par": true
+        },
+        {
+          "value": 65,
+          "par": true
+        },
+        {
+          "value": 70,
+          "par": true
+        },
+        {
+          "value": 80,
+          "par": true
+        },
+        {
+          "value": 90,
+          "par": true
+        },
+        {
+          "value": 100,
+          "par": true
+        },
+        {
+          "value": 115,
+          "par": true
+        },
+        {
+          "value": 130,
+          "par": true
+        },
+        {
+          "value": 145,
+          "par": true
+        },
+        {
+          "value": 160,
+          "par": true
+        },
+        {
+          "value": 175,
+          "par": true
+        },
+        {
+          "value": 200,
+          "par": true
+        },
         225,
         250,
         275,
@@ -1441,25 +1768,73 @@
         400
       ],
       [
-        { "legend": 2 },
-        { "legend": 2 },
-        { "legend": 2 },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
         40,
         45,
-        { "value": 50, "par": true },
-        { "value": 55, "par": true },
-        { "value": 60, "par": true },
-        { "value": 65, "par": true },
-        { "value": 70, "par": true },
-        { "value": 80, "par": true },
-        { "value": 90, "par": true },
-        { "value": 100, "par": true },
-        { "value": 115, "par": true },
-        { "value": 130, "par": true },
-        { "value": 145, "par": true },
-        { "value": 160, "par": true },
-        { "value": 175, "par": true },
-        { "value": 200, "par": true },
+        {
+          "value": 50,
+          "par": true
+        },
+        {
+          "value": 55,
+          "par": true
+        },
+        {
+          "value": 60,
+          "par": true
+        },
+        {
+          "value": 65,
+          "par": true
+        },
+        {
+          "value": 70,
+          "par": true
+        },
+        {
+          "value": 80,
+          "par": true
+        },
+        {
+          "value": 90,
+          "par": true
+        },
+        {
+          "value": 100,
+          "par": true
+        },
+        {
+          "value": 115,
+          "par": true
+        },
+        {
+          "value": 130,
+          "par": true
+        },
+        {
+          "value": 145,
+          "par": true
+        },
+        {
+          "value": 160,
+          "par": true
+        },
+        {
+          "value": 175,
+          "par": true
+        },
+        {
+          "value": 200,
+          "par": true
+        },
         225,
         250,
         275,
@@ -1475,143 +1850,77 @@
       "quantity": 16,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2+",
       "quantity": 4,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 12,
       "price": 250,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "3+",
       "quantity": 3,
       "price": 250,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 8,
       "price": 400,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 4D"
-        }
-      ]
+      "rust": "4D"
     },
     {
       "name": "4+",
       "quantity": 2,
       "price": 400,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 4D"
-        }
-      ]
+      "rust": "4D"
     },
     {
       "name": "5",
       "quantity": 8,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 6,
       "price": 750,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "3D",
       "quantity": 4,
       "price": 1000,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "4D",
       "quantity": 16,
       "price": 1200,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "2",
       "quantity": 1,
-      "color": "bg",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "bg"
     },
     {
       "name": "Pullman",
       "quantity": 1,
       "color": "bg",
-      "image": "Pullman",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "image": "Pullman"
     }
   ],
   "tiles": {
@@ -1632,8 +1941,22 @@
     "405": {
       "quantity": 3,
       "color": "green",
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 6 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ],
       "labels": [
         {
           "label": "T",
@@ -1658,7 +1981,17 @@
       "quantity": 1,
       "color": "yellow",
       "cities": [{}],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ],
       "labels": [
         {
           "label": "B",
@@ -1694,11 +2027,21 @@
         }
       ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
       ],
       "labels": [
         {
@@ -1723,7 +2066,20 @@
           "size": 3
         }
       ],
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ],
       "labels": [
         {
           "label": "B",
@@ -1743,7 +2099,14 @@
       "quantity": 5,
       "color": "yellow",
       "cities": [{}],
-      "track": [{ "side": 1 }, { "side": 5 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ],
       "labels": [
         {
           "label": "B",
@@ -1763,7 +2126,14 @@
       "quantity": 1,
       "color": "yellow",
       "cities": [{}],
-      "track": [{ "side": 1 }, { "side": 5 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ],
       "labels": [
         {
           "label": "Nice",
@@ -1787,8 +2157,22 @@
     "D2|45": {
       "quantity": 1,
       "color": "green",
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 6 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ],
       "labels": [
         {
           "label": "D",
@@ -1818,7 +2202,17 @@
           "rotation": 180
         }
       ],
-      "track": [{ "side": 1 }, { "side": 5 }, { "side": 6 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
       "labels": [
         {
           "label": "D",
@@ -1985,7 +2379,14 @@
       "quantity": 4,
       "color": "yellow",
       "cities": [{}],
-      "track": [{ "side": 1 }, { "side": 5 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ],
       "labels": [
         {
           "label": "T",
@@ -2004,8 +2405,22 @@
     "T431|45": {
       "quantity": 3,
       "color": "brown",
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 6 }],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ],
       "labels": [
         {
           "label": "T",
@@ -3167,7 +3582,7 @@
           {
             "size": 2,
             "angle": -90,
-            "percent": 1.0
+            "percent": 1
           }
         ],
         "labels": [
@@ -3200,7 +3615,7 @@
           {
             "size": 2,
             "angle": 90,
-            "percent": 1.0
+            "percent": 1
           }
         ],
         "labels": [

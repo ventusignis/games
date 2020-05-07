@@ -1417,45 +1417,36 @@
   },
   "phases": [
     {
-      "limit": "4",
+      "limit": 4,
       "name": "2",
-      "number": "6",
       "tiles": "yellow"
     },
     {
-      "limit": "4",
+      "limit": 4,
       "name": "3",
       "notes": "Private companies can be bought",
-      "number": "4",
       "tiles": "green"
     },
     {
-      "limit": "3",
+      "limit": 3,
       "name": "4",
-      "number": "3",
-      "rust": "2",
       "tiles": "green"
     },
     {
-      "limit": "3",
+      "limit": 3,
       "name": "5",
       "notes": "Private companies close",
-      "number": "2",
       "tiles": "brown"
     },
     {
-      "limit": "2",
+      "limit": 2,
       "name": "6",
       "notes": "D Trains available for purchase",
-      "number": "2",
-      "rust": "3",
       "tiles": "brown"
     },
     {
-      "limit": "2",
+      "limit": 2,
       "name": "D",
-      "number": "∞",
-      "rust": "4",
       "tiles": "brown"
     }
   ],
@@ -1965,60 +1956,33 @@
   "trains": [
     {
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ],
       "name": "2",
       "price": 80,
-      "quantity": 6
+      "quantity": 6,
+      "rust": "4"
     },
     {
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ],
       "name": "3",
       "price": 180,
-      "quantity": 5
+      "quantity": 5,
+      "rust": "6"
     },
     {
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by D"
-        }
-      ],
       "name": "4",
       "price": 300,
-      "quantity": 4
+      "quantity": 4,
+      "rust": "D"
     },
     {
       "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ],
       "name": "5",
       "price": 450,
       "quantity": 3
     },
     {
       "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ],
       "name": "6",
       "price": 630,
       "quantity": 2
@@ -2026,15 +1990,14 @@
     {
       "color": "brown",
       "description": "Cost $800 when trading in a 4T, 5T or 6T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ],
       "name": "D",
       "price": 1100,
-      "quantity": 9
+      "quantity": 9,
+      "discount": {
+        "4": 300,
+        "5": 300,
+        "6": 300
+      }
     }
   ],
   "turns": [

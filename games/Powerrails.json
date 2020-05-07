@@ -199,232 +199,136 @@
     {
       "name": "2T",
       "quantity": 6,
-      "price": "$80",
+      "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4T"
-        }
-      ]
+      "rust": "4T"
     },
     {
       "name": "2+1T",
       "quantity": 2,
-      "price": "$120",
+      "price": 120,
       "color": "yellow",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 5T"
-        }
-      ]
+      "rust": "5T"
     },
     {
       "name": "3T",
       "quantity": 3,
-      "price": "$180",
+      "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6T"
-        }
-      ]
+      "rust": "6T"
     },
     {
       "name": "4T",
       "quantity": 3,
-      "price": "$300",
+      "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by DT"
-        }
-      ]
+      "rust": "DT"
     },
     {
       "name": "5T",
       "quantity": 3,
-      "price": "$450",
-      "color": "brown",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "price": 450,
+      "color": "brown"
     },
     {
       "name": "6T",
       "quantity": 2,
-      "price": "$630",
-      "color": "brown",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "price": 630,
+      "color": "brown"
     },
     {
       "name": "6+xT",
       "quantity": 1,
-      "price": "$780",
-      "color": "gray",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "price": 780,
+      "color": "gray"
     },
     {
       "name": "7T",
       "quantity": 2,
-      "price": "$700",
-      "color": "gray",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "price": 700,
+      "color": "gray"
     },
     {
       "name": "8T",
       "quantity": 2,
-      "price": "$800",
-      "color": "gray",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "price": 800,
+      "color": "gray"
     },
     {
       "name": "6+xT",
       "quantity": 2,
-      "price": "$780",
-      "color": "gray",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "price": 780,
+      "color": "gray"
     },
     {
       "name": "DT",
       "quantity": 8,
-      "price": "$1100",
+      "price": 1100,
       "color": "tile_pink",
       "description": "Cost $800 when trading in a 4T - 8T",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
-    },
-    {
-      "name": "Mail Car",
-      "fontSize": 12,
-      "quantity": 1,
-      "price": "$70",
-      "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "discount": {
+        "4T": 300,
+        "5T": 300,
+        "6T": 300,
+        "7T": 300,
+        "8T": 300
+      }
     },
     {
       "name": "Mail Car",
       "quantity": 1,
-      "price": "$80",
+      "price": 70,
       "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "description": "One per company max"
     },
     {
       "name": "Mail Car",
       "quantity": 1,
-      "price": "$90",
+      "price": 80,
       "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "description": "One per company max"
     },
     {
       "name": "Mail Car",
       "quantity": 1,
-      "price": "$100",
+      "price": 90,
       "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "description": "One per company max"
     },
     {
       "name": "Mail Car",
       "quantity": 1,
-      "price": "$120",
+      "price": 100,
       "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "description": "One per company max"
     },
     {
       "name": "Mail Car",
       "quantity": 1,
-      "price": "$150",
+      "price": 120,
       "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "description": "One per company max"
     },
     {
       "name": "Mail Car",
       "quantity": 1,
-      "price": "$180",
+      "price": 150,
       "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "description": "One per company max"
     },
     {
       "name": "Mail Car",
       "quantity": 1,
-      "price": "$200",
+      "price": 180,
       "color": "mailcar_red",
-      "info": [
-        {
-          "color": "white",
-          "note": "one per company max"
-        }
-      ]
+      "description": "One per company max"
+    },
+    {
+      "name": "Mail Car",
+      "quantity": 1,
+      "price": 200,
+      "color": "mailcar_red",
+      "description": "One per company max"
     }
   ],
   "privates": [
@@ -464,71 +368,56 @@
   "phases": [
     {
       "name": "2T",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "2+1T",
-      "limit": "4",
-      "number": "2",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3T",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "tiles": "green"
     },
     {
       "name": "4T",
-      "rust": "2T",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
       "tiles": "green",
       "notes": "In games without private companies, the per-OR d6x10 revenue ends."
     },
     {
       "name": "5T",
-      "rust": "2+1T",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed."
     },
     {
       "name": "6T",
-      "limit": "2",
-      "number": "2",
-      "rust": "3T",
+      "limit": 2,
       "tiles": "brown",
       "notes": "All other trains available, including DT."
     },
     {
       "name": "7T",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
       "tiles": "gray"
     },
     {
       "name": "8T",
-      "limit": "2",
-      "number": "2",
-      "rust": "3T",
+      "limit": 2,
       "tiles": "gray"
     },
     {
       "name": "6+xT",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
       "tiles": "gray",
       "notes": "Only used in some scenarios."
     },
     {
       "name": "DT",
-      "limit": "2",
-      "number": "6",
-      "rust": "4T",
+      "limit": 2,
       "tiles": "pink"
     }
   ],

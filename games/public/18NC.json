@@ -111,12 +111,7 @@
       "price": 80,
       "color": "yellow",
       "image": "2T",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
@@ -124,12 +119,7 @@
       "price": 180,
       "color": "green",
       "image": "3T",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
@@ -137,12 +127,7 @@
       "price": 400,
       "color": "green",
       "image": "4T",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 8E"
-        }
-      ]
+      "rust": "8E"
     },
     {
       "name": "4E",
@@ -150,51 +135,28 @@
       "price": 400,
       "color": "green",
       "image": "4T",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 8E"
-        }
-      ]
+      "rust": "8E"
     },
     {
       "name": "5",
       "quantity": 2,
       "price": 550,
       "color": "brown",
-      "image": "5T",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "image": "5T"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 800,
       "color": "brown",
-      "image": "6T",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "image": "6T"
     },
     {
       "name": "8E",
       "quantity": 4,
       "price": 1000,
       "color": "brown",
-      "image": "Diesel",
-      "info": [
-        {
-          "color": "black",
-          "note": "Permanent"
-        }
-      ]
+      "image": "Diesel"
     }
   ],
   "privates": [
@@ -219,7 +181,9 @@
       "name": "Wilmington Railway Bridge Company",
       "price": 40,
       "revenue": 15,
-      "token": { "icon": "bridge" },
+      "token": {
+        "icon": "bridge"
+      },
       "hex": "F17",
       "description": "The owning railroad may perform an extra tile action when completing a connection across a river hexside once per OR."
     },
@@ -228,7 +192,11 @@
       "name": "Mt. Airy & Ore Knob",
       "price": 65,
       "revenue": 10,
-      "token": { "icon": "token", "color": "white", "iconColor": "white" },
+      "token": {
+        "icon": "token",
+        "color": "white",
+        "iconColor": "white"
+      },
       "description": "The owning company may place an extra token at no cost in Mt. Airy regardless of track connection."
     },
     {
@@ -256,44 +224,35 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "tiles": "yellow",
       "notes": "companies' last train unsellable"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "4",
+      "limit": 4,
       "tiles": "green",
       "notes": "companies' last train unsellable"
     },
     {
       "name": "4/4E",
-      "rust": "2",
-      "limit": "3",
-      "number": "2ea.",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
       "tiles": "brown",
       "notes": "privates removed from game"
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
+      "limit": 2,
       "tiles": "brown"
     },
     {
       "name": "8E",
-      "limit": "2",
-      "number": "4",
-      "rust": "4/4E",
+      "limit": 2,
       "tiles": "brown"
     }
   ],
@@ -883,7 +842,14 @@
             "color": "anc_blue"
           }
         ],
-        "track": [{ "side": 1 }, { "side": 5 }],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 5
+          }
+        ],
         "values": [
           {
             "value": 20,
@@ -904,7 +870,14 @@
             }
           }
         ],
-        "track": [{ "side": 2 }, { "side": 4 }],
+        "track": [
+          {
+            "side": 2
+          },
+          {
+            "side": 4
+          }
+        ],
         "labels": [
           {
             "label": "B",

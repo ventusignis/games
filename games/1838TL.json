@@ -322,79 +322,53 @@
     {
       "name": "2T",
       "quantity": 18,
-      "price": "100T",
+      "price": 100,
       "color": "white",
-      "info": [
-        {
-          "color": "rust",
-          "note": "Wounded by 3T"
-        }
-      ]
+      "obsolete": "3T"
     },
     {
       "name": "3T",
       "quantity": 16,
-      "price": "200T",
-      "color": "yellow",
+      "price": 200,
       "color": "white",
-      "info": [
-        {
-          "color": "rust",
-          "note": "Rusted by 5T"
-        }
-      ]
+      "rust": "5T"
     },
     {
       "name": "4T",
       "quantity": 2,
-      "price": "400T",
-      "color": "white",
-      "info": [
-        {
-          "color": "black",
-          "note": "PERMANENT"
-        }
-      ]
+      "price": 400,
+      "color": "white"
     },
     {
       "name": "5T",
       "quantity": 24,
-      "price": "600T",
-      "color": "white",
-      "info": [
-        {
-          "color": "black",
-          "note": "PERMANENT"
-        }
-      ]
+      "price": 600,
+      "color": "white"
     }
   ],
   "phases": [
     {
       "name": "2T",
-      "limit": "4",
-      "number": "18",
+      "limit": 4,
+      "rounds": 1,
       "tiles": "yellow"
     },
     {
       "name": "3T",
-      "rust": "2T",
-      "limit": "3",
-      "number": "16",
+      "limit": 3,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "4T",
-      "limit": "2",
-      "number": "2",
-      "tiles": "green",
-      "notes": ""
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "green"
     },
     {
       "name": "5T",
-      "rust": "3T",
-      "limit": "unlimited",
-      "number": "24",
+      "limit": "∞",
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private companies are closed."
     }

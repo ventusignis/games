@@ -114,60 +114,33 @@
       "quantity": 5,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 4,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 3,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by D"
-        }
-      ]
+      "rust": "D"
     },
     {
       "name": "5",
       "quantity": 2,
       "price": 450,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 630,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "D",
@@ -175,12 +148,12 @@
       "price": 1100,
       "color": "brown",
       "description": "Cost $800 when trading in a 4T, 5T or 6T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "available": "6",
+      "discount": {
+        "4": 300,
+        "5": 300,
+        "6": 300
+      }
     }
   ],
   "privates": [
@@ -216,7 +189,9 @@
       "name": "Saint Zolius Land Company",
       "price": 40,
       "revenue": 10,
-      "token": { "icon": "token" },
+      "token": {
+        "icon": "token"
+      },
       "description": "The owning corporation may place one token at no cost, this action closes the company. This must follow normal placement rules. Stops paying dividends when the first 5 Train is purchased. Closes when the first 5 Train is purchased if player owned."
     },
     {
@@ -230,50 +205,35 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "5",
-      "price": 80,
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "4",
-      "price": 180,
+      "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased"
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "price": 300,
-      "number": "3",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "2",
-      "price": 450,
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed"
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "2",
-      "price": 630,
-      "rust": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "D Trains may be purchased"
     },
     {
       "name": "D",
-      "limit": "2",
-      "number": "∞",
-      "price": 1100,
-      "rust": "4",
+      "limit": 2,
       "tiles": "brown"
     }
   ],

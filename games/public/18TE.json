@@ -98,48 +98,26 @@
       "quantity": 7,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 3+3/4"
-        }
-      ]
+      "rust": ["3+3", "4"]
     },
     {
       "name": "3",
       "quantity": 5,
       "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by D"
-        }
-      ]
+      "rust": "D"
     },
     {
       "name": "4",
       "quantity": 4,
       "price": 400,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "D",
       "quantity": 2,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "stock": {
@@ -375,7 +353,6 @@
     "29": 1,
     "30": 1,
     "31": 1,
-
     "39": 1,
     "40": 1,
     "41": 1,
@@ -385,11 +362,9 @@
     "45": 1,
     "46": 1,
     "47": 1,
-
     "57": 2,
     "58": 4,
     "804": 2,
-
     "TE1": {
       "color": "green",
       "cities": [
@@ -412,14 +387,25 @@
           "y": 5
         }
       ],
-      "track": [{ "side": 6 }]
+      "track": [
+        {
+          "side": 6
+        }
+      ]
     },
     "TE2": {
       "color": "green",
       "cities": [
         {
           "size": 3,
-          "companies": ["KPR", "KHS", { "color": "red", "label": "Dest" }]
+          "companies": [
+            "KPR",
+            "KHS",
+            {
+              "color": "red",
+              "label": "Dest"
+            }
+          ]
         }
       ],
       "values": [
@@ -437,7 +423,20 @@
           "y": 5
         }
       ],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 6 }]
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 6
+        }
+      ]
     },
     "TE3": {
       "color": "green",
@@ -462,7 +461,17 @@
           "y": 5
         }
       ],
-      "track": [{ "side": 3 }, { "side": 5 }, { "side": 6 }]
+      "track": [
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
     },
     "TE4": {
       "color": "green",
@@ -470,9 +479,18 @@
         {
           "size": 3,
           "companies": [
-            { "color": "blue", "label": "Dest" },
-            { "color": "green", "label": "Dest" },
-            { "color": "purple", "label": "Dest" }
+            {
+              "color": "blue",
+              "label": "Dest"
+            },
+            {
+              "color": "green",
+              "label": "Dest"
+            },
+            {
+              "color": "purple",
+              "label": "Dest"
+            }
           ]
         }
       ],
@@ -491,9 +509,18 @@
           "y": 5
         }
       ],
-      "track": [{ "side": 4 }, { "side": 5 }, { "side": 6 }]
+      "track": [
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
     },
-
     "TE5": {
       "color": "brown",
       "cities": [
@@ -516,14 +543,28 @@
           "y": 5
         }
       ],
-      "track": [{ "side": 3 }, { "side": 6 }]
+      "track": [
+        {
+          "side": 3
+        },
+        {
+          "side": 6
+        }
+      ]
     },
     "TE6": {
       "color": "brown",
       "cities": [
         {
           "size": 3,
-          "companies": ["KPR", "KHS", { "color": "red", "label": "Dest" }]
+          "companies": [
+            "KPR",
+            "KHS",
+            {
+              "color": "red",
+              "label": "Dest"
+            }
+          ]
         }
       ],
       "values": [
@@ -542,11 +583,21 @@
         }
       ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "TE7": {
@@ -573,11 +624,21 @@
         }
       ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "TE8": {
@@ -586,9 +647,18 @@
         {
           "size": 3,
           "companies": [
-            { "color": "blue", "label": "Dest" },
-            { "color": "green", "label": "Dest" },
-            { "color": "purple", "label": "Dest" }
+            {
+              "color": "blue",
+              "label": "Dest"
+            },
+            {
+              "color": "green",
+              "label": "Dest"
+            },
+            {
+              "color": "purple",
+              "label": "Dest"
+            }
           ]
         }
       ],
@@ -607,7 +677,17 @@
           "y": 5
         }
       ],
-      "track": [{ "side": 4 }, { "side": 5 }, { "side": 6 }]
+      "track": [
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
     }
   },
   "map": {
@@ -714,7 +794,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Emsdetten" }
+            "name": {
+              "name": "Emsdetten"
+            }
           }
         ],
         "hexes": ["B10"]
@@ -723,7 +805,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Lengerich" }
+            "name": {
+              "name": "Lengerich"
+            }
           }
         ],
         "hexes": ["F10"]
@@ -732,7 +816,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Greven" }
+            "name": {
+              "name": "Greven"
+            }
           }
         ],
         "hexes": ["C13"]
@@ -741,7 +827,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Hopsten" }
+            "name": {
+              "name": "Hopsten"
+            }
           }
         ],
         "hexes": ["C3"]
@@ -750,7 +838,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Recke" }
+            "name": {
+              "name": "Recke"
+            }
           }
         ],
         "hexes": ["D4"]
@@ -759,7 +849,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Mettingen" }
+            "name": {
+              "name": "Mettingen"
+            }
           }
         ],
         "hexes": ["E5"]
@@ -768,7 +860,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Westerkappeln" }
+            "name": {
+              "name": "Westerkappeln"
+            }
           }
         ],
         "hexes": ["F4"]
@@ -777,7 +871,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Lotte" }
+            "name": {
+              "name": "Lotte"
+            }
           }
         ],
         "hexes": ["F6"]
@@ -786,7 +882,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Hörstel" }
+            "name": {
+              "name": "Hörstel"
+            }
           }
         ],
         "names": [
@@ -805,7 +903,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Brochterbeck" }
+            "name": {
+              "name": "Brochterbeck"
+            }
           }
         ],
         "hexes": ["D8"]
@@ -814,7 +914,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Ladbergen" }
+            "name": {
+              "name": "Ladbergen"
+            }
           }
         ],
         "hexes": ["E11"]
@@ -823,7 +925,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Lienen" }
+            "name": {
+              "name": "Lienen"
+            }
           }
         ],
         "hexes": ["G11"]
@@ -832,7 +936,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Brook" }
+            "name": {
+              "name": "Brook"
+            }
           }
         ],
         "hexes": ["E13"]
@@ -843,7 +949,10 @@
           {
             "angle": 330,
             "percent": 0.333,
-            "name": { "name": "Ibbenbüren", "reverse": true }
+            "name": {
+              "name": "Ibbenbüren",
+              "reverse": true
+            }
           }
         ],
         "terrain": [
@@ -859,92 +968,204 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Hamburg" },
+          "name": {
+            "name": "Hamburg"
+          },
           "revenues": [
-            { "color": "yellow", "cost": 20 },
-            { "color": "green", "cost": 40 },
-            { "color": "brown", "cost": 80 }
+            {
+              "color": "yellow",
+              "cost": 20
+            },
+            {
+              "color": "green",
+              "cost": 40
+            },
+            {
+              "color": "brown",
+              "cost": 80
+            }
           ]
         },
-        "track": [{ "side": 1, "type": "offboard" }],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["G3"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Emden" },
+          "name": {
+            "name": "Emden"
+          },
           "revenues": [
-            { "color": "yellow", "cost": 20 },
-            { "color": "green", "cost": 30 },
-            { "color": "brown", "cost": 50 }
+            {
+              "color": "yellow",
+              "cost": 20
+            },
+            {
+              "color": "green",
+              "cost": 30
+            },
+            {
+              "color": "brown",
+              "cost": 50
+            }
           ]
         },
-        "track": [{ "side": 1, "type": "offboard" }],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["A5"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Löhne" },
+          "name": {
+            "name": "Löhne"
+          },
           "revenues": [
-            { "color": "yellow", "cost": 20 },
-            { "color": "green", "cost": 30 },
-            { "color": "brown", "cost": 50 }
+            {
+              "color": "yellow",
+              "cost": 20
+            },
+            {
+              "color": "green",
+              "cost": 30
+            },
+            {
+              "color": "brown",
+              "cost": 50
+            }
           ]
         },
-        "track": [{ "side": 3, "type": "offboard" }],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["H6"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Hövelhof" },
+          "name": {
+            "name": "Hövelhof"
+          },
           "revenues": [
-            { "color": "yellow", "cost": 20 },
-            { "color": "green", "cost": 30 },
-            { "color": "brown", "cost": 50 }
+            {
+              "color": "yellow",
+              "cost": 20
+            },
+            {
+              "color": "green",
+              "cost": 30
+            },
+            {
+              "color": "brown",
+              "cost": 50
+            }
           ]
         },
-        "track": [{ "side": 3, "type": "offboard" }],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["H12"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Venlo" },
+          "name": {
+            "name": "Venlo"
+          },
           "revenues": [
-            { "color": "yellow", "cost": 20 },
-            { "color": "green", "cost": 30 },
-            { "color": "brown", "cost": 50 }
+            {
+              "color": "yellow",
+              "cost": 20
+            },
+            {
+              "color": "green",
+              "cost": 30
+            },
+            {
+              "color": "brown",
+              "cost": 50
+            }
           ]
         },
-        "track": [{ "side": 5, "type": "offboard" }],
+        "track": [
+          {
+            "side": 5,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["C15"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Wanne" },
+          "name": {
+            "name": "Wanne"
+          },
           "revenues": [
-            { "color": "yellow", "cost": 20 },
-            { "color": "green", "cost": 30 },
-            { "color": "brown", "cost": 50 }
+            {
+              "color": "yellow",
+              "cost": 20
+            },
+            {
+              "color": "green",
+              "cost": 30
+            },
+            {
+              "color": "brown",
+              "cost": 50
+            }
           ]
         },
-        "track": [{ "side": 4, "type": "offboard" }],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["D16"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Hamm" },
+          "name": {
+            "name": "Hamm"
+          },
           "revenues": [
-            { "color": "yellow", "cost": 20 },
-            { "color": "green", "cost": 30 },
-            { "color": "brown", "cost": 50 }
+            {
+              "color": "yellow",
+              "cost": 20
+            },
+            {
+              "color": "green",
+              "cost": 30
+            },
+            {
+              "color": "brown",
+              "cost": 50
+            }
           ]
         },
-        "track": [{ "side": 3, "type": "offboard" }],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["E15"]
       },
       {
@@ -970,15 +1191,29 @@
             "companies": ["KHS"]
           },
           {
-            "companies": [{ "color": "red", "label": "Dest" }],
+            "companies": [
+              {
+                "color": "red",
+                "label": "Dest"
+              }
+            ],
             "angle": 330,
             "percent": 0.5,
-            "name": { "name": "Osnabrück", "offset": 56 }
+            "name": {
+              "name": "Osnabrück",
+              "offset": 56
+            }
           }
         ],
         "track": [
-          { "side": 1, "type": "sharpStopRev" },
-          { "side": 2, "type": "sharpStop" }
+          {
+            "side": 1,
+            "type": "sharpStopRev"
+          },
+          {
+            "side": 2,
+            "type": "sharpStop"
+          }
         ],
         "hexes": ["G5"]
       },
@@ -1002,18 +1237,37 @@
           {
             "angle": 210,
             "percent": 0.5,
-            "companies": [{ "color": "purple", "label": "Dest" }]
+            "companies": [
+              {
+                "color": "purple",
+                "label": "Dest"
+              }
+            ]
           },
           {
-            "companies": [{ "color": "green", "label": "Dest" }],
+            "companies": [
+              {
+                "color": "green",
+                "label": "Dest"
+              }
+            ],
             "angle": 330,
             "percent": 0.5,
-            "name": { "name": "Rheine", "offset": 25 }
+            "name": {
+              "name": "Rheine",
+              "offset": 25
+            }
           }
         ],
         "track": [
-          { "side": 5, "type": "sharpStopRev" },
-          { "side": 6, "type": "sharpStop" }
+          {
+            "side": 5,
+            "type": "sharpStopRev"
+          },
+          {
+            "side": 6,
+            "type": "sharpStop"
+          }
         ],
         "hexes": ["A7"]
       },
@@ -1022,7 +1276,10 @@
         "cities": [
           {
             "companies": ["TWE"],
-            "name": { "name": "Tecklenburg", "reverse": true }
+            "name": {
+              "name": "Tecklenburg",
+              "reverse": true
+            }
           }
         ],
         "labels": [
@@ -1056,7 +1313,11 @@
             "percent": 0.5
           },
           {
-            "name": { "name": "Münster", "reverse": true, "offset": 40 },
+            "name": {
+              "name": "Münster",
+              "reverse": true,
+              "offset": 40
+            },
             "companies": ["CME"],
             "angle": 270,
             "percent": 0.5

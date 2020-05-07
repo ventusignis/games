@@ -18,18 +18,50 @@
   "tokens": [
     "Round",
     "PI",
-    { "color": "yellow", "label": "ISC" },
-    { "color": "yellow", "label": "ISC" },
-    { "color": "red", "label": "FA" },
-    { "color": "red", "label": "FA" },
-    { "label": "+10", "icon": "meat" },
-    { "icon": "coal", "label": "+10" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "port", "label": "20/10" },
-    { "icon": "port", "label": "10" },
+    {
+      "color": "yellow",
+      "label": "ISC"
+    },
+    {
+      "color": "yellow",
+      "label": "ISC"
+    },
+    {
+      "color": "red",
+      "label": "FA"
+    },
+    {
+      "color": "red",
+      "label": "FA"
+    },
+    {
+      "label": "+10",
+      "icon": "meat"
+    },
+    {
+      "icon": "coal",
+      "label": "+10"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "port",
+      "label": "20/10"
+    },
+    {
+      "icon": "port",
+      "label": "10"
+    },
     "40%",
     "60%"
   ],
@@ -145,96 +177,52 @@
       "quantity": 7,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 6,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 5,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 4,
       "price": 450,
       "color": "brown",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 12"
-        }
-      ]
+      "rust": "12"
     },
     {
       "name": "6",
       "quantity": 3,
       "price": 630,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "8",
       "quantity": 3,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "10",
       "quantity": 2,
       "price": 950,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "12",
       "quantity": 6,
       "price": 1100,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "privates": [
@@ -248,7 +236,9 @@
       "name": "A1 - Pioneer Investments",
       "price": 40,
       "revenue": 10,
-      "token": { "color": "white" },
+      "token": {
+        "color": "white"
+      },
       "description": "The owning company receives a token which can be spent during its operation to exchange one pair of off-board value tiles. This includes exchanging for one of the tiles that are not currently in play."
     },
     {
@@ -277,14 +267,20 @@
       "price": 60,
       "revenue": 15,
       "icon": "meat",
-      "token": { "color": "white", "label": "+10" },
+      "token": {
+        "color": "white",
+        "label": "+10"
+      },
       "description": "The owning company receives a +10 token that can be placed on the West offboard location or any large city other than East Basin, West Basin, Cog Bay, or Yar Harbor. The token increases the value of the city or location by $10 for the owning company."
     },
     {
       "name": "B3 - Faustian Accounting",
       "price": 60,
       "revenue": 15,
-      "token": { "color": "white", "label": "FA" },
+      "token": {
+        "color": "white",
+        "label": "FA"
+      },
       "description": "The owning company receives two tokens which may be placed on the stock chart at the beginning of an OR to set its operating order for that OR. This token is removed, and Its share value token is adjusted,"
     },
     {
@@ -304,7 +300,9 @@
       "name": "C3 - Terminal Realty",
       "price": 80,
       "revenue": 15,
-      "token": { "color": "blue" },
+      "token": {
+        "color": "blue"
+      },
       "description": "The owning company receives an extra station marker. It may be placed at no cost in any large city, including unconnected cities and cities with no open station marker spaces."
     },
     {
@@ -319,7 +317,10 @@
       "price": 100,
       "revenue": 20,
       "icon": "port",
-      "token": { "color": "white", "label": "20/10" },
+      "token": {
+        "color": "white",
+        "label": "20/10"
+      },
       "description": "The owning company receives a 20/10 and a 10 token that can be played on either East Basin and West Basin.  The 20/10 token increases the value of its city by $20 and the 10 by $10 for the owning company.  The 20/10 token increases the value of its city by $10 for all other companies."
     },
     {
@@ -350,91 +351,72 @@
   ],
   "phases": [
     {
-      "train": "2",
-      "limit": "4",
-      "number": "4",
+      "name": "2",
+      "limit": 4,
       "tiles": "yellow",
       "notes": "2+2 trains are available for sale. Bridge and Mountain private companies may be purchased for up to 1x face value."
     },
     {
-      "train": "2+2",
-      "limit": "4",
-      "number": "2",
+      "name": "2+2",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
-      "train": "3",
-      "limit": "4",
-      "number": "3",
+      "name": "3",
+      "limit": 4,
       "tiles": "green",
       "notes": "3+3 trains are available for sale. Private companies may be purchased for up to 2x face value."
     },
     {
-      "train": "3+3",
-      "limit": "4",
-      "number": "3",
+      "name": "3+3",
+      "limit": 4,
       "tiles": "green"
     },
     {
-      "train": "4",
-      "limit": "3",
-      "number": "3",
-      "rust": "2",
+      "name": "4",
+      "limit": 3,
       "tiles": "green",
       "notes": "4+4 trains are available for sale."
     },
     {
-      "train": "4+4",
-      "limit": "3",
-      "number": "2",
-      "rust": "2+2",
+      "name": "4+4",
+      "limit": 3,
       "tiles": "green"
     },
     {
-      "train": "5",
-      "limit": "2",
-      "number": "2",
+      "name": "5",
+      "limit": 2,
       "tiles": "brown",
       "notes": "5+5 trains are available for sale. Private companies are closed."
     },
     {
-      "train": "5+5",
-      "limit": "2",
-      "number": "2",
+      "name": "5+5",
+      "limit": 2,
       "tiles": "brown"
     },
     {
-      "train": "6",
-      "limit": "2",
-      "number": "1",
-      "rust": "3",
+      "name": "6",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "7",
-      "limit": "2",
-      "number": "1",
-      "rust": "3+3",
+      "name": "7",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "8",
-      "limit": "2",
-      "number": "1",
-      "rust": "4",
+      "name": "8",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "9",
-      "limit": "2",
-      "number": "1",
+      "name": "9",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "D",
-      "limit": "2",
-      "number": "∞",
-      "rust": "4+4",
+      "name": "D",
+      "limit": 2,
       "tiles": "gray"
     }
   ],

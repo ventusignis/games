@@ -60,43 +60,57 @@
     {
       "name": "Noord Brabantsch Duitse Spoorweg Maatschappij",
       "abbrev": "NBD",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "color": "blue"
     },
     {
       "name": "Hollandsche IJzeren Spoorweg Maatschappij",
       "abbrev": "HYSM",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "color": "green"
     },
     {
       "name": "Nederlansche Rijinspoorweg",
       "abbrev": "NRS",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "color": "yellow"
     },
     {
       "name": "Overijsselsche Spporweg Maatschappij",
       "abbrev": "OSM",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "color": "black"
     },
     {
       "name": "Société Anonyme des Chemins de Fer d'Anvers à Rotterdam",
       "abbrev": "AR",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "color": "red"
     },
     {
       "name": "Nederlansche Centraal Spoorweg Maatschappij",
       "abbrev": "NCS",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "color": "purple"
     },
     {
       "name": "Nijmeegsche Spoorweg Maatschappij",
       "abbrev": "NSM",
-      "token": { "bar": true },
+      "token": {
+        "bar": true
+      },
       "color": "white"
     }
   ],
@@ -106,72 +120,39 @@
       "quantity": 5,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 4,
       "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 5"
-        }
-      ]
+      "rust": "5"
     },
     {
       "name": "4",
       "quantity": 3,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6 or 3E"
-        }
-      ]
+      "rust": ["6", "3E"]
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 400,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 6,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "3E",
       "quantity": 6,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     }
   ],
   "privates": [
@@ -219,7 +200,10 @@
       "name": "Werkspoor",
       "price": 100,
       "revenue": 20,
-      "token": { "iconColor": "violet", "icon": "train" },
+      "token": {
+        "iconColor": "violet",
+        "icon": "train"
+      },
       "description": "Gives a 10% discount on all trains the owning company buys from the bank.",
       "id": "6"
     },
@@ -235,37 +219,29 @@
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "4",
+      "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased"
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "3",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
-      "rust": "3",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed"
     },
     {
       "name": "6 / 3E",
-      "limit": "2",
-      "number": "6 / 6",
-      "rust": "4",
+      "limit": 2,
       "tiles": "brown",
       "notes": "6 trains and 3E trains available simultaneously"
     }
@@ -292,21 +268,61 @@
     }
   ],
   "rounds": [
-    { "name": "SR" },
-    { "name": "OR", "color": "gray" },
-    { "name": "OR", "color": "gray" },
-    { "name": "SR" },
-    { "name": "OR", "color": "gray" },
-    { "name": "OR", "color": "gray" },
-    { "name": "SR" },
-    { "name": "OR", "color": "gray" },
-    { "name": "OR", "color": "gray" },
-    { "name": "SR" },
-    { "name": "OR", "color": "gray" },
-    { "name": "OR", "color": "gray" },
-    { "name": "SR" },
-    { "name": "OR", "color": "gray" },
-    { "name": "OR", "color": "gray" }
+    {
+      "name": "SR"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "SR"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "SR"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "SR"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "SR"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    },
+    {
+      "name": "OR",
+      "color": "gray"
+    }
   ],
   "turns": [
     {
@@ -354,12 +370,30 @@
       50,
       55,
       60,
-      { "value": 65, "par": true },
-      { "value": 70, "par": true },
-      { "value": 75, "par": true },
-      { "value": 80, "par": true },
-      { "value": 90, "par": true },
-      { "value": 100, "par": true },
+      {
+        "value": 65,
+        "par": true
+      },
+      {
+        "value": 70,
+        "par": true
+      },
+      {
+        "value": 75,
+        "par": true
+      },
+      {
+        "value": 80,
+        "par": true
+      },
+      {
+        "value": 90,
+        "par": true
+      },
+      {
+        "value": 100,
+        "par": true
+      },
       110,
       125,
       140,
@@ -380,9 +414,6 @@
     "7": 3,
     "8": 8,
     "9": 8,
-    "57": 7,
-    "58": 6,
-
     "14": 4,
     "15": 4,
     "16": 1,
@@ -396,9 +427,6 @@
     "29": 2,
     "30": 2,
     "31": 2,
-    "981": 3,
-    "991": 3,
-
     "39": 1,
     "40": 2,
     "41": 1,
@@ -408,9 +436,12 @@
     "45": 1,
     "46": 1,
     "47": 1,
+    "57": 7,
+    "58": 6,
     "125": 3,
     "217": 3,
-
+    "981": 3,
+    "991": 3,
     "SOH1": {
       "color": "yellow",
       "values": [
@@ -727,112 +758,248 @@
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Middelburg" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Middelburg"
+            }
+          }
+        ],
         "hexes": ["K2"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Leiden" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Leiden"
+            }
+          }
+        ],
         "hexes": ["G6"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Haarlem" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Haarlem"
+            }
+          }
+        ],
         "hexes": ["F7"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Gouda" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Gouda"
+            }
+          }
+        ],
         "hexes": ["H7"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Tilburg" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Tilburg"
+            }
+          }
+        ],
         "hexes": ["J9"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Den Bosch" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Den Bosch"
+            }
+          }
+        ],
         "hexes": ["I10"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Maastricht" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Maastricht"
+            }
+          }
+        ],
         "hexes": ["N13"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Venlo" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Venlo"
+            }
+          }
+        ],
         "hexes": ["K14"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Amersfoort" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Amersfoort"
+            }
+          }
+        ],
         "hexes": ["G12"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Apeldoorn" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Apeldoorn"
+            }
+          }
+        ],
         "hexes": ["G14"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Assen" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Assen"
+            }
+          }
+        ],
         "hexes": ["C16"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Almelo" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Almelo"
+            }
+          }
+        ],
         "hexes": ["F17"]
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "name": "Enschede" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Enschede"
+            }
+          }
+        ],
         "hexes": ["G18"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Leeuwarden" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Leeuwarden"
+            }
+          }
+        ],
         "hexes": ["B13"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Groningen" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Groningen"
+            }
+          }
+        ],
         "hexes": ["B17"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Den Haag" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Den Haag"
+            }
+          }
+        ],
         "hexes": ["H5"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Arnhem" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Arnhem"
+            }
+          }
+        ],
         "hexes": ["H13"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Rotterdam" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Rotterdam"
+            }
+          }
+        ],
         "hexes": ["I6"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Zwolle" }, "companies": ["OSM"] }],
+        "cities": [
+          {
+            "name": {
+              "name": "Zwolle"
+            },
+            "companies": ["OSM"]
+          }
+        ],
         "hexes": ["E14"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Nijmegen" }, "companies": ["NSM"] }],
+        "cities": [
+          {
+            "name": {
+              "name": "Nijmegen"
+            },
+            "companies": ["NSM"]
+          }
+        ],
         "hexes": ["I12"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Eindhoven" }, "companies": ["NBD"] }],
+        "cities": [
+          {
+            "name": {
+              "name": "Eindhoven"
+            },
+            "companies": ["NBD"]
+          }
+        ],
         "hexes": ["K12"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Breda" }, "companies": ["AR"] }],
+        "cities": [
+          {
+            "name": {
+              "name": "Breda"
+            },
+            "companies": ["AR"]
+          }
+        ],
         "hexes": ["J7"]
       },
       {
@@ -846,7 +1013,10 @@
         ],
         "cities": [
           {
-            "name": { "name": "Amsterdam", "reverse": true },
+            "name": {
+              "name": "Amsterdam",
+              "reverse": true
+            },
             "size": 2,
             "companies": ["HYSM", "NRS"]
           }
@@ -855,7 +1025,14 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Utrecht" }, "companies": ["NCS"] }],
+        "cities": [
+          {
+            "name": {
+              "name": "Utrecht"
+            },
+            "companies": ["NCS"]
+          }
+        ],
         "hexes": ["H9"]
       },
       {
@@ -869,7 +1046,10 @@
         ],
         "towns": [
           {
-            "name": { "name": "Enkhuizen", "reverse": true },
+            "name": {
+              "name": "Enkhuizen",
+              "reverse": true
+            },
             "angle": 330,
             "percent": 0.27,
             "rotate": 60
@@ -908,7 +1088,9 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Kleve" },
+          "name": {
+            "name": "Kleve"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -931,7 +1113,9 @@
       {
         "color": "water",
         "offBoardRevenue": {
-          "name": { "name": "Den Helder" },
+          "name": {
+            "name": "Den Helder"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -960,7 +1144,9 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Papenburg" },
+          "name": {
+            "name": "Papenburg"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -983,7 +1169,9 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Salzbergen" },
+          "name": {
+            "name": "Salzbergen"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1006,7 +1194,9 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Emmerich am Rhein" },
+          "name": {
+            "name": "Emmerich am Rhein"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1029,7 +1219,9 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Liège" },
+          "name": {
+            "name": "Liège"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1052,7 +1244,9 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Antwerpen" },
+          "name": {
+            "name": "Antwerpen"
+          },
           "revenues": [
             {
               "color": "yellow",
@@ -1075,7 +1269,9 @@
       {
         "color": "water",
         "offBoardRevenue": {
-          "name": { "name": "Vlissingen" },
+          "name": {
+            "name": "Vlissingen"
+          },
           "revenues": [
             {
               "color": "yellow",

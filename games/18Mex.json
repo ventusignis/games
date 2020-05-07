@@ -172,74 +172,44 @@
     {
       "name": "2",
       "quantity": 6,
-      "price": "$100",
+      "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 6,
-      "price": "$180",
+      "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 3,
-      "price": "$300",
+      "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Phased Out in 6.5"
-        }
-      ]
+      "obsolete": {
+        "on": "6",
+        "index": 2
+      }
     },
     {
       "name": "5",
       "quantity": 2,
-      "price": "$450",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 450,
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
-      "price": "$600",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 600,
+      "color": "brown"
     },
     {
       "name": "4D",
       "quantity": 7,
-      "price": "$700",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 700,
+      "color": "gray"
     }
   ],
   "privates": [
@@ -247,7 +217,10 @@
       "name": "Mexico City-Acapulco Railroad",
       "price": 20,
       "revenue": 5,
-      "token": { "iconColor": "green", "icon": "train" }
+      "token": {
+        "iconColor": "green",
+        "icon": "train"
+      }
     },
     {
       "name": "Kansas City, Mexico, & Orient Railroad",
@@ -301,92 +274,73 @@
   ],
   "phases": [
     {
-      "phase": "2",
       "train": "2",
       "limit": 1,
-      "number": "6",
       "tiles": "yellow",
       "notes": "Buy only one train from bank.",
-      "price": 100,
-      "minor": true
+      "minor": true,
+      "name": "2"
     },
     {
-      "phase": "3",
       "train": "3",
       "limit": 1,
-      "number": "6",
       "tiles": "green",
       "notes": "Private companies may be purchased.",
-      "price": 180,
-      "minor": true
+      "minor": true,
+      "name": "3"
     },
     {
-      "phase": "2",
       "train": "2",
-      "limit": "-/3",
-      "number": "6",
+      "limit": 3,
       "tiles": "yellow",
       "notes": "Buy only one train from bank.",
-      "price": 100
+      "name": "2"
     },
     {
-      "phase": "3",
       "train": "3",
-      "limit": "-/3",
-      "number": "6",
+      "limit": 3,
       "tiles": "green",
       "notes": "Private companies may be purchased.",
-      "price": 180
+      "name": "3"
     },
     {
-      "phase": "3.5",
-      "limit": "4/3",
+      "limit": 4,
       "tiles": "green",
-      "notes": "When five 3Ts have been sold. Minor companies are closed. NdM stock available."
+      "notes": "When five 3Ts have been sold. Minor companies are closed. NdM stock available.",
+      "name": "3.5"
     },
     {
-      "phase": "4",
       "train": "4",
-      "rust": "2",
-      "limit": "3/2",
-      "number": "3",
+      "limit": 3,
       "tiles": "green",
       "notes": "May buy multiple trains.",
-      "price": 300
+      "name": "4"
     },
     {
-      "phase": "5",
       "train": "5",
-      "limit": "3/2",
-      "number": "2",
+      "limit": 3,
       "tiles": "brown",
       "notes": "Private companies are closed. NdM merges (Pacific Railroad and Texas-Mexican Railway are not eligible to merge).",
-      "price": 450
+      "name": "5"
     },
     {
-      "phase": "6",
       "train": "6",
-      "limit": "3/2",
-      "number": "2",
-      "rust": "3",
+      "limit": 3,
       "tiles": "brown",
-      "price": 600
+      "name": "6"
     },
     {
-      "phase": "6.5",
-      "limit": "3/2",
+      "limit": 3,
       "tiles": "brown",
-      "rust": "4-O",
-      "notes": "When both 6Ts are sold. 4Ts become obsolete."
+      "notes": "When both 6Ts are sold. 4Ts become obsolete.",
+      "name": "6.5"
     },
     {
-      "phase": "4D",
       "train": "4D",
-      "limit": "3/2",
-      "number": "7",
+      "limit": 3,
       "tiles": "gray",
-      "price": 700,
-      "notes": "The gray tile becomes available."
+      "notes": "The gray tile becomes available.",
+      "name": "4D"
     }
   ],
   "pools": [

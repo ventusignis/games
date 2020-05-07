@@ -14,7 +14,15 @@
     "bgg": "https://www.boardgamegeek.com/boardgame/18291/unpublished-prototype",
     "rules": "https://www.boardgamegeek.com/boardgame/18291/unpublished-prototype"
   },
-  "tokens": ["Round", "+20", "+20", { "color": "brown", "label": "+20" }],
+  "tokens": [
+    "Round",
+    "+20",
+    "+20",
+    {
+      "color": "brown",
+      "label": "+20"
+    }
+  ],
   "ipo": true,
   "bank": 12000,
   "players": [
@@ -137,168 +145,91 @@
       "quantity": 1,
       "color": "yellow",
       "description": "Runs from Hobbiton.",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Shire and Westlands"
-        }
-      ]
+      "note": "Shirt and Westlands"
     },
     {
       "name": "2",
       "quantity": 4,
-      "price": "$100",
+      "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2+2",
       "quantity": 2,
-      "price": "$125",
+      "price": 125,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4+4"
-        }
-      ]
+      "rust": "4+4"
     },
     {
       "name": "3",
       "quantity": 3,
-      "price": "$200",
+      "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "3+3",
       "quantity": 3,
-      "price": "$250",
+      "price": 250,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 7"
-        }
-      ]
+      "rust": "7"
     },
     {
       "name": "4",
       "quantity": 3,
-      "price": "$300",
+      "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "4+4",
       "quantity": 2,
-      "price": "$400",
+      "price": 400,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by D"
-        }
-      ]
+      "rust": "D"
     },
     {
       "name": "5",
       "quantity": 2,
-      "price": "$550",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 550,
+      "color": "brown"
     },
     {
       "name": "5+5",
       "quantity": 2,
-      "price": "$650",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 650,
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 1,
-      "price": "$750",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 750,
+      "color": "gray"
     },
     {
       "name": "7",
       "quantity": 1,
-      "price": "$800",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 800,
+      "color": "gray"
     },
     {
       "name": "8",
       "quantity": 1,
-      "price": "$900",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 900,
+      "color": "gray"
     },
     {
       "name": "9",
       "quantity": 1,
-      "price": "$1000",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 1000,
+      "color": "gray"
     },
     {
       "name": "D",
       "quantity": 6,
-      "price": "$1200",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 1200,
+      "color": "gray"
     }
   ],
   "privates": [
@@ -306,7 +237,10 @@
       "name": "The Hobbiton Teakettle",
       "price": 20,
       "revenue": 5,
-      "token": { "circle": "yellow", "label": "g" },
+      "token": {
+        "circle": "yellow",
+        "label": "g"
+      },
       "description": ""
     },
     {
@@ -349,91 +283,72 @@
   ],
   "phases": [
     {
-      "train": "2",
-      "limit": "4",
-      "number": "4",
+      "name": "2",
+      "limit": 4,
       "tiles": "yellow",
       "notes": "2+2 trains are available for sale. Bridge and Mountain private companies may be purchased for up to 1x face value."
     },
     {
-      "train": "2+2",
-      "limit": "4",
-      "number": "2",
+      "name": "2+2",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
-      "train": "3",
-      "limit": "4",
-      "number": "3",
+      "name": "3",
+      "limit": 4,
       "tiles": "green",
       "notes": "3+3 trains are available for sale. Private companies may be purchased for up to 2x face value."
     },
     {
-      "train": "3+3",
-      "limit": "4",
-      "number": "3",
+      "name": "3+3",
+      "limit": 4,
       "tiles": "green"
     },
     {
-      "train": "4",
-      "limit": "3",
-      "number": "3",
-      "rust": "2",
+      "name": "4",
+      "limit": 3,
       "tiles": "green",
       "notes": "4+4 trains are available for sale."
     },
     {
-      "train": "4+4",
-      "limit": "3",
-      "number": "2",
-      "rust": "2+2",
+      "name": "4+4",
+      "limit": 3,
       "tiles": "green"
     },
     {
-      "train": "5",
-      "limit": "2",
-      "number": "2",
+      "name": "5",
+      "limit": 2,
       "tiles": "brown",
       "notes": "5+5 trains are available for sale. Private companies are closed."
     },
     {
-      "train": "5+5",
-      "limit": "2",
-      "number": "2",
+      "name": "5+5",
+      "limit": 2,
       "tiles": "brown"
     },
     {
-      "train": "6",
-      "limit": "2",
-      "number": "1",
-      "rust": "3",
+      "name": "6",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "7",
-      "limit": "2",
-      "number": "1",
-      "rust": "3+3",
+      "name": "7",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "8",
-      "limit": "2",
-      "number": "1",
-      "rust": "4",
+      "name": "8",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "9",
-      "limit": "2",
-      "number": "1",
+      "name": "9",
+      "limit": 2,
       "tiles": "gray"
     },
     {
-      "train": "D",
-      "limit": "2",
-      "number": "∞",
-      "rust": "4+4",
+      "name": "D",
+      "limit": 2,
       "tiles": "gray"
     }
   ],

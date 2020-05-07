@@ -107,92 +107,59 @@
       "quantity": 5,
       "price": 80,
       "color": "yellow",
-      "description": "Salvage Value: $20"
+      "description": "Salvage Value: $20",
+      "permanent": false
     },
     {
       "name": "3",
       "quantity": 4,
       "price": 150,
       "color": "green",
-      "description": "Salvage Value: $35"
+      "description": "Salvage Value: $35",
+      "permanent": false
     },
     {
       "name": "4",
       "quantity": 3,
       "price": 250,
       "color": "green",
-      "description": "Salvage Value: $60"
+      "description": "Salvage Value: $60",
+      "permanent": false
     },
     {
       "name": "5",
       "quantity": 2,
       "price": 479,
-      "color": "green",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "green"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 539,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "2D",
       "quantity": 2,
       "price": 579,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "4D",
       "quantity": 2,
       "price": 669,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "5D",
       "quantity": 1,
       "price": 709,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "1D+1",
       "quantity": 1,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     }
   ],
   "privates": [
@@ -217,7 +184,10 @@
       "id": "P3",
       "price": 20,
       "revenue": 4,
-      "token": { "icon": "token", "iconColor": "gray" },
+      "token": {
+        "icon": "token",
+        "iconColor": "gray"
+      },
       "description": "May place two extra spare parts tokens on the charter of a Major Company controlled by the owner of this private company. Closes when special ability is used."
     },
     {
@@ -225,7 +195,10 @@
       "id": "P4",
       "price": 22,
       "revenue": 5,
-      "token": { "color": "yellow", "label": "$" },
+      "token": {
+        "color": "yellow",
+        "label": "$"
+      },
       "description": "May move any railroad stock market one space to the right during any Major Company's operating turn. Closes when special ability is used or when first 5T is bought."
     },
     {
@@ -233,7 +206,11 @@
       "id": "P5",
       "price": 72,
       "revenue": 2,
-      "token": { "icon": "train", "color": "brown", "iconColor": "map-brown" },
+      "token": {
+        "icon": "train",
+        "color": "brown",
+        "iconColor": "map-brown"
+      },
       "description": "Provides free 1D+1 train which must be assigned to any Major Company upon the purchase of the first 6T."
     },
     {
@@ -255,37 +232,32 @@
     {
       "name": "2",
       "train": "2",
-      "limit": "3",
-      "number": "5",
+      "limit": 3,
       "tiles": "yellow"
     },
     {
       "name": "3",
       "train": "3",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "4",
       "train": "4",
-      "limit": "3",
-      "number": "3",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
       "train": "5",
-      "limit": "3",
-      "number": "2",
+      "limit": 3,
       "tiles": "green",
       "notes": "Private company #5 closes"
     },
     {
       "name": "6",
       "train": ["6", "2D", "4D", "5D"],
-      "limit": "3",
-      "number": "2",
+      "limit": 3,
       "tiles": "brown",
       "notes": "All remaining private companies are removed from play"
     }
@@ -532,15 +504,6 @@
     "7": 3,
     "8": 9,
     "9": 10,
-    "57": 4,
-    "58": 3,
-    "U69": {
-      "color": "yellow",
-      "centerTowns": [{}],
-      "track": [{ "side": 1 }, { "side": 5 }, { "side": 6 }],
-      "values": [{ "value": 20, "angle": 90, "percent": 0.6 }]
-    },
-
     "14": 3,
     "15": 3,
     "16": 1,
@@ -553,26 +516,6 @@
     "27": 1,
     "28": 1,
     "29": 1,
-    "619": 1,
-    "U11": {
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 25 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
-    },
-    "U14": {
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 25 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 4 }, { "side": 5 }]
-    },
-    "U15": {
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 25 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
-    },
-
     "39": 1,
     "40": 1,
     "41": 2,
@@ -581,26 +524,196 @@
     "45": 2,
     "46": 2,
     "47": 2,
+    "57": 4,
+    "58": 3,
     "63": 4,
+    "619": 1,
+    "U69": {
+      "color": "yellow",
+      "centerTowns": [{}],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "values": [
+        {
+          "value": 20,
+          "angle": 90,
+          "percent": 0.6
+        }
+      ]
+    },
+    "U11": {
+      "color": "green",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 25
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "U14": {
+      "color": "green",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 25
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "U15": {
+      "color": "green",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 25
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+      ]
+    },
     "U12": {
       "color": "brown",
-      "cities": [{ "rotate": -30, "size": 2 }],
-      "track": [
-        { "side": 1 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+      "cities": [
+        {
+          "rotate": -30,
+          "size": 2
+        }
       ],
-      "values": [{ "value": 40, "angle": 330, "percent": 0.8 }],
-      "labels": [{ "x": 5, "label": "J", "angle": 150, "percent": 0.8 }]
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 330,
+          "percent": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "x": 5,
+          "label": "J",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ]
     },
     "U13": {
       "color": "brown",
-      "track": [{ "side": 5 }, { "side": 6 }, { "side": 3 }, { "side": 4 }],
-      "cities": [{ "rotate": 30, "size": 2 }],
-      "values": [{ "value": 40, "angle": 30, "percent": 0.6 }],
-      "labels": [{ "label": "B", "angle": 210, "percent": 0.8 }]
+      "track": [
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+      ],
+      "cities": [
+        {
+          "rotate": 30,
+          "size": 2
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 30,
+          "percent": 0.6
+        }
+      ],
+      "labels": [
+        {
+          "label": "B",
+          "angle": 210,
+          "percent": 0.8
+        }
+      ]
     }
   },
   "map": {
@@ -664,7 +777,13 @@
       },
       {
         "color": "river",
-        "cities": [{ "name": { "name": "Nashville" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Nashville"
+            }
+          }
+        ],
         "terrain": [
           {
             "percent": 0.667,
@@ -676,7 +795,13 @@
       },
       {
         "color": "river",
-        "centerTowns": [{ "name": { "name": "Huntsville" } }],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Huntsville"
+            }
+          }
+        ],
         "terrain": [
           {
             "percent": 0.6,
@@ -700,7 +825,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Corinth" }
+            "name": {
+              "name": "Corinth"
+            }
           }
         ],
         "hexes": ["E3"]
@@ -709,7 +836,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Tupelo" }
+            "name": {
+              "name": "Tupelo"
+            }
           }
         ],
         "hexes": ["F2"]
@@ -718,7 +847,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Murphesboro" }
+            "name": {
+              "name": "Murphesboro"
+            }
           }
         ],
         "hexes": ["D8"]
@@ -727,7 +858,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Gadsden" }
+            "name": {
+              "name": "Gadsden"
+            }
           }
         ],
         "hexes": ["F10"]
@@ -737,7 +870,9 @@
         "cities": [
           {
             "companies": ["SOU"],
-            "name": { "name": "Knoxville" }
+            "name": {
+              "name": "Knoxville"
+            }
           }
         ],
         "hexes": ["C13"]
@@ -746,7 +881,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Dyersburg" }
+            "name": {
+              "name": "Dyersburg"
+            }
           }
         ],
         "hexes": ["C1"]
@@ -755,7 +892,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Clarksville" }
+            "name": {
+              "name": "Clarksville"
+            }
           }
         ],
         "hexes": ["B6"]
@@ -764,7 +903,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Tuscaloosa" }
+            "name": {
+              "name": "Tuscaloosa"
+            }
           }
         ],
         "hexes": ["G7"]
@@ -773,32 +914,92 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": { "name": "Lebanon" }
+            "name": {
+              "name": "Lebanon"
+            }
           }
         ],
         "hexes": ["C9"]
       },
       {
         "color": "gray",
-        "cities": [{ "name": { "name": "Paducah" } }],
-        "track": [{ "side": 4 }, { "side": 5 }],
-        "values": [{ "value": 40, "angle": 90, "percent": 0.667 }],
+        "cities": [
+          {
+            "name": {
+              "name": "Paducah"
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
+        "values": [
+          {
+            "value": 40,
+            "angle": 90,
+            "percent": 0.667
+          }
+        ],
         "hexes": ["B2"]
       },
       {
         "color": "grey",
-        "cities": [{ "companies": ["L&N"], "name": { "name": "Louisville" } }],
-        "track": [{ "side": 5 }, { "side": 6 }],
-        "values": [{ "value": 40, "angle": 90, "percent": 0.667 }],
+        "cities": [
+          {
+            "companies": ["L&N"],
+            "name": {
+              "name": "Louisville"
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 5
+          },
+          {
+            "side": 6
+          }
+        ],
+        "values": [
+          {
+            "value": 40,
+            "angle": 90,
+            "percent": 0.667
+          }
+        ],
         "hexes": ["A9"]
       },
       {
         "color": "yellow",
         "cities": [
-          { "companies": ["GMO"], "name": { "offset": 42, "name": "Jackson" } }
+          {
+            "companies": ["GMO"],
+            "name": {
+              "offset": 42,
+              "name": "Jackson"
+            }
+          }
         ],
-        "track": [{ "side": 3 }, { "side": 5 }],
-        "values": [{ "value": 20, "angle": 90, "percent": 0.667 }],
+        "track": [
+          {
+            "side": 3
+          },
+          {
+            "side": 5
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 90,
+            "percent": 0.667
+          }
+        ],
         "hexes": ["D2"]
       },
       {
@@ -806,11 +1007,30 @@
         "cities": [
           {
             "companies": ["SLSF"],
-            "name": { "reverse": true, "name": "Birmingham" }
+            "name": {
+              "reverse": true,
+              "name": "Birmingham"
+            }
           }
         ],
-        "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }],
-        "values": [{ "value": 20, "angle": 150, "percent": 0.667 }],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 150,
+            "percent": 0.667
+          }
+        ],
         "hexes": ["G9"]
       },
       {
@@ -818,20 +1038,53 @@
         "cities": [
           {
             "companies": ["NC&SL"],
-            "name": { "offset": 66, "name": "Chattanooga" }
+            "name": {
+              "offset": 66,
+              "name": "Chattanooga"
+            }
           }
         ],
-        "track": [{ "side": 1 }, { "side": 5 }],
-        "values": [{ "value": 20, "angle": 150, "percent": 0.667 }],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 5
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 150,
+            "percent": 0.667
+          }
+        ],
         "hexes": ["E11"]
       },
       {
         "color": "yellow",
         "towns": [
-          { "rotate": 150, "name": { "reverse": true, "name": "Rome" } }
+          {
+            "rotate": 150,
+            "name": {
+              "reverse": true,
+              "name": "Rome"
+            }
+          }
         ],
-        "track": [{ "side": 2, "type": "straight" }],
-        "values": [{ "value": 10, "angle": 240, "percent": 0.6 }],
+        "track": [
+          {
+            "side": 2,
+            "type": "straight"
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 240,
+            "percent": 0.6
+          }
+        ],
         "hexes": ["F12"]
       },
       {
@@ -839,15 +1092,37 @@
         "cities": [
           {
             "companies": ["COG"],
-            "name": { "reverse": true, "name": "Atlanta" }
+            "name": {
+              "reverse": true,
+              "name": "Atlanta"
+            }
           }
         ],
-        "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          }
+        ],
         "offBoardRevenue": {
           "percent": 0.7,
           "revenues": [
-            { "color": "yellow", "value": 20 },
-            { "color": "brown", "value": 50 }
+            {
+              "color": "yellow",
+              "value": 20
+            },
+            {
+              "color": "brown",
+              "value": 50
+            }
           ]
         },
         "hexes": ["G13"]
@@ -855,61 +1130,120 @@
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Memphis" },
+          "name": {
+            "name": "Memphis"
+          },
           "revenues": [
-            { "color": "yellow", "value": 30 },
-            { "color": "brown", "value": 70 }
+            {
+              "color": "yellow",
+              "value": 30
+            },
+            {
+              "color": "brown",
+              "value": 70
+            }
           ]
         },
         "track": [
-          { "side": 3, "type": "offboard" },
-          { "side": 4, "type": "offboard" },
-          { "side": 5, "type": "offboard" }
+          {
+            "side": 3,
+            "type": "offboard"
+          },
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 5,
+            "type": "offboard"
+          }
         ],
         "hexes": ["E1"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Augusta" },
+          "name": {
+            "name": "Augusta"
+          },
           "revenues": [
-            { "color": "yellow", "value": 30 },
-            { "color": "brown", "value": 60 }
+            {
+              "color": "yellow",
+              "value": 30
+            },
+            {
+              "color": "brown",
+              "value": 60
+            }
           ]
         },
         "track": [
-          { "side": 1, "type": "offboard" },
-          { "side": 2, "type": "offboard" }
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
         ],
         "hexes": ["G17"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Lexington" },
+          "name": {
+            "name": "Lexington"
+          },
           "revenues": [
-            { "color": "yellow", "value": 30 },
-            { "color": "brown", "value": 40 }
+            {
+              "color": "yellow",
+              "value": 30
+            },
+            {
+              "color": "brown",
+              "value": 40
+            }
           ]
         },
         "track": [
-          { "side": 5, "type": "offboard" },
-          { "side": 6, "type": "offboard" }
+          {
+            "side": 5,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
         ],
         "hexes": ["A13"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
-          "name": { "name": "Bristol Coalfields" },
+          "name": {
+            "name": "Bristol Coalfields"
+          },
           "revenues": [
-            { "color": "yellow", "value": 60 },
-            { "color": "brown", "value": 40 }
+            {
+              "color": "yellow",
+              "value": 60
+            },
+            {
+              "color": "brown",
+              "value": 40
+            }
           ]
         },
         "track": [
-          { "side": 1, "type": "offboard" },
-          { "side": 6, "type": "offboard" }
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
         ],
         "hexes": ["B18"]
       }

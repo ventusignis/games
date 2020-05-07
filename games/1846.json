@@ -15,10 +15,18 @@
   "tokens": [
     "Round",
     "Phase",
-    { "icon": "port" },
-    { "icon": "port" },
-    { "icon": "meat" },
-    { "icon": "meat" },
+    {
+      "icon": "port"
+    },
+    {
+      "icon": "port"
+    },
+    {
+      "icon": "meat"
+    },
+    {
+      "icon": "meat"
+    },
     "Big 4",
     "MS"
   ],
@@ -116,132 +124,82 @@
       "name": "2: Big 4",
       "quantity": 1,
       "color": "yellow",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Phased Out"
-        },
-        {
-          "color": "gray",
-          "note": "Removed"
-        }
-      ]
+      "obsolete": ["4/6", "5"],
+      "rust": ["6", "7/8"]
     },
     {
       "name": "2: MS",
       "quantity": 1,
       "color": "yellow",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Phased Out"
-        },
-        {
-          "color": "gray",
-          "note": "Removed"
-        }
-      ]
+      "obsolete": ["4/6", "5"],
+      "rust": ["6", "7/8"]
     },
     {
       "name": "2",
       "quantity": 7,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Phased Out"
-        },
-        {
-          "color": "gray",
-          "note": "Removed"
-        }
-      ]
+      "obsolete": ["4/6", "5"],
+      "rust": ["6", "7/8"]
     },
     {
       "name": "3/5",
       "quantity": 6,
       "price": 160,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Phased Out"
-        }
-      ]
+      "obsolete": ["6", "7/8"]
     },
     {
       "name": "4",
       "quantity": 6,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Phased Out"
-        }
-      ]
+      "obsolete": ["6", "7/8"]
     },
     {
       "name": "4/6",
       "quantity": 5,
       "price": 450,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "5",
       "quantity": 5,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 9,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "7/8",
       "quantity": 9,
       "price": 900,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "privates": [
     {
       "name": "Michigan Southern",
-      "price": "$60 + $80 Debt",
-      "token": { "color": "white", "label": "MS" },
+      "price": 60,
+      "debt": 80,
+      "token": {
+        "color": "white",
+        "label": "MS"
+      },
       "description": "Starts with $60 in treasury, a 2 train, and a token in Detroit (C15). Splits revenue evenly with owner."
     },
     {
       "name": "Big 4",
-      "price": "$40 + $60 Debt",
-      "token": { "color": "white", "label": "Big 4" },
+      "price": 40,
+      "debt": 60,
+      "token": {
+        "color": "white",
+        "label": "Big 4"
+      },
       "description": "Starts with $60 in treasury, a 2 train, and a token in Indianapolis (G9). Splits revenue evenly with owner."
     },
     {
@@ -303,35 +261,30 @@
   ],
   "phases": [
     {
-      "phase": "Yellow",
       "train": "2",
-      "limit": "4",
-      "number": "5/5/6/7",
-      "tiles": "yellow"
+      "limit": 4,
+      "tiles": "yellow",
+      "name": "Yellow"
     },
     {
-      "phase": "Green",
       "train": "3/5 or 4",
-      "limit": "4",
-      "number": "5/4/5/6",
-      "tiles": "green"
+      "limit": 4,
+      "tiles": "green",
+      "name": "Green"
     },
     {
-      "phase": "Brown",
       "train": "4/6 or 5",
-      "limit": "3",
-      "number": "3/3/4/5",
+      "limit": 3,
       "tiles": "brown",
-      "notes": "Private companies close, Phase out 2 trains"
+      "notes": "Private companies close, Phase out 2 trains",
+      "name": "Brown"
     },
     {
-      "phase": "Gray",
       "train": "6 or 7/8",
-      "rust": "2",
-      "limit": "2",
-      "number": "4/∞/∞/∞",
+      "limit": 2,
       "tiles": "gray",
-      "notes": "Private tokens removed, Phase out 3/5 and 4 trains"
+      "notes": "Private tokens removed, Phase out 3/5 and 4 trains",
+      "name": "Gray"
     }
   ],
   "pools": [

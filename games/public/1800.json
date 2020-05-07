@@ -101,173 +101,111 @@
     {
       "name": "2",
       "quantity": 2,
-      "price": "$180",
+      "price": 180,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2",
       "quantity": 1,
-      "price": "$180",
+      "price": 180,
       "color": "yellow",
       "players": 3,
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 1,
-      "price": "$300",
+      "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by E"
-        }
-      ]
+      "rust": "E"
     },
     {
       "name": "3",
       "quantity": 1,
-      "price": "$300",
+      "price": 300,
       "color": "green",
       "players": 3,
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by E"
-        }
-      ]
+      "rust": "E"
     },
     {
       "name": "4",
       "quantity": 1,
-      "price": "$430",
-      "color": "green",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 430,
+      "color": "green"
     },
     {
       "name": "5",
       "quantity": 1,
-      "price": "$450",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 450,
+      "color": "brown"
     },
     {
       "name": "5",
       "quantity": 1,
-      "price": "$450",
+      "price": 450,
       "color": "brown",
-      "players": 3,
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "players": 3
     },
     {
       "name": "2E",
       "quantity": 2,
-      "price": "$250",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 250,
+      "color": "gray"
     },
     {
       "name": "2E",
       "quantity": 1,
-      "price": "$250",
+      "price": 250,
       "color": "gray",
-      "players": 3,
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "players": 3
     },
     {
       "name": "3E",
       "quantity": 1,
-      "price": "$350",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 350,
+      "color": "gray"
     },
     {
       "name": "3E",
       "quantity": 1,
-      "price": "$350",
+      "price": 350,
       "color": "gray",
-      "players": 3,
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "players": 3
     },
     {
       "name": "2x2E",
       "quantity": 1,
-      "price": "$500",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 500,
+      "color": "gray"
     }
   ],
   "privates": [
     {
       "name": "Midland Terminal",
       "price": 20,
-      "players": 2,
-      "token": { "color": "yellow", "label": "$" },
+      "maxPlayers": 2,
+      "token": {
+        "color": "yellow",
+        "label": "$"
+      },
       "revenue": 5
     },
     {
       "name": "Midland Terminal",
       "price": 25,
-      "players": 3,
-      "token": { "color": "yellow", "label": "$" },
+      "minPlayers": 3,
+      "token": {
+        "color": "yellow",
+        "label": "$"
+      },
       "revenue": 5
     },
     {
       "name": "Denver and Salt Lake",
       "price": 70,
       "revenue": 10,
-      "players": 2,
+      "maxPlayers": 2,
       "tile": "800",
       "description": "The owning corporation may lay the D&SL tile on their reserved hex (B4 or D4) instead of their normal track action, this action closes the company. Closes when the first 5 Train is purchased, however, the tile may still be laid by the corporation."
     },
@@ -275,7 +213,7 @@
       "name": "Denver and Salt Lake",
       "price": 70,
       "revenue": 10,
-      "players": 3,
+      "minPlayers": 3,
       "icon": "share",
       "description": "Trade for any share in the market at any time, this action closes the company. Closes when the first 5 Train is purchased."
     },
@@ -289,43 +227,36 @@
   ],
   "phases": [
     {
-      "phase": "2",
       "train": "2",
-      "limit": "2",
-      "number": "2, 3",
-      "tiles": "yellow"
+      "limit": 2,
+      "tiles": "yellow",
+      "name": "2"
     },
     {
-      "phase": "3",
       "train": "3",
-      "limit": "2",
-      "number": "1, 2",
+      "limit": 2,
       "tiles": "green",
-      "notes": "Private companies may be purchased"
+      "notes": "Private companies may be purchased",
+      "name": "3"
     },
     {
-      "phase": "4",
       "train": "4",
-      "rust": "2",
-      "limit": "2",
-      "number": "1",
-      "tiles": "green"
+      "limit": 2,
+      "tiles": "green",
+      "name": "4"
     },
     {
-      "phase": "5",
       "train": "5",
-      "limit": "2",
-      "number": "1, 2",
+      "limit": 2,
       "tiles": "brown",
-      "notes": "Private companies are closed"
+      "notes": "Private companies are closed",
+      "name": "5"
     },
     {
-      "phase": "6",
       "train": ["2E", "3E", "2x2E"],
-      "limit": "3",
-      "number": ["2, 3", "1, 2", "1"],
-      "rust": "3",
-      "tiles": "gray"
+      "limit": 3,
+      "tiles": "gray",
+      "name": "6"
     }
   ],
   "pools": [

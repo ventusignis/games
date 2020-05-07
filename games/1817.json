@@ -191,102 +191,108 @@
   "trains": [
     {
       "name": "2",
-      "quantity": 16,
+      "quantity": "∞",
+      "print": 16,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2+",
       "quantity": 4,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "obsolete": "4"
     },
     {
       "name": "3",
       "quantity": 12,
       "price": 250,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 8,
       "price": 400,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 5,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 4,
       "price": 750,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "7",
       "quantity": 3,
       "price": 900,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "8",
       "quantity": 16,
       "price": 1100,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
-  "phases": [],
+  "phases": [
+    {
+      "name": "2",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "yellow"
+    },
+    {
+      "name": "2+",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "yellow"
+    },
+    {
+      "name": "3",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "name": "4",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "name": "5",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "brown"
+    },
+    {
+      "name": "6",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "brown"
+    },
+    {
+      "name": "7",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "gray"
+    },
+    {
+      "name": "8",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "gray"
+    }
+  ],
   "pools": [],
   "rounds": [
     {
@@ -344,17 +350,74 @@
     "619": 8,
     "X00": {
       "color": "yellow",
-      "values": [{ "angle": 210, "percent": 0.75, "value": 30 }],
-      "cities": [{ "size": 1 }],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }],
-      "labels": [{ "angle": 150, "percent": 0.75, "label": "B" }]
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 30
+        }
+      ],
+      "cities": [
+        {
+          "size": 1
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ],
+      "labels": [
+        {
+          "angle": 150,
+          "percent": 0.75,
+          "label": "B"
+        }
+      ]
     },
     "X30": {
       "color": "gray",
-      "values": [{ "angle": 270, "percent": 0.87, "value": 100 }],
-      "labels": [{ "size": 20, "label": "NY", "angle": 205, "percent": 0.84 }],
-      "cities": [{ "size": 4, "percent": 0.1 }],
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.87,
+          "value": 100
+        }
+      ],
+      "labels": [
+        {
+          "size": 20,
+          "label": "NY",
+          "angle": 205,
+          "percent": 0.84
+        }
+      ],
+      "cities": [
+        {
+          "size": 4,
+          "percent": 0.1
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     }
   },
   "map": {
@@ -771,7 +834,17 @@
       {
         "color": "gray",
         "encoding": "p=a:3,b:j;p=a:4,b:j;p=a:5,b=j",
-        "track": [{ "side": 4 }, { "side": 3 }, { "side": 5 }],
+        "track": [
+          {
+            "side": 4
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 5
+          }
+        ],
         "hexes": ["F1"]
       },
       {

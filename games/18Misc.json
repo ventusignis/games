@@ -243,145 +243,96 @@
     {
       "name": "2",
       "quantity": 6,
-      "price": "$80",
+      "price": 80,
       "color": "train_yellow",
-      "info": [
-        {
-          "color": "train_blue",
-          "note": "Rusted by 5"
-        }
-      ]
+      "rust": "5"
     },
     {
       "name": "3",
       "quantity": 9,
-      "price": "$160",
+      "price": 160,
       "color": "train_green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "5",
       "quantity": 4,
-      "price": "$250",
+      "price": 250,
       "color": "train_blue",
-      "info": [
-        {
-          "color": "train_gray",
-          "note": "Rusted by 8E"
-        }
-      ]
+      "rust": "8E"
     },
     {
       "name": "3+D",
       "quantity": 6,
-      "price": "$350",
+      "price": 350,
       "color": "train_brown",
-      "info": [
-        {
-          "color": "train_purple",
-          "note": "Rusted by D"
-        }
-      ]
+      "rust": "D"
     },
     {
       "name": "6",
       "quantity": 4,
-      "price": "$650",
-      "color": "train_red",
-      "info": [
-        {
-          "color": "train_yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 650,
+      "color": "train_red"
     },
     {
       "name": "8E",
       "quantity": 3,
-      "price": "$800",
-      "color": "train_gray",
-      "info": [
-        {
-          "color": "train_yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 800,
+      "color": "train_gray"
     },
     {
       "name": "D",
       "quantity": 6,
-      "price": "$900",
-      "color": "train_gray",
-      "info": [
-        {
-          "color": "train_yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 900,
+      "color": "train_gray"
     }
   ],
   "privates": [],
   "phases": [
     {
-      "phase": "Yellow",
       "train": "2",
-      "limit": "4",
-      "number": "6",
-      "tiles": "yellow"
+      "limit": 4,
+      "tiles": "yellow",
+      "name": "Yellow"
     },
     {
-      "phase": "Green",
       "train": "3",
-      "limit": "4",
-      "number": "9",
+      "limit": 4,
       "tiles": "green",
-      "notes": "Private companies may be purchased"
+      "notes": "Private companies may be purchased",
+      "name": "Green"
     },
     {
-      "phase": "Blue",
       "train": "5",
-      "limit": "4",
-      "rust": "2",
-      "number": "4",
-      "tiles": "green"
+      "limit": 4,
+      "tiles": "green",
+      "name": "Blue"
     },
     {
-      "phase": "Brown",
       "train": "3+D",
-      "limit": "3",
-      "number": "6",
-      "tiles": "brown"
+      "limit": 3,
+      "tiles": "brown",
+      "name": "Brown"
     },
     {
-      "phase": "Red",
       "train": "6",
-      "limit": "2",
-      "rust": "3",
-      "number": "4",
+      "limit": 2,
       "tiles": "brown",
-      "notes": "One less 6T when playing with 3 players. Private companies are closed"
+      "notes": "One less 6T when playing with 3 players. Private companies are closed",
+      "name": "Red"
     },
     {
-      "phase": "Gray",
       "train": "8E",
-      "limit": "2",
-      "rust": "5",
-      "number": "3",
-      "tiles": "brown"
+      "limit": 2,
+      "tiles": "brown",
+      "name": "Gray"
     },
     {
-      "phase": "Purple",
       "train": "Diesel",
-      "limit": "2",
-      "rust": "3+D",
-      "number": "∞",
+      "limit": 2,
       "tiles": "brown",
-      "notes": "Director's certificates cannot be bought from the IPO."
+      "notes": "Director's certificates cannot be bought from the IPO.",
+      "name": "Purple"
     }
   ],
   "pools": [
@@ -971,6 +922,41 @@
     "45": 2,
     "46": 2,
     "47": 2,
+    "53": {
+      "color": "green",
+      "rotations": 2,
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 50
+        }
+      ],
+      "names": [
+        {
+          "name": "Baltimore",
+          "rotate": 60,
+          "angle": 60,
+          "percent": 0.5
+        }
+      ],
+      "cities": [
+        {
+          "size": 1
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
     "54": {
       "rotations": [240]
     },
@@ -979,6 +965,44 @@
     "57": 8,
     "58": 3,
     "59": 3,
+    "61": {
+      "rotations": [0, 240],
+      "color": "brown",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 60
+        }
+      ],
+      "names": [
+        {
+          "name": "Baltimore",
+          "rotate": 60,
+          "angle": 60,
+          "percent": 0.5
+        }
+      ],
+      "cities": [
+        {
+          "size": 1
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
     "62": {
       "rotations": [240]
     },
@@ -990,53 +1014,76 @@
     "68": 1,
     "69": 1,
     "70": 2,
+    "121": {
+      "color": "green",
+      "rotations": 2,
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 50
+        }
+      ],
+      "cities": [
+        {
+          "size": 2,
+          "name": {
+            "name": "Boston",
+            "reverse": true,
+            "offset": 33
+          }
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
     "205": 1,
     "206": 1,
     "448": 2,
     "449": 2,
-    "121": {
-      "color": "green",
-      "rotations": 2,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
-      "cities": [
-        {
-          "size": 2,
-          "name": { "name": "Boston", "reverse": true, "offset": 33 }
-        }
-      ],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }]
-    },
-    "53": {
-      "color": "green",
-      "rotations": 2,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
-      "names": [
-        { "name": "Baltimore", "rotate": 60, "angle": 60, "percent": 0.5 }
-      ],
-      "cities": [{ "size": 1 }],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }]
-    },
-    "61": {
-      "rotations": [0, 240],
-      "color": "brown",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-      "names": [
-        { "name": "Baltimore", "rotate": 60, "angle": 60, "percent": 0.5 }
-      ],
-      "cities": [{ "size": 1 }],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
-    },
     "997": {
       "rotations": [180, 300],
       "color": "brown",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 60
+        }
+      ],
       "cities": [
         {
           "size": 2,
-          "name": { "name": "Boston", "reverse": true, "offset": 33 }
+          "name": {
+            "name": "Boston",
+            "reverse": true,
+            "offset": 33
+          }
         }
       ],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     }
   },
   "map": {
@@ -1049,7 +1096,11 @@
             "name": "Copper Country"
           }
         ],
-        "values": [{ "value": 60 }],
+        "values": [
+          {
+            "value": 60
+          }
+        ],
         "track": [
           {
             "type": "offboard",

@@ -134,120 +134,66 @@
       "quantity": 6,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2+",
       "quantity": 6,
       "price": 120,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4/4+"
-        }
-      ]
+      "rust": ["4", "4+"]
     },
     {
       "name": "3",
       "quantity": 5,
       "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6/6+"
-        }
-      ]
+      "rust": ["6", "6+"]
     },
     {
       "name": "3+",
       "quantity": 5,
       "price": 230,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6/6+"
-        }
-      ]
+      "rust": ["6", "6+"]
     },
     {
       "name": "4",
       "quantity": 4,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 8/D"
-        }
-      ]
+      "rust": ["8", "D"]
     },
     {
       "name": "4+",
       "quantity": 4,
       "price": 340,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 8/D"
-        }
-      ]
+      "rust": ["8", "D"]
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "5+",
       "quantity": 3,
       "price": 550,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6+",
       "quantity": 2,
       "price": 660,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "D",
@@ -255,44 +201,34 @@
       "price": 1100,
       "color": "gray",
       "description": "Cost $800 when trading in a 4T, 5T or 6T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "discount": {
+        "4": 300,
+        "5": 300,
+        "6": 300
+      }
     },
     {
       "name": "8",
       "quantity": 6,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "2E",
       "quantity": 6,
       "price": 200,
       "color": "gray",
-      "description": "Does not count against train limit or fulfill the requirement to own a train.",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "description": "Does not count against train limit or fulfill the requirement to own a train."
     }
   ],
   "privates": [
     {
       "name": "Melbourne & Hobson's Bay Railway Company",
       "price": "1£-40£",
-      "token": { "circle": "yellow", "label": "£" },
+      "token": {
+        "circle": "yellow",
+        "label": "£"
+      },
       "revenue": 5
     },
     {
@@ -313,7 +249,11 @@
       "name": "The Ghan",
       "price": "1£-220£",
       "revenue": 20,
-      "token": { "color": "gray", "icon": "train", "iconColor": "map-gray" },
+      "token": {
+        "color": "gray",
+        "icon": "train",
+        "iconColor": "map-gray"
+      },
       "description": "The owner has a one-time discount of £100 on the purchase of a 2E train, 'The Ghan'"
     },
     {
@@ -334,50 +274,40 @@
   "phases": [
     {
       "name": "2/2+",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3/3+",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased"
     },
     {
       "name": "4/4+",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5/5+",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed"
     },
     {
       "name": "6/6+",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
+      "limit": 2,
       "tiles": "brown"
     },
     {
       "name": "8/D",
-      "limit": "2",
-      "number": "∞",
-      "rust": "4",
+      "limit": 2,
       "tiles": "gray",
       "notes": "2E Trains may be purchased"
     },
     {
       "name": "2E",
-      "limit": "2",
-      "number": "∞",
+      "limit": 2,
       "tiles": "gray"
     }
   ],
@@ -1333,7 +1263,6 @@
         "width": 4,
         "dashed": true,
         "dashArray": 20,
-        "offset": 22,
         "offset": 21,
         "coords": [
           "F9p3",
@@ -1354,7 +1283,6 @@
         "width": 4,
         "dashed": true,
         "dashArray": 20,
-        "offset": 22,
         "offset": -12,
         "coords": [
           "B7p5",

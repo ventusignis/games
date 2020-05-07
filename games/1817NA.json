@@ -194,96 +194,52 @@
       "quantity": 16,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2+",
       "quantity": 4,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "obsolete": "4"
     },
     {
       "name": "3",
       "quantity": 12,
       "price": 250,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 8,
       "price": 400,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 5,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 4,
       "price": 750,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "7",
       "quantity": 3,
       "price": 900,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "8",
       "quantity": 16,
       "price": 1100,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "phases": [],
@@ -344,17 +300,74 @@
     "619": 8,
     "X00": {
       "color": "yellow",
-      "values": [{ "angle": 210, "percent": 0.75, "value": 30 }],
-      "cities": [{ "size": 1 }],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }],
-      "labels": [{ "angle": 150, "percent": 0.75, "label": "B" }]
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 30
+        }
+      ],
+      "cities": [
+        {
+          "size": 1
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ],
+      "labels": [
+        {
+          "angle": 150,
+          "percent": 0.75,
+          "label": "B"
+        }
+      ]
     },
     "X30": {
       "color": "gray",
-      "values": [{ "angle": 270, "percent": 0.87, "value": 100 }],
-      "labels": [{ "size": 20, "label": "NY", "angle": 205, "percent": 0.84 }],
-      "cities": [{ "size": 4, "percent": 0.1 }],
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.87,
+          "value": 100
+        }
+      ],
+      "labels": [
+        {
+          "size": 20,
+          "label": "NY",
+          "angle": 205,
+          "percent": 0.84
+        }
+      ],
+      "cities": [
+        {
+          "size": 4,
+          "percent": 0.1
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     }
   },
   "map": {
@@ -441,7 +454,13 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "name": "Dawson City" } }],
+        "cities": [
+          {
+            "name": {
+              "name": "Dawson City"
+            }
+          }
+        ],
         "terrain": [
           {
             "angle": 0,
@@ -459,7 +478,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Anchorage" }
+            "name": {
+              "name": "Anchorage"
+            }
           }
         ],
         "hexes": ["B3"]
@@ -627,7 +648,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Hazelton" }
+            "name": {
+              "name": "Hazelton"
+            }
           }
         ],
         "hexes": ["C10"]
@@ -777,7 +800,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": { "name": "Seattle" }
+            "name": {
+              "name": "Seattle"
+            }
           }
         ],
         "hexes": ["E10"]
@@ -818,12 +843,16 @@
         "color": "yellow",
         "cities": [
           {
-            "name": { "name": "" },
+            "name": {
+              "name": ""
+            },
             "angle": 180,
             "percent": 0.5
           },
           {
-            "name": { "name": "" },
+            "name": {
+              "name": ""
+            },
             "angle": 60,
             "percent": 0.5
           }

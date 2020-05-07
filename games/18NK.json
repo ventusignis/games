@@ -55,36 +55,91 @@
     "X02": {
       "quantity": 3,
       "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 50
+        }
+      ],
       "centerTowns": [{}],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
     },
     "X03": {
       "quantity": 3,
       "color": "brown",
       "centerTowns": [{}],
-      "values": [{ "value": 60, "angle": 210, "percent": 0.8 }],
+      "values": [
+        {
+          "value": 60,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "X04": {
       "quantity": 3,
       "color": "gray",
       "centerTowns": [{}],
-      "values": [{ "value": 80, "angle": 210, "percent": 0.8 }],
+      "values": [
+        {
+          "value": 80,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     }
   }

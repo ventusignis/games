@@ -88,56 +88,72 @@
       "abbrev": "KE",
       "color": "pink",
       "tokens": "four",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Kaiser Franz Joseph-Bahn",
       "abbrev": "FJ",
       "color": "brown",
       "tokens": "three",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Südbahn",
       "abbrev": "SD",
       "color": "orange",
       "tokens": "four",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Kronprinz Rudolf-Bahn",
       "abbrev": "KR",
       "color": "brightGreen",
       "tokens": "four",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Kärntner Bahn",
       "abbrev": "KT",
       "color": "white",
       "tokens": "three",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Salzburger Bahn",
       "abbrev": "SB",
       "color": "red",
       "tokens": "three",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Nordtiroler Staatsbahn",
       "abbrev": "NT",
       "color": "lightBlue",
       "tokens": "four",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Vorarlberger Bahn",
       "abbrev": "VB",
       "color": "yellow",
       "tokens": "three",
-      "token": { "bar": true }
+      "token": {
+        "bar": true
+      }
     },
     {
       "name": "Mariazellerbahn",
@@ -146,7 +162,9 @@
       "color": "black",
       "tokens": "local",
       "shares": "local",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "Kernhofer",
@@ -155,7 +173,9 @@
       "color": "black",
       "tokens": "local",
       "shares": "local",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "Ybbstaler",
@@ -164,7 +184,9 @@
       "color": "black",
       "tokens": "local",
       "shares": "local",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "Steyrtalbahn",
@@ -173,7 +195,9 @@
       "color": "black",
       "tokens": "local",
       "shares": "local",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "Phyrnbahn",
@@ -182,7 +206,9 @@
       "color": "black",
       "tokens": "local",
       "shares": "local",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "Salzkammergutbahn",
@@ -191,7 +217,9 @@
       "color": "black",
       "tokens": "local",
       "shares": "local",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "A",
@@ -199,7 +227,9 @@
       "color": "black",
       "tokens": "localMajor",
       "shares": "localMajor",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "B",
@@ -207,7 +237,9 @@
       "color": "black",
       "tokens": "localMajor",
       "shares": "localMajor",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     },
     {
       "name": "C",
@@ -215,7 +247,9 @@
       "color": "black",
       "tokens": "localMajor",
       "shares": "localMajor",
-      "token": { "circle": true }
+      "token": {
+        "circle": true
+      }
     }
   ],
   "trains": [
@@ -225,12 +259,7 @@
       "price": 100,
       "color": "yellow",
       "image": "2T",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
@@ -238,12 +267,7 @@
       "price": 200,
       "color": "green",
       "image": "3T",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
@@ -251,64 +275,35 @@
       "price": 320,
       "color": "green",
       "image": "4T",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 530,
       "color": "brown",
-      "image": "5T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "image": "5T"
     },
     {
       "name": "6",
       "quantity": 2,
       "price": 670,
       "color": "brown",
-      "image": "6T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "image": "6T"
     },
     {
       "name": "8",
       "quantity": 5,
       "price": 900,
       "color": "gray",
-      "image": "Diesel",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "image": "Diesel"
     },
     {
       "name": "8OE",
       "quantity": 5,
       "price": 1000,
       "color": "gray",
-      "image": "Diesel",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "image": "Diesel"
     },
     {
       "name": "1+",
@@ -316,12 +311,7 @@
       "price": 80,
       "color": "yellow",
       "image": "2T",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "2+",
@@ -329,12 +319,7 @@
       "price": 80,
       "color": "green",
       "image": "3T",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 5"
-        }
-      ]
+      "rust": "5"
     },
     {
       "name": "3+",
@@ -342,12 +327,7 @@
       "price": 160,
       "color": "green",
       "image": "4T",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     }
   ],
   "privates": [
@@ -356,7 +336,10 @@
       "name": "Auẞergernbahn",
       "price": 20,
       "revenue": 5,
-      "token": { "icon": "mountain", "color": "mountain" },
+      "token": {
+        "icon": "mountain",
+        "color": "mountain"
+      },
       "description": "Building on a mountain is 20G cheaper."
     },
     {
@@ -364,7 +347,10 @@
       "name": "Murtalbahn",
       "price": 50,
       "revenue": 10,
-      "token": { "icon": "tunnel", "color": "tunnel" },
+      "token": {
+        "icon": "tunnel",
+        "color": "tunnel"
+      },
       "description": "Building a tunnel is 40G cheaper."
     },
     {
@@ -433,16 +419,14 @@
       "name": "2",
       "train": "1+",
       "minor": true,
-      "limit": "2",
-      "number": "6",
+      "limit": 2,
       "tiles": "yellow"
     },
     {
       "name": "3",
       "train": "2+/3+",
       "minor": true,
-      "limit": "2",
-      "number": "4/3",
+      "limit": 2,
       "tiles": "green",
       "notes": "Trains may be traded between companies. 2+ trains may now be bought. When the last 2+ train is sold the 3+ trains are available."
     },
@@ -450,70 +434,54 @@
       "name": "4",
       "train": "2+/3+",
       "minor": true,
-      "rust": "1+",
-      "limit": "1",
-      "number": "4/3",
+      "limit": 1,
       "tiles": "green"
     },
     {
       "name": "5",
       "train": "3+",
       "minor": true,
-      "limit": "1",
-      "rust": "2+",
-      "number": "3",
+      "limit": 1,
       "tiles": "brown",
       "notes": "Local railways have the option to merge or close (or keep operating)."
     },
     {
       "name": "2",
       "train": "2T",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
       "tiles": "yellow"
     },
     {
       "name": "3",
       "train": "3T",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "tiles": "green",
       "notes": "Trains may be traded between companies."
     },
     {
       "name": "4",
       "train": "4T",
-      "limit": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
       "tiles": "green"
     },
     {
       "name": "5",
       "train": "5T",
-      "limit": "4",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Mountain railwyas are closed. Local railways have the option to merge or close (or keep operating). Medium sized cities can upgrade."
     },
     {
       "name": "6",
       "train": "6T",
-      "limit": "4",
-      "rust": "3",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Local railways must either merge or close."
     },
     {
       "name": "8",
       "train": "8T/8OE",
-      "rust": "4",
-      "limit": "2",
-      "number": "5/5",
+      "limit": 2,
       "tiles": "gray"
     }
   ],
@@ -1027,11 +995,6 @@
     "7": 4,
     "8": 9,
     "9": 5,
-    "55": 2,
-    "56": 2,
-    "57": 2,
-    "58": 6,
-    "69": 2,
     "16": 1,
     "17": 1,
     "18": 1,
@@ -1048,31 +1011,6 @@
     "29": 1,
     "30": 1,
     "31": 1,
-    "433": {
-      "color": "green",
-      "values": [{ "value": 50, "angle": 180, "percent": 0.2 }],
-      "labels": [{ "label": "W", "percent": 0.2 }],
-      "cities": [
-        { "percent": 0.8 },
-        { "angle": 60, "percent": 0.8, "companies": ["SD"] },
-        { "angle": 120, "percent": 0.8, "companies": ["KE"] },
-        { "angle": 180, "percent": 0.8, "companies": ["FJ"] },
-        { "angle": 240, "percent": 0.8 }
-      ]
-    },
-    "441": 3,
-    "442": 3,
-    "443": 2,
-    "444": 3,
-    "457": 2,
-    "458": 1,
-    "459": 1,
-    "460": 1,
-    "461": 1,
-    "462": 1,
-    "463": 1,
-    "464": 1,
-
     "39": 1,
     "40": 1,
     "41": 1,
@@ -1082,7 +1020,17 @@
     "45": 1,
     "46": 1,
     "47": 1,
+    "55": 2,
+    "56": 2,
+    "57": 2,
+    "58": 6,
+    "69": 2,
     "70": 1,
+    "433": 1,
+    "441": 3,
+    "442": 3,
+    "443": 2,
+    "444": 3,
     "448": 3,
     "449": 2,
     "450": 2,
@@ -1130,7 +1078,6 @@
         { "side": 6 }
       ]
     },
-
     "467": 4,
     "468": 5,
     "469": 4
@@ -1145,69 +1092,156 @@
       "hexes": [
         {
           "color": "gray",
-          "track": [{ "side": 6 }],
-          "cities": [{ "name": { "name": "Paris" } }],
-          "values": [{ "value": 90, "angle": 300, "percent": 0.667 }],
+          "track": [
+            {
+              "side": 6
+            }
+          ],
+          "cities": [
+            {
+              "name": {
+                "name": "Paris"
+              }
+            }
+          ],
+          "values": [
+            {
+              "value": 90,
+              "angle": 300,
+              "percent": 0.667
+            }
+          ],
           "hexes": ["D2"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 3 }],
-          "cities": [{ "name": { "name": "Konstantinopel", "reverse": true } }],
-          "values": [{ "value": 70, "angle": 120, "percent": 0.667 }],
+          "track": [
+            {
+              "side": 3
+            }
+          ],
+          "cities": [
+            {
+              "name": {
+                "name": "Konstantinopel",
+                "reverse": true
+              }
+            }
+          ],
+          "values": [
+            {
+              "value": 70,
+              "angle": 120,
+              "percent": 0.667
+            }
+          ],
           "hexes": ["F26"]
         },
         {
           "color": "gray",
           "track": [
-            { "side": 4, "type": "gentle" },
-            { "side": 5, "type": "sharp" }
+            {
+              "side": 4,
+              "type": "gentle"
+            },
+            {
+              "side": 5,
+              "type": "sharp"
+            }
           ],
-          "values": [{ "value": -10, "angle": 270, "percent": 0.667 }],
+          "values": [
+            {
+              "value": -10,
+              "angle": 270,
+              "percent": 0.667
+            }
+          ],
           "hexes": ["E7"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 5, "type": "sharp" }],
+          "track": [
+            {
+              "side": 5,
+              "type": "sharp"
+            }
+          ],
           "hexes": ["A21"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 4, "type": "sharp" }],
+          "track": [
+            {
+              "side": 4,
+              "type": "sharp"
+            }
+          ],
           "towns": [
             {
-              "name": { "name": "Braunau" },
+              "name": {
+                "name": "Braunau"
+              },
               "rotation": -150,
               "angle": 300,
               "percent": 0.57735
             }
           ],
-          "values": [{ "value": 10, "angle": 120, "percent": 0.2 }],
+          "values": [
+            {
+              "value": 10,
+              "angle": 120,
+              "percent": 0.2
+            }
+          ],
           "hexes": ["C13"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 2, "type": "gentle" }],
+          "track": [
+            {
+              "side": 2,
+              "type": "gentle"
+            }
+          ],
           "towns": [
             {
-              "name": { "name": "Lienz" },
+              "name": {
+                "name": "Lienz"
+              },
               "rotation": -60,
               "angle": 210,
               "percent": 0.275
             }
           ],
-          "values": [{ "value": 10, "angle": 30, "percent": 0.2 }],
+          "values": [
+            {
+              "value": 10,
+              "angle": 30,
+              "percent": 0.2
+            }
+          ],
           "hexes": ["H12"]
         },
         {
           "color": "offboard",
           "track": [
-            { "type": "offboard", "side": 3 },
-            { "type": "offboard", "side": 4 },
-            { "type": "offboard", "side": 5 }
+            {
+              "type": "offboard",
+              "side": 3
+            },
+            {
+              "type": "offboard",
+              "side": 4
+            },
+            {
+              "type": "offboard",
+              "side": 5
+            }
           ],
           "offBoardRevenue": {
-            "name": { "name": "Zürich" },
+            "name": {
+              "name": "Zürich"
+            },
             "angle": 90,
             "percent": 0.225,
             "revenues": [
@@ -1234,11 +1268,19 @@
         {
           "color": "offboard",
           "track": [
-            { "type": "offboard", "side": 2 },
-            { "type": "offboard", "side": 4 }
+            {
+              "type": "offboard",
+              "side": 2
+            },
+            {
+              "type": "offboard",
+              "side": 4
+            }
           ],
           "offBoardRevenue": {
-            "name": { "name": "Bozen" },
+            "name": {
+              "name": "Bozen"
+            },
             "angle": 90,
             "percent": 0.225,
             "revenues": [
@@ -1265,13 +1307,32 @@
         {
           "color": "offboard",
           "track": [
-            { "side": 4, "type": "gentle" },
-            { "side": 5, "type": "city" },
-            { "type": "offboard", "side": 5, "angle": 150, "percent": 1 }
+            {
+              "side": 4,
+              "type": "gentle"
+            },
+            {
+              "side": 5,
+              "type": "city"
+            },
+            {
+              "type": "offboard",
+              "side": 5,
+              "angle": 150,
+              "percent": 1
+            }
           ],
-          "values": [{ "value": -10, "angle": 30, "percent": 0.667 }],
+          "values": [
+            {
+              "value": -10,
+              "angle": 30,
+              "percent": 0.667
+            }
+          ],
           "offBoardRevenue": {
-            "name": { "name": "München" },
+            "name": {
+              "name": "München"
+            },
             "angle": 180,
             "percent": 0.6,
             "revenues": [
@@ -1297,9 +1358,16 @@
         },
         {
           "color": "offboard",
-          "track": [{ "side": 1, "type": "offboard" }],
+          "track": [
+            {
+              "side": 1,
+              "type": "offboard"
+            }
+          ],
           "offBoardRevenue": {
-            "name": { "name": "Laibach" },
+            "name": {
+              "name": "Laibach"
+            },
             "angle": 270,
             "percent": 0.225,
             "revenues": [
@@ -1325,9 +1393,16 @@
         },
         {
           "color": "offboard",
-          "track": [{ "side": 5, "type": "offboard" }],
+          "track": [
+            {
+              "side": 5,
+              "type": "offboard"
+            }
+          ],
           "offBoardRevenue": {
-            "name": { "name": "Prag" },
+            "name": {
+              "name": "Prag"
+            },
             "revenues": [
               {
                 "color": "yellow",
@@ -1351,7 +1426,12 @@
         },
         {
           "color": "offboard",
-          "track": [{ "side": 1, "type": "offboard" }],
+          "track": [
+            {
+              "side": 1,
+              "type": "offboard"
+            }
+          ],
           "removeBorders": [6],
           "hexes": ["D28"]
         },
@@ -1359,11 +1439,19 @@
           "color": "offboard",
           "removeBorders": [3],
           "track": [
-            { "side": 2, "type": "offboard" },
-            { "side": 6, "type": "offboard" }
+            {
+              "side": 2,
+              "type": "offboard"
+            },
+            {
+              "side": 6,
+              "type": "offboard"
+            }
           ],
           "offBoardRevenue": {
-            "name": { "name": "Budapest" },
+            "name": {
+              "name": "Budapest"
+            },
             "revenues": [
               {
                 "color": "yellow",
@@ -1387,9 +1475,16 @@
         },
         {
           "color": "offboard",
-          "track": [{ "side": 5, "type": "offboard" }],
+          "track": [
+            {
+              "side": 5,
+              "type": "offboard"
+            }
+          ],
           "offBoardRevenue": {
-            "name": { "name": "Brünn" },
+            "name": {
+              "name": "Brünn"
+            },
             "revenues": [
               {
                 "color": "yellow",
@@ -1413,9 +1508,16 @@
         },
         {
           "color": "offboard",
-          "track": [{ "side": 1, "type": "offboard" }],
+          "track": [
+            {
+              "side": 1,
+              "type": "offboard"
+            }
+          ],
           "offBoardRevenue": {
-            "name": { "name": "Preẞburg" },
+            "name": {
+              "name": "Preẞburg"
+            },
             "angle": 270,
             "percent": 0.225,
             "revenues": [
@@ -1442,24 +1544,48 @@
         {
           "color": "yellow",
           "cities": [
-            { "companies": ["FJ"], "angle": 180, "percent": 0.6 },
+            {
+              "companies": ["FJ"],
+              "angle": 180,
+              "percent": 0.6
+            },
             {
               "companies": ["KE"],
               "angle": 90,
               "percent": 0.6,
-              "name": { "name": "Wien" }
+              "name": {
+                "name": "Wien"
+              }
             },
             {
               "companies": ["SD"],
               "percent": 0.6,
-              "name": { "offset": 60, "name": "Vienna" }
+              "name": {
+                "offset": 60,
+                "name": "Vienna"
+              }
             }
           ],
-          "values": [{ "value": 40, "angle": 270, "percent": 0.667 }],
+          "values": [
+            {
+              "value": 40,
+              "angle": 270,
+              "percent": 0.667
+            }
+          ],
           "track": [
-            { "side": 1, "type": "stop" },
-            { "side": 2, "type": "sharpStop" },
-            { "side": 6, "type": "sharpStopRev" }
+            {
+              "side": 1,
+              "type": "stop"
+            },
+            {
+              "side": 2,
+              "type": "sharpStop"
+            },
+            {
+              "side": 6,
+              "type": "sharpStopRev"
+            }
           ],
           "hexes": ["C23"]
         },
@@ -1467,11 +1593,20 @@
           "color": "plain",
           "centerTowns": [
             {
-              "name": { "name": "Feldkirch", "reverse": true },
+              "name": {
+                "name": "Feldkirch",
+                "reverse": true
+              },
               "angle": 90,
               "percent": 0.4
             },
-            { "name": { "name": "Dornbirn" }, "angle": 270, "percent": 0.4 }
+            {
+              "name": {
+                "name": "Dornbirn"
+              },
+              "angle": 270,
+              "percent": 0.4
+            }
           ],
           "hexes": ["F2"]
         },
@@ -1479,28 +1614,63 @@
           "color": "plain",
           "centerTowns": [
             {
-              "name": { "name": "Leoben", "reverse": true },
+              "name": {
+                "name": "Leoben",
+                "reverse": true
+              },
               "angle": 120,
               "percent": 0.5
             },
-            { "name": { "name": "Kapfenberg" }, "angle": 240, "percent": 0.5 }
+            {
+              "name": {
+                "name": "Kapfenberg"
+              },
+              "angle": 240,
+              "percent": 0.5
+            }
           ],
-          "terrain": [{ "type": "mountain", "cost": 120, "percent": 0.5 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 120,
+              "percent": 0.5
+            }
+          ],
           "hexes": ["E21"]
         },
         {
           "color": "plain",
           "centerTowns": [
             {
-              "name": { "name": "Mödling", "reverse": true },
+              "name": {
+                "name": "Mödling",
+                "reverse": true
+              },
               "angle": 120,
               "percent": 0.5
             },
-            { "name": { "name": "Baden" }, "angle": 240, "percent": 0.5 }
+            {
+              "name": {
+                "name": "Baden"
+              },
+              "angle": 240,
+              "percent": 0.5
+            }
           ],
-          "terrain": [{ "type": "mountain", "cost": 50, "percent": 0.5 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 50,
+              "percent": 0.5
+            }
+          ],
           "tokens": [
-            { "company": "SD", "width": 10, "angle": 180, "percent": 0.8 }
+            {
+              "company": "SD",
+              "width": 10,
+              "angle": 180,
+              "percent": 0.8
+            }
           ],
           "hexes": ["D22"]
         },
@@ -1508,240 +1678,569 @@
           "color": "plain",
           "centerTowns": [
             {
-              "name": { "name": "Krems", "reverse": true },
+              "name": {
+                "name": "Krems",
+                "reverse": true
+              },
               "angle": 120,
               "percent": 0.5
             },
-            { "name": { "name": "Tulin" }, "angle": 240, "percent": 0.5 }
+            {
+              "name": {
+                "name": "Tulin"
+              },
+              "angle": 240,
+              "percent": 0.5
+            }
           ],
           "tokens": [
-            { "company": "KE", "width": 10, "angle": 180, "percent": 0.8 }
+            {
+              "company": "KE",
+              "width": 10,
+              "angle": 180,
+              "percent": 0.8
+            }
           ],
-          "terrain": [{ "type": "river", "cost": 50, "percent": 0.5 }],
+          "terrain": [
+            {
+              "type": "river",
+              "cost": 50,
+              "percent": 0.5
+            }
+          ],
           "hexes": ["C21"]
         },
         {
           "color": "plain",
-          "centerTowns": [{ "name": { "name": "Eisenstadt" } }],
+          "centerTowns": [
+            {
+              "name": {
+                "name": "Eisenstadt"
+              }
+            }
+          ],
           "hexes": ["D26"]
         },
         {
           "color": "plain",
-          "centerTowns": [{ "name": { "name": "Oberwart" } }],
+          "centerTowns": [
+            {
+              "name": {
+                "name": "Oberwart"
+              }
+            }
+          ],
           "hexes": ["F24"]
         },
         {
           "color": "plain",
-          "mediumCities": [{ "name": { "name": "Wels" } }],
+          "mediumCities": [
+            {
+              "name": {
+                "name": "Wels"
+              }
+            }
+          ],
           "hexes": ["D16"]
         },
         {
           "color": "plain",
-          "mediumCities": [{ "name": { "name": "Steyr" } }],
+          "mediumCities": [
+            {
+              "name": {
+                "name": "Steyr"
+              }
+            }
+          ],
           "hexes": ["D18"]
         },
         {
           "color": "plain",
-          "mediumCities": [{ "name": { "name": "Sankt Pölten" } }],
+          "mediumCities": [
+            {
+              "name": {
+                "name": "Sankt Pölten"
+              }
+            }
+          ],
           "hexes": ["D20"]
         },
         {
           "color": "plain",
-          "mediumCities": [{ "name": { "name": "Wiener Neustadt" } }],
+          "mediumCities": [
+            {
+              "name": {
+                "name": "Wiener Neustadt"
+              }
+            }
+          ],
           "hexes": ["D24"]
         },
         {
           "color": "plain",
-          "centerTowns": [{ "name": { "name": "Ried" } }],
+          "centerTowns": [
+            {
+              "name": {
+                "name": "Ried"
+              }
+            }
+          ],
           "hexes": ["C15"]
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Graz" } }],
+          "cities": [
+            {
+              "name": {
+                "name": "Graz"
+              }
+            }
+          ],
           "hexes": ["F22"]
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Bregenz" }, "companies": ["VB"] }],
+          "cities": [
+            {
+              "name": {
+                "name": "Bregenz"
+              },
+              "companies": ["VB"]
+            }
+          ],
           "hexes": ["E3"]
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Innsbruck" }, "companies": ["NT"] }],
+          "cities": [
+            {
+              "name": {
+                "name": "Innsbruck"
+              },
+              "companies": ["NT"]
+            }
+          ],
           "hexes": ["F8"]
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Salzburg" }, "companies": ["SB"] }],
+          "cities": [
+            {
+              "name": {
+                "name": "Salzburg"
+              },
+              "companies": ["SB"]
+            }
+          ],
           "hexes": ["E13"]
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Klagenfurt" }, "companies": ["KT"] }],
+          "cities": [
+            {
+              "name": {
+                "name": "Klagenfurt"
+              },
+              "companies": ["KT"]
+            }
+          ],
           "hexes": ["H18"]
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Linz" }, "companies": ["KR"] }],
+          "cities": [
+            {
+              "name": {
+                "name": "Linz"
+              },
+              "companies": ["KR"]
+            }
+          ],
           "hexes": ["C17"]
         },
         {
           "color": "plain",
           "companies": [
-            { "label": "Auẞergernbahn", "angle": 180, "percent": 0.4 }
+            {
+              "label": "Auẞergernbahn",
+              "angle": 180,
+              "percent": 0.4
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 100 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 100
+            }
+          ],
           "hexes": ["E5"]
         },
         {
           "color": "plain",
           "companies": [
-            { "label": "Aribergbahn", "angle": 180, "percent": 0.4 }
+            {
+              "label": "Aribergbahn",
+              "angle": 180,
+              "percent": 0.4
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 120 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 120
+            }
+          ],
           "hexes": ["F4"]
         },
         {
           "color": "plain",
           "companies": [
-            { "label": "Murtalbahn", "angle": 180, "percent": 0.4 }
+            {
+              "label": "Murtalbahn",
+              "angle": 180,
+              "percent": 0.4
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 100 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 100
+            }
+          ],
           "hexes": ["F16"]
         },
         {
           "color": "plain",
           "companies": [
-            { "label": "Graz-Köflacher Bahn", "angle": 180, "percent": 0.4 }
+            {
+              "label": "Graz-Köflacher Bahn",
+              "angle": 180,
+              "percent": 0.4
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 90 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 90
+            }
+          ],
           "hexes": ["F20"]
         },
         {
           "color": "plain",
           "companies": [
-            { "label": "Semmeringbahn", "angle": 180, "percent": 0.4 }
+            {
+              "label": "Semmeringbahn",
+              "angle": 180,
+              "percent": 0.4
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 70 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 70
+            }
+          ],
           "hexes": ["E23"]
         },
         {
           "color": "plain",
           "centerTowns": [
-            { "name": { "name": "Landeck" }, "angle": 180, "percent": 0.3 }
+            {
+              "name": {
+                "name": "Landeck"
+              },
+              "angle": 180,
+              "percent": 0.3
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 80 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 80
+            }
+          ],
           "hexes": ["F6"]
         },
         {
           "color": "plain",
           "mediumCities": [
-            { "name": { "name": "Wörgl" }, "angle": 180, "percent": 0.3 }
+            {
+              "name": {
+                "name": "Wörgl"
+              },
+              "angle": 180,
+              "percent": 0.3
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 80 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 80
+            }
+          ],
           "hexes": ["F10"]
         },
         {
           "color": "plain",
           "mediumCities": [
-            { "name": { "name": "Bludenz" }, "angle": 180, "percent": 0.3 }
+            {
+              "name": {
+                "name": "Bludenz"
+              },
+              "angle": 180,
+              "percent": 0.3
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 80 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 80
+            }
+          ],
           "hexes": ["G3"]
         },
         {
           "color": "plain",
           "mediumCities": [
-            { "name": { "name": "Spital" }, "angle": 180, "percent": 0.3 }
+            {
+              "name": {
+                "name": "Spital"
+              },
+              "angle": 180,
+              "percent": 0.3
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 80 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 80
+            }
+          ],
           "hexes": ["G15"]
         },
         {
           "color": "plain",
-          "mediumCities": [{ "name": { "name": "Stockerau" } }],
-          "terrain": [{ "type": "mountain", "percent": 0.7, "cost": 50 }],
+          "mediumCities": [
+            {
+              "name": {
+                "name": "Stockerau"
+              }
+            }
+          ],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.7,
+              "cost": 50
+            }
+          ],
           "tokens": [
-            { "company": "FJ", "width": 10, "angle": 180, "percent": 0.8 }
+            {
+              "company": "FJ",
+              "width": 10,
+              "angle": 180,
+              "percent": 0.8
+            }
           ],
           "hexes": ["B22"]
         },
         {
           "color": "plain",
           "mediumCities": [
-            { "name": { "name": "Villach" }, "angle": 180, "percent": 0.3 }
+            {
+              "name": {
+                "name": "Villach"
+              },
+              "angle": 180,
+              "percent": 0.3
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 70 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 70
+            }
+          ],
           "hexes": ["H16"]
         },
         {
           "color": "plain",
           "centerTowns": [
-            { "name": { "name": "Freistadt" }, "angle": 180, "percent": 0.3 }
+            {
+              "name": {
+                "name": "Freistadt"
+              },
+              "angle": 180,
+              "percent": 0.3
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 50 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 50
+            }
+          ],
           "hexes": ["B18"]
         },
         {
           "color": "plain",
           "centerTowns": [
-            { "name": { "name": "Kufstein" }, "angle": 180, "percent": 0.3 }
+            {
+              "name": {
+                "name": "Kufstein"
+              },
+              "angle": 180,
+              "percent": 0.3
+            }
           ],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 70 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 70
+            }
+          ],
           "hexes": ["E11"]
         },
         {
           "color": "plain",
-          "centerTowns": [{ "angle": 180, "percent": 0.3 }],
-          "terrain": [{ "type": "river", "percent": 0.4, "cost": 50 }],
+          "centerTowns": [
+            {
+              "angle": 180,
+              "percent": 0.3
+            }
+          ],
+          "terrain": [
+            {
+              "type": "river",
+              "percent": 0.4,
+              "cost": 50
+            }
+          ],
           "hexes": ["C19"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "river", "cost": 50 }],
+          "terrain": [
+            {
+              "type": "river",
+              "cost": 50
+            }
+          ],
           "hexes": ["C25"]
         },
         {
           "color": "tunnel",
-          "terrain": [{ "type": "tunnel", "angle": 180, "percent": 0.6 }],
-          "towns": [{ "rotation": -90, "name": { "name": "Mauterndorf" } }],
-          "values": [{ "value": 10, "angle": 90, "percent": 0.5 }],
-          "track": [{ "side": 4 }],
+          "terrain": [
+            {
+              "type": "tunnel",
+              "angle": 180,
+              "percent": 0.6
+            }
+          ],
+          "towns": [
+            {
+              "rotation": -90,
+              "name": {
+                "name": "Mauterndorf"
+              }
+            }
+          ],
+          "values": [
+            {
+              "value": 10,
+              "angle": 90,
+              "percent": 0.5
+            }
+          ],
+          "track": [
+            {
+              "side": 4
+            }
+          ],
           "hexes": ["F14"]
         },
         {
           "color": "tunnel",
-          "terrain": [{ "type": "tunnel", "angle": 180, "percent": 0.6 }],
+          "terrain": [
+            {
+              "type": "tunnel",
+              "angle": 180,
+              "percent": 0.6
+            }
+          ],
           "hexes": ["G5", "G7", "G11", "G13", "G17", "F12", "F18"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 50 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 50
+            }
+          ],
           "hexes": ["B20"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 60 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 60
+            }
+          ],
           "hexes": ["B16"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 70 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 70
+            }
+          ],
           "hexes": ["D14"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 80 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 80
+            }
+          ],
           "hexes": ["E9", "H14"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 90 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 90
+            }
+          ],
           "hexes": ["E15", "E19"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 100 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 100
+            }
+          ],
           "hexes": ["E17"]
         },
         {
@@ -1779,81 +2278,180 @@
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Amstetten" } }],
+          "cities": [
+            {
+              "name": {
+                "name": "Amstetten"
+              }
+            }
+          ],
           "hexes": ["B7"]
         },
         {
           "color": "plain",
-          "centerTowns": [{ "angle": 180, "percent": 0.3 }],
-          "terrain": [{ "type": "water", "percent": 0.4, "cost": 50 }],
+          "centerTowns": [
+            {
+              "angle": 180,
+              "percent": 0.3
+            }
+          ],
+          "terrain": [
+            {
+              "type": "water",
+              "percent": 0.4,
+              "cost": 50
+            }
+          ],
           "hexes": ["C6"]
         },
         {
           "color": "plain",
-          "centerTowns": [{ "angle": 180, "percent": 0.3 }],
-          "terrain": [{ "type": "mountain", "percent": 0.4, "cost": 60 }],
+          "centerTowns": [
+            {
+              "angle": 180,
+              "percent": 0.3
+            }
+          ],
+          "terrain": [
+            {
+              "type": "mountain",
+              "percent": 0.4,
+              "cost": 60
+            }
+          ],
           "hexes": ["D3", "D9", "C12"]
         },
         {
           "color": "plain",
           "centerTowns": [
-            { "angle": 90, "percent": 0.4 },
-            { "angle": 270, "percent": 0.4 }
+            {
+              "angle": 90,
+              "percent": 0.4
+            },
+            {
+              "angle": 270,
+              "percent": 0.4
+            }
           ],
           "hexes": ["B3"]
         },
         {
           "color": "plain",
           "centerTowns": [
-            { "angle": 120, "percent": 0.5 },
-            { "angle": 240, "percent": 0.5 }
+            {
+              "angle": 120,
+              "percent": 0.5
+            },
+            {
+              "angle": 240,
+              "percent": 0.5
+            }
           ],
-          "terrain": [{ "type": "mountain", "cost": 80, "percent": 0.5 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 80,
+              "percent": 0.5
+            }
+          ],
           "hexes": ["D5"]
         },
         {
           "color": "plain",
           "centerTowns": [
-            { "angle": 120, "percent": 0.5 },
-            { "angle": 240, "percent": 0.5 }
+            {
+              "angle": 120,
+              "percent": 0.5
+            },
+            {
+              "angle": 240,
+              "percent": 0.5
+            }
           ],
-          "terrain": [{ "type": "mountain", "cost": 50, "percent": 0.5 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 50,
+              "percent": 0.5
+            }
+          ],
           "hexes": ["B9", "C10"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 60 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 60
+            }
+          ],
           "hexes": ["C2", "C4"]
         },
         {
           "color": "plain",
-          "terrain": [{ "type": "mountain", "cost": 70 }],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": 70
+            }
+          ],
           "hexes": ["D11"]
         },
         {
           "color": "plain",
-          "cities": [{ "name": { "name": "Steyr" }, "companies": ["4"] }],
+          "cities": [
+            {
+              "name": {
+                "name": "Steyr"
+              },
+              "companies": ["4"]
+            }
+          ],
           "hexes": ["B5"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 5, "type": "sharp" }],
+          "track": [
+            {
+              "side": 5,
+              "type": "sharp"
+            }
+          ],
           "removeBorders": [1],
           "hexes": ["A4"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 5, "type": "sharp" }],
+          "track": [
+            {
+              "side": 5,
+              "type": "sharp"
+            }
+          ],
           "hexes": ["A10"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 5, "type": "offboard" }],
+          "track": [
+            {
+              "side": 5,
+              "type": "offboard"
+            }
+          ],
           "offBoardRevenue": {
             "revenues": [
-              { "color": "yellow", "value": 10 },
-              { "color": "green", "value": 20 },
-              { "color": "brown", "value": 30 }
+              {
+                "color": "yellow",
+                "value": 10
+              },
+              {
+                "color": "green",
+                "value": 20
+              },
+              {
+                "color": "brown",
+                "value": 30
+              }
             ]
           },
           "removeBorders": [4, 6],
@@ -1861,12 +2459,26 @@
         },
         {
           "color": "gray",
-          "track": [{ "side": 2, "type": "offboard" }],
+          "track": [
+            {
+              "side": 2,
+              "type": "offboard"
+            }
+          ],
           "offBoardRevenue": {
             "revenues": [
-              { "color": "yellow", "value": 10 },
-              { "color": "green", "value": 20 },
-              { "color": "brown", "value": 30 }
+              {
+                "color": "yellow",
+                "value": 10
+              },
+              {
+                "color": "green",
+                "value": 20
+              },
+              {
+                "color": "brown",
+                "value": 30
+              }
             ]
           },
           "removeBorders": [1],
@@ -1874,16 +2486,38 @@
         },
         {
           "color": "gray",
-          "track": [{ "side": 2, "type": "sharp" }],
-          "cities": [{ "companies": ["3"], "angle": 180, "percent": 0.5 }],
+          "track": [
+            {
+              "side": 2,
+              "type": "sharp"
+            }
+          ],
+          "cities": [
+            {
+              "companies": ["3"],
+              "angle": 180,
+              "percent": 0.5
+            }
+          ],
           "offBoardRevenue": {
-            "name": { "name": "Hieflau" },
+            "name": {
+              "name": "Hieflau"
+            },
             "reverse": true,
             "percent": 0.2,
             "revenues": [
-              { "color": "yellow", "value": 10 },
-              { "color": "green", "value": 20 },
-              { "color": "brown", "value": 30 }
+              {
+                "color": "yellow",
+                "value": 10
+              },
+              {
+                "color": "green",
+                "value": 20
+              },
+              {
+                "color": "brown",
+                "value": 30
+              }
             ]
           },
           "removeBorders": [4],
@@ -1891,16 +2525,38 @@
         },
         {
           "color": "gray",
-          "track": [{ "side": 4, "type": "sharp" }],
-          "cities": [{ "companies": ["5"], "angle": 300, "percent": 0.5 }],
+          "track": [
+            {
+              "side": 4,
+              "type": "sharp"
+            }
+          ],
+          "cities": [
+            {
+              "companies": ["5"],
+              "angle": 300,
+              "percent": 0.5
+            }
+          ],
           "offBoardRevenue": {
-            "name": { "name": "Kirchdorf" },
+            "name": {
+              "name": "Kirchdorf"
+            },
             "percent": 0.45,
             "angle": 120,
             "revenues": [
-              { "color": "yellow", "value": 10 },
-              { "color": "green", "value": 20 },
-              { "color": "brown", "value": 30 }
+              {
+                "color": "yellow",
+                "value": 10
+              },
+              {
+                "color": "green",
+                "value": 20
+              },
+              {
+                "color": "brown",
+                "value": 30
+              }
             ]
           },
           "removeBorders": [3],
@@ -1908,53 +2564,116 @@
         },
         {
           "color": "gray",
-          "track": [{ "side": 3, "type": "sharp" }],
+          "track": [
+            {
+              "side": 3,
+              "type": "sharp"
+            }
+          ],
           "cities": [
             {
               "companies": ["6"],
               "angle": 240,
               "percent": 0.5,
-              "name": { "name": "Bad Ischi", "reverse": true, "offset": 33.3 }
+              "name": {
+                "name": "Bad Ischi",
+                "reverse": true,
+                "offset": 33.3
+              }
             }
           ],
-          "values": [{ "value": 20, "angle": 60, "percent": 0.4 }],
+          "values": [
+            {
+              "value": 20,
+              "angle": 60,
+              "percent": 0.4
+            }
+          ],
           "hexes": ["D1"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 2, "type": "sharp" }],
-          "values": [{ "value": 10, "percent": 0.2 }],
-          "towns": [{ "rotation": 90, "angle": 180, "percent": 0.57735 }],
+          "track": [
+            {
+              "side": 2,
+              "type": "sharp"
+            }
+          ],
+          "values": [
+            {
+              "value": 10,
+              "percent": 0.2
+            }
+          ],
+          "towns": [
+            {
+              "rotation": 90,
+              "angle": 180,
+              "percent": 0.57735
+            }
+          ],
           "hexes": ["E4"]
         },
         {
           "color": "gray",
-          "track": [{ "side": 2, "type": "sharp" }],
-          "values": [{ "value": 10, "percent": 0.2 }],
-          "towns": [{ "rotation": 90, "angle": 180, "percent": 0.57735 }],
+          "track": [
+            {
+              "side": 2,
+              "type": "sharp"
+            }
+          ],
+          "values": [
+            {
+              "value": 10,
+              "percent": 0.2
+            }
+          ],
+          "towns": [
+            {
+              "rotation": 90,
+              "angle": 180,
+              "percent": 0.57735
+            }
+          ],
           "removeBorders": [1, 4],
           "hexes": ["E10"]
         },
         {
           "color": "yellow",
-          "values": [{ "value": 20, "percent": 0.5, "angle": 210 }],
+          "values": [
+            {
+              "value": 20,
+              "percent": 0.5,
+              "angle": 210
+            }
+          ],
           "cities": [
             {
               "companies": ["1"],
               "angle": 90,
               "percent": 0.5,
-              "name": { "name": "Sankt" }
+              "name": {
+                "name": "Sankt"
+              }
             },
             {
               "companies": ["2"],
               "angle": 330,
               "percent": 0.5,
-              "name": { "name": "Pölten" }
+              "name": {
+                "name": "Pölten"
+              }
             }
           ],
           "track": [
-            { "side": 1, "type": "stop" },
-            { "side": 5, "type": "stop" }
+            {
+              "side": 1,
+              "type": "stop"
+            },
+            {
+              "side": 5,
+              "type": "stop"
+            }
           ],
           "hexes": ["B11"]
         }

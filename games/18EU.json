@@ -17,24 +17,70 @@
   },
   "tokens": [
     "Round",
-
-    { "label": "£60", "icon": "mountain" },
-    { "label": "£60", "icon": "mountain" },
-    { "label": "£60", "icon": "mountain" },
-    { "label": "£60", "icon": "mountain" },
-    { "label": "£60", "icon": "mountain" },
-    { "label": "£60", "icon": "mountain" },
-    { "label": "£60", "icon": "mountain" },
-    { "label": "£60", "icon": "mountain" },
-
-    { "label": "£120", "icon": "mountain" },
-    { "label": "£120", "icon": "mountain" },
-    { "label": "£120", "icon": "mountain" },
-    { "label": "£120", "icon": "mountain" },
-    { "label": "£120", "icon": "mountain" },
-    { "label": "£120", "icon": "mountain" },
-    { "label": "£120", "icon": "mountain" },
-    { "label": "£120", "icon": "mountain" }
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£60",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    },
+    {
+      "label": "£120",
+      "icon": "mountain"
+    }
   ],
   "ipo": false,
   "bank": 12000,
@@ -221,162 +267,114 @@
     {
       "name": "2",
       "quantity": 15,
-      "price": "£0",
+      "price": 0,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 5,
-      "price": "£200",
+      "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "P",
       "quantity": 5,
-      "price": "£100",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 100,
+      "color": "gray"
     },
     {
       "name": "4",
       "quantity": 4,
-      "price": "£300",
+      "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 3,
-      "price": "£500",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 500,
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 2,
-      "price": "£600",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 600,
+      "color": "brown"
     },
     {
       "name": "8",
       "quantity": 8,
-      "price": "£800",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 800,
+      "color": "brown"
     }
   ],
   "phases": [
     {
       "name": "2",
-      "limit": "4/2",
-      "number": "15",
+      "limit": 4,
       "tiles": "yellow",
       "minor": false
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
       "tiles": "green",
       "notes": "Pullman's are available after first 3T is puchased. Red to Red £10 bonus per station.",
       "minor": false
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3/1",
-      "number": "4",
+      "limit": 3,
       "tiles": "green",
       "minor": false
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
       "tiles": "brown",
       "notes": "Final Exchange Round after ORs finish. Red to Red £20 bonus per station.",
       "minor": false
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
+      "limit": 2,
       "tiles": "brown",
       "minor": false
     },
     {
       "name": "8",
-      "limit": "2",
-      "number": "U",
-      "rust": "4",
+      "limit": 2,
       "tiles": "gray",
       "notes": "Red to Red £30 bonus per station.",
       "minor": false
     },
     {
       "name": "2",
-      "limit": "2",
-      "number": "15",
+      "limit": 2,
+      "tiles": "yellow",
       "notes": "Two yellow lays first OR, one after",
       "minor": true
     },
     {
       "name": "3",
-      "limit": "2",
-      "number": "5",
+      "limit": 2,
+      "tiles": "green",
       "notes": "One yellow lay per OR",
       "minor": true
     },
     {
       "name": "4",
-      "limit": "1",
-      "number": "4",
+      "limit": 1,
+      "tiles": "green",
       "notes": "One yellow lay per OR",
       "minor": true
     },
     {
       "name": "5",
-      "limit": "1",
-      "number": "3",
+      "limit": 1,
+      "tiles": "brown",
       "notes": "Final Exchange Round after ORs finish",
       "minor": true
     }

@@ -565,134 +565,70 @@
     {
       "name": "2",
       "quantity": 7,
-      "price": "£180",
+      "price": 180,
       "color": "yellow",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 5"
-        }
-      ]
+      "rust": "5"
     },
     {
       "name": "3",
       "quantity": 6,
-      "price": "£300",
+      "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 7"
-        }
-      ]
+      "rust": "7"
     },
     {
       "name": "4",
       "quantity": 5,
-      "price": "£430",
-      "color": "green",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 430,
+      "color": "green"
     },
     {
       "name": "5",
       "quantity": 4,
-      "price": "£550",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 550,
+      "color": "brown"
     },
     {
       "name": "3T",
       "quantity": 7,
-      "price": "£370",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 370,
+      "color": "brown"
     },
     {
       "name": "U3",
       "quantity": 5,
-      "price": "£410",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 410,
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 3,
-      "price": "£650",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 650,
+      "color": "gray"
     },
     {
       "name": "4T",
       "quantity": 2,
-      "price": "£480",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 480,
+      "color": "gray"
     },
     {
       "name": "2+2",
       "quantity": 3,
-      "price": "£600",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 600,
+      "color": "gray"
     },
     {
       "name": "7",
       "quantity": 2,
-      "price": "£720",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 720,
+      "color": "gray"
     },
     {
       "name": "4+4E",
       "quantity": 2,
-      "price": "830",
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "price": 830,
+      "color": "gray"
     }
   ],
   "privates": [
@@ -729,98 +665,98 @@
   ],
   "phases": [
     {
-      "phase": "1",
+      "name": "1",
       "train": "2",
-      "limit": "4",
-      "number": "7",
+      "limit": 4,
+      "rounds": 1,
       "tiles": "yellow"
     },
     {
-      "phase": "2",
+      "name": "2",
       "train": "3",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
+      "rounds": 2,
       "tiles": "green"
     },
     {
-      "phase": "2",
+      "name": "2",
       "train": "4",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
+      "rounds": 2,
       "tiles": "green"
     },
     {
-      "phase": "3",
+      "name": "3",
       "train": ["5", "3T", "U3"],
-      "limit": "3",
-      "number": ["4", "7", "5"],
+      "limit": 3,
+      "rounds": 3,
       "tiles": "brown",
       "notes": "3T and U3 available after 5 train is purchased"
     },
     {
-      "phase": "4",
+      "name": "4",
       "train": ["6", "4T", "2+2"],
       "limit": "∞",
-      "number": ["3", "2", "3"],
+      "rounds": 3,
       "tiles": "gray",
       "notes": "4T and 2+2 available after 6 train is purchased"
     },
     {
-      "phase": "4",
+      "name": "4",
       "train": ["7", "4+4E"],
       "limit": "∞",
-      "number": ["2", "2"],
+      "rounds": 3,
       "tiles": "gray",
       "notes": "4+4E available after 7 train is purchased"
     },
     {
       "minor": true,
-      "phase": "1",
+      "name": "1",
       "train": "2",
-      "limit": "4",
-      "number": "7",
+      "limit": 4,
+      "rounds": 1,
       "tiles": "yellow"
     },
     {
       "minor": true,
-      "phase": "2",
+      "name": "2",
       "train": "3",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "minor": true,
-      "phase": "2",
+      "name": "2",
       "train": "4",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "minor": true,
-      "phase": "3",
+      "name": "3",
       "train": ["5", "3T", "U3"],
-      "limit": "3",
-      "number": ["4", "7", "5"],
+      "limit": 3,
+      "rounds": 3,
       "tiles": "brown",
       "notes": "3T and U3 available after 5 train is purchased"
     },
     {
       "minor": true,
-      "phase": "4",
+      "name": "4",
       "train": ["6", "4T", "2+2"],
       "limit": "∞",
-      "number": ["3", "2", "3"],
+      "rounds": 3,
       "tiles": "gray",
       "notes": "4T and 2+2 available after 6 train is purchased"
     },
     {
       "minor": true,
-      "phase": "4",
+      "name": "4",
       "train": ["7", "4+4E"],
       "limit": "∞",
-      "number": ["2", "2"],
+      "rounds": 3,
       "tiles": "gray",
       "notes": "4+4E available after 7 train is purchased"
     }
@@ -1103,11 +1039,6 @@
     "58": 5,
     "60": 2,
     "63": 2,
-    "64|25": { "tile": 1064, "quantity": 2 },
-    "65|25": { "tile": 1065, "quantity": 2 },
-    "66|25": { "tile": 1066, "quantity": 4 },
-    "67|25": { "tile": 1067, "quantity": 3 },
-    "68|25": { "tile": 1068, "quantity": 2 },
     "69": 3,
     "71": 1,
     "72": 4,
@@ -1116,18 +1047,51 @@
     "77": 5,
     "78": 9,
     "79": 9,
-    "81C": 1,
-    "82C": 1,
-    "83C": 1,
     "87": 2,
     "88": 2,
     "115": 4,
     "118": 1,
     "119": 3,
     "166": 4,
-    "114|25": { "tile": 632, "quantity": 1 },
-    "167|25": { "tile": 1167, "quantity": 4 },
-    "168|25": { "tile": 1168, "quantity": 2 },
+    "205": 3,
+    "206": 4,
+    "887": 5,
+    "888": 5,
+    "64|25": {
+      "tile": 1064,
+      "quantity": 2
+    },
+    "65|25": {
+      "tile": 1065,
+      "quantity": 2
+    },
+    "66|25": {
+      "tile": 1066,
+      "quantity": 4
+    },
+    "67|25": {
+      "tile": 1067,
+      "quantity": 3
+    },
+    "68|25": {
+      "tile": 1068,
+      "quantity": 2
+    },
+    "81C": 1,
+    "82C": 1,
+    "83C": 1,
+    "114|25": {
+      "tile": 632,
+      "quantity": 1
+    },
+    "167|25": {
+      "tile": 1167,
+      "quantity": 4
+    },
+    "168|25": {
+      "tile": 1168,
+      "quantity": 2
+    },
     "174|25": {
       "quantity": 2,
       "color": "brown",
@@ -1168,12 +1132,14 @@
         }
       ]
     },
-    "200|25": { "tile": 1200, "quantity": 2 },
-    "205": 3,
-    "206": 4,
-    "887": 5,
-    "888": 5,
-    "DB801": { "tile": 8871, "quantity": 2 },
+    "200|25": {
+      "tile": 1200,
+      "quantity": 2
+    },
+    "DB801": {
+      "tile": 8871,
+      "quantity": 2
+    },
     "32|Met": {
       "quantity": 1,
       "color": "brown",
@@ -2903,7 +2869,7 @@
           {
             "label": "L&M",
             "angle": 270,
-            "percent": 1.0,
+            "percent": 1,
             "left": 10,
             "right": 10,
             "bottom": true,
