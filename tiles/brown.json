@@ -17,29 +17,29 @@
     "labels": [
       {
         "label": "L",
-        "angle": 215,
+        "angle": 265,
         "percent": 0.8
       }
     ],
     "values": [
       {
-        "angle": 250,
-        "percent": 0.667,
+        "angle": 210,
+        "percent": 0.8,
         "value": 50
       }
     ],
     "cities": [
       {
-        "angle": -45,
+        "angle": -40,
         "percent": 0.5
       },
       {
         "angle": 60,
-        "percent": 0.5
+        "percent": 0.55
       },
       {
-        "angle": 165,
-        "percent": 0.55
+        "angle": 160,
+        "percent": 0.5
       }
     ],
     "track": [
@@ -394,7 +394,7 @@
   "62": {
     "color": "brown",
     "values": [{ "angle": 270, "percent": 0.85, "value": 80 }],
-    "labels": [{ "label": "NY", "size": 24, "angle": 90, "percent": 0.8 }],
+    "labels": [{ "label": "NY", "size": 24, "angle": 90, "percent": 0.85 }],
     "cities": [
       { "angle": 0, "rotate": 0, "percent": 0.39, "size": 2 },
       { "angle": 180, "rotate": 0, "percent": 0.39, "size": 2 }
@@ -670,7 +670,7 @@
   "122": {
     "color": "brown",
     "values": [{ "angle": 270, "percent": 0.85, "value": 80 }],
-    "labels": [{ "label": "T", "angle": 90, "percent": 0.8 }],
+    "labels": [{ "label": "T", "angle": 90, "percent": 0.85 }],
     "cities": [
       { "angle": 0, "percent": 0.39, "size": 2 },
       { "angle": 180, "percent": 0.39, "size": 2 }
@@ -1362,7 +1362,7 @@
   "583": {
     "color": "brown",
     "values": [{ "angle": 270, "percent": 0.85, "value": 80 }],
-    "labels": [{ "label": "P", "size": 24, "angle": 90, "percent": 0.8 }],
+    "labels": [{ "label": "P", "angle": 90, "percent": 0.85 }],
     "cities": [
       { "angle": 0, "rotate": 0, "percent": 0.39, "size": 2 },
       { "angle": 180, "rotate": 0, "percent": 0.39, "size": 2 }
