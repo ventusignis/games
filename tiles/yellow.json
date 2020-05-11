@@ -326,56 +326,6 @@
     "towns": [{ "angle": 60, "percent": 0.28, "rotate": -30 }],
     "track": [{ "type": "gentle", "side": 1 }]
   },
-  "470": {
-    "color": "yellow",
-    "values": [{ "angle": 120, "percent": 0.667, "value": 20 }],
-    "names": [
-      { "name": "Copper Canyon", "angle": 270, "percent": 0.35, "rotation": 90 }
-    ],
-    "towns": [{ "angle": 180, "percent": 0.667, "rotate": 10 }],
-    "track": [
-      { "side": 1, "type": "straight" },
-      { "side": 1, "type": "sharp" },
-      { "side": 2, "type": "gentle" }
-    ]
-  },
-  "471": {
-    "color": "yellow",
-    "broken": true,
-    "values": [
-      { "angle": 150, "percent": 0.8, "value": 20 },
-      { "angle": 315, "percent": 0.7, "value": 10 }
-    ],
-    "cities": [{ "name": { "offset": 25, "name": "Mazatlán" } }],
-    "towns": [{ "angle": 270, "rotation": 90, "percent": 0.58 }],
-    "track": [{ "side": 1 }, { "side": 4 }, { "side": 5.5, "type": "mid" }]
-  },
-  "472": {
-    "color": "yellow",
-    "values": [
-      { "angle": 90, "percent": 0.8, "value": 20 },
-      { "angle": 285, "percent": 0.7, "value": 10 }
-    ],
-    "cities": [{ "name": { "name": "Tampico" } }],
-    "towns": [{ "angle": 240, "rotation": 60, "percent": 0.58 }],
-    "track": [
-      { "side": 1 },
-      { "side": 2 },
-      { "side": 3 },
-      { "side": 5, "type": "mid" }
-    ]
-  },
-  "473": {
-    "color": "yellow",
-    "broken": true,
-    "values": [
-      { "angle": 90, "percent": 0.8, "value": 20 },
-      { "angle": 285, "percent": 0.7, "value": 10 }
-    ],
-    "cities": [{ "name": { "name": "Veracruz" } }],
-    "towns": [{ "angle": 240, "rotation": 60, "percent": 0.58 }],
-    "track": [{ "side": 1 }, { "side": 3 }, { "side": 5, "type": "mid" }]
-  },
   "601": {
     "color": "yellow",
     "broken": true,

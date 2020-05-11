@@ -1216,57 +1216,6 @@
       { "side": 5 }
     ]
   },
-  "475": {
-    "color": "green",
-    "values": [{ "value": 30, "angle": 210, "percent": 0.8 }],
-    "cities": [{ "name": { "name": "Los Mochis" } }],
-    "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }]
-  },
-  "476": {
-    "color": "green",
-    "values": [
-      { "value": 30, "angle": 210, "percent": 0.8 },
-      { "value": 10, "angle": 315, "percent": 0.7 }
-    ],
-    "cities": [{}],
-    "names": [{ "name": "Mazatlán", "angle": 240, "percent": 0.667 }],
-    "towns": [{ "angle": 270, "percent": 0.58, "rotation": 90 }],
-    "track": [
-      { "side": 5.5, "type": "mid" },
-      { "side": 1 },
-      { "side": 3 },
-      { "side": 4 }
-    ]
-  },
-  "477": {
-    "color": "green",
-    "values": [
-      { "value": 30, "angle": 210, "percent": 0.8 },
-      { "value": 10, "angle": 315, "percent": 0.7 }
-    ],
-    "names": [{ "name": "Tampico", "angle": 240, "percent": 0.667 }],
-    "cities": [{}],
-    "towns": [{ "angle": 270, "percent": 0.58, "rotation": 90 }],
-    "track": [
-      { "side": 5.5, "type": "mid" },
-      { "side": 1 },
-      { "side": 2 },
-      { "side": 3 },
-      { "side": 4 }
-    ]
-  },
-  "478": {
-    "color": "green",
-    "broken": true,
-    "values": [
-      { "value": 30, "angle": 210, "percent": 0.8 },
-      { "value": 20, "angle": 315, "percent": 0.7 }
-    ],
-    "names": [{ "name": "Veracruz", "angle": 240, "percent": 0.667 }],
-    "cities": [{ "size": 2, "angle": 90, "percent": 0.3 }],
-    "towns": [{ "angle": 270, "percent": 0.58, "rotation": 90 }],
-    "track": [{ "side": 5.5, "type": "mid" }, { "side": 1 }, { "side": 3 }]
-  },
   "514": {
     "color": "green",
     "values": [{ "value": 70, "angle": 180, "percent": 0.2 }],
