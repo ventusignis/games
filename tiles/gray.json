@@ -478,7 +478,7 @@
       { "side": 4 },
       { "side": 5 }
     ],
-    "labels": [{ "angle": 270, "percent": 0.82, "label": "B" }]
+    "labels": [{ "angle": 150, "percent": 0.8, "label": "B" }]
   },
   "639": {
     "color": "gray",
