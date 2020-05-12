@@ -325,33 +325,6 @@
       { "side": 4, "type": "stop" }
     ]
   },
-  "241": {
-    "color": "water",
-    "icons": [
-      {
-        "type": "port",
-        "angle": -30,
-        "percent": 0.6
-      }
-    ],
-    "values": [
-      {
-        "angle": 270,
-        "percent": 0,
-        "value": 50
-      }
-    ],
-    "track": [
-      {
-        "type": "offboard",
-        "side": 3
-      },
-      {
-        "type": "offboard",
-        "side": 4
-      }
-    ]
-  },
   "290": {
     "color": "gray",
     "cities": [{ "size": 3 }],

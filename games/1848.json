@@ -652,7 +652,33 @@
     "238": 1,
     "239": 3,
     "240": 2,
-    "241": 1,
+    "241": {
+      "color": "water",
+      "icons": [
+        {
+          "type": "port",
+          "angle": -30,
+          "percent": 0.6
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0,
+          "value": 50
+        }
+      ],
+      "track": [
+        {
+          "type": "offboard",
+          "side": 3
+        },
+        {
+          "type": "offboard",
+          "side": 4
+        }
+      ]
+    },
     "611": 4,
     "915": 1
   },
