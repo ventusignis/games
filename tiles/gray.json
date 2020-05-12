@@ -445,20 +445,6 @@
       { "side": 6 }
     ]
   },
-  "456": {
-    "color": "gray",
-    "rotations": 1,
-    "cities": [{ "size": 5, "companies": ["KE", "FJ", null, null, "SD"] }],
-    "values": [{ "value": 70 }],
-    "track": [
-      { "side": 1 },
-      { "side": 2 },
-      { "side": 3 },
-      { "side": 4 },
-      { "side": 5 },
-      { "side": 6 }
-    ]
-  },
   "513": {
     "color": "gray",
     "rotations": 1,

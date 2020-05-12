@@ -1102,32 +1102,6 @@
     "cities": [{ "size": 2 }],
     "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
   },
-  "451": {
-    "color": "brown",
-    "cities": [
-      { "angle": 240, "percent": 0.66, "companies": ["KE"] },
-      {
-        "size": 2,
-        "rotation": 140,
-        "percent": 0.56,
-        "angle": 138,
-        "companies": ["SD"]
-      },
-      {
-        "size": 2,
-        "rotation": 160,
-        "percent": 0.56,
-        "angle": 342,
-        "companies": ["FJ"]
-      }
-    ],
-    "values": [{ "value": 60, "angle": 270, "percent": 0.9 }],
-    "track": [
-      { "side": 2, "type": "straight" },
-      { "side": 3, "type": "sharp" },
-      { "side": 6, "type": "sharp" }
-    ]
-  },
   "465": {
     "color": "brown",
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
