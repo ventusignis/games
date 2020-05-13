@@ -2929,7 +2929,7 @@
     "color": "green",
     "rotations": 6,
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-    "labels": [{ "label": "N", "angle": 90, "percent": 0.85 }],
+    "labels": [{ "label": "N", "angle": 90, "percent": 0.8 }],
     "cities": [{ "size": 3 }],
     "track": [
       { "side": 1 },
