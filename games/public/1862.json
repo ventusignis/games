@@ -230,7 +230,6 @@
       "color": "brown",
       "rotations": 1,
       "values": [{ "angle": 270, "percent": 0.9, "value": 80 }],
-      "labels": [{ "label": "N", "angle": 90, "percent": 0.9 }],
       "cities": [{ "rotate": 180, "size": 4 }],
       "names": [{ "percent": 0.8, "name": "Ipswich", "fontSize": 14 }],
       "track": [
@@ -244,7 +243,6 @@
       "color": "brown",
       "rotations": 1,
       "values": [{ "angle": 270, "percent": 0.8, "value": 60 }],
-      "labels": [{ "label": "Y", "angle": 90, "percent": 0.8 }],
       "cities": [{ "rotate": 120, "size": 2 }],
       "names": [
         {
