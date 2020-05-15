@@ -26,10 +26,7 @@
       { "angle": 320, "percent": 0.667, "value": 10 },
       { "angle": 145, "percent": 0.667, "value": 10 }
     ],
-    "towns": [
-      { "percent": 0.667 },
-      { "angle": 90, "percent": 0.57735 }
-    ],
+    "towns": [{ "percent": 0.667 }, { "angle": 90, "percent": 0.57735 }],
     "track": [
       { "type": "straight", "side": 1 },
       { "type": "sharp", "side": 2 }
@@ -300,6 +297,7 @@
   },
   "437": {
     "color": "yellow",
+    "labels": [{ "label": "P", "angle": 180, "percent": 0.5 }],
     "icons": [{ "type": "port", "angle": 180, "percent": 0.5 }],
     "values": [{ "angle": 300, "percent": 0.5, "value": 30 }],
     "towns": [{ "angle": 60, "percent": 0.28, "rotate": -30 }],
