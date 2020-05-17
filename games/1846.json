@@ -125,8 +125,8 @@
       "phase": false,
       "quantity": 1,
       "color": "yellow",
-      "phased": "Brown",
-      "rust": "Gray",
+      "phased": ["4/6", "5"],
+      "rust": ["6", "7/8"],
       "description": "Big 4"
     },
     {
@@ -134,8 +134,8 @@
       "phase": false,
       "quantity": 1,
       "color": "yellow",
-      "phased": "Brown",
-      "rust": "Gray",
+      "phased": ["4/6", "5"],
+      "rust": ["6", "7/8"],
       "description": "MS"
     },
     {
@@ -143,22 +143,22 @@
       "quantity": 7,
       "price": 80,
       "color": "yellow",
-      "phased": "Brown",
-      "rust": "Gray"
+      "phased": ["4/6", "5"],
+      "rust": ["6", "7/8"]
     },
     {
       "name": "3/5",
       "quantity": 6,
       "price": 160,
       "color": "green",
-      "phased": "Gray"
+      "phased": ["6", "7/8"]
     },
     {
       "name": "4",
       "quantity": 6,
       "price": 180,
       "color": "green",
-      "phased": "Gray"
+      "phased": ["6", "7/8"]
     },
     {
       "name": "4/6",
@@ -265,30 +265,30 @@
   ],
   "phases": [
     {
+      "name": "1",
       "train": "2",
       "limit": 4,
-      "tiles": "yellow",
-      "name": "Yellow"
+      "tiles": "yellow"
     },
     {
+      "name": "2",
       "train": ["3/5", "4"],
       "limit": 4,
-      "tiles": "green",
-      "name": "Green"
+      "tiles": "green"
     },
     {
+      "name": "3",
       "train": ["4/6", "5"],
       "limit": 3,
       "tiles": "brown",
-      "events": { "close_companies": true },
-      "name": "Brown"
+      "events": { "close_companies": true }
     },
     {
+      "name": "4",
       "train": ["6", "7/8"],
       "limit": 2,
       "tiles": "gray",
-      "events": { "remove_tokens": true },
-      "name": "Gray"
+      "events": { "remove_tokens": true }
     }
   ],
   "pools": [

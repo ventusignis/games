@@ -17,7 +17,7 @@
     "ramda": "^0.27.0"
   },
   "devDependencies": {
-    "@18xx-maker/schemas": "^1.2.0",
+    "@18xx-maker/schemas": "^2.0.0",
     "handlebars": "^4.7.6",
     "husky": ">=4",
     "lint-staged": ">=10",

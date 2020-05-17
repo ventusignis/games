@@ -167,33 +167,35 @@
   ],
   "trains": [
     {
-      "name": "2: KVR",
+      "name": "2",
+      "description": "KVR",
+      "phase": false,
       "quantity": 1,
       "color": "yellow",
-      "obsolete": "Brown",
-      "rust": "Gray"
+      "phased": ["4/6", "5"],
+      "rust": ["6", "7/8"]
     },
     {
       "name": "2",
       "quantity": 7,
       "price": 80,
       "color": "yellow",
-      "obsolete": "Brown",
-      "rust": "Gray"
+      "phased": ["4/6", "5"],
+      "rust": ["6", "7/8"]
     },
     {
       "name": "3/5",
       "quantity": 6,
       "price": 160,
       "color": "green",
-      "obsolete": "Gray"
+      "phased": ["6", "7/8"]
     },
     {
       "name": "4",
       "quantity": 6,
       "price": 180,
       "color": "green",
-      "obsolete": "Gray"
+      "phased": ["6", "7/8"]
     },
     {
       "name": "4/6",
@@ -282,30 +284,30 @@
   ],
   "phases": [
     {
+      "name": "1",
       "train": "2",
       "limit": 4,
-      "tiles": "yellow",
-      "name": "Yellow"
+      "tiles": "yellow"
     },
     {
-      "train": "3/5 or 4",
+      "name": "2",
+      "train": ["3/5", "4"],
       "limit": 4,
-      "tiles": "green",
-      "name": "Green"
+      "tiles": "green"
     },
     {
-      "train": "4/6 or 5",
+      "name": "3",
+      "train": ["4/6", "5"],
       "limit": 3,
       "tiles": "brown",
-      "notes": "Private companies close, Phase out 2 trains",
-      "name": "Brown"
+      "events": { "close_companies": true }
     },
     {
-      "train": "6/7 or 8",
+      "name": "4",
+      "train": ["6", "7/8"],
       "limit": 2,
       "tiles": "gray",
-      "notes": "Private tokens removed, Phase out 3/5 and 4 trains",
-      "name": "Gray"
+      "events": { "remove_tokens": true }
     }
   ],
   "pools": [
