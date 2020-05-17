@@ -194,32 +194,67 @@
   "trains": [
     {
       "name": "2",
-      "quantity": 1,
+      "quantity": 9,
       "price": 80,
       "color": "yellow",
       "rust": "4"
     },
     {
-      "name": "3+1",
-      "quantity": 1,
-      "price": 300,
+      "name": "2+2",
+      "quantity": 4,
+      "price": 120,
+      "color": "yellow",
+      "rust": "4+4"
+    },
+    {
+      "name": "3",
+      "quantity": 4,
+      "price": 180,
       "color": "green",
       "rust": "6"
     },
     {
-      "name": "4D",
-      "quantity": 1,
-      "price": 800,
-      "color": "brown",
-      "variant": "heavy",
-      "rust": "D"
+      "name": "3+3",
+      "quantity": 3,
+      "price": 270,
+      "color": "green",
+      "rust": "6+6"
     },
     {
-      "name": "8E",
+      "name": "4",
+      "quantity": 3,
+      "price": 360,
+      "color": "green"
+    },
+    {
+      "name": "4+4",
+      "quantity": 1,
+      "price": 440,
+      "color": "green"
+    },
+    {
+      "name": "5",
       "quantity": 2,
-      "price": 1100,
-      "tradeInPrice": 900,
-      "color": "gray"
+      "price": 500,
+      "color": "brown"
+    },
+    {
+      "name": "5+5",
+      "quantity": 1,
+      "price": 600,
+      "color": "brown"
+    },
+    {
+      "name": "6",
+      "quantity": 2,
+      "price": 600,
+      "color": "brown"
+    },
+    {
+      "name": "6+6",
+      "quantity": 4,
+      "price": 720,
+      "color": "brown"
     }
   ],
   "privates": [
@@ -272,42 +307,130 @@
   ],
   "phases": [
     {
-      "minor": true,
-      "name": "2",
+      "name": "1.1",
+      "train": "2",
       "limit": 4,
-      "tiles": "yellow"
+      "rounds": 1,
+      "tiles": "yellow",
+      "notes": "Major companies may lay 2 tiles."
     },
     {
       "minor": true,
-      "name": "3",
-      "train": "3+1",
-      "limit": 4,
-      "tiles": "green",
-      "notes": "Private companies may be purchased"
-    },
-    {
-      "name": "2",
-      "limit": 4,
-      "tiles": "yellow"
-    },
-    {
-      "name": "3",
-      "train": "3+1",
-      "limit": 4,
-      "tiles": "green",
-      "notes": "Private companies may be purchased"
-    },
-    {
-      "name": "4",
-      "train": "4D",
+      "name": "1.1",
+      "train": "2+2",
       "limit": 2,
+      "rounds": 1,
+      "tiles": "yellow"
+    },
+    {
+      "name": "1.2",
+      "train": "2+2",
+      "limit": 4,
+      "rounds": 1,
+      "tiles": "yellow"
+    },
+    {
+      "minor": true,
+      "name": "1.2",
+      "train": "2",
+      "limit": 2,
+      "rounds": 1,
+      "tiles": "yellow"
+    },
+    {
+      "name": "2.1",
+      "train": "3",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "green",
+      "notes": [
+        "Trains may be sold between companies.",
+        "Major companies may lay 1 tile."
+      ]
+    },
+    {
+      "minor": true,
+      "name": "2.1",
+      "train": "3",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "green",
+      "notes": "Trains may be sold between companies."
+    },
+    {
+      "name": "2.2",
+      "train": "3+3",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "minor": true,
+      "name": "2.2",
+      "train": "3+3",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "name": "2.3",
+      "train": "4",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "minor": true,
+      "name": "2.3",
+      "train": "4",
+      "limit": 1,
+      "rounds": 2,
+      "tiles": "green",
+      "notes": "Minor companies may be converted."
+    },
+    {
+      "name": "2.4",
+      "train": "4+4",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "minor": true,
+      "name": "2.4",
+      "train": "4+4",
+      "limit": 1,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "name": "3.1",
+      "train": "5",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
-      "notes": "Private companies are closed"
+      "events": { "close_companies": true },
+      "notes": ["All minor companies are converted."]
     },
     {
-      "name": "8",
-      "train": "8E",
+      "name": "3.2",
+      "train": "5+5",
       "limit": 2,
+      "rounds": 3,
+      "tiles": "brown"
+    },
+    {
+      "name": "3.3",
+      "train": "6",
+      "limit": 2,
+      "rounds": 3,
+      "tiles": "brown"
+    },
+    {
+      "name": "3.4",
+      "train": "6+6",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown"
     }
   ],
@@ -794,23 +917,7 @@
       }
     ]
   },
-  "tiles": {
-    "1": 1,
-    "2": { "tile": "57", "quantity": 2 },
-    "26|T2": 1,
-    "63": 1,
-    "T1": {
-      "quantity": 1,
-      "color": "offboard",
-      "track": [
-        {
-          "type": "offboard",
-          "side": 1
-        }
-      ]
-    },
-    "DB801": 1
-  },
+  "tiles": {},
   "map": {
     "hexes": [
       {

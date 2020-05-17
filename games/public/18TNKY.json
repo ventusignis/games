@@ -181,8 +181,7 @@
       "price": 300,
       "color": "green",
       "image": "4T",
-      "obsolete": "6",
-      "obsoleteIndex": 2
+      "obsolete": { "on": "6", "index": 2 }
     },
     {
       "name": "5",
