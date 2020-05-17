@@ -334,12 +334,12 @@
   "privates": [
     {
       "name": "Private #1",
-      "price": "$20",
+      "price": 20,
       "revenue": 5
     },
     {
       "name": "Private #2",
-      "price": "$40",
+      "price": 40,
       "revenue": 10
     },
     {

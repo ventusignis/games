@@ -223,58 +223,59 @@
   "privates": [
     {
       "name": "BC Electric Railway",
-      "price": "$120",
+      "price": 120,
       "revenue": 20,
       "description": "Counts as a 2 train when purchased into a corporation"
     },
     {
       "name": "BC Connection Charter",
-      "price": "$100",
+      "price": 100,
       "revenue": 0,
       "description": "Never closes once purchased by a corporation, when owning corporation connects an eastern off board to vancouver, pays $200 to the owning corporation and closes. If owned by a player and a corporation that player is president of connects an eastern off board to vancouver, pays $200 to the player and closes"
     },
     {
       "name": "BC Ferries",
-      "price": "$90",
+      "price": 90,
       "revenue": 0,
       "icon": "boat",
       "description": "Sea Dits visitied by any railway pay to the owning player or corporation. Never closes if owned by a corporation."
     },
     {
       "name": "Mail Contract",
-      "price": "$80",
+      "price": 80,
       "icon": "mail",
       "revenue": 0,
       "description": "Adds $10 per location visited by any one train of the owning corporation. Never closes once purchased by a corporation."
     },
     {
       "name": "Kettle Valley Railway",
-      "price": "$60 + $80 Debt",
+      "price": 60,
+      "debt": 80,
       "description": "Starts with $60 in treasury, a 2 train, and a token in Kelowna (C15). Splits revenue evenly with owner."
     },
     {
       "name": "Okanagen Land Grant",
-      "price": "$80",
+      "price": 80,
       "revenue": 20,
       "hex": "G15",
       "description": "If hex G15 is connected to an east off board when private is sold to a company, the private can be sold for an extra $50"
     },
     {
       "name": "Outsourced Labour",
-      "price": "$40",
+      "price": 40,
       "revenue": 10,
       "description": "Owning corporation can do two upgrades on a single turn once per game"
     },
     {
       "name": "Survey Party",
-      "price": "$60",
+      "price": 60,
       "revenue": 20,
       "icon": "mountain",
       "description": "Reduces the cost of building on mountain tiles by $20"
     },
     {
       "name": "Chilkoot Railroad and Transport Company",
-      "price": "$40",
+      "price": 40,
       "revenue": 15,
       "description": "+10 revenue to Yukon off board location"
     }

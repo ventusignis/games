@@ -224,7 +224,8 @@
   "privates": [
     {
       "name": "Melbourne & Hobson's Bay Railway Company",
-      "price": "1£-40£",
+      "price": 40,
+      "bid": 1,
       "token": {
         "circle": "yellow",
         "label": "£"
@@ -233,21 +234,24 @@
     },
     {
       "name": "Sydney Railway Company",
-      "price": "1£-80£",
+      "price": 80,
+      "bid": 1,
       "revenue": 10,
       "icon": "cactus",
       "description": "If the company is owned by a Public Company or its Director, that company can, on one occasion, develop a cost-incurring desert hex for 40£ less than it would otherwise cost"
     },
     {
       "name": "Tasmanian Railways",
-      "price": "1£-140£",
+      "price": 140,
+      "bid": 1,
       "revenue": 15,
       "tile": "241",
       "description": "The Tasmania tile can be placed by a Public Company on one of the dark blue hexes. This is in addition to the company's normal build that turn."
     },
     {
       "name": "The Ghan",
-      "price": "1£-220£",
+      "price": 220,
+      "bid": 1,
       "revenue": 20,
       "token": {
         "color": "gray",
@@ -258,14 +262,12 @@
     },
     {
       "name": "Trans-Australian Railway",
-      "price": "N/A",
       "revenue": 25,
       "company": "QR",
       "description": "The owner receives in addition a 10% share in the QR."
     },
     {
       "name": "North Australian Railway",
-      "price": "N/A",
       "revenue": 30,
       "company": "CAR",
       "description": "The owner receives in addition the Director's Share share in the CAR, which must start at a par value of 100£."
