@@ -92,13 +92,35 @@
       "tokens": ["OS", "RH"]
     }
   ],
+  "phases": [
+    {
+      "name": "2",
+      "limit": 3,
+      "tiles": "yellow"
+    },
+    {
+      "name": "3",
+      "limit": 3,
+      "tiles": "green"
+    },
+    {
+      "name": "4",
+      "limit": 2,
+      "tiles": "brown"
+    },
+    {
+      "name": "D",
+      "limit": 2,
+      "tiles": "gray"
+    }
+  ],
   "trains": [
     {
       "name": "2",
       "quantity": 7,
       "price": 100,
       "color": "yellow",
-      "rust": ["3+3", "4"]
+      "rust": "4"
     },
     {
       "name": "3",

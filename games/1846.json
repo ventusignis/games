@@ -121,40 +121,42 @@
   ],
   "trains": [
     {
-      "name": "2: Big 4",
+      "name": "2",
       "quantity": 1,
       "color": "yellow",
-      "obsolete": ["4/6", "5"],
-      "rust": ["6", "7/8"]
+      "phased": "Brown",
+      "rust": "Gray",
+      "description": "Big 4"
     },
     {
-      "name": "2: MS",
+      "name": "2",
       "quantity": 1,
       "color": "yellow",
-      "obsolete": ["4/6", "5"],
-      "rust": ["6", "7/8"]
+      "phased": "Brown",
+      "rust": "Gray",
+      "description": "MS"
     },
     {
       "name": "2",
       "quantity": 7,
       "price": 80,
       "color": "yellow",
-      "obsolete": ["4/6", "5"],
-      "rust": ["6", "7/8"]
+      "phased": "Brown",
+      "rust": "Gray"
     },
     {
       "name": "3/5",
       "quantity": 6,
       "price": 160,
       "color": "green",
-      "obsolete": ["6", "7/8"]
+      "phased": "Gray"
     },
     {
       "name": "4",
       "quantity": 6,
       "price": 180,
       "color": "green",
-      "obsolete": ["6", "7/8"]
+      "phased": "Gray"
     },
     {
       "name": "4/6",

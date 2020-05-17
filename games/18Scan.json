@@ -149,28 +149,28 @@
       "quantity": 6,
       "price": 100,
       "color": "yellow",
-      "rust": ["4", "3+3"]
+      "rust": "4"
     },
     {
       "name": "1+1",
       "quantity": 6,
       "price": 80,
       "color": "yellow",
-      "rust": ["4", "3+3"]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 4,
       "price": 200,
       "color": "green",
-      "rust": ["5", "4+4"]
+      "rust": "5"
     },
     {
       "name": "2+2",
       "quantity": 4,
       "price": 180,
       "color": "green",
-      "rust": ["5", "4+4"]
+      "rust": "5"
     },
     {
       "name": "4",
@@ -265,22 +265,26 @@
   ],
   "phases": [
     {
-      "name": "2 / 1+1",
+      "name": "2",
+      "train": ["2", "1+1"],
       "limit": 4,
       "tiles": "yellow"
     },
     {
-      "name": "3 / 2+2",
+      "name": "3",
+      "train": ["3", "2+2"],
       "limit": 4,
       "tiles": "green"
     },
     {
-      "name": "4 / 3+3",
+      "name": "4",
+      "train": ["4", "3+3"],
       "limit": 3,
       "tiles": "green"
     },
     {
-      "name": "5 / 4+4",
+      "name": "5",
+      "train": ["5", "4+4"],
       "limit": 2,
       "tiles": "brown",
       "notes": "5E trains may be purchased. Private and Minor Companies are closed. SJ eligible to form."
@@ -298,7 +302,8 @@
     },
     {
       "company": "SJ",
-      "name": "5 / 4+4",
+      "name": "5",
+      "train": ["5", "4+4"],
       "limit": 3,
       "tiles": "brown",
       "notes": "5E trains may be purchased. Private and Minor Companies are closed."
@@ -318,19 +323,22 @@
     },
     {
       "minor": true,
-      "name": "2 / 1+1",
+      "name": "2",
+      "train": ["2", "1+1"],
       "limit": 2,
       "tiles": "yellow"
     },
     {
       "minor": true,
-      "name": "3 / 2+2",
+      "name": "3",
+      "train": ["3", "2+2"],
       "limit": 2,
       "tiles": "green"
     },
     {
       "minor": true,
-      "name": "4 / 3+3",
+      "name": "4",
+      "train": ["4", "3+3"],
       "limit": 1,
       "tiles": "green"
     }

@@ -141,35 +141,35 @@
       "quantity": 6,
       "price": 120,
       "color": "yellow",
-      "rust": ["4", "4+"]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 5,
       "price": 200,
       "color": "green",
-      "rust": ["6", "6+"]
+      "rust": "6"
     },
     {
       "name": "3+",
       "quantity": 5,
       "price": 230,
       "color": "green",
-      "rust": ["6", "6+"]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 4,
       "price": 300,
       "color": "green",
-      "rust": ["8", "D"]
+      "rust": "8"
     },
     {
       "name": "4+",
       "quantity": 4,
       "price": 340,
       "color": "green",
-      "rust": ["8", "D"]
+      "rust": "8"
     },
     {
       "name": "5",
@@ -275,34 +275,40 @@
   ],
   "phases": [
     {
-      "name": "2/2+",
+      "name": "2",
+      "train": ["2", "2+"],
       "limit": 4,
       "tiles": "yellow"
     },
     {
-      "name": "3/3+",
+      "name": "3",
+      "train": ["3", "3+"],
       "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased"
     },
     {
-      "name": "4/4+",
+      "name": "4",
+      "train": ["4", "4+"],
       "limit": 3,
       "tiles": "green"
     },
     {
-      "name": "5/5+",
+      "name": "5",
+      "train": ["5", "5+"],
       "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed"
     },
     {
-      "name": "6/6+",
+      "name": "6",
+      "train": ["6", "6+"],
       "limit": 2,
       "tiles": "brown"
     },
     {
-      "name": "8/D",
+      "name": "8",
+      "train": ["8", "D"],
       "limit": 2,
       "tiles": "gray",
       "notes": "2E Trains may be purchased"

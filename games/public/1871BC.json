@@ -170,30 +170,30 @@
       "name": "2: KVR",
       "quantity": 1,
       "color": "yellow",
-      "obsolete": ["4/6", "5"],
-      "rust": ["6", "7/8"]
+      "obsolete": "Brown",
+      "rust": "Gray"
     },
     {
       "name": "2",
       "quantity": 7,
       "price": 80,
       "color": "yellow",
-      "obsolete": ["4/6", "5"],
-      "rust": ["6", "7/8"]
+      "obsolete": "Brown",
+      "rust": "Gray"
     },
     {
       "name": "3/5",
       "quantity": 6,
       "price": 160,
       "color": "green",
-      "obsolete": ["6", "7/8"]
+      "obsolete": "Gray"
     },
     {
       "name": "4",
       "quantity": 6,
       "price": 180,
       "color": "green",
-      "obsolete": ["6", "7/8"]
+      "obsolete": "Gray"
     },
     {
       "name": "4/6",

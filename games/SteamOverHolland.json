@@ -134,7 +134,7 @@
       "quantity": 3,
       "price": 300,
       "color": "green",
-      "rust": ["6", "3E"]
+      "rust": "6"
     },
     {
       "name": "5",
@@ -240,7 +240,8 @@
       "notes": "Private companies are closed"
     },
     {
-      "name": "6 / 3E",
+      "name": "6",
+      "train": ["6", "3E"],
       "limit": 2,
       "tiles": "brown",
       "notes": "6 trains and 3E trains available simultaneously"

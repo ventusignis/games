@@ -188,10 +188,8 @@
       "quantity": 3,
       "price": 300,
       "color": "green",
-      "obsolete": {
-        "on": "6",
-        "index": 2
-      }
+      "obsolete": "6",
+      "obsoleteIndex": 2
     },
     {
       "name": "5",
@@ -689,7 +687,12 @@
       "color": "yellow",
       "values": [{ "angle": 120, "percent": 0.667, "value": 20 }],
       "names": [
-        { "name": "Copper Canyon", "angle": 270, "percent": 0.35, "rotation": 90 }
+        {
+          "name": "Copper Canyon",
+          "angle": 270,
+          "percent": 0.35,
+          "rotation": 90
+        }
       ],
       "towns": [{ "angle": 180, "percent": 0.667, "rotate": 10 }],
       "track": [
