@@ -258,53 +258,37 @@
   "phases": [
     {
       "name": "2",
-      "train": "2",
       "limit": 4,
       "tiles": "yellow",
-      "notes": "Can only buy one train per OR from bank (trains brought from other companies do not count towards this limit). Special case: private companies may be purchased during OR1."
+      "notes": "Can only buy one train per OR from bank. Special case: private companies may be purchased during OR1."
     },
     {
       "name": "3",
-      "train": "3",
       "limit": 4,
       "tiles": "green",
-      "notes": "Private companies may be purchased."
-    },
-    {
-      "name": "3½",
-      "limit": 4,
-      "tiles": "green",
-      "notes": "Civil War triggered by fourth 3T."
+      "buy_companies": true,
+      "notes": "4x3T: Civil War."
     },
     {
       "name": "4",
-      "train": "4",
       "limit": 3,
       "tiles": "green",
       "notes": "May buy multiple trains from bank."
     },
     {
       "name": "5",
-      "train": "5",
       "limit": 2,
       "tiles": "brown",
-      "notes": "Private companies are closed."
+      "events": { "close_companies": true }
     },
     {
       "name": "6",
-      "train": "6",
-      "limit": 2,
-      "tiles": "brown"
-    },
-    {
-      "name": "6½",
       "limit": 2,
       "tiles": "brown",
-      "notes": "Triggered by second 6T"
+      "notes": "2x6T: 4T Obsolete."
     },
     {
       "name": "8",
-      "train": "8",
       "limit": 2,
       "tiles": "gray"
     }
