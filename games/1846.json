@@ -122,6 +122,7 @@
   "trains": [
     {
       "name": "2",
+      "phase": false,
       "quantity": 1,
       "color": "yellow",
       "phased": "Brown",
@@ -130,6 +131,7 @@
     },
     {
       "name": "2",
+      "phase": false,
       "quantity": 1,
       "color": "yellow",
       "phased": "Brown",
@@ -269,23 +271,23 @@
       "name": "Yellow"
     },
     {
-      "train": "3/5 or 4",
+      "train": ["3/5", "4"],
       "limit": 4,
       "tiles": "green",
       "name": "Green"
     },
     {
-      "train": "4/6 or 5",
+      "train": ["4/6", "5"],
       "limit": 3,
       "tiles": "brown",
-      "notes": "Private companies close, Phase out 2 trains",
+      "events": { "close_companies": true },
       "name": "Brown"
     },
     {
-      "train": "6 or 7/8",
+      "train": ["6", "7/8"],
       "limit": 2,
       "tiles": "gray",
-      "notes": "Private tokens removed, Phase out 3/5 and 4 trains",
+      "events": { "remove_tokens": true },
       "name": "Gray"
     }
   ],
