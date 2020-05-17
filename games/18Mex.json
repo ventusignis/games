@@ -297,14 +297,11 @@
       "train": "3",
       "limit": 3,
       "tiles": "green",
-      "notes": "Private companies may be purchased.",
+      "notes": [
+        "Private companies may be purchased.",
+        "5x3T: minor companies closed and NdM stock available."
+      ],
       "name": "3"
-    },
-    {
-      "limit": 4,
-      "tiles": "green",
-      "notes": "When five 3Ts have been sold. Minor companies are closed. NdM stock available.",
-      "name": "3.5"
     },
     {
       "train": "4",
@@ -317,26 +314,20 @@
       "train": "5",
       "limit": 3,
       "tiles": "brown",
-      "notes": "Private companies are closed. NdM merges (Pacific Railroad and Texas-Mexican Railway are not eligible to merge).",
+      "notes": ["Private companies closed.", "NdM merges."],
       "name": "5"
     },
     {
       "train": "6",
       "limit": 3,
       "tiles": "brown",
+      "notes": "2x6T: 4Ts obsolete.",
       "name": "6"
-    },
-    {
-      "limit": 3,
-      "tiles": "brown",
-      "notes": "When both 6Ts are sold. 4Ts become obsolete.",
-      "name": "6.5"
     },
     {
       "train": "4D",
       "limit": 3,
       "tiles": "gray",
-      "notes": "The gray tile becomes available.",
       "name": "4D"
     }
   ],
