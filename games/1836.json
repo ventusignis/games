@@ -177,9 +177,8 @@
       "name": "2: ER",
       "quantity": 10,
       "color": "yellow",
-      "description": "May not be sold",
-      "rust": "4",
-      "note": "Eliminated on acquisition"
+      "description": "May not be sold. Eliminated on acquisition.",
+      "rust": "4"
     },
     {
       "name": "2",

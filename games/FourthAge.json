@@ -142,10 +142,10 @@
   "trains": [
     {
       "name": "2",
+      "phase": false,
       "quantity": 1,
       "color": "yellow",
-      "description": "Runs from Hobbiton.",
-      "note": "Shirt and Westlands"
+      "description": "Shire and Westlands destination bonus. Runs from Hobbiton."
     },
     {
       "name": "2",
