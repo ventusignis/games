@@ -91,7 +91,8 @@
       "name": "Strasburg Rail Road",
       "abbrev": "SRR",
       "logo": "SRR",
-      "color": "red"
+      "color": "red",
+      "tokens": "two"
     },
     {
       "name": "Baltimore & Ohio Railroad",
