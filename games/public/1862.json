@@ -45,60 +45,18 @@
     "_lime": "#cce779",
     "_pink": "#fa9aaa"
   },
-  "tokenTypes": {
-    "default": ["", "", "", "", "", ""]
-  },
+  "tokenTypes": { "default": ["", "", "", "", "", ""] },
   "tokens": [
-    {
-      "label": "A",
-      "color": "freight",
-      "fontSize": 24
-    },
-    {
-      "label": "A",
-      "color": "local",
-      "fontSize": 24
-    },
-    {
-      "label": "A",
-      "color": "express",
-      "fontSize": 24
-    },
-    {
-      "label": "B",
-      "color": "freight",
-      "fontSize": 24
-    },
-    {
-      "label": "B",
-      "color": "local",
-      "fontSize": 24
-    },
-    {
-      "label": "B",
-      "color": "express",
-      "fontSize": 24
-    },
-    {
-      "label": "C",
-      "color": "freight",
-      "fontSize": 24
-    },
-    {
-      "label": "C",
-      "color": "local",
-      "fontSize": 24
-    },
-    {
-      "label": "C",
-      "color": "express",
-      "fontSize": 24
-    },
-    {
-      "label": "X",
-      "color": "white",
-      "fontSize": 24
-    },
+    { "label": "A", "color": "freight", "fontSize": 24 },
+    { "label": "A", "color": "local", "fontSize": 24 },
+    { "label": "A", "color": "express", "fontSize": 24 },
+    { "label": "B", "color": "freight", "fontSize": 24 },
+    { "label": "B", "color": "local", "fontSize": 24 },
+    { "label": "B", "color": "express", "fontSize": 24 },
+    { "label": "C", "color": "freight", "fontSize": 24 },
+    { "label": "C", "color": "local", "fontSize": 24 },
+    { "label": "C", "color": "express", "fontSize": 24 },
+    { "label": "X", "color": "white", "fontSize": 24 },
     {
       "label": "ECR",
       "color": "_dark-blue",
@@ -269,140 +227,49 @@
     "795": {
       "color": "brown",
       "rotations": 1,
-      "values": [
-        {
-          "angle": 270,
-          "percent": 0.9,
-          "value": 80
-        }
-      ],
-      "cities": [
-        {
-          "rotate": 180,
-          "size": 4
-        }
-      ],
-      "names": [
-        {
-          "percent": 0.8,
-          "name": "Ipswich",
-          "fontSize": 14
-        }
+      "values": [{ "angle": 270, "percent": 0.9, "value": 80 }],
+      "cities": [{ "angle": 180, "percent": 0.15, "size": 4 }],
+      "labels": [
+        { "angle": 90, "percent": 0.9, "label": "N" },
+        { "percent": 0.65, "label": "Ipswich" }
       ],
       "track": [
-        {
-          "type": "straight",
-          "side": 2
-        },
-        {
-          "type": "straight",
-          "side": 3
-        },
-        {
-          "side": 4
-        }
+        { "type": "straight", "side": 2 },
+        { "type": "straight", "side": 3 },
+        { "side": 4 }
       ]
     },
     "796": 3,
     "797": {
       "color": "brown",
       "rotations": 1,
-      "values": [
-        {
-          "angle": 270,
-          "percent": 0.8,
-          "value": 60
-        }
-      ],
-      "cities": [
-        {
-          "rotate": 120,
-          "size": 2
-        }
-      ],
-      "names": [
-        {
-          "angle": 210,
-          "percent": 0.7,
-          "rotation": 30,
-          "name": "Harwich",
-          "fontSize": 14
-        }
-      ],
-      "track": [
-        {
-          "type": "straight",
-          "side": 3
-        },
-        {
-          "side": 1
-        }
-      ]
+      "values": [{ "angle": 270, "percent": 0.8, "value": 60 }],
+      "cities": [{ "rotate": 120, "size": 2 }],
+      "labels": [{ "angle": 180, "percent": 0.8, "label": "Harwich" }],
+      "track": [{ "type": "straight", "side": 3 }, { "side": 1 }]
     },
     "798": 3,
     "8850": {
       "quantity": 6,
       "color": "yellow",
-      "values": [
-        {
-          "value": 20
-        }
-      ],
-      "centerTowns": [
-        {
-          "angle": 30,
-          "percent": 0.57735,
-          "rotation": -60
-        }
-      ],
-      "track": [
-        {
-          "type": "sharp",
-          "side": 1
-        }
-      ]
+      "values": [{ "value": 20 }],
+      "centerTowns": [{ "angle": 30, "percent": 0.57735, "rotation": -60 }],
+      "track": [{ "type": "sharp", "side": 1 }]
     },
     "8851": {
       "quantity": 8,
       "color": "yellow",
-      "values": [
-        {
-          "angle": -120,
-          "percent": 0.2,
-          "value": 20
-        }
-      ],
-      "centerTowns": [
-        {
-          "angle": 60,
-          "percent": 0.28,
-          "rotate": -30
-        }
-      ],
-      "track": [
-        {
-          "type": "gentle",
-          "side": 1
-        }
-      ]
+      "values": [{ "angle": -120, "percent": 0.2, "value": 20 }],
+      "centerTowns": [{ "angle": 60, "percent": 0.28, "rotate": -30 }],
+      "track": [{ "type": "gentle", "side": 1 }]
     },
     "8852": {
       "quantity": 12,
       "color": "yellow",
       "rotations": 3,
-      "values": [
-        {
-          "x": 35,
-          "value": 20
-        }
-      ],
+      "values": [{ "x": 35, "value": 20 }],
       "centerTowns": [{}],
-      "track": [
-        {
-          "type": "straight",
-          "side": 1
-        }
-      ]
+      "track": [{ "type": "straight", "side": 1 }]
     },
     "53Y": 4,
     "61Y": 3,
@@ -413,284 +280,151 @@
       "name": "ECR",
       "abbrev": "ECR",
       "color": "_dark-blue",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_purple",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_purple", "inverseLabelColor": "black" }
     },
     {
       "name": "E&H",
       "abbrev": "E&H",
       "color": "_light-yellow",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_light-orange",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_light-orange", "inverseLabelColor": "black" }
     },
     {
       "name": "ENR",
       "abbrev": "ENR",
       "color": "_dark-yellow",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_blue",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_blue", "inverseLabelColor": "black" }
     },
     {
       "name": "ESR",
       "abbrev": "ESR",
       "color": "_dark-green",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_light-green",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_light-green", "inverseLabelColor": "black" }
     },
     {
       "name": "EUR",
       "abbrev": "EUR",
       "color": "_red",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_purple",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_purple", "inverseLabelColor": "black" }
     },
     {
       "name": "FDR",
       "abbrev": "FDR",
       "color": "_light-orange",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_red",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
     },
     {
       "name": "I&B",
       "abbrev": "I&B",
       "color": "_black",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_light-gray",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_light-gray", "inverseLabelColor": "black" }
     },
     {
       "name": "L&D",
       "abbrev": "L&D",
       "color": "_dark-orange",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_dark-blue",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_dark-blue", "inverseLabelColor": "black" }
     },
     {
       "name": "L&E",
       "abbrev": "L&E",
       "color": "_red",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_dark-yellow",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_dark-yellow", "inverseLabelColor": "black" }
     },
     {
       "name": "L&H",
       "abbrev": "L&H",
       "color": "_light-blue-1",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_red",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
     },
     {
       "name": "N&B",
       "abbrev": "N&B",
       "color": "_light-gray",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_dark-orange",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_dark-orange", "inverseLabelColor": "black" }
     },
     {
       "name": "N&E",
       "abbrev": "N&E",
       "color": "_dark-gray",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_dark-green",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_dark-green", "inverseLabelColor": "black" }
     },
     {
       "name": "NGC",
       "abbrev": "NGC",
       "color": "_dark-yellow",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_black",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_black", "inverseLabelColor": "black" }
     },
     {
       "name": "N&S",
       "abbrev": "N&S",
       "color": "_blue",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_light-blue-2",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_light-blue-2", "inverseLabelColor": "black" }
     },
     {
       "name": "SVR",
       "abbrev": "SVR",
       "color": "_brown",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_dark-green",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_dark-green", "inverseLabelColor": "black" }
     },
     {
       "name": "W&F",
       "abbrev": "W&F",
       "color": "_green",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_lime",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_lime", "inverseLabelColor": "black" }
     },
     {
       "name": "WNR",
       "abbrev": "WNR",
       "color": "_brown",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_red",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
     },
     {
       "name": "WStI",
       "abbrev": "WStI",
       "color": "_purple",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_dark-yellow",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_dark-yellow", "inverseLabelColor": "black" }
     },
     {
       "name": "WVR",
       "abbrev": "WVR",
       "color": "_purple",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_pink",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_pink", "inverseLabelColor": "black" }
     },
     {
       "name": "Y&N",
       "abbrev": "Y&N",
       "color": "_black",
-      "token": {
-        "fontSize": 18,
-        "stripes": "_red",
-        "inverseLabelColor": "black"
-      }
+      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
     }
   ],
   "stock": {
     "title": false,
     "type": "1Diag",
-    "display": {
-      "par": {
-        "x": 0,
-        "y": 5
-      }
-    },
+    "display": { "par": { "x": 0, "y": 5 } },
     "par": {
       "title": false,
       "width": 1,
       "height": 2,
       "values": [
         [
-          {
-            "legend": 0,
-            "value": 54
-          },
-          {
-            "legend": 0,
-            "value": 58
-          },
-          {
-            "legend": 0,
-            "value": 62
-          },
-          {
-            "legend": 0,
-            "value": 68
-          },
-          {
-            "legend": 0,
-            "value": 74
-          },
-          {
-            "legend": 0,
-            "value": 82
-          },
-          {
-            "legend": 0,
-            "value": 90
-          },
-          {
-            "legend": 0,
-            "value": 100
-          }
+          { "legend": 0, "value": 54 },
+          { "legend": 0, "value": 58 },
+          { "legend": 0, "value": 62 },
+          { "legend": 0, "value": 68 },
+          { "legend": 0, "value": 74 },
+          { "legend": 0, "value": 82 },
+          { "legend": 0, "value": 90 },
+          { "legend": 0, "value": 100 }
         ],
         [
-          {
-            "legend": 1,
-            "value": 54
-          },
-          {
-            "legend": 1,
-            "value": 58
-          },
-          {
-            "legend": 1,
-            "value": 62
-          },
-          {
-            "legend": 1,
-            "value": 68
-          },
-          {
-            "legend": 1,
-            "value": 74
-          },
-          {
-            "legend": 1,
-            "value": 82
-          },
-          {
-            "legend": 1,
-            "value": 90
-          },
-          {
-            "legend": 1,
-            "value": 100
-          }
+          { "legend": 1, "value": 54 },
+          { "legend": 1, "value": 58 },
+          { "legend": 1, "value": 62 },
+          { "legend": 1, "value": 68 },
+          { "legend": 1, "value": 74 },
+          { "legend": 1, "value": 82 },
+          { "legend": 1, "value": 90 },
+          { "legend": 1, "value": 100 }
         ]
       ]
     },
@@ -701,266 +435,71 @@
         "subLabel": "Bankrupt",
         "height": 2
       },
-      {
-        "legend": 2,
-        "value": 7
-      },
-      {
-        "legend": 2,
-        "value": 14
-      },
-      {
-        "legend": 2,
-        "value": 20
-      },
-      {
-        "legend": 2,
-        "value": 26
-      },
-      {
-        "legend": 2,
-        "value": 31
-      },
-      {
-        "legend": 2,
-        "value": 36
-      },
-      {
-        "color": "plain",
-        "value": 40
-      },
-      {
-        "color": "plain",
-        "value": 44
-      },
-      {
-        "color": "plain",
-        "value": 47
-      },
-      {
-        "color": "plain",
-        "value": 50
-      },
-      {
-        "color": "plain",
-        "value": 52
-      },
-      {
-        "legend": 0,
-        "value": 54
-      },
-      {
-        "legend": 1,
-        "value": 56
-      },
-      {
-        "legend": 0,
-        "value": 58
-      },
-      {
-        "legend": 1,
-        "value": 60
-      },
-      {
-        "legend": 0,
-        "value": 62
-      },
-      {
-        "legend": 1,
-        "value": 65
-      },
-      {
-        "legend": 0,
-        "value": 68
-      },
-      {
-        "legend": 1,
-        "value": 71
-      },
-      {
-        "legend": 0,
-        "value": 74
-      },
-      {
-        "legend": 1,
-        "value": 78
-      },
-      {
-        "legend": 0,
-        "value": 82
-      },
-      {
-        "legend": 1,
-        "value": 86
-      },
-      {
-        "legend": 0,
-        "value": 90
-      },
-      {
-        "legend": 1,
-        "value": 95
-      },
-      {
-        "legend": 0,
-        "value": 100
-      },
-      {
-        "legend": 1,
-        "value": 105
-      },
-      {
-        "legend": 1,
-        "value": 110
-      },
-      {
-        "legend": 1,
-        "value": 116
-      },
-      {
-        "legend": 1,
-        "value": 122
-      },
-      {
-        "legend": 1,
-        "value": 128
-      },
-      {
-        "legend": 1,
-        "value": 134
-      },
-      {
-        "legend": 1,
-        "value": 142
-      },
-      {
-        "legend": 1,
-        "value": 150
-      },
-      {
-        "legend": 1,
-        "value": 158
-      },
-      {
-        "legend": 1,
-        "value": 166
-      },
-      {
-        "legend": 1,
-        "value": 174
-      },
-      {
-        "legend": 1,
-        "value": 182
-      },
-      {
-        "legend": 1,
-        "value": 191
-      },
-      {
-        "legend": 1,
-        "value": 200
-      },
-      {
-        "legend": 2,
-        "value": 210
-      },
-      {
-        "legend": 2,
-        "value": 220
-      },
-      {
-        "legend": 2,
-        "value": 232
-      },
-      {
-        "legend": 2,
-        "value": 245
-      },
-      {
-        "legend": 2,
-        "value": 260
-      },
-      {
-        "legend": 2,
-        "value": 275
-      },
-      {
-        "legend": 2,
-        "value": 292
-      },
-      {
-        "legend": 2,
-        "value": 310
-      },
-      {
-        "legend": 2,
-        "value": 330
-      },
-      {
-        "legend": 2,
-        "value": 350
-      },
-      {
-        "legend": 2,
-        "value": 375
-      },
-      {
-        "legend": 3,
-        "value": 400
-      },
-      {
-        "legend": 3,
-        "value": 430
-      },
-      {
-        "legend": 3,
-        "value": 460
-      },
-      {
-        "legend": 3,
-        "value": 495
-      },
-      {
-        "legend": 3,
-        "value": 530
-      },
-      {
-        "legend": 3,
-        "value": 570
-      },
-      {
-        "legend": 3,
-        "value": 610
-      },
-      {
-        "legend": 3,
-        "value": 655
-      },
-      {
-        "legend": 3,
-        "value": 700
-      },
-      {
-        "legend": 3,
-        "value": 750
-      },
-      {
-        "legend": 3,
-        "value": 800
-      },
-      {
-        "legend": 3,
-        "value": 850
-      },
-      {
-        "legend": 3,
-        "value": 900
-      },
-      {
-        "legend": 3,
-        "value": 950
-      },
+      { "legend": 2, "value": 7 },
+      { "legend": 2, "value": 14 },
+      { "legend": 2, "value": 20 },
+      { "legend": 2, "value": 26 },
+      { "legend": 2, "value": 31 },
+      { "legend": 2, "value": 36 },
+      { "color": "plain", "value": 40 },
+      { "color": "plain", "value": 44 },
+      { "color": "plain", "value": 47 },
+      { "color": "plain", "value": 50 },
+      { "color": "plain", "value": 52 },
+      { "legend": 0, "value": 54 },
+      { "legend": 1, "value": 56 },
+      { "legend": 0, "value": 58 },
+      { "legend": 1, "value": 60 },
+      { "legend": 0, "value": 62 },
+      { "legend": 1, "value": 65 },
+      { "legend": 0, "value": 68 },
+      { "legend": 1, "value": 71 },
+      { "legend": 0, "value": 74 },
+      { "legend": 1, "value": 78 },
+      { "legend": 0, "value": 82 },
+      { "legend": 1, "value": 86 },
+      { "legend": 0, "value": 90 },
+      { "legend": 1, "value": 95 },
+      { "legend": 0, "value": 100 },
+      { "legend": 1, "value": 105 },
+      { "legend": 1, "value": 110 },
+      { "legend": 1, "value": 116 },
+      { "legend": 1, "value": 122 },
+      { "legend": 1, "value": 128 },
+      { "legend": 1, "value": 134 },
+      { "legend": 1, "value": 142 },
+      { "legend": 1, "value": 150 },
+      { "legend": 1, "value": 158 },
+      { "legend": 1, "value": 166 },
+      { "legend": 1, "value": 174 },
+      { "legend": 1, "value": 182 },
+      { "legend": 1, "value": 191 },
+      { "legend": 1, "value": 200 },
+      { "legend": 2, "value": 210 },
+      { "legend": 2, "value": 220 },
+      { "legend": 2, "value": 232 },
+      { "legend": 2, "value": 245 },
+      { "legend": 2, "value": 260 },
+      { "legend": 2, "value": 275 },
+      { "legend": 2, "value": 292 },
+      { "legend": 2, "value": 310 },
+      { "legend": 2, "value": 330 },
+      { "legend": 2, "value": 350 },
+      { "legend": 2, "value": 375 },
+      { "legend": 3, "value": 400 },
+      { "legend": 3, "value": 430 },
+      { "legend": 3, "value": 460 },
+      { "legend": 3, "value": 495 },
+      { "legend": 3, "value": 530 },
+      { "legend": 3, "value": 570 },
+      { "legend": 3, "value": 610 },
+      { "legend": 3, "value": 655 },
+      { "legend": 3, "value": 700 },
+      { "legend": 3, "value": 750 },
+      { "legend": 3, "value": 800 },
+      { "legend": 3, "value": 850 },
+      { "legend": 3, "value": 900 },
+      { "legend": 3, "value": 950 },
       {
         "value": 1000,
         "color": "end",
@@ -971,48 +510,25 @@
       }
     ],
     "legend": [
-      {
-        "color": "chartered",
-        "description": "Chartered par values"
-      },
-      {
-        "color": "non-chartered",
-        "description": "Non-Chartered par values"
-      },
-      {
-        "color": "ignore-first",
-        "description": "Ignore one sale (except director)"
-      },
-      {
-        "color": "ignore-two",
-        "description": "Ignore two sales (except director)"
-      }
+      { "color": "chartered", "description": "Chartered par values" },
+      { "color": "non-chartered", "description": "Non-Chartered par values" },
+      { "color": "ignore-first", "description": "Ignore one sale (except director)" },
+      { "color": "ignore-two", "description": "Ignore two sales (except director)" }
     ]
   },
   "map": {
     "hexes": [
       {
         "color": "offboard",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 6
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 6 }],
         "removeBorders": [1, 5],
         "hexes": ["A3"]
       },
       {
         "color": "offboard",
         "track": [
-          {
-            "type": "offboard",
-            "side": 5
-          },
-          {
-            "type": "offboard",
-            "side": 6
-          }
+          { "type": "offboard", "side": 5 },
+          { "type": "offboard", "side": 6 }
         ],
         "removeBorders": [1, 4],
         "hexes": ["A5"]
@@ -1020,35 +536,17 @@
       {
         "color": "offboard",
         "track": [
-          {
-            "type": "offboard",
-            "side": 5
-          },
-          {
-            "type": "offboard",
-            "side": 6
-          }
+          { "type": "offboard", "side": 5 },
+          { "type": "offboard", "side": 6 }
         ],
         "offBoardRevenue": {
           "x": -5,
-          "name": {
-            "fontSize": 14,
-            "name": "Midlands"
-          },
+          "name": { "fontSize": 14, "name": "Midlands" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "40"
-            },
-            {
-              "color": "green",
-              "cost": "C 90"
-            },
-            {
-              "color": "brown",
-              "cost": "E 140"
-            }
+            { "color": "yellow", "cost": "40" },
+            { "color": "green", "cost": "C 90" },
+            { "color": "brown", "cost": "E 140" }
           ]
         },
         "removeBorders": [1, 4],
@@ -1057,55 +555,27 @@
       {
         "color": "offboard",
         "track": [
-          {
-            "type": "offboard",
-            "side": 5
-          },
-          {
-            "type": "offboard",
-            "side": 6
-          }
+          { "type": "offboard", "side": 5 },
+          { "type": "offboard", "side": 6 }
         ],
-        "divides": [
-          {
-            "side": "2"
-          }
-        ],
+        "divides": [{ "side": "2" }],
         "removeBorders": [1, 4],
         "hexes": ["A9"]
       },
       {
         "color": "offboard",
         "track": [
-          {
-            "type": "offboard",
-            "side": 5
-          },
-          {
-            "type": "offboard",
-            "side": 6
-          }
+          { "type": "offboard", "side": 5 },
+          { "type": "offboard", "side": 6 }
         ],
         "offBoardRevenue": {
           "x": -5,
-          "name": {
-            "fontSize": 14,
-            "name": "The West"
-          },
+          "name": { "fontSize": 14, "name": "The West" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "70"
-            },
-            {
-              "color": "green",
-              "cost": "C 100"
-            },
-            {
-              "color": "brown",
-              "cost": "E 120"
-            }
+            { "color": "yellow", "cost": "70" },
+            { "color": "green", "cost": "C 100" },
+            { "color": "brown", "cost": "E 120" }
           ]
         },
         "removeBorders": [1, 4],
@@ -1114,285 +584,116 @@
       {
         "color": "offboard",
         "track": [
-          {
-            "type": "offboard",
-            "side": 5
-          },
-          {
-            "type": "offboard",
-            "side": 6
-          }
+          { "type": "offboard", "side": 5 },
+          { "type": "offboard", "side": 6 }
         ],
-        "divides": [
-          {
-            "side": "2"
-          }
-        ],
+        "divides": [{ "side": "2" }],
         "removeBorders": [1, 4],
         "hexes": ["A13"]
       },
       {
         "color": "offboard",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 5
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 5 }],
         "removeBorders": [4, 6],
         "hexes": ["A15"]
       },
-      {
-        "color": "offboard",
-        "removeBorders": [2],
-        "hexes": ["B2"]
-      },
+      { "color": "offboard", "removeBorders": [2], "hexes": ["B2"] },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Holbeach"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Holbeach" } }],
         "hexes": ["B4"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Wisbech"
-            },
-            "companies": ["WStI"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Wisbech" }, "companies": ["WStI"] }],
         "hexes": ["B6"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "March"
-            }
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "March" } }],
         "hexes": ["B8"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Cambridge"
-            }
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "N"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Cambridge" } }],
+        "labels": [{ "y": 30, "label": "N" }],
         "hexes": ["B10"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Royston"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Royston" } }],
         "hexes": ["B12"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Bishop's Stortford"
-            },
-            "companies": ["N&E"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Bishop's Stortford" }, "companies": ["N&E"] }],
         "hexes": ["B14"]
       },
       {
         "color": "offboard",
         "cities": [
-          {
-            "x": -30,
-            "y": 15
-          },
-          {
-            "x": 30,
-            "y": 15
-          }
+          { "x": -30, "y": 15 },
+          { "x": 30, "y": 15 }
         ],
-        "track": [
-          {
-            "type": "offboard",
-            "side": 4
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 4 }],
         "removeBorders": [3, 5],
         "hexes": ["B16"]
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 1
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 1 }],
         "offBoardRevenue": {
-          "name": {
-            "fontSize": 14,
-            "name": "King's Lynn Port"
-          },
+          "name": { "fontSize": 14, "name": "King's Lynn Port" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "80"
-            },
-            {
-              "color": "green",
-              "cost": "C 90"
-            },
-            {
-              "color": "brown",
-              "cost": "E 100"
-            }
+            { "color": "yellow", "cost": "80" },
+            { "color": "green", "cost": "C 90" },
+            { "color": "brown", "cost": "E 100" }
           ]
         },
         "hexes": ["C3"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "King's Lynn"
-            },
-            "companies": ["L&H"]
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "Y"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "King's Lynn" }, "companies": ["L&H"] }],
+        "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["C5"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Downham Market"
-            },
-            "companies": ["L&E"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Downham Market" }, "companies": ["L&E"] }],
         "hexes": ["C7"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Ely"
-            },
-            "companies": ["E&H"]
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "Y"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Ely" }, "companies": ["E&H"] }],
+        "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["C9"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Newmarket"
-            },
-            "companies": ["NGC"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Newmarket" }, "companies": ["NGC"] }],
         "hexes": ["C11"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Great Dunmow"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Great Dunmow" } }],
         "hexes": ["C13"]
       },
       {
         "color": "offboard",
         "track": [
-          {
-            "type": "offboard",
-            "side": 3
-          },
-          {
-            "type": "offboard",
-            "side": 4
-          },
-          {
-            "type": "offboard",
-            "side": 5
-          }
+          { "type": "offboard", "side": 3 },
+          { "type": "offboard", "side": 4 },
+          { "type": "offboard", "side": 5 }
         ],
         "offBoardRevenue": {
-          "name": {
-            "fontSize": 14,
-            "name": "London"
-          },
+          "name": { "fontSize": 14, "name": "London" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "100"
-            },
-            {
-              "color": "green",
-              "cost": "C 150"
-            },
-            {
-              "color": "brown",
-              "cost": "E 200"
-            }
+            { "color": "yellow", "cost": "100" },
+            { "color": "green", "cost": "C 150" },
+            { "color": "brown", "cost": "E 200" }
           ]
         },
         "removeBorders": [2, 6],
@@ -1400,119 +701,50 @@
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 6
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 6 }],
         "removeBorders": [5],
         "hexes": ["D2"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Hunstanton"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Hunstanton" } }],
         "hexes": ["D4"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Swaffham"
-            },
-            "companies": ["L&D"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Swaffham" }, "companies": ["L&D"] }],
         "hexes": ["D6"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Brandon"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Brandon" } }],
         "hexes": ["D8"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Bury St. Edmunds"
-            },
-            "companies": ["I&B"]
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "Y"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Bury St. Edmunds" }, "companies": ["I&B"] }],
+        "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["D10"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Sudbury"
-            },
-            "companies": ["SVR"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Sudbury" }, "companies": ["SVR"] }],
         "hexes": ["D12"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Witham"
-            },
-            "companies": ["ECR"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Witham" }, "companies": ["ECR"] }],
         "hexes": ["D14"]
       },
       {
         "color": "offboard",
         "cities": [
-          {
-            "x": -30,
-            "y": 15
-          },
-          {
-            "x": 30,
-            "y": 15
-          }
+          { "x": -30, "y": 15 },
+          { "x": 30, "y": 15 }
         ],
         "track": [
-          {
-            "type": "offboard",
-            "side": 4
-          },
-          {
-            "type": "offboard",
-            "side": 5
-          }
+          { "type": "offboard", "side": 4 },
+          { "type": "offboard", "side": 5 }
         ],
         "removeBorders": [3],
         "hexes": ["D16"]
@@ -1521,270 +753,106 @@
         "color": "water",
         "removeBorders": [2, 6],
         "offBoardRevenue": {
-          "name": {
-            "fontSize": 14,
-            "name": "Port of Wells"
-          },
+          "name": { "fontSize": 14, "name": "Port of Wells" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "80"
-            },
-            {
-              "color": "green",
-              "cost": "C 90"
-            },
-            {
-              "color": "brown",
-              "cost": "E 100"
-            }
+            { "color": "yellow", "cost": "80" },
+            { "color": "green", "cost": "C 90" },
+            { "color": "brown", "cost": "E 100" }
           ]
         },
         "hexes": ["E1"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Wells-next-the-Sea"
-            },
-            "companies": ["WNR"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Wells-next-the-Sea" }, "companies": ["WNR"] }],
         "hexes": ["E3"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Fakenham"
-            },
-            "companies": ["W&F"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Fakenham" }, "companies": ["W&F"] }],
         "hexes": ["E5"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Watton"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Watton" } }],
         "hexes": ["E7"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Thetford"
-            },
-            "companies": ["N&B"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Thetford" }, "companies": ["N&B"] }],
         "hexes": ["E9"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Stowmarket"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Stowmarket" } }],
         "hexes": ["E11"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Colchester"
-            },
-            "companies": ["EUR"]
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "N"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Colchester" }, "companies": ["EUR"] }],
+        "labels": [{ "y": 30, "label": "N" }],
         "hexes": ["E13"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Tiptree"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Tiptree" } }],
         "hexes": ["E15"]
       },
-      {
-        "color": "water",
-        "removeBorders": [5],
-        "hexes": ["E17"]
-      },
+      { "color": "water", "removeBorders": [5], "hexes": ["E17"] },
       {
         "color": "water",
         "track": [
-          {
-            "type": "offboard",
-            "side": 1
-          },
-          {
-            "type": "offboard",
-            "side": 2
-          }
+          { "type": "offboard", "side": 1 },
+          { "type": "offboard", "side": 2 }
         ],
         "removeBorders": [3, 6],
-        "divides": [
-          {
-            "side": "1"
-          }
-        ],
+        "divides": [{ "side": "1" }],
         "hexes": ["F2"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Cromer"
-            },
-            "companies": ["ENR"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Cromer" }, "companies": ["ENR"] }],
         "hexes": ["F4"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Norwich"
-            }
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "N"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Norwich" } }],
+        "labels": [{ "y": 30, "label": "N" }],
         "hexes": ["F6"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Diss"
-            }
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Diss" } }],
         "hexes": ["F8"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Framlingham"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Framlingham" } }],
         "hexes": ["F10"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Ipswich"
-            },
-            "companies": ["ESR"]
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "N"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Ipswich" }, "companies": ["ESR"] }],
+        "labels": [{ "y": 30, "label": "N" }],
         "hexes": ["F12"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Harwich"
-            }
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "Y"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Harwich" } }],
+        "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["F14"]
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 4
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 4 }],
         "offBoardRevenue": {
-          "name": {
-            "fontSize": 14,
-            "name": "Holland"
-          },
+          "name": { "fontSize": 14, "name": "Holland" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "70"
-            },
-            {
-              "color": "green",
-              "cost": "C 100"
-            },
-            {
-              "color": "brown",
-              "cost": "E 130"
-            }
+            { "color": "yellow", "cost": "70" },
+            { "color": "green", "cost": "C 100" },
+            { "color": "brown", "cost": "E 130" }
           ]
         },
         "removeBorders": [2, 5],
@@ -1793,24 +861,12 @@
       {
         "color": "water",
         "offBoardRevenue": {
-          "name": {
-            "fontSize": 14,
-            "name": "Cromer Port"
-          },
+          "name": { "fontSize": 14, "name": "Cromer Port" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "80"
-            },
-            {
-              "color": "green",
-              "cost": "C 90"
-            },
-            {
-              "color": "brown",
-              "cost": "E 100"
-            }
+            { "color": "yellow", "cost": "80" },
+            { "color": "green", "cost": "C 90" },
+            { "color": "brown", "cost": "E 100" }
           ]
         },
         "removeBorders": [3, 6],
@@ -1818,151 +874,61 @@
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "North Walsham"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "North Walsham" } }],
         "hexes": ["G5"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Acle"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Acle" } }],
         "hexes": ["G7"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Beccles"
-            },
-            "companies": ["WVR"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Beccles" }, "companies": ["WVR"] }],
         "hexes": ["G9"]
       },
       {
         "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Woodbridge"
-            }
-          }
-        ],
+        "centerTowns": [{ "name": { "fontSize": 14, "name": "Woodbridge" } }],
         "hexes": ["G11"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Felixstowe"
-            },
-            "companies": ["FDR"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Felixstowe" }, "companies": ["FDR"] }],
         "hexes": ["G13"]
       },
       {
         "color": "water",
         "track": [
-          {
-            "type": "offboard",
-            "side": 3
-          },
-          {
-            "type": "offboard",
-            "side": 4
-          }
+          { "type": "offboard", "side": 3 },
+          { "type": "offboard", "side": 4 }
         ],
         "removeBorders": [2, 5],
-        "divides": [
-          {
-            "side": "3"
-          }
-        ],
+        "divides": [{ "side": "3" }],
         "hexes": ["G15"]
       },
-      {
-        "color": "water",
-        "removeBorders": [3],
-        "hexes": ["H4"]
-      },
+      { "color": "water", "removeBorders": [3], "hexes": ["H4"] },
       {
         "color": "plain",
-        "cities": [
-          {
-            "y": -15,
-            "name": {
-              "fontSize": 14,
-              "name": "Great Yarmouth"
-            },
-            "companies": ["Y&N"]
-          }
-        ],
-        "labels": [
-          {
-            "y": 30,
-            "label": "Y"
-          }
-        ],
+        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Great Yarmouth" }, "companies": ["Y&N"] }],
+        "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["H6"]
       },
       {
         "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "fontSize": 14,
-              "name": "Lowestoft"
-            },
-            "companies": ["N&S"]
-          }
-        ],
+        "cities": [{ "name": { "fontSize": 14, "name": "Lowestoft" }, "companies": ["N&S"] }],
         "hexes": ["H8"]
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 4
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 4 }],
         "offBoardRevenue": {
-          "name": {
-            "fontSize": 14,
-            "name": "Port of Lowestoft"
-          },
+          "name": { "fontSize": 14, "name": "Port of Lowestoft" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "60"
-            },
-            {
-              "color": "green",
-              "cost": "C 90"
-            },
-            {
-              "color": "brown",
-              "cost": "E 120"
-            }
+            { "color": "yellow", "cost": "60" },
+            { "color": "green", "cost": "C 90" },
+            { "color": "brown", "cost": "E 120" }
           ]
         },
         "removeBorders": [5],
@@ -1970,43 +936,21 @@
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 2
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 2 }],
         "removeBorders": [1],
         "hexes": ["H12"]
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 3
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 3 }],
         "offBoardRevenue": {
           "x": 5,
-          "name": {
-            "fontSize": 14,
-            "name": "Denmark"
-          },
+          "name": { "fontSize": 14, "name": "Denmark" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "70"
-            },
-            {
-              "color": "green",
-              "cost": "C 100"
-            },
-            {
-              "color": "brown",
-              "cost": "E 130"
-            }
+            { "color": "yellow", "cost": "70" },
+            { "color": "green", "cost": "C 100" },
+            { "color": "brown", "cost": "E 130" }
           ]
         },
         "removeBorders": [2, 4],
@@ -2014,31 +958,14 @@
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 2
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 2 }],
         "offBoardRevenue": {
-          "name": {
-            "fontSize": 14,
-            "name": "Great Yarmouth Port"
-          },
+          "name": { "fontSize": 14, "name": "Great Yarmouth Port" },
           "rows": 2,
           "revenues": [
-            {
-              "color": "yellow",
-              "cost": "80"
-            },
-            {
-              "color": "green",
-              "cost": "C 100"
-            },
-            {
-              "color": "brown",
-              "cost": "E 120"
-            }
+            { "color": "yellow", "cost": "80" },
+            { "color": "green", "cost": "C 100" },
+            { "color": "brown", "cost": "E 120" }
           ]
         },
         "removeBorders": [1],
@@ -2047,44 +974,23 @@
       {
         "color": "water",
         "track": [
-          {
-            "type": "offboard",
-            "side": 2
-          },
-          {
-            "type": "offboard",
-            "side": 3
-          }
+          { "type": "offboard", "side": 2 },
+          { "type": "offboard", "side": 3 }
         ],
         "removeBorders": [1, 4],
-        "divides": [
-          {
-            "side": "2"
-          }
-        ],
+        "divides": [{ "side": "2" }],
         "hexes": ["I7"]
       },
       {
         "color": "water",
-        "track": [
-          {
-            "type": "offboard",
-            "side": 3
-          }
-        ],
+        "track": [{ "type": "offboard", "side": 3 }],
         "removeBorders": [2, 4],
         "hexes": ["I9"]
       }
     ],
     "borders": [
-      {
-        "color": "water",
-        "coords": ["F14p2", "F14p3", "F14p4"]
-      },
-      {
-        "color": "water",
-        "coords": ["F14p0", "F14p1"]
-      }
+      { "color": "water", "coords": ["F14p2", "F14p3", "F14p4"] },
+      { "color": "water", "coords": ["F14p0", "F14p1"] }
     ]
   }
 }
