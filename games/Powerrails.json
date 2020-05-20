@@ -2353,7 +2353,7 @@
       "values": [
         {
           "angle": 210,
-          "percent": 0.85,
+          "percent": 0.8,
           "value": 100
         }
       ],
@@ -2385,8 +2385,7 @@
       ],
       "cities": [
         {
-          "size": 3,
-          "rotate": 180
+          "size": 3
         }
       ],
       "track": [
@@ -3730,8 +3729,8 @@
       "rotations": 1,
       "values": [
         {
-          "angle": 270,
-          "percent": 0.925,
+          "angle": 210,
+          "percent": 0.85,
           "value": 80
         }
       ],
