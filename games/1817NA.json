@@ -7,7 +7,7 @@
     "titleX": 10,
     "titleY": 620,
     "titleSize": 165,
-    "subTitleSize": 17,
+    "subtitleSize": 17,
     "currency": "$#",
     "extraStationTokens": 4
   },

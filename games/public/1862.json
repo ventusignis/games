@@ -8,7 +8,7 @@
     "titleX": 840,
     "titleY": -120,
     "titleSize": 48,
-    "subTitleSize": 18,
+    "subtitleSize": 18,
     "designerSize": 12
   },
   "links": {
@@ -280,121 +280,201 @@
       "name": "ECR",
       "abbrev": "ECR",
       "color": "_dark-blue",
-      "token": { "fontSize": 18, "stripes": "_purple", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_purple",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "E&H",
       "abbrev": "E&H",
       "color": "_light-yellow",
-      "token": { "fontSize": 18, "stripes": "_light-orange", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_light-orange",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "ENR",
       "abbrev": "ENR",
       "color": "_dark-yellow",
-      "token": { "fontSize": 18, "stripes": "_blue", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_blue",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "ESR",
       "abbrev": "ESR",
       "color": "_dark-green",
-      "token": { "fontSize": 18, "stripes": "_light-green", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_light-green",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "EUR",
       "abbrev": "EUR",
       "color": "_red",
-      "token": { "fontSize": 18, "stripes": "_purple", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_purple",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "FDR",
       "abbrev": "FDR",
       "color": "_light-orange",
-      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_red",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "I&B",
       "abbrev": "I&B",
       "color": "_black",
-      "token": { "fontSize": 18, "stripes": "_light-gray", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_light-gray",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "L&D",
       "abbrev": "L&D",
       "color": "_dark-orange",
-      "token": { "fontSize": 18, "stripes": "_dark-blue", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_dark-blue",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "L&E",
       "abbrev": "L&E",
       "color": "_red",
-      "token": { "fontSize": 18, "stripes": "_dark-yellow", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_dark-yellow",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "L&H",
       "abbrev": "L&H",
       "color": "_light-blue-1",
-      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_red",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "N&B",
       "abbrev": "N&B",
       "color": "_light-gray",
-      "token": { "fontSize": 18, "stripes": "_dark-orange", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_dark-orange",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "N&E",
       "abbrev": "N&E",
       "color": "_dark-gray",
-      "token": { "fontSize": 18, "stripes": "_dark-green", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_dark-green",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "NGC",
       "abbrev": "NGC",
       "color": "_dark-yellow",
-      "token": { "fontSize": 18, "stripes": "_black", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_black",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "N&S",
       "abbrev": "N&S",
       "color": "_blue",
-      "token": { "fontSize": 18, "stripes": "_light-blue-2", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_light-blue-2",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "SVR",
       "abbrev": "SVR",
       "color": "_brown",
-      "token": { "fontSize": 18, "stripes": "_dark-green", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_dark-green",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "W&F",
       "abbrev": "W&F",
       "color": "_green",
-      "token": { "fontSize": 18, "stripes": "_lime", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_lime",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "WNR",
       "abbrev": "WNR",
       "color": "_brown",
-      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_red",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "WStI",
       "abbrev": "WStI",
       "color": "_purple",
-      "token": { "fontSize": 18, "stripes": "_dark-yellow", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_dark-yellow",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "WVR",
       "abbrev": "WVR",
       "color": "_purple",
-      "token": { "fontSize": 18, "stripes": "_pink", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_pink",
+        "inverseLabelColor": "black"
+      }
     },
     {
       "name": "Y&N",
       "abbrev": "Y&N",
       "color": "_black",
-      "token": { "fontSize": 18, "stripes": "_red", "inverseLabelColor": "black" }
+      "token": {
+        "fontSize": 18,
+        "stripes": "_red",
+        "inverseLabelColor": "black"
+      }
     }
   ],
   "stock": {
@@ -512,8 +592,14 @@
     "legend": [
       { "color": "chartered", "description": "Chartered par values" },
       { "color": "non-chartered", "description": "Non-Chartered par values" },
-      { "color": "ignore-first", "description": "Ignore one sale (except director)" },
-      { "color": "ignore-two", "description": "Ignore two sales (except director)" }
+      {
+        "color": "ignore-first",
+        "description": "Ignore one sale (except director)"
+      },
+      {
+        "color": "ignore-two",
+        "description": "Ignore two sales (except director)"
+      }
     ]
   },
   "map": {
@@ -605,7 +691,12 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Wisbech" }, "companies": ["WStI"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Wisbech" },
+            "companies": ["WStI"]
+          }
+        ],
         "hexes": ["B6"]
       },
       {
@@ -615,7 +706,9 @@
       },
       {
         "color": "plain",
-        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Cambridge" } }],
+        "cities": [
+          { "y": -15, "name": { "fontSize": 14, "name": "Cambridge" } }
+        ],
         "labels": [{ "y": 30, "label": "N" }],
         "hexes": ["B10"]
       },
@@ -626,7 +719,12 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Bishop's Stortford" }, "companies": ["N&E"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Bishop's Stortford" },
+            "companies": ["N&E"]
+          }
+        ],
         "hexes": ["B14"]
       },
       {
@@ -655,24 +753,46 @@
       },
       {
         "color": "plain",
-        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "King's Lynn" }, "companies": ["L&H"] }],
+        "cities": [
+          {
+            "y": -15,
+            "name": { "fontSize": 14, "name": "King's Lynn" },
+            "companies": ["L&H"]
+          }
+        ],
         "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["C5"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Downham Market" }, "companies": ["L&E"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Downham Market" },
+            "companies": ["L&E"]
+          }
+        ],
         "hexes": ["C7"]
       },
       {
         "color": "plain",
-        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Ely" }, "companies": ["E&H"] }],
+        "cities": [
+          {
+            "y": -15,
+            "name": { "fontSize": 14, "name": "Ely" },
+            "companies": ["E&H"]
+          }
+        ],
         "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["C9"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Newmarket" }, "companies": ["NGC"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Newmarket" },
+            "companies": ["NGC"]
+          }
+        ],
         "hexes": ["C11"]
       },
       {
@@ -712,7 +832,12 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Swaffham" }, "companies": ["L&D"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Swaffham" },
+            "companies": ["L&D"]
+          }
+        ],
         "hexes": ["D6"]
       },
       {
@@ -722,18 +847,31 @@
       },
       {
         "color": "plain",
-        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Bury St. Edmunds" }, "companies": ["I&B"] }],
+        "cities": [
+          {
+            "y": -15,
+            "name": { "fontSize": 14, "name": "Bury St. Edmunds" },
+            "companies": ["I&B"]
+          }
+        ],
         "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["D10"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Sudbury" }, "companies": ["SVR"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Sudbury" },
+            "companies": ["SVR"]
+          }
+        ],
         "hexes": ["D12"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Witham" }, "companies": ["ECR"] }],
+        "cities": [
+          { "name": { "fontSize": 14, "name": "Witham" }, "companies": ["ECR"] }
+        ],
         "hexes": ["D14"]
       },
       {
@@ -765,12 +903,22 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Wells-next-the-Sea" }, "companies": ["WNR"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Wells-next-the-Sea" },
+            "companies": ["WNR"]
+          }
+        ],
         "hexes": ["E3"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Fakenham" }, "companies": ["W&F"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Fakenham" },
+            "companies": ["W&F"]
+          }
+        ],
         "hexes": ["E5"]
       },
       {
@@ -780,7 +928,12 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Thetford" }, "companies": ["N&B"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Thetford" },
+            "companies": ["N&B"]
+          }
+        ],
         "hexes": ["E9"]
       },
       {
@@ -790,7 +943,13 @@
       },
       {
         "color": "plain",
-        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Colchester" }, "companies": ["EUR"] }],
+        "cities": [
+          {
+            "y": -15,
+            "name": { "fontSize": 14, "name": "Colchester" },
+            "companies": ["EUR"]
+          }
+        ],
         "labels": [{ "y": 30, "label": "N" }],
         "hexes": ["E13"]
       },
@@ -812,7 +971,9 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Cromer" }, "companies": ["ENR"] }],
+        "cities": [
+          { "name": { "fontSize": 14, "name": "Cromer" }, "companies": ["ENR"] }
+        ],
         "hexes": ["F4"]
       },
       {
@@ -833,7 +994,13 @@
       },
       {
         "color": "plain",
-        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Ipswich" }, "companies": ["ESR"] }],
+        "cities": [
+          {
+            "y": -15,
+            "name": { "fontSize": 14, "name": "Ipswich" },
+            "companies": ["ESR"]
+          }
+        ],
         "labels": [{ "y": 30, "label": "N" }],
         "hexes": ["F12"]
       },
@@ -874,7 +1041,9 @@
       },
       {
         "color": "plain",
-        "centerTowns": [{ "name": { "fontSize": 14, "name": "North Walsham" } }],
+        "centerTowns": [
+          { "name": { "fontSize": 14, "name": "North Walsham" } }
+        ],
         "hexes": ["G5"]
       },
       {
@@ -884,7 +1053,12 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Beccles" }, "companies": ["WVR"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Beccles" },
+            "companies": ["WVR"]
+          }
+        ],
         "hexes": ["G9"]
       },
       {
@@ -894,7 +1068,12 @@
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Felixstowe" }, "companies": ["FDR"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Felixstowe" },
+            "companies": ["FDR"]
+          }
+        ],
         "hexes": ["G13"]
       },
       {
@@ -910,13 +1089,24 @@
       { "color": "water", "removeBorders": [3], "hexes": ["H4"] },
       {
         "color": "plain",
-        "cities": [{ "y": -15, "name": { "fontSize": 14, "name": "Great Yarmouth" }, "companies": ["Y&N"] }],
+        "cities": [
+          {
+            "y": -15,
+            "name": { "fontSize": 14, "name": "Great Yarmouth" },
+            "companies": ["Y&N"]
+          }
+        ],
         "labels": [{ "y": 30, "label": "Y" }],
         "hexes": ["H6"]
       },
       {
         "color": "plain",
-        "cities": [{ "name": { "fontSize": 14, "name": "Lowestoft" }, "companies": ["N&S"] }],
+        "cities": [
+          {
+            "name": { "fontSize": 14, "name": "Lowestoft" },
+            "companies": ["N&S"]
+          }
+        ],
         "hexes": ["H8"]
       },
       {
