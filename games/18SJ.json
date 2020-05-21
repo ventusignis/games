@@ -90,84 +90,84 @@
   "floatPercent": 60,
   "companies": [
     {
-      "name": "BJ",
+      "name": "Bergslagernas järnvägar AB",
       "abbrev": "BJ",
       "color": "_brown",
       "tokens": "three",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "KFJ",
+      "name": "Kil-Fryksdalens Järnväg",
       "abbrev": "KFJ",
       "color": "_pink",
       "tokens": "three",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "MYJ",
+      "name": "Malmö-Ystads järnväg",
       "abbrev": "MYJ",
       "color": "_yellow",
       "tokens": "three",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "MÖJ",
+      "name": "Mellersta Östergötlands Järnvägar",
       "abbrev": "MÖJ",
       "color": "_turquoise",
       "tokens": "two",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "SNJ",
+      "name": "The Swedish-Norwegian Railroad Company ltd",
       "abbrev": "SNJ",
       "color": "_blue",
       "tokens": "four",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "STJ",
+      "name": "Sundsvall-Torphammars järnväg",
       "abbrev": "STJ",
       "color": "_black",
       "tokens": "four",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "SWB",
+      "name": "Stockholm-Västerås-Bergslagens Järnvägar",
       "abbrev": "SWB",
       "color": "_green",
       "tokens": "two",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "TGOJ",
+      "name": "Trafikaktiebolaget Grängesberg-Oxelösunds järnvägar",
       "abbrev": "TGOJ",
       "color": "_orange",
       "tokens": "four",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "UGJ",
+      "name": "Uppsala-Gävle järnväg",
       "abbrev": "UGJ",
       "color": "_lime",
       "tokens": "three",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "ÖKJ",
+      "name": "Örebro-Köpings järnvägsaktiebolag",
       "abbrev": "ÖKJ",
       "color": "_purple",
       "tokens": "two",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "ÖSJ",
+      "name": "Östra Skånes Järnvägsaktiebolag",
       "abbrev": "ÖSJ",
       "color": "_red",
       "tokens": "three",
       "token": { "fontSize": 18, "inverseLabelColor": "black" }
     },
     {
-      "name": "KHJ",
+      "name": "Köping-Hults järnväg",
       "abbrev": "KHJ",
       "color": "white",
       "tokens": "one",
