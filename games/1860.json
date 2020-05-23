@@ -57,7 +57,8 @@
     {
       "name": "Cowes & Newport",
       "abbrev": "C&N",
-      "color": "cyan",
+      "textColor": "black",
+      "color": "lightBlue",
       "tokens": "four",
       "shares": [
         {
@@ -138,6 +139,7 @@
     {
       "name": "Newport, Godshill & St. Lawrence",
       "abbrev": "NGStL",
+      "textColor": "black",
       "color": "yellow"
     },
     {
@@ -167,7 +169,7 @@
     {
       "name": "Shanklin & Chale",
       "abbrev": "S&C",
-      "color": "purple"
+      "color": "violet"
     },
     {
       "name": "Ventor, Yarmouth & South Coast",
@@ -940,7 +942,7 @@
         {
           "color": "plain",
           "water": {
-            "cost": "£60"
+            "cost": 60
           },
           "hexes": ["H2"]
         },
@@ -1035,7 +1037,7 @@
         {
           "color": "plain",
           "water": {
-            "cost": "£60"
+            "cost": 60
           },
           "hexes": ["D4"]
         },
@@ -1221,7 +1223,7 @@
               "type": "mountain",
               "angle": 270,
               "percent": 0.4,
-              "cost": "£60"
+              "cost": 60
             }
           ],
           "hexes": ["K5"]
@@ -1251,7 +1253,7 @@
         {
           "color": "plain",
           "mountain": {
-            "cost": "£60"
+            "cost": 60
           },
           "hexes": ["H6", "E7", "F8", "G13"]
         },
@@ -1302,29 +1304,49 @@
               "type": "mountain",
               "angle": 270,
               "percent": 0.4,
-              "cost": "£60"
+              "cost": 60
             }
           ],
           "hexes": ["C7"]
         },
         {
-          "copy": "C7",
+          "color": "plain",
           "centerTowns": [
             {
               "name": {
                 "name": "Wroxall"
-              }
+              },
+              "angle": 90,
+              "percent": 0.4
+            }
+          ],
+          "terrain": [
+            {
+              "type": "mountain",
+              "angle": 270,
+              "percent": 0.4,
+              "cost": 60
             }
           ],
           "hexes": ["H10"]
         },
         {
-          "copy": "C7",
+          "color": "plain",
           "centerTowns": [
             {
               "name": {
                 "name": "St. Lawrence"
-              }
+              },
+              "angle": 90,
+              "percent": 0.4
+            }
+          ],
+          "terrain": [
+            {
+              "type": "mountain",
+              "angle": 270,
+              "percent": 0.4,
+              "cost": 60
             }
           ],
           "hexes": ["H12"]
