@@ -104,6 +104,7 @@
       "name": "Chesapeake & Ohio Railroad",
       "abbrev": "C&O",
       "logo": "CO",
+      "textColor": "black",
       "color": "lightBlue",
       "tokens": "four"
     },
@@ -111,6 +112,7 @@
       "name": "Lehigh Valley Railroad",
       "abbrev": "LV",
       "logo": "LV",
+      "textColor": "black",
       "color": "yellow",
       "tokens": "two"
     },
@@ -123,8 +125,8 @@
     },
     {
       "name": "Norfolk & Western Railway",
-      "abbrev": "NW",
-      "logo": "NW",
+      "abbrev": "N&W",
+      "logo": "N&W",
       "color": "brown"
     }
   ],
@@ -182,11 +184,12 @@
       "name": "Delaware and Raritan Canal",
       "price": 20,
       "revenue": 5,
-      "description": "No special ability. Blocks hex K3 while owned by a player. Companies may purchase P1 - P5 from a player for half to double the face value.",
+      "description": "No special ability. Blocks hex K3 while owned by a player.",
       "sym": "D&R",
       "abilities": [
         {
           "type": "blocks_hexes",
+          "owner_type": "player",
           "hexes": ["K3"]
         }
       ]
@@ -195,12 +198,21 @@
       "name": "Columbia - Philadelphia Railroad",
       "price": 40,
       "revenue": 10,
-      "description": "Blocks hexes H2 and I3 while owned by a player. The owning company may lay two connected tiles in hexes H2 and I3. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning company does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the company’s tile placement action.",
+      "description": "Blocks hexes H2 and I3 while owned by a player. The owning corporation may lay two connected tiles in hexes H2 and I3. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning corporation does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the corporation’s tile placement action.",
       "sym": "C-P",
       "abilities": [
         {
           "type": "blocks_hexes",
+          "owner_type": "player",
           "hexes": ["H2", "I3"]
+        },
+        {
+          "type": "tile_lay",
+          "owner_type": "corporation",
+          "hexes": ["H2", "I3"],
+          "tiles": ["8", "9"],
+          "when": "track",
+          "count": 2
         }
       ]
     },
@@ -208,11 +220,12 @@
       "name": "Baltimore and Susquehanna Railroad",
       "price": 50,
       "revenue": 10,
-      "description": "Blocks hexes F4 and G5 while owned by a player. The owning company may lay two connected tiles in hexes F4 and G5. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning company does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the company’s tile placement action.",
+      "description": "Blocks hexes F4 and G5 while owned by a player. The owning corporation may lay two connected tiles in hexes F4 and G5. Only #8 and #9 tiles may be used. If any tiles are played in these hexes other than by using this ability, the ability is forfeit. These tiles may be placed even if the owning corporation does not have a route to the hexes. These tiles are laid during the tile laying step and are in addition to the corporation’s tile placement action.",
       "sym": "B&S",
       "abilities": [
         {
           "type": "blocks_hexes",
+          "owner_type": "player",
           "hexes": ["F4", "G5"]
         }
       ]
@@ -221,11 +234,18 @@
       "name": "Chesapeake and Ohio Canal",
       "price": 80,
       "revenue": 15,
-      "description": "Blocks hex D2 while owned by a player.Owning company may place a tile in hex D2.The company does not need to have a route to this hex.The tile placed counts as the company’ s tile lay action and the company must pay the terrain cost.The company may then immediately place a station token free of charge.",
+      "description": "Blocks hex D2 while owned by a player. The owning corporation may place a tile in hex D2. The corporation does not need to have a route to this hex. The tile placed counts as the corporation’s tile lay action and the corporation must pay the terrain cost. The corporation may then immediately place a station token free of charge.",
       "sym": "C&OC",
       "abilities": [
         {
           "type": "blocks_hexes",
+          "owner_type": "player",
+          "hexes": ["D2"]
+        },
+        {
+          "type": "teleport",
+          "owner_type": "corporation",
+          "tiles": ["57"],
           "hexes": ["D2"]
         }
       ]
@@ -234,13 +254,28 @@
       "name": "Baltimore & Ohio Railroad",
       "price": 100,
       "revenue": 0,
-      "description": "During game setup place one share of the Baltimore & Ohio public company with this certificate.The player purchasing this private immediately takes both the private company and the B & O share.This private company has no other special ability."
+      "description": "During game setup place one share of the Baltimore & Ohio corporation with this certificate. The player purchasing this private immediately takes both the private company and the B&O share. This private company has no other special ability.",
+      "abilities": [
+        {
+          "type": "share",
+          "share": "B&O_1"
+        }
+      ]
     },
     {
       "name": "Cornelius Vanderbilt",
       "price": 200,
       "revenue": 30,
-      "description": "During game setup select a random president’s certificate and place it with this certificate.The player purchasing this private company takes both this certificate and the randomly selected president’ s certificate.The player immediately sets the par value of the public company.This private closes when the associated public company buys it’s first train."
+      "description": "During game setup select a random president’s certificate and place it with this certificate. The player purchasing this private company takes both this certificate and the randomly selected president’s certificate. The player immediately sets the par value of the corporation. This private closes when the associated corporation buys its first train. It cannot be bought by a corporation.",
+      "abilities": [
+        {
+          "type": "share",
+          "share": "random-president"
+        },
+        {
+          "type": "no_buy"
+        }
+      ]
     }
   ],
   "phases": [
@@ -289,7 +324,7 @@
       "limit": 2,
       "rounds": 3,
       "on": "D",
-      "tiles": "brown"
+      "tiles": "gray"
     }
   ],
   "pools": [
@@ -436,7 +471,6 @@
         145,
         160,
         180,
-        185,
         {
           "value": 200,
           "label": 200,
@@ -558,9 +592,9 @@
     "2": 1,
     "3": 2,
     "4": 2,
-    "7": 4,
-    "8": 12,
-    "9": 9,
+    "7": { "quantity": "∞", "print": 4 },
+    "8": { "quantity": "∞", "print": 12 },
+    "9": { "quantity": "∞", "print": 9 },
     "14": 5,
     "15": 6,
     "16": 1,
@@ -1052,6 +1086,7 @@
             }
           ]
         },
+        "encoding": "c=r:yellow_40|green_50|brown_60|gray_80;p=a:5,b:_0",
         "hexes": ["A3"]
       },
       {
@@ -1244,7 +1279,7 @@
               "name": "Lynchburg"
             },
             "x": 30,
-            "companies": ["NW"]
+            "companies": ["N&W"]
           }
         ],
         "hexes": ["C13"]
