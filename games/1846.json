@@ -98,13 +98,15 @@
       "abbrev": "C&O",
       "logo": "CO",
       "tokens": ["Free", 80, 80, 80],
-      "color": "cyan"
+      "color": "lightBlue",
+      "textColor": "black"
     },
     {
       "name": "Erie",
       "abbrev": "ERIE",
       "tokens": ["Free", 80, 80, "$80*"],
-      "color": "yellow"
+      "color": "yellow",
+      "textColor": "black"
     },
     {
       "name": "Grand Trunk",
