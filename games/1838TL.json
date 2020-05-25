@@ -5,7 +5,7 @@
     "designer": "Dieter Danziger",
     "background": "blue",
     "titleSize": 108,
-    "subTitleSize": 28,
+    "subtitleSize": 28,
     "extraStationTokens": 2,
     "titleY": -80,
     "titleX": 20,

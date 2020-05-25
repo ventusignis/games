@@ -5,7 +5,7 @@
     "designer": "Tom Schoeps",
     "background": "tile_pink",
     "titleSize": 108,
-    "subTitleSize": 28,
+    "subtitleSize": 28,
     "marketTokens": 2,
     "titleY": -80,
     "titleX": 20,

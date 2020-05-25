@@ -7,7 +7,7 @@
     "currency": "#ℳ",
     "orientation": "horizontal",
     "titleSize": 85,
-    "subTitleSize": 26,
+    "subtitleSize": 26,
     "designerSize": 16,
     "titleX": 600,
     "titleY": -100
