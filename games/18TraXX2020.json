@@ -18,7 +18,10 @@
     "offboard2": "#6f30a0",
     "pink": "#ff3399"
   },
-  "tokens": ["Round", "APRR", "APRR"],
+  "tokens": [
+    { "label": "Round", "quantity": 0, "print": 1 },
+    { "label": "APRR", "quantity": 1, "print": 2 }
+  ],
   "ipo": true,
   "bank": 8000,
   "players": [
@@ -2852,21 +2855,14 @@
     "ABT9": {
       "color": "yellow",
       "track": [{ "side": 3 }, { "side": 6 }],
-      "cities": [
+      "boomtowns": [
         {
           "name": {
             "name": "Antioch",
             "offset": 42,
             "reverse": true
-          }
-        }
-      ],
-      "circles": [
-        {
-          "width": 11,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
-          "fillOpacity": "0"
+          },
+          "city": true
         }
       ],
       "labels": [
@@ -2889,15 +2885,7 @@
       "color": "yellow",
       "quantity": 4,
       "track": [{ "side": 3 }, { "side": 6 }],
-      "cities": [{}],
-      "circles": [
-        {
-          "width": 11,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
-          "fillOpacity": "0"
-        }
-      ],
+      "boomtowns": [{ "city": true }],
       "labels": [
         {
           "label": "BT",
@@ -2918,15 +2906,7 @@
       "color": "yellow",
       "quantity": 4,
       "track": [{ "side": 3 }, { "side": 6 }],
-      "centerTowns": [{}],
-      "circles": [
-        {
-          "width": 22,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
-          "fillOpacity": "0"
-        }
-      ],
+      "boomtowns": [{}],
       "labels": [
         {
           "label": "BT",
@@ -2949,9 +2929,9 @@
       "cities": [{ "size": 2 }],
       "circles": [
         {
-          "width": 11,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
+          "width": 12,
+          "strokeDashArray": "8 8",
+          "strokeWidth": 4,
           "fillOpacity": "0"
         }
       ],
@@ -2977,9 +2957,9 @@
       "cities": [{ "size": 2 }],
       "circles": [
         {
-          "width": 11,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
+          "width": 12,
+          "strokeDashArray": "8 8",
+          "strokeWidth": 4,
           "fillOpacity": "0"
         }
       ],
@@ -3005,9 +2985,9 @@
       "cities": [{ "size": 2 }],
       "circles": [
         {
-          "width": 11,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
+          "width": 12,
+          "strokeDashArray": "8 8",
+          "strokeWidth": 4,
           "fillOpacity": "0"
         }
       ],
@@ -3030,15 +3010,7 @@
     "BT4": {
       "color": "green",
       "track": [{ "side": 2 }, { "side": 3 }, { "side": 5 }, { "side": 6 }],
-      "centerTowns": [{}],
-      "circles": [
-        {
-          "width": 22,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
-          "fillOpacity": "0"
-        }
-      ],
+      "boomtowns": [{}],
       "labels": [
         {
           "label": "BT",
@@ -3058,15 +3030,7 @@
     "BT5": {
       "color": "green",
       "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 6 }],
-      "centerTowns": [{}],
-      "circles": [
-        {
-          "width": 22,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
-          "fillOpacity": "0"
-        }
-      ],
+      "boomtowns": [{}],
       "labels": [
         {
           "label": "BT",
@@ -3087,14 +3051,7 @@
       "color": "green",
       "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 6 }],
       "centerTowns": [{}],
-      "circles": [
-        {
-          "width": 22,
-          "strokeDashArray": "7 7",
-          "strokeWidth": 2,
-          "fillOpacity": "0"
-        }
-      ],
+      "boomtowns": [{}],
       "labels": [
         {
           "label": "BT",
