@@ -419,22 +419,20 @@
       "values": [
         {
           "angle": 270,
-          "percent": 0.87,
+          "percent": 0.9,
           "value": 100
         }
       ],
       "labels": [
         {
-          "size": 20,
           "label": "NY",
-          "angle": 205,
-          "percent": 0.84
+          "angle": 90,
+          "percent": 0.9
         }
       ],
       "cities": [
         {
-          "size": 4,
-          "percent": 0.1
+          "size": 4
         }
       ],
       "track": [

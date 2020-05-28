@@ -448,7 +448,7 @@
         "label": "£",
         "angle": 30,
         "percent": 0.1,
-        "size": 30
+        "fontSize": 30
       }
     ],
     "towns": [
@@ -473,7 +473,7 @@
       {
         "angle": 240,
         "percent": 0.2,
-        "size": 30,
+        "fontSize": 30,
         "label": "£"
       }
     ],
@@ -500,7 +500,7 @@
       {
         "angle": 270,
         "percent": 0.45,
-        "size": 30,
+        "fontSize": 30,
         "label": "£"
       }
     ],
@@ -525,14 +525,14 @@
         "angle": 270,
         "percent": 0.45,
         "y": -25,
-        "size": 30,
+        "fontSize": 30,
         "label": "£"
       },
       {
         "angle": 270,
         "percent": 0.45,
         "y": 25,
-        "size": 30,
+        "fontSize": 30,
         "label": "£"
       }
     ],
@@ -558,8 +558,8 @@
     "color": "yellow",
     "broken": true,
     "labels": [
-      { "angle": 180, "percent": 0.4, "size": 30, "label": "£" },
-      { "angle": -45, "percent": 0.55, "size": 30, "label": "£" }
+      { "angle": 180, "percent": 0.4, "fontSize": 30, "label": "£" },
+      { "angle": -45, "percent": 0.55, "fontSize": 30, "label": "£" }
     ],
     "towns": [
       { "angle": 7.5, "percent": 0.5, "rotate": -15.5, "color": "halt" },
@@ -585,7 +585,7 @@
     "broken": true,
     "rotations": [0],
     "labels": [
-      { "label": "£", "angle": 90, "percent": 0.333, "y": 50, "size": 30 },
+      { "label": "£", "angle": 90, "percent": 0.333, "y": 50, "fontSize": 30 },
       { "label": "C", "angle": 120, "percent": 0.7 }
     ],
     "values": [
