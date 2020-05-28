@@ -5,11 +5,11 @@
     "designer": "Wolfram Janich",
     "background": "gray",
     "titleY": 1650,
-    "extraTotalHeight": 300
+    "extraTotalHeight": 300,
+    "currency": "#M"
   },
   "links": {
-    "bgg": "https://boardgamegeek.com/boardgame/29278/18rhl-rhineland",
-    "rules": "N/A"
+    "bgg": "https://boardgamegeek.com/boardgame/29278/18rhl-rhineland"
   },
   "floatPercent": 50,
   "wip": true,
@@ -21,7 +21,7 @@
       "color": "gray" }
   ],
   "ipo": true,
-  "bank": "9000M",
+  "bank": 9000,
   "players": [
     {
       "number": 3,
@@ -55,12 +55,12 @@
       {
         "quantity": 1,
         "label": "President's Certificate",
-        "percent": "20",
+        "percent": 20,
         "shares": 2
       },
       {
         "quantity": 8,
-        "percent": "10",
+        "percent": 10,
         "shares": 1
       }
     ],
@@ -68,17 +68,17 @@
       {
         "quantity": 1,
         "label": "President's Certificate",
-        "percent": "20",
+        "percent": 20,
         "shares": 2
       },
       {
         "quantity": 2,
-        "percent": "20",
+        "percent": 20,
         "shares": 2
       },
       {
         "quantity": 4,
-        "percent": "10",
+        "percent": 10,
         "shares": 1
       }
     ]
@@ -139,80 +139,44 @@
       "name": "2",
       "quantity": 6,
       "price": 100,
-      "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "color": "yellow"
     },
     {
       "name": "3",
       "quantity": 5,
       "price": 200,
-      "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "color": "green"
     },
     {
       "name": "4",
       "quantity": 3,
       "price": 300,
-      "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "color": "green"
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 500,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "6",
       "quantity": 6,
       "price": 600,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "8",
       "quantity": 4,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "privates": [
     {
       "name": "Prinz Wilhelm-Bahn",
       "price": 20,
-      "revenue": "5M",
+      "revenue": 5,
       "hex": "E14",
       "description": "Blocks E14, may lay as a director power."
     },
@@ -250,43 +214,40 @@
 "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
+      "rounds": 1,
       "tiles": "yellow"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "5",
+      "limit": 4,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "3",
+      "limit": 3,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
-      "notes": ["Montan bonus 40M, Privates close"]
+      "notes": "Priates close"
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "6",
-      "rust": "3",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
-      "notes": ["8T Trains may be purchased."]
+      "notes": "8T can be purchased"
     },
     {
       "name": "8",
-      "limit": "2",
-      "number": "4",
-      "rust": "4",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "grey"
     }
   ],
@@ -745,13 +706,13 @@
         { "angle": 210, "percent": 0.82, "value": 50 }
       ],
       "labels": [
-        { "label": "D", "angle": 150, "percent": 0.82 }
+        { "label": "D", "x": -35, "y": -60 }
       ],
       "cities": [
         { "size": 3 }
       ],
       "terrain": [
-        { "cost": "50 M", "size": "tiny", "y": 45 }
+        { "cost": "50 M", "size": "tiny", "y": 52 }
       ],
       "track": [
         { "side": 2 },
@@ -769,13 +730,13 @@
         { "angle": 90, "percent": 0.82, "value": 50 }
       ],
       "labels": [
-        { "label": "K", "angle": 150, "percent": 0.82 }
+        { "label": "K", "x": -35, "y": -60 }
       ],
       "cities": [
         { "size": 3 }
       ],
       "terrain": [
-        { "cost": "50 M", "size": "tiny", "y": 45 }
+        { "cost": "50 M", "size": "tiny", "y": 52 }
       ],
       "track": [
         { "side": 2 },
@@ -793,13 +754,13 @@
         { "angle": 90, "percent": 0.82, "value": 50 }
       ],
       "labels": [
-        { "label": "DU", "angle": 150, "percent": 0.82 }
+        { "label": "DU", "x": -35, "y": -60 }
       ],
       "cities": [
         { "size": 3 }
       ],
       "terrain": [
-        { "cost": "50 M", "size": "tiny", "y": 45 }
+        { "cost": "50 M", "size": "tiny", "y": 52 }
       ],
 
       "track": [
@@ -821,7 +782,7 @@
         { "size": 2 }
       ],
       "labels": [
-        { "label": "AC", "x": "-35", "y": "-60" }
+        { "label": "AC", "x": "-35", "y": "-55" }
       ],
       "track": [
         { "side": 1 },
@@ -830,7 +791,7 @@
         { "side": 5 }
       ],
       "terrain": [
-        { "type": "mountain", "cost": "30M", "x": "35", "y": "50" }
+        { "type": "mountain", "cost": "30M", "x": "35", "y": "45" }
       ]
     },
     "931": {
@@ -839,7 +800,7 @@
         { "angle": 210, "percent": 0.75, "value": 40 }
       ],
       "labels": [
-        { "label": "AC", "angle": 150, "percent": 0.75 }
+        { "label": "AC", "x": -35, "y": -60 }
       ],
       "cities": [
         { "size": 3 }
@@ -877,7 +838,7 @@
       ],
       "values": [
         { "angle": 120, "value": 20, "x": -50 },
-        { "value": 10, "x": 30, "y": 45 }
+        { "value": 10, "x": -30, "y": 45 }
       ],
       "towns": [
         { "angle": 0, "percent": 0.667 }
