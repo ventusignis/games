@@ -1,21 +1,4 @@
 {
-  "logo": {
-    "color": "green",
-    "export": false,
-    "track": [
-      { "side": 2, "type": "straight" },
-      { "side": 6, "type": "gentle" }
-    ],
-    "labels": [
-      {
-        "label": "18xx Maker",
-        "fontSize": 23,
-        "rotation": -30,
-        "angle": 150,
-        "percent": 0.35
-      }
-    ]
-  },
   "10": {
     "color": "green",
     "values": [
