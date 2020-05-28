@@ -18,8 +18,19 @@
     "short": "pink"
   },
   "floatPercent": 20,
+  "tokens": [
+    {
+      "label": "+$10",
+      "icon": "coal",
+      "quantity": 6
+    },
+    {
+      "label": "+$10",
+      "icon": "tunnel",
+      "quantity": 3
+    }
+  ],
   "wip": true,
-  "tokens": [],
   "ipo": false,
   "bank": "∞",
   "players": [
