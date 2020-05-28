@@ -849,6 +849,7 @@
             "percent": 0.75
           }
         ],
+        "encoding": "c=r:10;c=r:10;c=r:10;c=r:10;p=a:2,b:_0;p=a:3,b:_1;p=a:4,b:_2;p=a:5,b:_3;l=Chi",
         "icons": [
           {
             "type": "meat",

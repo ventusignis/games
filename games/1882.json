@@ -1,62 +1,47 @@
 {
   "bank": 9000,
+  "tokenTypes": {
+    "default": ["Free", 40, 40]
+  },
   "companies": [
     {
-      "abbrev": "NWR",
-      "color": "offboard",
-      "labelColor": "white",
-      "logo": "NWR",
-      "name": "Northwest Rebellion",
-      "tokens": "zero"
-    },
-    {
       "abbrev": "CN",
-      "color": "green",
-      "logo": "CN",
+      "color": "gray",
       "name": "Canadian National",
-      "tokens": "zero"
+      "tokens": []
     },
     {
-      "abbrev": "CNor",
+      "abbrev": "CNR",
       "color": "green",
-      "logo": "CNor",
-      "name": "Canadian Northern",
-      "tokens": "three"
+      "name": "Canadian Northern"
     },
     {
       "abbrev": "HB",
       "color": "yellow",
-      "logo": "HB",
-      "name": "Hudson Bay Railway",
-      "tokens": "three"
+      "name": "Hudson Bay Railway"
     },
     {
       "abbrev": "CPR",
       "color": "red",
-      "logo": "CPR",
       "name": "Canadian Pacific Railway",
-      "tokens": "four"
+      "tokens": ["Free", 40, 40, 40]
     },
     {
       "abbrev": "GT",
-      "color": "purple",
-      "logo": "GT",
-      "name": "Grand Trunk Pacific",
-      "tokens": "three"
+      "color": "black",
+      "name": "Grand Trunk Pacific"
     },
     {
       "abbrev": "SC",
       "color": "blue",
-      "logo": "SC",
       "name": "Saskatchewan Central Railroad",
-      "tokens": "one"
+      "tokens": ["Free"]
     },
     {
       "abbrev": "QLL",
-      "color": "tan",
-      "logo": "QLL",
+      "color": "violet",
       "name": "Qu'Appelle, Long Lake Railroad Co.",
-      "tokens": "two"
+      "tokens": ["Free", 40]
     }
   ],
   "info": {
@@ -494,12 +479,14 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
         ]
       },
@@ -528,12 +515,14 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
         ]
       },
@@ -589,22 +578,31 @@
           }
         ],
         "color": "plain",
-        "copy": "C5",
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["C3"]
       },
       {
         "color": "plain",
-        "hexes": ["C5"],
-        "tokens": [
+        "hexagons": [
           {
-            "angle": 270,
+            "cost": "NWR",
             "width": 15,
-            "fontSize": 10,
-            "company": "NWR",
-            "percent": 0.7,
-            "rotation": 0
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
           }
-        ]
+        ],
+        "hexes": ["C5"]
       },
       {
         "cities": [
@@ -650,14 +648,23 @@
             "type": "mountain"
           },
           {
-            "cost": "$40",
+            "cost": 40,
             "percent": 0.6
           }
         ]
       },
       {
         "color": "plain",
-        "copy": "C5",
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["D2"]
       },
       {
@@ -669,7 +676,16 @@
           }
         ],
         "color": "plain",
-        "copy": "C5",
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["D4"]
       },
       {
@@ -702,8 +718,17 @@
       },
       {
         "color": "plain",
-        "hexes": ["E3"],
-        "copy": "C5"
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
+        "hexes": ["E3"]
       },
       {
         "cities": [
@@ -726,7 +751,16 @@
           }
         ],
         "color": "yellow",
-        "copy": "C5",
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["E5"],
         "labels": [
           {
@@ -774,12 +808,14 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
         ]
       },
@@ -792,12 +828,30 @@
           }
         ],
         "color": "plain",
-        "copy": "C5",
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["F4"]
       },
       {
         "color": "plain",
-        "copy": "C5",
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["F6"]
       },
       {
@@ -851,7 +905,16 @@
       },
       {
         "color": "plain",
-        "copy": "C5",
+        "hexagons": [
+          {
+            "cost": "NWR",
+            "width": 15,
+            "fillColor": "orange",
+            "textColor": "white",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["G5"]
       },
       {
@@ -1246,9 +1309,10 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "track": [
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
         ]
       },
@@ -1277,12 +1341,14 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
         ]
       },
@@ -1374,12 +1440,14 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "track": [
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           },
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
         ]
       },
@@ -1946,11 +2014,6 @@
         }
       ]
     }
-  },
-  "tokenTypes": {
-    "default": ["Free", 40],
-    "one": ["Free"],
-    "three": ["Free", 40, 40]
   },
   "tokens": ["Round"],
   "trains": [

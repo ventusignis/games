@@ -1,4 +1,21 @@
 {
+  "logo": {
+    "color": "green",
+    "export": false,
+    "track": [
+      { "side": 2, "type": "straight" },
+      { "side": 6, "type": "gentle" }
+    ],
+    "labels": [
+      {
+        "label": "18xx Maker",
+        "size": 23,
+        "rotation": -30,
+        "angle": 150,
+        "percent": 0.35
+      }
+    ]
+  },
   "10": {
     "color": "green",
     "values": [
@@ -3362,12 +3379,12 @@
       { "angle": 95, "percent": 0.667, "value": 20 }
     ],
     "cities": [
-      { "angle": 30, "percent": 0.5},
-      { "angle": 210, "percent": 0.5}
+      { "angle": 30, "percent": 0.5 },
+      { "angle": 210, "percent": 0.5 }
     ],
     "track": [
-      { "type": "sharp", "gauge": "narrow","side": 1 },
-      { "type": "sharp", "gauge": "narrow","side": 4 }
+      { "type": "sharp", "gauge": "narrow", "side": 1 },
+      { "type": "sharp", "gauge": "narrow", "side": 4 }
     ]
   },
   "965": {
@@ -3375,12 +3392,9 @@
     "rotations": 3,
     "values": [
       { "angle": 120, "percent": 0.7, "value": 20 },
-      {  "angle": 300, "percent": 0.7, "value": 20 }
+      { "angle": 300, "percent": 0.7, "value": 20 }
     ],
-    "cities": [
-      { "percent": 0.5 },
-      { "angle": 180, "percent": 0.5 }
-    ],
+    "cities": [{ "percent": 0.5 }, { "angle": 180, "percent": 0.5 }],
     "track": [
       { "type": "gentle", "gauge": "narrow", "side": 2 },
       { "type": "gentle", "gauge": "narrow", "side": 5 }
@@ -3422,10 +3436,7 @@
       { "angle": 300, "percent": 0.68, "value": 20 },
       { "angle": 150, "percent": 0.68, "value": 20 }
     ],
-    "cities": [
-      { "angle": 90, "percent": 0.6 },
-      { "percent": 0.575 }
-    ],
+    "cities": [{ "angle": 90, "percent": 0.6 }, { "percent": 0.575 }],
     "track": [
       { "type": "straight", "gauge": "narrow", "side": 1 },
       { "type": "sharp", "gauge": "narrow", "side": 2 }
@@ -3443,7 +3454,7 @@
     ],
     "track": [
       { "type": "straight", "gauge": "narrow", "cross": "over", "side": 1 },
-      {  "type": "gentle", "gauge": "narrow", "cross": "under", "side": 3 }
+      { "type": "gentle", "gauge": "narrow", "cross": "under", "side": 3 }
     ]
   },
   "970": {
@@ -3453,10 +3464,7 @@
       { "angle": 150, "percent": 0.7, "value": 20 },
       { "angle": 90, "percent": 0.7, "value": 20 }
     ],
-    "cities": [
-      { "percent": 0.575 },
-      { "angle": 240, "percent": 0.575 }
-    ],
+    "cities": [{ "percent": 0.575 }, { "angle": 240, "percent": 0.575 }],
     "track": [
       { "type": "straight", "gauge": "narrow", "cross": "over", "side": 1 },
       { "type": "straight", "gauge": "narrow", "cross": "under", "side": 2 }

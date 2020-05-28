@@ -866,7 +866,6 @@
       },
       {
         "color": "gray",
-        "encoding": "p=a:3,b:j;p=a:4,b:j;p=a:5,b=j",
         "track": [
           {
             "side": 4
