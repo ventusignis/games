@@ -506,13 +506,15 @@
     "hexes": [
       {
         "color": "plain",
-        "tokens": [
+        "shapes": [
           {
-            "label": "$0 IC",
-            "angle": 180,
-            "percent": 0.75,
+            "type": "hexagon",
+            "text": "IC",
+            "textColor": "white",
             "color": "green",
-            "width": 18
+            "percent": 0.75,
+            "angle": 180,
+            "width": 36
           }
         ],
         "hexes": ["E5", "F6", "G5", "H6", "J4"]
