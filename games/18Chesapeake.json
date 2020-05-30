@@ -591,9 +591,18 @@
     "2": 1,
     "3": 2,
     "4": 2,
-    "7": { "quantity": "∞", "print": 4 },
-    "8": { "quantity": "∞", "print": 12 },
-    "9": { "quantity": "∞", "print": 9 },
+    "7": {
+      "quantity": "∞",
+      "print": 4
+    },
+    "8": {
+      "quantity": "∞",
+      "print": 12
+    },
+    "9": {
+      "quantity": "∞",
+      "print": 9
+    },
     "14": 5,
     "15": 6,
     "16": 1,
@@ -995,7 +1004,6 @@
     }
   },
   "map": {
-    "print": "landscape",
     "roundTracker": {
       "type": "row",
       "x": 1300,
@@ -1609,10 +1617,12 @@
       },
       {
         "color": "gray",
-        "name": {
-          "name": "Delmarva Peninsula",
-          "hidden": true
-        },
+        "names": [
+          {
+            "name": "Delmarva Peninsula",
+            "hidden": true
+          }
+        ],
         "values": [
           {
             "value": 30,
@@ -1714,10 +1724,12 @@
       },
       {
         "color": "gray",
-        "name": {
-          "name": "Easton",
-          "hidden": true
-        },
+        "names": [
+          {
+            "name": "Easton",
+            "hidden": true
+          }
+        ],
         "values": [
           {
             "value": 30,

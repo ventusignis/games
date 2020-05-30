@@ -792,11 +792,6 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 6
-          }
-        ],
         "offBoardRevenue": {
           "name": {
             "name": "Salta"
@@ -812,7 +807,13 @@
             }
           ]
         },
-        "hexes": ["B1"]
+        "hexes": ["B1"],
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -917,14 +918,6 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 4
-          },
-          {
-            "side": 5
-          }
-        ],
         "offBoardRevenue": {
           "name": {
             "name": "Patagonia"
@@ -941,15 +934,20 @@
             }
           ]
         },
-        "hexes": ["D21"]
+        "hexes": ["D21"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 5,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "water",
-        "offBoardTrack": [
-          {
-            "side": 4
-          }
-        ],
         "icons": [
           {
             "type": "port",
@@ -968,7 +966,13 @@
             }
           ]
         },
-        "hexes": ["E22"]
+        "hexes": ["E22"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "gray",

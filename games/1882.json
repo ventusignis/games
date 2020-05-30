@@ -455,7 +455,7 @@
       {
         "color": "offboard",
         "hexes": ["A9"],
-        "routeBonus": [
+        "routeBonuses": [
           {
             "value": "+$100",
             "angle": 180,
@@ -493,7 +493,7 @@
       {
         "color": "offboard",
         "hexes": ["B2"],
-        "routeBonus": [
+        "routeBonuses": [
           {
             "value": "+$100",
             "angle": 180,
@@ -578,8 +578,9 @@
           }
         ],
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -592,8 +593,9 @@
       },
       {
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -655,8 +657,9 @@
       },
       {
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -676,8 +679,9 @@
           }
         ],
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -718,8 +722,9 @@
       },
       {
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -751,8 +756,9 @@
           }
         ],
         "color": "yellow",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -828,8 +834,9 @@
           }
         ],
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -842,8 +849,9 @@
       },
       {
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -905,8 +913,9 @@
       },
       {
         "color": "plain",
-        "hexagons": [
+        "shapes": [
           {
+            "type": "hexagon",
             "cost": "NWR",
             "width": 15,
             "fillColor": "orange",
@@ -1319,7 +1328,7 @@
       {
         "color": "offboard",
         "hexes": ["L2"],
-        "routeBonus": [
+        "routeBonuses": [
           {
             "value": "+$100",
             "angle": 180,
@@ -1476,7 +1485,6 @@
         ]
       }
     ],
-    "print": "landscape",
     "roundTracker": {
       "type": "row",
       "x": 860,

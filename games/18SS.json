@@ -406,21 +406,23 @@
               }
             ]
           },
-          "offBoardTrack": [
+          "hexes": ["P10"],
+          "track": [
             {
-              "side": 2
+              "side": 2,
+              "type": "offboard"
             },
             {
-              "side": 3
+              "side": 3,
+              "type": "offboard"
             }
-          ],
-          "hexes": ["P10"]
+          ]
         },
         {
           "color": "offboard",
           "offBoardRevenue": {
-            "angle": 90,
-            "percent": -0.3,
+            "angle": 270,
+            "percent": 0.3,
             "reverse": true,
             "revenues": [
               {
@@ -437,18 +439,21 @@
               }
             ]
           },
-          "offBoardTrack": [
+          "hexes": ["O15"],
+          "track": [
             {
-              "side": 1
+              "side": 1,
+              "type": "offboard"
             },
             {
-              "side": 2
+              "side": 2,
+              "type": "offboard"
             },
             {
-              "side": 3
+              "side": 3,
+              "type": "offboard"
             }
-          ],
-          "hexes": ["O15"]
+          ]
         },
         {
           "color": "offboard",
@@ -471,18 +476,21 @@
               }
             ]
           },
-          "offBoardTrack": [
+          "hexes": ["O3"],
+          "track": [
             {
-              "side": 2
+              "side": 2,
+              "type": "offboard"
             },
             {
-              "side": 3
+              "side": 3,
+              "type": "offboard"
             },
             {
-              "side": 4
+              "side": 4,
+              "type": "offboard"
             }
-          ],
-          "hexes": ["O3"]
+          ]
         },
         {
           "color": "plain",
@@ -506,12 +514,13 @@
               "type": "straight"
             }
           ],
-          "values": {
-            "angle": 0,
-            "percent": -0.7,
-            "reverse": true,
-            "value": 20
-          },
+          "values": [
+            {
+              "angle": 180,
+              "percent": 0.7,
+              "value": 20
+            }
+          ],
           "hexes": ["N10"]
         },
         {
@@ -540,8 +549,8 @@
           "labels": [
             {
               "label": "P",
-              "angle": 0,
-              "percent": -0.2
+              "angle": 180,
+              "percent": 0.2
             }
           ],
           "cities": [
@@ -599,8 +608,8 @@
         {
           "color": "offboard",
           "offBoardRevenue": {
-            "angle": 90,
-            "percent": -0.3,
+            "angle": 270,
+            "percent": 0.3,
             "reverse": true,
             "revenues": [
               {
@@ -617,15 +626,17 @@
               }
             ]
           },
-          "offBoardTrack": [
+          "hexes": ["H16"],
+          "track": [
             {
-              "side": 1
+              "side": 1,
+              "type": "offboard"
             },
             {
-              "side": 6
+              "side": 6,
+              "type": "offboard"
             }
-          ],
-          "hexes": ["H16"]
+          ]
         },
         {
           "color": "plain",
@@ -648,11 +659,13 @@
         },
         {
           "color": "green",
-          "labels": {
-            "label": "C",
-            "angle": 30,
-            "percent": -0.55
-          },
+          "labels": [
+            {
+              "label": "C",
+              "angle": 210,
+              "percent": 0.55
+            }
+          ],
           "centerTowns": [
             {
               "rotate": 30
@@ -666,19 +679,21 @@
           "values": [
             {
               "value": 10,
-              "angle": 270,
-              "percent": -0.5
+              "angle": 90,
+              "percent": 0.5
             }
           ],
           "hexes": ["B2"]
         },
         {
           "color": "green",
-          "labels": {
-            "label": "B",
-            "angle": 30,
-            "percent": -0.55
-          },
+          "labels": [
+            {
+              "label": "B",
+              "angle": 210,
+              "percent": 0.55
+            }
+          ],
           "centerTowns": [
             {
               "rotate": 30
@@ -756,27 +771,20 @@
               "type": "straight"
             }
           ],
-          "values": {
-            "angle": 0,
-            "percent": -0.7,
-            "reverse": true,
-            "value": 40
-          },
+          "values": [
+            {
+              "angle": 180,
+              "percent": 0.7,
+              "value": 40
+            }
+          ],
           "hexes": ["C5"]
         },
         {
           "color": "offboard",
-          "offBoardTrack": [
-            {
-              "side": 1
-            },
-            {
-              "side": 6
-            }
-          ],
           "offBoardRevenue": {
-            "angle": 90,
-            "percent": -0.37,
+            "angle": 270,
+            "percent": 0.37,
             "reverse": true,
             "revenues": [
               {
@@ -793,15 +801,27 @@
               }
             ]
           },
-          "hexes": ["B16"]
+          "hexes": ["B16"],
+          "track": [
+            {
+              "side": 1,
+              "type": "offboard"
+            },
+            {
+              "side": 6,
+              "type": "offboard"
+            }
+          ]
         },
         {
           "color": "green",
-          "labels": {
-            "label": "L",
-            "angle": 30,
-            "percent": -0.55
-          },
+          "labels": [
+            {
+              "label": "L",
+              "angle": 210,
+              "percent": 0.55
+            }
+          ],
           "centerTowns": [
             {
               "rotate": 30
@@ -821,8 +841,8 @@
           "values": [
             {
               "value": 20,
-              "angle": 330,
-              "percent": -0.5
+              "angle": 150,
+              "percent": 0.5
             }
           ],
           "hexes": ["B10"]

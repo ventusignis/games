@@ -1171,7 +1171,7 @@
       ],
       "tokens": [
         {
-          "destination": "true",
+          "destination": true,
           "rotation": 90,
           "angle": 120,
           "percent": 0.7,
@@ -1394,7 +1394,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "W→E +90",
               "percent": 0.4
@@ -1611,7 +1611,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +30",
               "percent": 0.2
@@ -1677,7 +1677,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "W→E +90",
               "percent": 0.25
@@ -1722,7 +1722,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "x": 15,
               "value": "W→E +90",
@@ -1776,7 +1776,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +40",
               "y": 22,
@@ -1825,7 +1825,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +30",
               "percent": 0.2
@@ -1954,7 +1954,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "x": 15,
               "value": "W→E +90",
@@ -2001,7 +2001,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "W→E +50",
               "percent": 0.2
@@ -2042,7 +2042,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "W→E +90",
               "percent": 0.4
@@ -2081,7 +2081,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +40",
               "percent": 0.4
@@ -2131,7 +2131,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +40",
               "y": 22,
@@ -2180,7 +2180,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +40",
               "percent": 0.4
@@ -2223,7 +2223,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "W→E +50",
               "percent": 0.2
@@ -2268,7 +2268,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +40",
               "percent": 0.2
@@ -2309,7 +2309,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "N↓S +30",
               "percent": 0.2
@@ -2381,7 +2381,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonus": [
+          "routeBonuses": [
             {
               "value": "W→E +50",
               "percent": 0.2
@@ -3045,7 +3045,7 @@
           ],
           "tokens": [
             {
-              "destination": "true",
+              "destination": true,
               "angle": 30,
               "percent": 0.7,
               "company": "GB"
@@ -3588,7 +3588,7 @@
           ],
           "tokens": [
             {
-              "destination": "true",
+              "destination": true,
               "angle": 180,
               "percent": 0.667,
               "company": "JS"
@@ -3632,7 +3632,7 @@
           ],
           "tokens": [
             {
-              "destination": "true",
+              "destination": true,
               "angle": 180,
               "percent": 0.667,
               "company": "SCB"

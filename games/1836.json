@@ -741,14 +741,6 @@
             "companies": ["NYC"]
           }
         ],
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 2
-          }
-        ],
         "values": [
           {
             "value": 40,
@@ -756,21 +748,23 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["K1"]
+        "hexes": ["K1"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
         "cities": [
           {
             "companies": ["ERIE"]
-          }
-        ],
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 6
           }
         ],
         "values": [
@@ -780,7 +774,17 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["A3"]
+        "hexes": ["A3"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -900,16 +904,19 @@
         "hexes": ["B6"]
       },
       {
-        "copy": "J4",
+        "color": "plain",
         "centerTowns": [
           {
+            "y": -30,
             "name": {
               "name": "Sandusky"
             }
           },
           {
+            "y": 30,
             "name": {
-              "name": "Norwalk"
+              "name": "Norwalk",
+              "reverse": true
             }
           }
         ],
@@ -1009,20 +1016,6 @@
             "companies": ["PRR"]
           }
         ],
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 2
-          },
-          {
-            "side": 3
-          },
-          {
-            "side": 4
-          }
-        ],
         "values": [
           {
             "value": 40,
@@ -1030,7 +1023,25 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["K9"]
+        "hexes": ["K9"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 3,
+            "type": "offboard"
+          },
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1169,17 +1180,6 @@
             "companies": ["B&O"]
           }
         ],
-        "offBoardTrack": [
-          {
-            "side": 2
-          },
-          {
-            "side": 3
-          },
-          {
-            "side": 4
-          }
-        ],
         "values": [
           {
             "value": 40,
@@ -1187,7 +1187,21 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["K13"]
+        "hexes": ["K13"],
+        "track": [
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 3,
+            "type": "offboard"
+          },
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1232,11 +1246,14 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 40,
-          "size": "medium"
-        },
-        "hexes": ["J14"]
+        "hexes": ["J14"],
+        "terrain": [
+          {
+            "cost": 40,
+            "size": "medium",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1326,17 +1343,20 @@
         "hexes": ["H16"]
       },
       {
-        "copy": "K11",
+        "color": "plain",
         "centerTowns": [
           {
             "name": {
-              "name": "Washington"
-            }
+              "name": "Washington",
+              "reverse": true
+            },
+            "x": 30
           },
           {
             "name": {
               "name": "Wilmington"
-            }
+            },
+            "x": -30
           }
         ],
         "hexes": ["C17"]
@@ -1370,17 +1390,6 @@
             "companies": ["C&O"]
           }
         ],
-        "offBoardTrack": [
-          {
-            "side": 3
-          },
-          {
-            "side": 4
-          },
-          {
-            "side": 5
-          }
-        ],
         "values": [
           {
             "value": 40,
@@ -1388,14 +1397,31 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["E21"]
+        "hexes": ["E21"],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          },
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 5,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 20
-        },
-        "hexes": ["H18", "I15", "I17"]
+        "hexes": ["H18", "I15", "I17"],
+        "terrain": [
+          {
+            "cost": 20,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",

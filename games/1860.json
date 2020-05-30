@@ -880,7 +880,6 @@
   "map": [
     {
       "name": "2 Player",
-      "print": "landscape",
       "players": {
         "x": 1300,
         "y": 730
@@ -941,10 +940,13 @@
         },
         {
           "color": "plain",
-          "water": {
-            "cost": 60
-          },
-          "hexes": ["H2"]
+          "hexes": ["H2"],
+          "terrain": [
+            {
+              "cost": 60,
+              "type": "water"
+            }
+          ]
         },
         {
           "color": "water",
@@ -968,12 +970,13 @@
               }
             ]
           },
-          "offBoardTrack": [
+          "hexes": ["J2"],
+          "track": [
             {
-              "side": 2
+              "side": 2,
+              "type": "offboard"
             }
-          ],
-          "hexes": ["J2"]
+          ]
         },
         {
           "color": "plain",
@@ -1036,10 +1039,13 @@
         },
         {
           "color": "plain",
-          "water": {
-            "cost": 60
-          },
-          "hexes": ["D4"]
+          "hexes": ["D4"],
+          "terrain": [
+            {
+              "cost": 60,
+              "type": "water"
+            }
+          ]
         },
         {
           "color": "plain",
@@ -1252,10 +1258,13 @@
         },
         {
           "color": "plain",
-          "mountain": {
-            "cost": 60
-          },
-          "hexes": ["H6", "E7", "F8", "G13"]
+          "hexes": ["H6", "E7", "F8", "G13"],
+          "terrain": [
+            {
+              "cost": 60,
+              "type": "mountain"
+            }
+          ]
         },
         {
           "color": "plain",
@@ -1526,7 +1535,6 @@
     },
     {
       "name": "3-4 Player",
-      "print": "landscape",
       "players": {
         "x": 1300,
         "y": 730

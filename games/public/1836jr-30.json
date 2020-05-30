@@ -817,15 +817,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A13"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A13"]
+        ]
       },
       {
         "color": "plain",
@@ -1285,15 +1287,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["E3"],
+        "track": [
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["E3"]
+        ]
       },
       {
         "color": "water",
@@ -1312,15 +1316,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["G1"],
+        "track": [
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["G1"]
+        ]
       },
       {
         "color": "land",
@@ -1339,15 +1345,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["J2"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["J2"]
+        ]
       },
       {
         "color": "offboard",
@@ -1366,12 +1374,13 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["E13"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["E13"]
+        ]
       },
       {
         "color": "offboard",
@@ -1390,12 +1399,13 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["H12"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["H12"]
+        ]
       },
       {
         "color": "plain",
@@ -1448,15 +1458,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["K13"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["K13"]
+        ]
       }
     ],
     "borders": [

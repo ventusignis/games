@@ -674,24 +674,43 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 40
-        },
-        "hexes": ["D15", "E14", "F7", "F9", "G14", "G16", "H13", "I14", "M4"]
+        "hexes": ["D15", "E14", "F7", "F9", "G14", "G16", "H13", "I14", "M4"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 80
-        },
-        "hexes": ["C14", "E18", "I12", "J13", "L9", "M10"]
+        "hexes": ["C14", "E18", "I12", "J13", "L9", "M10"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 120
-        },
-        "hexes": ["B11", "C12", "D13", "E16", "F15", "H15", "H17", "K12", "L13"]
+        "hexes": [
+          "B11",
+          "C12",
+          "D13",
+          "E16",
+          "F15",
+          "H15",
+          "H17",
+          "K12",
+          "L13"
+        ],
+        "terrain": [
+          {
+            "cost": 120,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1535,12 +1554,15 @@
             }
           }
         ],
-        "mountain": {
-          "cost": 40,
-          "angle": 0,
-          "percent": 0.65
-        },
-        "hexes": ["L11"]
+        "hexes": ["L11"],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 0,
+            "percent": 0.65,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "water",
@@ -1629,7 +1651,13 @@
         "hexes": ["N9"]
       },
       {
-        "copy": "B11",
+        "color": "plain",
+        "terrain": [
+          {
+            "cost": 120,
+            "type": "mountain"
+          }
+        ],
         "borders": [
           {
             "side": 1,
@@ -1645,7 +1673,13 @@
         "hexes": ["N7"]
       },
       {
-        "copy": "L9",
+        "color": "plain",
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "mountain"
+          }
+        ],
         "borders": [
           {
             "side": 5,

@@ -122,7 +122,7 @@
   },
   "58": {
     "color": "yellow",
-    "values": [{ "angle": -120, "percent": 0.2, "value": 10 }],
+    "values": [{ "angle": 240, "percent": 0.2, "value": 10 }],
     "towns": [{ "angle": 60, "percent": 0.28, "rotate": -30 }],
     "track": [{ "type": "gentle", "side": 1 }]
   },
@@ -146,11 +146,11 @@
     "broken": true,
     "values": [
       { "angle": 180, "percent": 0.4, "value": 10 },
-      { "angle": -45, "percent": 0.55, "value": 10 }
+      { "angle": 315, "percent": 0.55, "value": 10 }
     ],
     "towns": [
       { "angle": 7.5, "percent": 0.5, "rotate": -15.5 },
-      { "angle": -252.5, "percent": 0.4, "rotate": -40 }
+      { "angle": 107.5, "percent": 0.4, "rotate": -40 }
     ],
     "track": [{ "type": "gentle", "side": 1, "gauge": "narrow", "offset": 2.5 }]
   },
@@ -162,7 +162,7 @@
   },
   "73": {
     "color": "yellow",
-    "values": [{ "angle": -120, "percent": 0.2, "value": 10 }],
+    "values": [{ "angle": 240, "percent": 0.2, "value": 10 }],
     "towns": [{ "angle": 60, "percent": 0.28, "rotate": -30 }],
     "track": [
       { "type": "gentle", "side": 1, "gauge": "narrow", "offset": -10.5 }
@@ -171,7 +171,7 @@
   "74": {
     "color": "yellow",
     "rotations": 3,
-    "values": [{ "angle": -90, "percent": 0.5, "value": 10 }],
+    "values": [{ "angle": 270, "percent": 0.5, "value": 10 }],
     "towns": [{}],
     "track": [{ "type": "straight", "side": 1, "gauge": "narrow", "offset": 1 }]
   },
@@ -292,7 +292,7 @@
       { "angle": 240, "percent": 0.7, "value": 30 },
       { "angle": 45, "percent": 0.7, "value": 10 }
     ],
-    "terrain": [{ "cost": "40", "size": "tiny", "x": -50, "y": -20 }],
+    "terrain": [{ "cost": 40, "size": "tiny", "x": -50, "y": -20 }],
     "track": [{ "side": 1 }]
   },
   "437": {
@@ -308,7 +308,7 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
     "labels": [{ "label": "H", "angle": 150, "percent": 0.8 }],
     "cities": [{}],
-    "terrain": [{ "angle": 270, "percent": 0.8, "cost": "80", "size": "tiny" }],
+    "terrain": [{ "angle": 270, "percent": 0.8, "cost": 80, "size": "tiny" }],
     "track": [{ "side": 1 }, { "side": 3 }]
   },
   "441a": {
@@ -320,7 +320,7 @@
   },
   "445": {
     "color": "yellow",
-    "values": [{ "angle": -120, "percent": 0.2, "value": 10 }],
+    "values": [{ "angle": 240, "percent": 0.2, "value": 10 }],
     "towns": [{ "angle": 60, "percent": 0.28, "rotate": -30 }],
     "track": [{ "type": "gentle", "side": 1 }]
   },
@@ -362,7 +362,7 @@
   "631": {
     "color": "yellow",
     "values": [
-      { "angle": -45, "percent": 0.55, "value": 10 },
+      { "angle": 315, "percent": 0.55, "value": 10 },
       { "angle": 150, "percent": 0.8, "value": 10 }
     ],
     "towns": [
@@ -393,7 +393,7 @@
     "color": "yellow",
     "values": [
       { "angle": 90, "percent": 0.6, "value": 10 },
-      { "angle": -90, "percent": 0.6, "value": 10 }
+      { "angle": 270, "percent": 0.6, "value": 10 }
     ],
     "towns": [
       { "angle": 30, "percent": 0.57735, "rotation": -60 },
@@ -559,11 +559,11 @@
     "broken": true,
     "labels": [
       { "angle": 180, "percent": 0.4, "fontSize": 30, "label": "£" },
-      { "angle": -45, "percent": 0.55, "fontSize": 30, "label": "£" }
+      { "angle": 315, "percent": 0.55, "fontSize": 30, "label": "£" }
     ],
     "towns": [
       { "angle": 7.5, "percent": 0.5, "rotate": -15.5, "color": "halt" },
-      { "angle": -252.5, "percent": 0.4, "rotate": -40, "color": "halt" }
+      { "angle": 107.5, "percent": 0.4, "rotate": -40, "color": "halt" }
     ],
     "track": [
       {

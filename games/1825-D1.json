@@ -51,11 +51,11 @@
       ],
       "cities": [
         {
-          "angle": -130,
+          "angle": 230,
           "percent": 0.6
         },
         {
-          "angle": -50,
+          "angle": 310,
           "percent": 0.6
         }
       ],

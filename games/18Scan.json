@@ -719,12 +719,13 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A4"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A4"]
+        ]
       },
       {
         "cities": [
@@ -736,12 +737,15 @@
             }
           }
         ],
-        "mountain": {
-          "angle": 45,
-          "percent": 0.333,
-          "cost": 60
-        },
-        "hexes": ["A18"]
+        "hexes": ["A18"],
+        "terrain": [
+          {
+            "angle": 45,
+            "percent": 0.333,
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "offboard",
@@ -801,11 +805,6 @@
             }
           }
         ],
-        "mountain": {
-          "angle": 315,
-          "percent": 0.333,
-          "cost": 60
-        },
         "tokens": [
           {
             "company": "2",
@@ -813,7 +812,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["B11"]
+        "hexes": ["B11"],
+        "terrain": [
+          {
+            "angle": 315,
+            "percent": 0.333,
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "cities": [
@@ -875,10 +882,12 @@
             "companies": ["NSB"]
           }
         ],
-        "labels": {
-          "label": "Y",
-          "x": 50
-        },
+        "labels": [
+          {
+            "label": "Y",
+            "x": 50
+          }
+        ],
         "tokens": [
           {
             "company": "3",
@@ -974,15 +983,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["F1"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["F1"]
+        ]
       },
       {
         "centerTowns": [
@@ -1011,12 +1022,15 @@
             "percent": 0.5
           }
         ],
-        "water": {
-          "angle": 45,
-          "percent": 0.5,
-          "cost": 40
-        },
-        "hexes": ["F3"]
+        "hexes": ["F3"],
+        "terrain": [
+          {
+            "angle": 45,
+            "percent": 0.5,
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "centerTowns": [
@@ -1046,11 +1060,13 @@
             "companies": ["2"]
           }
         ],
-        "labels": {
-          "label": "Y",
-          "x": 30,
-          "y": 15
-        },
+        "labels": [
+          {
+            "label": "Y",
+            "x": 30,
+            "y": 15
+          }
+        ],
         "track": [
           {
             "side": 1,
@@ -1119,15 +1135,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["G2"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["G2"]
+        ]
       },
       {
         "cities": [
@@ -1140,12 +1158,15 @@
             "companies": ["1"]
           }
         ],
-        "water": {
-          "angle": 45,
-          "percent": 0.333,
-          "cost": 40
-        },
-        "hexes": ["G4"]
+        "hexes": ["G4"],
+        "terrain": [
+          {
+            "angle": 45,
+            "percent": 0.333,
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "water",
@@ -1174,10 +1195,12 @@
             "companies": ["VR"]
           }
         ],
-        "labels": {
-          "label": "Y",
-          "x": 50
-        },
+        "labels": [
+          {
+            "label": "Y",
+            "x": 50
+          }
+        ],
         "hexes": ["G14"]
       },
       {
@@ -1219,12 +1242,13 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["H13"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["H13"]
+        ]
       },
       {
         "color": "offboard",
@@ -1255,18 +1279,16 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["H17"],
+        "track": [
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["H17"]
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 60
-        },
         "hexes": [
           "A6",
           "A8",
@@ -1281,6 +1303,12 @@
           "C6",
           "C8",
           "C10"
+        ],
+        "terrain": [
+          {
+            "cost": 60,
+            "type": "mountain"
+          }
         ]
       },
       {

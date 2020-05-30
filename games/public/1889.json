@@ -675,7 +675,6 @@
     "611": 2
   },
   "map": {
-    "print": "landscape",
     "roundTracker": {
       "type": "row",
       "x": 457,

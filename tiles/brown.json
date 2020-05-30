@@ -30,7 +30,7 @@
     ],
     "cities": [
       {
-        "angle": -40,
+        "angle": 320,
         "percent": 0.5
       },
       {
@@ -145,7 +145,7 @@
       { "angle": 300, "percent": 0.7, "value": 40 }
     ],
     "cities": [
-      { "angle": -6, "percent": 0.57735 },
+      { "angle": 354, "percent": 0.57735 },
       { "angle": 174, "percent": 0.57735 }
     ],
     "track": [
@@ -416,7 +416,7 @@
       { "angle": 60, "percent": 0.7, "value": 50 },
       { "angle": 150, "percent": 0.8, "value": 50 }
     ],
-    "labels": [{ "angle": -75, "percent": 0.65, "label": "OO" }],
+    "labels": [{ "angle": 285, "percent": 0.65, "label": "OO" }],
     "cities": [{ "percent": 0.57735 }, { "angle": 210, "percent": 0.5 }],
     "track": [
       { "type": "gentle", "side": 1 },
@@ -629,8 +629,8 @@
   "118": {
     "color": "brown",
     "values": [
-      { "angle": -35, "percent": 0.6, "value": 40 },
-      { "angle": -145, "percent": 0.6, "value": 40 }
+      { "angle": 325, "percent": 0.6, "value": 40 },
+      { "angle": 215, "percent": 0.6, "value": 40 }
     ],
     "cities": [
       { "angle": 30, "percent": 0.6 },
@@ -1635,7 +1635,7 @@
     "rotations": 3,
     "values": [
       {
-        "angle": -90,
+        "angle": 270,
         "percent": 0.5,
         "value": 20
       }
@@ -1652,7 +1652,7 @@
     "color": "brown",
     "values": [
       {
-        "angle": -120,
+        "angle": 240,
         "percent": 0.2,
         "value": 20
       }
@@ -1836,8 +1836,8 @@
     ],
     "labels": [{ "label": "N", "angle": 270, "percent": 0.8 }],
     "cities": [
-      { "rotation": -30, "size": 2, "angle": 150, "percent": 0.2 },
-      { "angle": -30, "percent": 0.6 }
+      { "rotation": 330, "size": 2, "angle": 150, "percent": 0.2 },
+      { "angle": 330, "percent": 0.6 }
     ],
     "track": [
       { "side": 1, "type": "mid", "rotation": -30 },
@@ -1852,8 +1852,8 @@
     "color": "brown",
     "rotations": [0],
     "values": [
-      { "angle": -35, "percent": 0.6, "value": 50 },
-      { "angle": -145, "percent": 0.6, "value": 50 }
+      { "angle": 325, "percent": 0.6, "value": 50 },
+      { "angle": 215, "percent": 0.6, "value": 50 }
     ],
     "labels": [{ "label": "V", "angle": 270, "percent": 0.667 }],
     "cities": [

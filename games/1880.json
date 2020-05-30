@@ -2137,7 +2137,7 @@
       },
       {
         "color": "offboard",
-        "routeBonus": [
+        "routeBonuses": [
           {
             "value": "Russia: +¥50",
             "angle": 180,

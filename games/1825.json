@@ -1491,10 +1491,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "size": "small",
-          "cost": "£100"
-        },
         "hexes": [
           "A8",
           "B5",
@@ -1532,14 +1528,24 @@
           "W10",
           "AA8",
           "AB7"
+        ],
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 100,
+            "type": "mountain"
+          }
         ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "£40"
-        },
-        "hexes": ["R19", "R21", "S8", "S12"]
+        "hexes": ["R19", "R21", "S8", "S12"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1605,12 +1611,15 @@
             }
           }
         ],
-        "mountain": {
-          "size": "small",
-          "cost": "£100",
-          "y": 40
-        },
-        "hexes": ["F9"]
+        "hexes": ["F9"],
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 100,
+            "y": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1632,12 +1641,15 @@
             }
           }
         ],
-        "mountain": {
-          "size": "small",
-          "cost": "£140",
-          "y": 40
-        },
-        "hexes": ["I6"]
+        "hexes": ["I6"],
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 140,
+            "y": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1669,11 +1681,14 @@
             }
           }
         ],
-        "water": {
-          "cost": "£120",
-          "y": 40
-        },
-        "hexes": ["I10"]
+        "hexes": ["I10"],
+        "terrain": [
+          {
+            "cost": 120,
+            "y": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2334,11 +2349,14 @@
             "y": -20
           }
         ],
-        "water": {
-          "cost": "£80",
-          "y": 40
-        },
-        "hexes": ["H11"]
+        "hexes": ["H11"],
+        "terrain": [
+          {
+            "cost": 80,
+            "y": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -2584,11 +2602,14 @@
             "percent": 0.45
           }
         ],
-        "water": {
-          "cost": "£40",
-          "y": 50
-        },
-        "hexes": ["M16"]
+        "hexes": ["M16"],
+        "terrain": [
+          {
+            "cost": 40,
+            "y": 50,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -2769,11 +2790,14 @@
             }
           }
         ],
-        "water": {
-          "cost": "£40",
-          "y": 50
-        },
-        "hexes": ["Q20"]
+        "hexes": ["Q20"],
+        "terrain": [
+          {
+            "cost": 40,
+            "y": 50,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "green",
@@ -2959,7 +2983,7 @@
             "side": 5
           },
           {
-            "type": "strainghtStop",
+            "type": "straightStop",
             "side": 4
           }
         ],
@@ -3127,11 +3151,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "size": "small",
-          "cost": "£100",
-          "y": 40
-        },
         "companies": [
           {
             "label": "C&HP",
@@ -3141,7 +3160,15 @@
             "color": "red"
           }
         ],
-        "hexes": ["S16"]
+        "hexes": ["S16"],
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 100,
+            "y": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -3639,11 +3666,14 @@
             ]
           }
         ],
-        "water": {
-          "cost": "£40",
-          "y": 50
-        },
-        "hexes": ["Z25"]
+        "hexes": ["Z25"],
+        "terrain": [
+          {
+            "cost": 40,
+            "y": 50,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "gray",

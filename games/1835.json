@@ -277,7 +277,10 @@
       "price": 160,
       "revenue": 15,
       "minPlayers": 3,
-      "token": { "color": "green", "label": "3" },
+      "token": {
+        "color": "green",
+        "label": "3"
+      },
       "description": "Description"
     },
     {
@@ -409,7 +412,9 @@
       "limit": 2,
       "rounds": 3,
       "tiles": "brown",
-      "events": { "close_companies": true },
+      "events": {
+        "close_companies": true
+      },
       "notes": ["All minor companies are converted."]
     },
     {
@@ -922,7 +927,12 @@
     "hexes": [
       {
         "color": "gray",
-        "track": [{ "type": "sharp", "side": 4 }],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 4
+          }
+        ],
         "hexes": ["A9"]
       },
       {
@@ -966,7 +976,12 @@
       },
       {
         "color": "gray",
-        "track": [{ "type": "sharp", "side": 5 }],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
         "hexes": ["B8"]
       },
       {
@@ -1212,7 +1227,6 @@
         "color": "plain",
         "hexes": ["C19"]
       },
-
       {
         "color": "offboard",
         "track": [
@@ -1254,7 +1268,6 @@
       },
       {
         "color": "gray",
-
         "values": [
           {
             "value": 20,
@@ -1269,7 +1282,6 @@
             "companies": ["OL"]
           }
         ],
-
         "track": [
           {
             "type": "gentle",
@@ -1414,7 +1426,6 @@
             "side": 2
           }
         ],
-
         "hexes": ["E19"]
       },
       {
@@ -1426,9 +1437,25 @@
             "percent": 0.5
           }
         ],
-        "centerTowns": [{ "name": { "reverse": true, "name": "FF Oder" } }],
-        "track": [{ "side": 2 }, { "side": 1 }, { "side": 6 }],
-
+        "centerTowns": [
+          {
+            "name": {
+              "reverse": true,
+              "name": "FF Oder"
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 2
+          },
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
         "hexes": ["E21"]
       },
       {
@@ -1519,7 +1546,6 @@
         "color": "plain",
         "hexes": ["F20"]
       },
-
       {
         "color": "gray",
         "track": [
@@ -1582,7 +1608,12 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["G13"]
       },
       {
@@ -1646,12 +1677,22 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["H6"]
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["H8"]
       },
       {
@@ -1667,7 +1708,12 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["H12"]
       },
       {
@@ -1738,8 +1784,25 @@
             "percent": 0.5
           }
         ],
-        "centerTowns": [{ "name": { "reverse": true, "name": "AAchen" } }],
-        "track": [{ "side": 3 }, { "side": 4 }, { "side": 5 }],
+        "centerTowns": [
+          {
+            "name": {
+              "reverse": true,
+              "name": "AAchen"
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
         "hexes": ["I1"]
       },
       {
@@ -1767,12 +1830,22 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["I7"]
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["I9"]
       },
       {
@@ -1788,7 +1861,12 @@
             }
           }
         ],
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["I13"]
       },
       {
@@ -1800,7 +1878,6 @@
             }
           }
         ],
-
         "hexes": ["I15"]
       },
       {
@@ -1912,7 +1989,6 @@
             }
           }
         ],
-
         "track": [
           {
             "side": 1
@@ -1947,7 +2023,12 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["J14"]
       },
       {
@@ -2020,7 +2101,12 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["K15"]
       },
       {
@@ -2085,7 +2171,6 @@
         "color": "plain",
         "hexes": ["L12"]
       },
-
       {
         "color": "green",
         "values": [
@@ -2123,19 +2208,16 @@
             "percent": 0.6
           }
         ],
-
         "track": [
           {
             "type": "sharp",
             "side": 2
           },
-
           {
             "type": "sharp",
             "side": 5
           }
         ],
-
         "hexes": ["L14"]
       },
       {
@@ -2297,7 +2379,12 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["N8"]
       },
       {
@@ -2355,7 +2442,12 @@
       },
       {
         "color": "plain",
-        "terrain": [{ "type": "mountain", "cost": 70 }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 70
+          }
+        ],
         "hexes": ["O7"]
       },
       {
@@ -2385,7 +2477,6 @@
         ],
         "hexes": ["O15"]
       },
-
       {
         "color": "gray",
         "values": [
@@ -2416,14 +2507,12 @@
       },
       {
         "color": "gray",
-
         "track": [
           {
             "type": "sharp",
             "side": 2
           }
         ],
-
         "hexes": ["P6"]
       },
       {

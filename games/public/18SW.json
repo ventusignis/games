@@ -677,15 +677,15 @@
         "revenues": [
           {
             "color": "yellow",
-            "cost": "60"
+            "cost": 60
           },
           {
             "color": "green",
-            "cost": "50"
+            "cost": 50
           },
           {
             "color": "brown",
-            "cost": "40"
+            "cost": 40
           }
         ]
       }
@@ -710,7 +710,6 @@
     }
   },
   "map": {
-    "title": "",
     "hexes": [
       {
         "color": "plain",
@@ -756,11 +755,7 @@
       },
       {
         "color": "plain",
-        "divides": [
-          {
-            "side": 3.5
-          }
-        ],
+        "divides": [{}],
         "hexes": ["A1", "C1", "E1", "G1", "A21", "E21", "G21"]
       },
       {
@@ -788,15 +783,15 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "green",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "brown",
-              "cost": "70"
+              "cost": 70
             }
           ]
         },
@@ -837,15 +832,15 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "40"
+              "cost": 40
             },
             {
               "color": "green",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "brown",
-              "cost": "60"
+              "cost": 60
             }
           ]
         },
@@ -876,15 +871,15 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "green",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "brown",
-              "cost": "70"
+              "cost": 70
             }
           ]
         },
@@ -979,7 +974,7 @@
           {
             "type": "river",
             "size": "medium",
-            "cost": "$10"
+            "cost": 10
           }
         ],
         "hexes": [
@@ -1010,13 +1005,16 @@
             "percent": 0.3
           }
         ],
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": -30,
-          "percent": 0.4
-        },
-        "hexes": ["C15"]
+        "hexes": ["C15"],
+        "terrain": [
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": -30,
+            "percent": 0.4,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "mountain",
@@ -1024,65 +1022,76 @@
           {
             "type": "river",
             "size": "medium",
-            "cost": "$10",
+            "cost": 10,
             "angle": 210,
             "percent": 0.4
+          },
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": 30,
+            "percent": 0.4,
+            "type": "mountain"
           }
         ],
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": 30,
-          "percent": 0.4
-        },
         "hexes": ["C17"]
       },
       {
         "color": "mountain",
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": -90,
-          "percent": 0.4
-        },
-        "hexes": ["D14"]
+        "hexes": ["D14"],
+        "terrain": [
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": -90,
+            "percent": 0.4,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "mountain",
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": 90,
-          "percent": 0.4
-        },
         "terrain": [
           {
             "type": "river",
             "size": "medium",
-            "cost": "$10",
+            "cost": 10,
             "angle": -90,
             "percent": 0.4
+          },
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": 90,
+            "percent": 0.4,
+            "type": "mountain"
           }
         ],
         "hexes": ["D18"]
       },
       {
         "color": "mountain",
-        "mountain": {
-          "size": "medium",
-          "cost": "$20"
-        },
-        "hexes": ["E9"]
+        "hexes": ["E9"],
+        "terrain": [
+          {
+            "size": "medium",
+            "cost": 20,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "mountain",
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": 210,
-          "percent": 0.4
-        },
-        "hexes": ["E15"]
+        "hexes": ["E15"],
+        "terrain": [
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": 210,
+            "percent": 0.4,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "mountain",
@@ -1090,17 +1099,18 @@
           {
             "type": "river",
             "size": "medium",
-            "cost": "$10",
+            "cost": 10,
             "angle": -30,
             "percent": 0.4
+          },
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": 150,
+            "percent": 0.4,
+            "type": "mountain"
           }
         ],
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": 150,
-          "percent": 0.4
-        },
         "hexes": ["E17"]
       },
       {
@@ -1109,17 +1119,18 @@
           {
             "type": "river",
             "size": "medium",
-            "cost": "$10",
+            "cost": 10,
             "angle": 90,
             "percent": 0.4
+          },
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": -90,
+            "percent": 0.4,
+            "type": "mountain"
           }
         ],
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": -90,
-          "percent": 0.4
-        },
         "hexes": ["F6"]
       },
       {
@@ -1128,17 +1139,18 @@
           {
             "type": "river",
             "size": "medium",
-            "cost": "$10",
+            "cost": 10,
             "angle": 90,
             "percent": 0.4
+          },
+          {
+            "cost": 40,
+            "size": "medium",
+            "angle": -90,
+            "percent": 0.4,
+            "type": "mountain"
           }
         ],
-        "mountain": {
-          "cost": "$40",
-          "size": "medium",
-          "angle": -90,
-          "percent": 0.4
-        },
         "hexes": ["F8"]
       },
       {
@@ -1147,28 +1159,32 @@
           {
             "type": "river",
             "size": "medium",
-            "cost": "$10",
+            "cost": 10,
             "angle": 150,
             "percent": 0.4
+          },
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": -30,
+            "percent": 0.4,
+            "type": "mountain"
           }
         ],
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": -30,
-          "percent": 0.4
-        },
         "hexes": ["G19"]
       },
       {
         "color": "mountain",
-        "mountain": {
-          "cost": "$20",
-          "size": "medium",
-          "angle": -90,
-          "percent": 0.4
-        },
-        "hexes": ["H18"]
+        "hexes": ["H18"],
+        "terrain": [
+          {
+            "cost": 20,
+            "size": "medium",
+            "angle": -90,
+            "percent": 0.4,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1218,7 +1234,7 @@
     ],
     "borders": [
       {
-        "color": "purple",
+        "color": "violet",
         "coords": [
           "F2p3",
           "F2p4",
@@ -1238,15 +1254,15 @@
         ]
       },
       {
-        "color": "purple",
+        "color": "violet",
         "coords": ["A11p3", "A11p2", "A11p1"]
       },
       {
-        "color": "purple",
+        "color": "violet",
         "coords": ["C13p4", "C13p5", "C13p6", "D14p5"]
       },
       {
-        "color": "purple",
+        "color": "violet",
         "coords": ["E17p4", "E17p5", "E17p6", "F18p5", "F20p4", "F20p5"]
       }
     ]

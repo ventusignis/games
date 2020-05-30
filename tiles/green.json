@@ -354,8 +354,8 @@
   "54": {
     "color": "green",
     "values": [
-      { "angle": -35, "percent": 0.6, "value": 60 },
-      { "angle": -145, "percent": 0.6, "value": 60 }
+      { "angle": 325, "percent": 0.6, "value": 60 },
+      { "angle": 215, "percent": 0.6, "value": 60 }
     ],
     "labels": [{ "label": "NY", "fontSize": 24, "angle": 90, "percent": 0.8 }],
     "cities": [
@@ -363,8 +363,8 @@
       { "angle": 150, "percent": 0.5 }
     ],
     "track": [
-      { "type": "sharp", "side": 1, "revenue": 0 },
-      { "type": "sharp", "side": 3, "revenue": 1 }
+      { "type": "sharp", "side": 1 },
+      { "type": "sharp", "side": 3 }
     ]
   },
   "59": {
@@ -809,8 +809,8 @@
   "120": {
     "color": "green",
     "values": [
-      { "angle": -35, "percent": 0.6, "value": 60 },
-      { "angle": -145, "percent": 0.6, "value": 60 }
+      { "angle": 325, "percent": 0.6, "value": 60 },
+      { "angle": 215, "percent": 0.6, "value": 60 }
     ],
     "labels": [{ "label": "T", "angle": 90, "percent": 0.8 }],
     "cities": [
@@ -842,8 +842,8 @@
       { "angle": 150, "percent": 0.5 }
     ],
     "track": [
-      { "type": "sharp", "side": 1, "revenue": 0 },
-      { "type": "sharp", "side": 3, "revenue": 1 }
+      { "type": "sharp", "side": 1 },
+      { "type": "sharp", "side": 3 }
     ]
   },
   "141": {
@@ -1002,7 +1002,7 @@
     "color": "green",
     "rotations": 3,
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-    "terrain": [{ "angle": 30, "percent": 0.8, "cost": "80", "size": "tiny" }],
+    "terrain": [{ "angle": 30, "percent": 0.8, "cost": 80, "size": "tiny" }],
     "labels": [{ "label": "H", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
     "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }]
@@ -1063,8 +1063,8 @@
     "color": "green",
     "cities": [{ "percent": 0.5 }, { "percent": 0.5, "angle": 180 }],
     "values": [
-      { "angle": -60, "percent": 0.7, "value": 20 },
-      { "angle": -120, "percent": 0.7, "value": 20 }
+      { "angle": 300, "percent": 0.7, "value": 20 },
+      { "angle": 240, "percent": 0.7, "value": 20 }
     ],
     "track": [
       { "type": "sharp", "side": 1 },
@@ -1257,8 +1257,8 @@
   "580": {
     "color": "green",
     "values": [
-      { "angle": -35, "percent": 0.6, "value": 60 },
-      { "angle": -145, "percent": 0.6, "value": 60 }
+      { "angle": 325, "percent": 0.6, "value": 60 },
+      { "angle": 215, "percent": 0.6, "value": 60 }
     ],
     "labels": [{ "label": "P", "angle": 90, "percent": 0.8 }],
     "cities": [
@@ -1289,8 +1289,8 @@
   "590": {
     "color": "green",
     "values": [
-      { "angle": -35, "percent": 0.6, "value": 60 },
-      { "angle": -95, "percent": 0.5, "value": 60 }
+      { "angle": 325, "percent": 0.6, "value": 60 },
+      { "angle": 285, "percent": 0.5, "value": 60 }
     ],
     "labels": [{ "label": "Chi", "fontSize": 20, "angle": 90, "percent": 0.8 }],
     "cities": [
@@ -2651,7 +2651,7 @@
     "color": "green",
     "values": [
       {
-        "angle": -120,
+        "angle": 240,
         "percent": 0.2,
         "value": 10
       }
@@ -2718,7 +2718,7 @@
         "fontSize": 30
       }
     ],
-    "values": [{ "value": 10, "angle": -90, "percent": 0.5 }],
+    "values": [{ "value": 10, "angle": 270, "percent": 0.5 }],
     "towns": [{ "color": "halt", "angle": 180, "percent": 0.5 }],
     "centerTowns": [{}],
     "track": [{ "side": 1 }, { "side": 4 }, { "side": 2 }]
@@ -2792,8 +2792,8 @@
   "760": {
     "color": "green",
     "values": [
-      { "angle": -35, "percent": 0.6, "value": 40 },
-      { "angle": -145, "percent": 0.6, "value": 40 }
+      { "angle": 325, "percent": 0.6, "value": 40 },
+      { "angle": 215, "percent": 0.6, "value": 40 }
     ],
     "labels": [{ "label": "V", "angle": 270, "percent": 0.667 }],
     "cities": [
@@ -3670,50 +3670,6 @@
         "gauge": "narrow"
       }
     ]
-  },
-  "479|a": {
-    "color": "green",
-    "broken": true,
-    "group": "479",
-    "mask": false,
-    "rotation": 60,
-    "rotations": 1,
-    "values": [{ "value": 40, "angle": 210, "percent": 0.75 }],
-    "cities": [
-      {
-        "angle": 300,
-        "percent": 0.29,
-        "size": 2,
-        "rotation": 30,
-        "name": { "name": "Mexico City", "reverse": true },
-        "companies": [{ "color": "green", "label": "NdM" }]
-      }
-    ],
-    "centerTowns": [
-      { "angle": 120, "percent": 0.65, "name": { "name": "Toluca" } }
-    ],
-    "track": [{ "side": 4 }, { "side": 6 }]
-  },
-  "479|b": {
-    "color": "green",
-    "broken": true,
-    "group": "479",
-    "mask": false,
-    "rotation": 60,
-    "rotations": 1,
-    "values": [{ "value": 10, "angle": 256, "percent": 0.7 }],
-    "terrain": [
-      { "type": "mountain", "cost": "40", "angle": 180, "percent": 0.6 }
-    ],
-    "towns": [
-      {
-        "rotation": 120,
-        "angle": 300,
-        "percent": 0.5,
-        "name": { "reverse": true, "name": "Puebla" }
-      }
-    ],
-    "track": [{ "side": 3, "type": "straight" }]
   },
   "981": {
     "color": "green",

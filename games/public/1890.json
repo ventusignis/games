@@ -441,7 +441,6 @@
     "70": 1
   },
   "map": {
-    "print": "landscape",
     "hexes": [
       {
         "color": "plain",
@@ -460,10 +459,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "size": "medium",
-          "cost": "¥120"
-        },
         "hexes": [
           "B9",
           "B11",
@@ -483,15 +478,25 @@
           "L15",
           "M10",
           "M12"
+        ],
+        "terrain": [
+          {
+            "size": "medium",
+            "cost": 120,
+            "type": "mountain"
+          }
         ]
       },
       {
         "color": "plain",
-        "water": {
-          "size": "small",
-          "cost": "¥80"
-        },
-        "hexes": ["C8", "A16", "B15", "F19"]
+        "hexes": ["C8", "A16", "B15", "F19"],
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "offboard",
@@ -499,26 +504,27 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "40"
+              "cost": 40
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A20"],
+        "track": [
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A20"]
+        ]
       },
       {
         "color": "yellow",
@@ -529,13 +535,6 @@
             "percent": 0.7
           }
         ],
-        "water": {
-          "cost": "80",
-          "size": "tiny",
-          "border": true,
-          "angle": 180,
-          "percent": 0.8
-        },
         "cities": [
           {
             "angle": 240,
@@ -567,7 +566,16 @@
             "type": "sharpStop"
           }
         ],
-        "hexes": ["B17"]
+        "hexes": ["B17"],
+        "terrain": [
+          {
+            "cost": 80,
+            "size": "tiny",
+            "angle": 180,
+            "percent": 0.8,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -593,26 +601,27 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "40"
+              "cost": 40
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["B21"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["B21"]
+        ]
       },
       {
         "color": "offboard",
@@ -620,29 +629,31 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "10"
+              "cost": 10
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "30"
+              "cost": 30
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A14"],
+        "track": [
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A14"]
+        ]
       },
       {
         "color": "offboard",
@@ -650,39 +661,38 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "10"
+              "cost": 10
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "30"
+              "cost": 30
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["B7"],
+        "track": [
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["B7"]
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "¥80",
-          "size": "small"
-        },
         "borders": [
           {
             "color": "water",
@@ -693,15 +703,17 @@
             "side": 5
           }
         ],
-        "hexes": ["C16"]
+        "hexes": ["C16"],
+        "terrain": [
+          {
+            "cost": 80,
+            "size": "small",
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "¥80",
-          "size": "small",
-          "percent": 0.5
-        },
         "cities": [
           {
             "angle": 180,
@@ -717,7 +729,15 @@
             "side": 1
           }
         ],
-        "hexes": ["C18"]
+        "hexes": ["C18"],
+        "terrain": [
+          {
+            "cost": 80,
+            "size": "small",
+            "percent": 0.5,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -789,12 +809,15 @@
             }
           }
         ],
-        "water": {
-          "percent": 0.5,
-          "cost": "¥80",
-          "size": "small"
-        },
-        "hexes": ["D9"]
+        "hexes": ["D9"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 80,
+            "size": "small",
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -874,17 +897,20 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "size": "medium",
-          "cost": "¥120"
-        },
         "borders": [
           {
             "side": 4,
             "color": "water"
           }
         ],
-        "hexes": ["E8"]
+        "hexes": ["E8"],
+        "terrain": [
+          {
+            "size": "medium",
+            "cost": 120,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1006,10 +1032,6 @@
       },
       {
         "color": "plain",
-        "water": {
-          "size": "small",
-          "cost": "¥80"
-        },
         "borders": [
           {
             "side": 1,
@@ -1020,7 +1042,14 @@
             "color": "water"
           }
         ],
-        "hexes": ["E18"]
+        "hexes": ["E18"],
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "offboard",
@@ -1028,29 +1057,31 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "40"
+              "cost": 40
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "70"
+              "cost": 70
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["F1"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["F1"]
+        ]
       },
       {
         "color": "plain",
@@ -1140,12 +1171,15 @@
             }
           }
         ],
-        "water": {
-          "percent": 0.5,
-          "cost": "¥80",
-          "size": "small"
-        },
-        "hexes": ["F9"]
+        "hexes": ["F9"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 80,
+            "size": "small",
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1208,17 +1242,20 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "size": "medium",
-          "cost": "¥120"
-        },
         "borders": [
           {
             "side": 3,
             "color": "water"
           }
         ],
-        "hexes": ["F17"]
+        "hexes": ["F17"],
+        "terrain": [
+          {
+            "size": "medium",
+            "cost": 120,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1252,16 +1289,16 @@
             "percent": 0.75
           }
         ],
-        "water": [
+        "hexes": ["G12"],
+        "terrain": [
           {
             "size": "tiny",
-            "border": true,
-            "cost": "¥80",
+            "cost": 80,
             "angle": 60,
-            "percent": 0.85
+            "percent": 0.85,
+            "type": "water"
           }
-        ],
-        "hexes": ["G12"]
+        ]
       },
       {
         "color": "yellow",
@@ -1298,12 +1335,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "size": "medium",
-          "cost": "¥80",
-          "angle": 180,
-          "percent": 0.667
-        },
         "centerTowns": [
           {
             "angle": 90,
@@ -1321,7 +1352,16 @@
             }
           }
         ],
-        "hexes": ["G16"]
+        "hexes": ["G16"],
+        "terrain": [
+          {
+            "size": "medium",
+            "cost": 80,
+            "angle": 180,
+            "percent": 0.667,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1364,14 +1404,16 @@
             "side": 4
           }
         ],
-        "water": {
-          "size": "tiny",
-          "border": true,
-          "cost": "¥80",
-          "angle": 60,
-          "percent": 0.85
-        },
-        "hexes": ["H11"]
+        "hexes": ["H11"],
+        "terrain": [
+          {
+            "size": "tiny",
+            "cost": 80,
+            "angle": 60,
+            "percent": 0.85,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1407,13 +1449,6 @@
             "side": 4
           }
         ],
-        "water": {
-          "size": "tiny",
-          "border": true,
-          "cost": "¥80",
-          "angle": 60,
-          "percent": 0.85
-        },
         "companies": [
           {
             "label": "OR",
@@ -1422,7 +1457,16 @@
             "percent": 0.8
           }
         ],
-        "hexes": ["H13"]
+        "hexes": ["H13"],
+        "terrain": [
+          {
+            "size": "tiny",
+            "cost": 80,
+            "angle": 60,
+            "percent": 0.85,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1454,13 +1498,6 @@
             "percent": 0.7
           }
         ],
-        "water": {
-          "size": "tiny",
-          "cost": "¥80",
-          "border": "true",
-          "angle": 300,
-          "percent": 0.8
-        },
         "cities": [
           {
             "angle": 210,
@@ -1487,7 +1524,16 @@
             ]
           }
         ],
-        "hexes": ["H19"]
+        "hexes": ["H19"],
+        "terrain": [
+          {
+            "size": "tiny",
+            "cost": 80,
+            "angle": 300,
+            "percent": 0.8,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1526,14 +1572,16 @@
             "percent": 0.8
           }
         ],
-        "water": {
-          "cost": "¥80",
-          "size": "tiny",
-          "border": true,
-          "angle": 60,
-          "percent": 0.85
-        },
-        "hexes": ["I12"]
+        "hexes": ["I12"],
+        "terrain": [
+          {
+            "cost": 80,
+            "size": "tiny",
+            "angle": 60,
+            "percent": 0.85,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1644,33 +1692,35 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 2
-          }
-        ],
         "offBoardRevenue": {
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "40"
+              "cost": 40
             }
           ]
         },
-        "hexes": ["K20"]
+        "hexes": ["K20"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1685,30 +1735,31 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 4
-          }
-        ],
         "offBoardRevenue": {
           "revenues": [
             {
               "color": "yellow",
-              "cost": "0"
+              "cost": 0
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "0"
+              "cost": 0
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "50"
+              "cost": 50
             }
           ]
         },
-        "hexes": ["M6"]
+        "hexes": ["M6"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1723,60 +1774,63 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 2
-          }
-        ],
         "offBoardRevenue": {
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "30"
+              "cost": 30
             }
           ]
         },
-        "hexes": ["M14"]
+        "hexes": ["M14"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 3
-          }
-        ],
         "offBoardRevenue": {
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "black",
               "textColor": "white",
-              "cost": "40"
+              "cost": 40
             }
           ]
         },
-        "hexes": ["N7"]
+        "hexes": ["N7"],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ]
       }
     ]
   }

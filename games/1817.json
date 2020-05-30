@@ -333,10 +333,26 @@
   "stock": {
     "type": "1D",
     "market": [
-      { "subLabel": "Liquidation", "color": "red", "value": 0 },
-      { "subLabel": "Acquisition", "color": "gray", "value": 40 },
-      { "subLabel": "Acquisition", "color": "gray", "value": 40 },
-      { "subLabel": "Acquisition", "color": "gray", "value": 40 },
+      {
+        "subLabel": "Liquidation",
+        "color": "red",
+        "value": 0
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray",
+        "value": 40
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray",
+        "value": 40
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray",
+        "value": 40
+      },
       40,
       45,
       50,
@@ -570,7 +586,8 @@
           }
         ],
         "offBoardRevenue": {
-          "percent": -0.6,
+          "angle": 180,
+          "percent": 0.6,
           "revenues": [
             {
               "color": "yellow",
@@ -779,7 +796,8 @@
           }
         ],
         "offBoardRevenue": {
-          "percent": -0.5,
+          "angle": 180,
+          "percent": 0.5,
           "revenues": [
             {
               "color": "yellow",

@@ -908,9 +908,11 @@
       },
       {
         "color": "offboard",
-        "name": {
-          "name": "Port Huron"
-        },
+        "names": [
+          {
+            "name": "Port Huron"
+          }
+        ],
         "removeBorders": [5],
         "hexes": ["A14"]
       },
