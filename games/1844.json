@@ -718,23 +718,23 @@
       "values": [
         {
           "value": 100,
-          "subLabel": "5 Tokens"
+          "subLabel": "5 Stations"
         },
         {
           "value": 90,
-          "subLabel": "4 Tokens"
+          "subLabel": "4 Stations"
         },
         {
           "value": 80,
-          "subLabel": "3 Tokens"
+          "subLabel": "3 Stations"
         },
         {
           "value": 70,
-          "subLabel": "2 Tokens"
+          "subLabel": "2 Stations"
         },
         {
           "value": 60,
-          "subLabel": "1 Token"
+          "subLabel": "1 Station"
         }
       ]
     },
