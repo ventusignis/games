@@ -93,7 +93,7 @@
   "111": {
     "color": "gray",
     "values": [{ "value": 70, "angle": 210, "percent": 0.8 }],
-    "labels": [{ "label": "BM", "size": 18, "angle": 90, "percent": 0.8 }],
+    "labels": [{ "label": "BM", "fontSize": 18, "angle": 90, "percent": 0.8 }],
     "cities": [{ "size": 3 }],
     "track": [
       { "side": 1, "gauge": "dual" },
@@ -196,9 +196,9 @@
   "136": {
     "color": "gray",
     "labels": [
-      { "label": "KC", "angle": 150, "percent": 0.8, "size": 18 },
-      { "label": "SL", "angle": 90, "percent": 0.87, "size": 18 },
-      { "label": "MSP", "angle": 30, "percent": 0.8, "size": 18 }
+      { "label": "KC", "angle": 150, "percent": 0.8, "fontSize": 18 },
+      { "label": "SL", "angle": 90, "percent": 0.87, "fontSize": 18 },
+      { "label": "MSP", "angle": 30, "percent": 0.8, "fontSize": 18 }
     ],
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
     "cities": [{ "size": 2 }],
@@ -478,7 +478,7 @@
       { "side": 4 },
       { "side": 5 }
     ],
-    "labels": [{ "angle": 150, "percent": 0.8, "label": "B" }]
+    "labels": [{ "angle": 90, "percent": 0.8, "label": "B" }]
   },
   "639": {
     "color": "gray",

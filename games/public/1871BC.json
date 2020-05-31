@@ -25,19 +25,19 @@
   "players": [
     {
       "number": 2,
-      "capital": "$600",
+      "capital": 600,
       "certLimit": 19,
       "bank": 7000
     },
     {
       "number": 3,
-      "capital": "$400",
+      "capital": 400,
       "certLimit": 14,
       "bank": 6500
     },
     {
       "number": 4,
-      "capital": "$400",
+      "capital": 400,
       "certLimit": 12,
       "bank": 7500
     }
@@ -46,7 +46,7 @@
     {
       "name": "Canadian Pacific Railway",
       "abbrev": "CPR",
-      "tokens": ["Free", "$80", "$80", "$80"],
+      "tokens": ["Free", 80, 80, 80],
       "color": "red",
       "shares": [
         {
@@ -66,7 +66,7 @@
       "name": "Northern Pacific Railway",
       "abbrev": "NPR",
       "logo": "NORPAC",
-      "tokens": ["Free", "$80", "$80", "$80"],
+      "tokens": ["Free", 80, 80, 80],
       "color": "white",
       "shares": [
         {
@@ -88,7 +88,7 @@
       "token": {
         "bar": true
       },
-      "tokens": ["Free", "$100"],
+      "tokens": ["Free", 100],
       "color": "blue",
       "shares": [
         {
@@ -109,7 +109,7 @@
       "abbrev": "PGER",
       "logo": "PGER",
       "color": "PGER_green",
-      "tokens": ["Free", "$80", "$80", "$80"],
+      "tokens": ["Free", 80, 80, 80],
       "shares": [
         {
           "quantity": 1,
@@ -128,7 +128,7 @@
       "name": "Grand Trunk Pacific",
       "abbrev": "GTP",
       "logo": "GTP",
-      "tokens": ["Free", "$80", "$80"],
+      "tokens": ["Free", 80, 80],
       "color": "black",
       "shares": [
         {
@@ -148,7 +148,7 @@
       "name": "Canadian Northern Railway",
       "abbrev": "CNR",
       "logo": "CNOR",
-      "tokens": ["Free", "$80", "$80", "$80*"],
+      "tokens": ["Free", 80, 80, "$80*"],
       "color": "yellow",
       "shares": [
         {
@@ -300,14 +300,18 @@
       "train": ["4/6", "5"],
       "limit": 3,
       "tiles": "brown",
-      "events": { "close_companies": true }
+      "events": {
+        "close_companies": true
+      }
     },
     {
       "name": "4",
       "train": ["6", "7/8"],
       "limit": 2,
       "tiles": "gray",
-      "events": { "remove_tokens": true }
+      "events": {
+        "remove_tokens": true
+      }
     }
   ],
   "pools": [
@@ -686,13 +690,10 @@
             "percent": 0.7
           }
         ],
-        "routeBonus": {
-          "value": "+30",
-          "percent": 0.3
-        },
-        "offBoardTrack": [
+        "routeBonuses": [
           {
-            "side": 5
+            "value": "+30",
+            "percent": 0.3
           }
         ],
         "offBoardRevenue": {
@@ -702,32 +703,35 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "40"
+              "cost": 40
             },
             {
               "color": "brown",
-              "cost": "70"
+              "cost": 70
             }
           ]
         },
-        "hexes": ["A1"]
+        "hexes": ["A1"],
+        "track": [
+          {
+            "side": 5,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
-        "routeBonus": {
-          "value": "+30",
-          "percent": 0.3
-        },
+        "routeBonuses": [
+          {
+            "value": "+30",
+            "percent": 0.3
+          }
+        ],
         "labels": [
           {
             "label": "E",
             "angle": 180,
             "percent": 0.7
-          }
-        ],
-        "offBoardTrack": [
-          {
-            "side": 1
           }
         ],
         "offBoardRevenue": {
@@ -745,27 +749,27 @@
             }
           ]
         },
-        "hexes": ["G23"]
+        "hexes": ["G23"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
-        "routeBonus": {
-          "value": "+30",
-          "percent": 0.3
-        },
+        "routeBonuses": [
+          {
+            "value": "+30",
+            "percent": 0.3
+          }
+        ],
         "labels": [
           {
             "label": "E",
             "angle": 180,
             "percent": 0.7
-          }
-        ],
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 6
           }
         ],
         "offBoardRevenue": {
@@ -783,7 +787,17 @@
             }
           ]
         },
-        "hexes": ["C19"]
+        "hexes": ["C19"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
@@ -815,7 +829,6 @@
                 "color": "blue"
               },
               {
-                "label": "",
                 "color": "gray"
               }
             ]
@@ -857,11 +870,13 @@
             "percent": 0.7
           }
         ],
-        "routeBonus": {
-          "value": "+30",
-          "angle": 235,
-          "percent": 0.7
-        },
+        "routeBonuses": [
+          {
+            "value": "+30",
+            "angle": 235,
+            "percent": 0.7
+          }
+        ],
         "cities": [
           {
             "size": 1,
@@ -900,16 +915,10 @@
             "percent": 0.7
           }
         ],
-        "routeBonus": {
-          "value": "+30",
-          "percent": 0.3
-        },
-        "offBoardTrack": [
+        "routeBonuses": [
           {
-            "side": 4
-          },
-          {
-            "side": 5
+            "value": "+30",
+            "percent": 0.3
           }
         ],
         "offBoardRevenue": {
@@ -927,7 +936,17 @@
             }
           ]
         },
-        "hexes": ["I7"]
+        "hexes": ["I7"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 5,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1079,7 +1098,6 @@
         "color": "plain",
         "tokens": [
           {
-            "label": "",
             "angle": 180,
             "percent": 0.75,
             "color": "pink",
@@ -1093,7 +1111,6 @@
         "color": "plain",
         "tokens": [
           {
-            "label": "",
             "angle": 180,
             "percent": 0.75,
             "color": "pink",
@@ -1137,12 +1154,11 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$40"
+            "cost": 40
           }
         ],
         "tokens": [
           {
-            "label": "",
             "angle": 180,
             "percent": 0.75,
             "color": "pink",
@@ -1157,7 +1173,7 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$40"
+            "cost": 40
           }
         ],
         "hexes": ["F10"]
@@ -1167,7 +1183,7 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$60"
+            "cost": 60
           }
         ],
         "hexes": ["E9"]
@@ -1177,12 +1193,11 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$40"
+            "cost": 40
           }
         ],
         "tokens": [
           {
-            "label": "",
             "angle": 180,
             "percent": 0.75,
             "color": "pink",
@@ -1197,12 +1212,11 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$40"
+            "cost": 40
           }
         ],
         "tokens": [
           {
-            "label": "",
             "angle": 180,
             "percent": 0.75,
             "color": "pink",
@@ -1217,7 +1231,7 @@
         "tokens": [
           {
             "company": "CPR",
-            "destiniation": true,
+            "destination": true,
             "angle": 180,
             "percent": 0.75,
             "width": 18
@@ -1372,7 +1386,7 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$40"
+            "cost": 40
           }
         ],
         "hexes": ["B16", "C9", "D16", "E19", "F10", "F16", "G9", "H22", "I23"]
@@ -1382,7 +1396,7 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$60"
+            "cost": 60
           }
         ],
         "hexes": [
@@ -1406,7 +1420,7 @@
         "terrain": [
           {
             "type": "mountain",
-            "cost": "$80"
+            "cost": 80
           }
         ],
         "hexes": ["G19", "H20"]

@@ -316,7 +316,6 @@
     "70": 1
   },
   "map": {
-    "print": "landscape",
     "hexes": [
       {
         "color": "plain",
@@ -344,10 +343,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "¥120",
-          "size": "medium"
-        },
         "hexes": [
           "A2",
           "A4",
@@ -392,14 +387,17 @@
           "N15",
           "N19",
           "P5"
+        ],
+        "terrain": [
+          {
+            "cost": 120,
+            "size": "medium",
+            "type": "mountain"
+          }
         ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "¥40",
-          "size": "small"
-        },
         "hexes": [
           "B3",
           "B11",
@@ -416,15 +414,25 @@
           "M16",
           "N3",
           "Q6"
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "size": "small",
+            "type": "mountain"
+          }
         ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "¥80",
-          "size": "small"
-        },
-        "hexes": ["D3", "E4", "E8", "F5", "F7", "G4", "H3", "I4", "J5", "K6"]
+        "hexes": ["D3", "E4", "E8", "F5", "F7", "G4", "H3", "I4", "J5", "K6"],
+        "terrain": [
+          {
+            "cost": 80,
+            "size": "small",
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "water",
@@ -444,11 +452,6 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 6
-          }
-        ],
         "offBoardRevenue": {
           "name": {
             "name": "Tarumi"
@@ -471,33 +474,48 @@
             }
           ]
         },
-        "hexes": ["A6"]
+        "hexes": ["A6"],
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
-        "copy": "A6",
+        "color": "offboard",
         "offBoardRevenue": {
           "name": {
             "name": "Minoh"
           },
           "revenues": [
-            {},
             {
-              "cost": "30"
+              "color": "black",
+              "textColor": "white",
+              "cost": "20"
             },
             {
+              "color": "black",
+              "textColor": "white",
               "cost": "40"
+            },
+            {
+              "color": "black",
+              "textColor": "white",
+              "cost": "50"
             }
           ]
         },
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ],
         "hexes": ["A10"]
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 6
-          }
-        ],
         "cities": [
           {
             "name": {
@@ -542,18 +560,16 @@
             }
           ]
         },
-        "hexes": ["A16"]
+        "hexes": ["A16"],
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 3
-          },
-          {
-            "side": 4
-          }
-        ],
         "offBoardRevenue": {
           "name": {
             "name": "Taniguchiyama Kegonji"
@@ -577,18 +593,20 @@
             }
           ]
         },
-        "hexes": ["B1"]
+        "hexes": ["B1"],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          },
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 4
-          },
-          {
-            "side": 6
-          }
-        ],
         "offBoardRevenue": {
           "name": {
             "name": "Ibi"
@@ -611,7 +629,17 @@
             }
           ]
         },
-        "hexes": ["C2"]
+        "hexes": ["C2"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -660,12 +688,15 @@
             }
           }
         ],
-        "mountain": {
-          "percent": 0.5,
-          "cost": "¥40",
-          "size": "small"
-        },
-        "hexes": ["C14"]
+        "hexes": ["C14"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 40,
+            "size": "small",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -720,12 +751,15 @@
             }
           }
         ],
-        "mountain": {
-          "percent": 0.5,
-          "cost": "¥40",
-          "size": "small"
-        },
-        "hexes": ["D17"]
+        "hexes": ["D17"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 40,
+            "size": "small",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -763,11 +797,6 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 4
-          }
-        ],
         "offBoardRevenue": {
           "name": {
             "name": "Maibara"
@@ -791,7 +820,13 @@
             }
           ]
         },
-        "hexes": ["F1"]
+        "hexes": ["F1"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -849,11 +884,6 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 6
-          }
-        ],
         "cities": [
           {
             "name": {
@@ -898,7 +928,13 @@
             }
           ]
         },
-        "hexes": ["E20"]
+        "hexes": ["E20"],
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -940,12 +976,6 @@
       },
       {
         "color": "yellow",
-        "mountain": {
-          "cost": "¥40",
-          "size": "tiny",
-          "border": true,
-          "percent": 0.75
-        },
         "values": [
           {
             "value": "30",
@@ -976,7 +1006,15 @@
             "side": 6
           }
         ],
-        "hexes": ["G8"]
+        "hexes": ["G8"],
+        "terrain": [
+          {
+            "cost": 40,
+            "size": "tiny",
+            "percent": 0.75,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1022,12 +1060,15 @@
             }
           }
         ],
-        "mountain": {
-          "percent": 0.5,
-          "cost": "¥40",
-          "size": "small"
-        },
-        "hexes": ["H13"]
+        "hexes": ["H13"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 40,
+            "size": "small",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1038,12 +1079,6 @@
             "percent": 0.667
           }
         ],
-        "mountain": {
-          "percent": 0.667,
-          "size": "tiny",
-          "cost": "¥120",
-          "border": true
-        },
         "cities": [
           {
             "companies": [
@@ -1063,7 +1098,15 @@
             "side": 1
           }
         ],
-        "hexes": ["H15"]
+        "hexes": ["H15"],
+        "terrain": [
+          {
+            "percent": 0.667,
+            "size": "tiny",
+            "cost": 120,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1202,11 +1245,14 @@
             "percent": 0.5
           }
         ],
-        "water": {
-          "cost": "¥80",
-          "percent": 0.6
-        },
-        "hexes": ["J9"]
+        "hexes": ["J9"],
+        "terrain": [
+          {
+            "cost": 80,
+            "percent": 0.6,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1238,12 +1284,15 @@
             }
           }
         ],
-        "mountain": {
-          "percent": 0.5,
-          "cost": "¥40",
-          "size": "small"
-        },
-        "hexes": ["J17"]
+        "hexes": ["J17"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 40,
+            "size": "small",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1313,15 +1362,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["K20"],
+        "track": [
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["K20"]
+        ]
       },
       {
         "color": "offboard",
@@ -1348,18 +1399,21 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["L1"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["L1"]
+        ]
       },
       {
         "color": "plain",
@@ -1641,15 +1695,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["N1"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["N1"]
+        ]
       },
       {
         "color": "plain",
@@ -1673,12 +1729,15 @@
             }
           }
         ],
-        "mountain": {
-          "percent": 0.5,
-          "cost": "¥40",
-          "size": "small"
-        },
-        "hexes": ["N9"]
+        "hexes": ["N9"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 40,
+            "size": "small",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1763,12 +1822,15 @@
             "label": "SR"
           }
         ],
-        "mountain": {
-          "percent": 0.3,
-          "cost": "¥120",
-          "size": "medium"
-        },
-        "hexes": ["O4"]
+        "hexes": ["O4"],
+        "terrain": [
+          {
+            "percent": 0.3,
+            "cost": 120,
+            "size": "medium",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1789,11 +1851,6 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 2
-          }
-        ],
         "offBoardRevenue": {
           "name": {
             "name": "Kohwa"
@@ -1817,15 +1874,16 @@
             }
           ]
         },
-        "hexes": ["O10"]
+        "hexes": ["O10"],
+        "track": [
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 1
-          }
-        ],
         "cities": [
           {
             "name": {
@@ -1870,7 +1928,13 @@
             }
           ]
         },
-        "hexes": ["O20"]
+        "hexes": ["O20"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1960,14 +2024,6 @@
       },
       {
         "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 3
-          },
-          {
-            "side": 4
-          }
-        ],
         "offBoardRevenue": {
           "reverse": true,
           "name": {
@@ -1991,7 +2047,17 @@
             }
           ]
         },
-        "hexes": ["Q4"]
+        "hexes": ["Q4"],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          },
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "gray",

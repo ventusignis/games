@@ -19,7 +19,18 @@
     "short": "pink"
   },
   "wip": true,
-  "tokens": [],
+  "tokens": [
+    {
+      "label": "+$10",
+      "icon": "coal",
+      "quantity": 4
+    },
+    {
+      "label": "+$10",
+      "icon": "tunnel",
+      "quantity": 2
+    }
+  ],
   "ipo": false,
   "bank": "∞",
   "players": [
@@ -272,10 +283,26 @@
   "stock": {
     "type": "1D",
     "market": [
-      { "subLabel": "Liquidation", "color": "red", "value": 0 },
-      { "subLabel": "Acquisition", "color": "gray", "value": 40 },
-      { "subLabel": "Acquisition", "color": "gray", "value": 40 },
-      { "subLabel": "Acquisition", "color": "gray", "value": 40 },
+      {
+        "subLabel": "Liquidation",
+        "color": "red",
+        "value": 0
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray",
+        "value": 40
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray",
+        "value": 40
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray",
+        "value": 40
+      },
       40,
       45,
       50,
@@ -431,12 +458,13 @@
       {
         "color": "white",
         "removeBorders": [1, 2, 3, 4, 6],
-        "offBoardTrack": [
+        "hexes": ["A2"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A2"]
+        ]
       },
       {
         "color": "plain",
@@ -446,7 +474,7 @@
             "type": "mountain"
           },
           {
-            "cost": "$15",
+            "cost": 15,
             "percent": 0.1
           }
         ],
@@ -501,7 +529,7 @@
             "type": "mountain"
           },
           {
-            "cost": "$15",
+            "cost": 15,
             "percent": 0.7
           }
         ],
@@ -525,7 +553,7 @@
             "type": "mountain"
           },
           {
-            "cost": "$15"
+            "cost": 15
           }
         ],
         "hexes": [
@@ -552,15 +580,15 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "70"
+              "cost": 70
             },
             {
               "color": "green",
-              "cost": "10"
+              "cost": 10
             },
             {
               "color": "brown",
-              "cost": "40"
+              "cost": 40
             }
           ]
         },
@@ -607,39 +635,41 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "green",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "brown",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "gray",
-              "cost": "60"
+              "cost": 60
             }
           ],
           "rows": 2
         },
-        "offBoardTrack": [
+        "hexes": ["B19"],
+        "track": [
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["B19"]
+        ]
       },
       {
         "color": "white",
         "removeBorders": [1, 2, 4, 5, 6],
-        "offBoardTrack": [
+        "hexes": ["C2"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["C2"]
+        ]
       },
       {
         "color": "offboard",
@@ -650,32 +680,34 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "green",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "brown",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "gray",
-              "cost": "80"
+              "cost": 80
             }
           ],
           "rows": 2
         },
-        "offBoardTrack": [
+        "hexes": ["C4"],
+        "track": [
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           },
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["C4"]
+        ]
       },
       {
         "color": "plain",
@@ -800,34 +832,36 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "green",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "brown",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "gray",
-              "cost": "80"
+              "cost": 80
             }
           ],
           "rows": 2,
           "angle": 210,
           "percent": 0.1
         },
-        "offBoardTrack": [
+        "hexes": ["D27"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["D27"]
+        ]
       },
       {
         "color": "plain",
@@ -843,12 +877,13 @@
       {
         "color": "white",
         "removeBorders": [1, 2, 6],
-        "offBoardTrack": [
+        "hexes": ["F9"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["F9"]
+        ]
       },
       {
         "color": "plain",
@@ -925,32 +960,34 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "green",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "brown",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "gray",
-              "cost": "60"
+              "cost": 60
             }
           ],
           "rows": 2
         },
-        "offBoardTrack": [
+        "hexes": ["H9"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["H9"]
+        ]
       },
       {
         "color": "plain",
@@ -986,25 +1023,28 @@
       {
         "color": "white",
         "removeBorders": [1, 4, 5, 6],
-        "offBoardTrack": [
+        "hexes": ["I10"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["I10"]
+        ]
       },
       {
         "color": "white",
         "removeBorders": [1, 5, 6],
-        "offBoardTrack": [
+        "hexes": ["I12"],
+        "track": [
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["I12"]
+        ]
       },
       {
         "color": "plain",
@@ -1062,12 +1102,13 @@
       },
       {
         "color": "water",
-        "offBoardTrack": [
+        "hexes": ["I18"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["I18"]
+        ]
       },
       {
         "color": "gray",
@@ -1087,19 +1128,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "green",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "brown",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "gray",
-              "cost": "80"
+              "cost": 80
             }
           ],
           "rows": 2
@@ -1119,12 +1160,13 @@
       {
         "color": "white",
         "removeBorders": [1, 2, 5, 6],
-        "offBoardTrack": [
+        "hexes": ["J13"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["J13"]
+        ]
       },
       {
         "color": "plain",
@@ -1146,32 +1188,34 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": 20
             },
             {
               "color": "green",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "brown",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "gray",
-              "cost": "60"
+              "cost": 60
             }
           ],
           "rows": 2
         },
-        "offBoardTrack": [
+        "hexes": ["K22"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["K22"]
+        ]
       }
     ]
   }

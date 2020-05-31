@@ -144,7 +144,10 @@
       "price": 300,
       "color": "green",
       "image": "4T",
-      "obsolete": { "on": "6", "index": 2 }
+      "obsolete": {
+        "on": "6",
+        "index": 2
+      }
     },
     {
       "name": "5",
@@ -234,7 +237,9 @@
       "name": "5",
       "limit": 2,
       "tiles": "brown",
-      "events": { "close_companies": true }
+      "events": {
+        "close_companies": true
+      }
     },
     {
       "name": "6",

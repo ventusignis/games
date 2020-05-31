@@ -1037,7 +1037,11 @@
     "451": {
       "color": "brown",
       "cities": [
-        { "angle": 240, "percent": 0.66, "companies": ["KE"] },
+        {
+          "angle": 240,
+          "percent": 0.66,
+          "companies": ["KE"]
+        },
         {
           "size": 2,
           "rotation": 140,
@@ -1053,11 +1057,26 @@
           "companies": ["FJ"]
         }
       ],
-      "values": [{ "value": 60, "angle": 270, "percent": 0.9 }],
+      "values": [
+        {
+          "value": 60,
+          "angle": 270,
+          "percent": 0.9
+        }
+      ],
       "track": [
-        { "side": 2, "type": "straight" },
-        { "side": 3, "type": "sharp" },
-        { "side": 6, "type": "sharp" }
+        {
+          "side": 2,
+          "type": "straight"
+        },
+        {
+          "side": 3,
+          "type": "sharp"
+        },
+        {
+          "side": 6,
+          "type": "sharp"
+        }
       ]
     },
     "452": 1,
@@ -1067,15 +1086,36 @@
     "456": {
       "color": "gray",
       "rotations": 1,
-      "cities": [{ "size": 5, "companies": ["KE", "FJ", null, null, "SD"] }],
-      "values": [{ "value": 70 }],
+      "cities": [
+        {
+          "size": 5,
+          "companies": ["KE", "FJ", null, null, "SD"]
+        }
+      ],
+      "values": [
+        {
+          "value": 70
+        }
+      ],
       "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 },
-        { "side": 6 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
       ]
     },
     "467": 4,

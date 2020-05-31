@@ -649,16 +649,18 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "removeBorders": [4],
+        "hexes": ["A4"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "removeBorders": [4],
-        "hexes": ["A4"]
+        ]
       },
       {
         "color": "offboard",
@@ -687,16 +689,18 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "removeBorders": [1],
+        "hexes": ["A6"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "removeBorders": [1],
-        "hexes": ["A6"]
+        ]
       },
       {
         "color": "offboard",
@@ -723,15 +727,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A18"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A18"]
+        ]
       },
       {
         "color": "offboard",
@@ -773,18 +779,21 @@
             "companies": ["WA"]
           }
         ],
-        "offBoardTrack": [
+        "hexes": ["D1"],
+        "track": [
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["D1"]
+        ]
       },
       {
         "color": "water",
@@ -808,11 +817,6 @@
             }
           ]
         },
-        "offBoardTrack": [
-          {
-            "side": 6
-          }
-        ],
         "icons": [
           {
             "type": "port",
@@ -820,7 +824,13 @@
             "percent": 0.6
           }
         ],
-        "hexes": ["B21"]
+        "hexes": ["B21"],
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "water",
@@ -847,11 +857,6 @@
             }
           ]
         },
-        "offBoardTrack": [
-          {
-            "side": 2
-          }
-        ],
         "icons": [
           {
             "type": "port",
@@ -859,7 +864,13 @@
             "percent": 0.6
           }
         ],
-        "hexes": ["F3"]
+        "hexes": ["F3"],
+        "track": [
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",

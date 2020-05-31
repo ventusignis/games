@@ -852,7 +852,6 @@
     "172": 1
   },
   "map": {
-    "print": "landscape",
     "players": {
       "x": 1035,
       "y": 2050
@@ -891,14 +890,6 @@
             }
           ]
         },
-        "offBoardTrack": [
-          {
-            "side": 4
-          },
-          {
-            "side": 5
-          }
-        ],
         "tokens": [
           {
             "company": "FW",
@@ -906,7 +897,17 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["A2"]
+        "hexes": ["A2"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 5,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "offboard",
@@ -943,15 +944,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A22"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A22"]
+        ]
       },
       {
         "color": "offboard",
@@ -1008,18 +1011,21 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["N1"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["N1"]
+        ]
       },
       {
         "color": "offboard",
@@ -1049,17 +1055,6 @@
             }
           ]
         },
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 2
-          },
-          {
-            "side": 6
-          }
-        ],
         "tokens": [
           {
             "company": "SLSF",
@@ -1067,7 +1062,21 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["M22"]
+        "hexes": ["M22"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
       },
       {
         "color": "plain",

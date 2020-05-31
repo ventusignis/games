@@ -1034,23 +1034,26 @@
       {
         "color": "water",
         "removeBorders": [1],
-        "offBoardTrack": [
+        "hexes": ["A8"],
+        "track": [
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A8"]
+        ]
       },
       {
         "color": "water",
         "icons": [
           {
             "type": "port",
-            "percent": -0.5
+            "angle": 180,
+            "percent": 0.5
           }
         ],
         "offBoardRevenue": {
-          "percent": -1,
+          "angle": 180,
+          "percent": 1,
           "name": {
             "name": "Port",
             "bgColor": "water"
@@ -1067,12 +1070,13 @@
           ]
         },
         "removeBorders": [4],
-        "offBoardTrack": [
+        "hexes": ["A10"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A10"]
+        ]
       },
       {
         "color": "offboard",
@@ -1092,18 +1096,21 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["D13"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["D13"]
+        ]
       },
       {
         "color": "offboard",
@@ -1122,12 +1129,13 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["H1"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["H1"]
+        ]
       },
       {
         "color": "offboard",
@@ -1158,11 +1166,10 @@
           {
             "type": "sharp",
             "side": 4
-          }
-        ],
-        "offBoardTrack": [
+          },
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           }
         ],
         "hexes": ["G14"]
@@ -1184,25 +1191,28 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["K2"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["K2"]
+        ]
       },
       {
         "color": "offboard",
         "removeBorders": [6],
-        "offBoardTrack": [
+        "hexes": ["L3"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["L3"]
+        ]
       },
       {
         "color": "offboard",
@@ -1224,12 +1234,13 @@
           ]
         },
         "removeBorders": [3],
-        "offBoardTrack": [
+        "hexes": ["M4"],
+        "track": [
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["M4"]
+        ]
       },
       {
         "color": "offboard",
@@ -1249,18 +1260,21 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["M14"],
+        "track": [
           {
-            "side": 3
+            "side": 3,
+            "type": "offboard"
           },
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["M14"]
+        ]
       },
       {
         "color": "offboard",
@@ -1279,15 +1293,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["O8"],
+        "track": [
           {
-            "side": 1
+            "side": 1,
+            "type": "offboard"
           },
           {
-            "side": 2
+            "side": 2,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["O8"]
+        ]
       },
       {
         "color": "gray",
@@ -1303,103 +1319,134 @@
         "color": "plain",
         "centerTowns": [
           {
-            "angle": 90,
-            "percent": -0.4
+            "angle": 270,
+            "percent": 0.4
           },
           {
-            "angle": 270,
-            "percent": -0.4
+            "angle": 90,
+            "percent": 0.4
           }
         ],
         "hexes": ["G6"]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": 40
-        },
-        "hexes": ["F7", "K4", "K8"]
+        "hexes": ["F7", "K4", "K8"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
         "centerTowns": [
           {
-            "percent": -0.4
+            "angle": 180,
+            "percent": 0.4
           }
         ],
-        "water": {
-          "percent": 0.5,
-          "cost": 30,
-          "size": "small"
-        },
-        "hexes": ["D9", "I10"]
+        "hexes": ["D9", "I10"],
+        "terrain": [
+          {
+            "percent": 0.5,
+            "cost": 30,
+            "size": "small",
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": 20
-        },
-        "hexes": ["D11", "H13"]
+        "hexes": ["D11", "H13"],
+        "terrain": [
+          {
+            "cost": 20,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
         "centerTowns": [
-          {
-            "angle": 90,
-            "percent": -0.4
-          },
           {
             "angle": 270,
-            "percent": -0.4
+            "percent": 0.4
+          },
+          {
+            "angle": 90,
+            "percent": 0.4
           }
         ],
-        "water": {
-          "cost": 20,
-          "percent": 0.6
-        },
-        "hexes": ["H11"]
+        "hexes": ["H11"],
+        "terrain": [
+          {
+            "cost": 20,
+            "percent": 0.6,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 120
-        },
-        "hexes": ["M8"]
+        "hexes": ["M8"],
+        "terrain": [
+          {
+            "cost": 120,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 100
-        },
-        "hexes": ["L9"]
+        "hexes": ["L9"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 80
-        },
-        "hexes": ["L7"]
+        "hexes": ["L7"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 60
-        },
-        "hexes": ["K10", "L11"]
+        "hexes": ["K10", "L11"],
+        "terrain": [
+          {
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 50
-        },
-        "hexes": ["K12"]
+        "hexes": ["K12"],
+        "terrain": [
+          {
+            "cost": 50,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 40
-        },
-        "hexes": ["L5"]
+        "hexes": ["L5"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",

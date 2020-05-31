@@ -72,70 +72,70 @@
       "name": "Bree and Points South",
       "abbrev": "BPS",
       "logo": "lotr/BPS",
-      "tokens": ["Free", "40g", "100g", "100g"],
+      "tokens": ["Free", 40, 100, 100],
       "color": "blue"
     },
     {
       "name": "Shire and Westlands",
       "abbrev": "SWR",
       "logo": "lotr/SWR",
-      "tokens": ["Free", "$40"],
+      "tokens": ["Free", 40],
       "color": "green"
     },
     {
       "name": "Rivendell and Grey Havens",
       "abbrev": "RGH",
       "logo": "lotr/RGH",
-      "tokens": ["Free", "$40", "Bonus"],
+      "tokens": ["Free", 40, "Bonus"],
       "color": "purple"
     },
     {
       "name": "Dwarvish Mountain Express",
       "abbrev": "DME",
       "logo": "lotr/DME",
-      "tokens": ["Free", "$40", "$100"],
+      "tokens": ["Free", 40, 100],
       "color": "brown"
     },
     {
       "name": "Elvish",
       "abbrev": "E",
       "logo": "lotr/E",
-      "tokens": ["Free", "$40", "$100"],
+      "tokens": ["Free", 40, 100],
       "color": "pink"
     },
     {
       "name": "Laketown and Lonely Mountain",
       "abbrev": "LLM",
       "logo": "lotr/LLM",
-      "tokens": ["Free", "$40", "$100"],
+      "tokens": ["Free", 40, 100],
       "color": "black"
     },
     {
       "name": "Minas Tirith Railway",
       "abbrev": "MTR",
       "logo": "lotr/MTR",
-      "tokens": ["Free", "$40", "$100", "Bonus"],
+      "tokens": ["Free", 40, 100, "Bonus"],
       "color": "orange"
     },
     {
       "name": "Orcish",
       "abbrev": "O",
       "logo": "lotr/O",
-      "tokens": ["Free", "$40", "$100"],
+      "tokens": ["Free", 40, 100],
       "color": "brightGreen"
     },
     {
       "name": "Southern Excursion Railway",
       "abbrev": "SER",
       "logo": "lotr/SER",
-      "tokens": ["Free", "$40"],
+      "tokens": ["Free", 40],
       "color": "cyan"
     },
     {
       "name": "Far Harad Railway",
       "abbrev": "FHR",
       "logo": "lotr/FHR",
-      "tokens": ["Free", "$40", "Bonus"],
+      "tokens": ["Free", 40, "Bonus"],
       "color": "red"
     }
   ],
@@ -928,27 +928,29 @@
     "172": 1
   },
   "map": {
-    "print": "landscape",
     "hexes": [
       {
         "color": "plain",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["A3"]
+        "hexes": ["A3"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["A5"]
+        "hexes": ["A5"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "120g"
-        },
         "hexes": [
           "B2",
           "B6",
@@ -966,42 +968,63 @@
           "O13",
           "P14",
           "P18"
+        ],
+        "terrain": [
+          {
+            "cost": 120,
+            "type": "mountain"
+          }
         ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "60g"
-        },
-        "hexes": ["B4", "C7", "D2", "E11", "F10", "H22", "I21", "J22", "P10"]
+        "hexes": ["B4", "C7", "D2", "E11", "F10", "H22", "I21", "J22", "P10"],
+        "terrain": [
+          {
+            "cost": 60,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "river",
-        "water": {
-          "cost": "60g"
-        },
-        "hexes": ["K7"]
+        "hexes": ["K7"],
+        "terrain": [
+          {
+            "cost": 60,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "120g"
-        },
-        "hexes": ["B8"]
+        "hexes": ["B8"],
+        "terrain": [
+          {
+            "cost": 120,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "river",
-        "water": {
-          "cost": "80g"
-        },
-        "hexes": ["K11", "K13"]
+        "hexes": ["K11", "K13"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "80g"
-        },
-        "hexes": ["C1", "C9", "D10", "E15"]
+        "hexes": ["C1", "C9", "D10", "E15"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1044,31 +1067,43 @@
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "40g"
-        },
-        "hexes": ["D6", "E7", "F14", "G9", "H8", "K21", "L20", "P8"]
+        "hexes": ["D6", "E7", "F14", "G9", "H8", "K21", "L20", "P8"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["D12"]
+        "hexes": ["D12"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["D18", "E17", "F22"]
+        "hexes": ["D18", "E17", "F22"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "river",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["J18"]
+        "hexes": ["J18"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1095,10 +1130,13 @@
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "80g"
-        },
-        "hexes": ["E13"]
+        "hexes": ["E13"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1132,10 +1170,13 @@
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["F18"]
+        "hexes": ["F18"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "offboard",
@@ -1166,33 +1207,42 @@
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "80g",
-          "size": "small",
-          "angle": 270,
-          "percent": 0.4
-        },
         "centerTowns": [
           {
             "angle": 90,
             "percent": 0.4
           }
         ],
-        "hexes": ["G17"]
+        "hexes": ["G17"],
+        "terrain": [
+          {
+            "cost": 80,
+            "size": "small",
+            "angle": 270,
+            "percent": 0.4,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["G19"]
+        "hexes": ["G19"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": "100g"
-        },
-        "hexes": ["G21"]
+        "hexes": ["G21"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1259,10 +1309,6 @@
       },
       {
         "color": "plain",
-        "water": {
-          "percent": 0.667,
-          "cost": "80g"
-        },
         "labels": [
           {
             "percent": 0.667,
@@ -1285,7 +1331,14 @@
             }
           }
         ],
-        "hexes": ["H18"]
+        "hexes": ["H18"],
+        "terrain": [
+          {
+            "percent": 0.667,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "offboard",
@@ -1333,19 +1386,22 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "120g",
-          "size": "small",
-          "angle": 270,
-          "percent": 0.4
-        },
         "centerTowns": [
           {
             "angle": 90,
             "percent": 0.4
           }
         ],
-        "hexes": ["I11", "K3", "M13"]
+        "hexes": ["I11", "K3", "M13"],
+        "terrain": [
+          {
+            "cost": 120,
+            "size": "small",
+            "angle": 270,
+            "percent": 0.4,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1368,10 +1424,13 @@
       },
       {
         "color": "river",
-        "water": {
-          "cost": "120g"
-        },
-        "hexes": ["I19"]
+        "hexes": ["I19"],
+        "terrain": [
+          {
+            "cost": 120,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1382,12 +1441,6 @@
             "label": "P"
           }
         ],
-        "water": [
-          {
-            "percent": 0.667,
-            "cost": "120g"
-          }
-        ],
         "cities": [
           {
             "companies": ["DME"],
@@ -1396,7 +1449,14 @@
             }
           }
         ],
-        "hexes": ["J8"]
+        "hexes": ["J8"],
+        "terrain": [
+          {
+            "percent": 0.667,
+            "cost": 120,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1412,10 +1472,6 @@
       },
       {
         "color": "river",
-        "water": {
-          "percent": 0.667,
-          "cost": "60g"
-        },
         "cities": [
           {
             "companies": [
@@ -1437,7 +1493,14 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["K9"]
+        "hexes": ["K9"],
+        "terrain": [
+          {
+            "percent": 0.667,
+            "cost": 60,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "river",
@@ -1446,12 +1509,6 @@
             "percent": 0.667,
             "angle": 270,
             "label": "P"
-          }
-        ],
-        "water": [
-          {
-            "percent": 0.667,
-            "cost": "80g"
           }
         ],
         "cities": [
@@ -1470,15 +1527,17 @@
             "percent": 0.8
           }
         ],
-        "hexes": ["K15"]
+        "hexes": ["K15"],
+        "terrain": [
+          {
+            "percent": 0.667,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "river",
-        "water": {
-          "size": "small",
-          "cost": "$80",
-          "percent": 0.5
-        },
         "centerTowns": [
           {
             "angle": 120,
@@ -1489,7 +1548,15 @@
             "percent": 0.5
           }
         ],
-        "hexes": ["K17"]
+        "hexes": ["K17"],
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 80,
+            "percent": 0.5,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1600,10 +1667,13 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "120g"
-        },
-        "hexes": ["O19"]
+        "hexes": ["O19"],
+        "terrain": [
+          {
+            "cost": 120,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",

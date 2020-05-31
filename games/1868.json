@@ -628,7 +628,6 @@
     "70": 1
   },
   "map": {
-    "print": "landscape",
     "hexes": [
       {
         "color": "plain",

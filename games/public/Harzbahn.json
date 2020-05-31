@@ -277,7 +277,6 @@
     "990": 1
   },
   "map": {
-    "print": "landscape",
     "hexes": [
       {
         "color": "plain",
@@ -325,19 +324,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "green",
-              "cost": "80"
+              "cost": 80
             },
             {
               "color": "brown",
-              "cost": "120"
+              "cost": 120
             },
             {
               "color": "gray",
-              "cost": "150"
+              "cost": 150
             }
           ]
         },
@@ -376,19 +375,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "green",
-              "cost": "70"
+              "cost": 70
             },
             {
               "color": "brown",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "gray",
-              "cost": "60"
+              "cost": 60
             }
           ]
         },
@@ -396,10 +395,13 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "50M"
-        },
-        "hexes": ["A15"]
+        "hexes": ["A15"],
+        "terrain": [
+          {
+            "cost": 50,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -488,19 +490,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "green",
-              "cost": "80"
+              "cost": 80
             },
             {
               "color": "brown",
-              "cost": "120"
+              "cost": 120
             },
             {
               "color": "gray",
-              "cost": "150"
+              "cost": 150
             }
           ]
         },
@@ -540,11 +542,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "150M",
-          "angle": 300,
-          "percent": 0.5
-        },
         "track": [
           {
             "type": "straight",
@@ -560,7 +557,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["B8"]
+        "hexes": ["B8"],
+        "terrain": [
+          {
+            "cost": 150,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "brown",
@@ -697,12 +702,15 @@
             "color": "mountain"
           }
         ],
-        "mountain": {
-          "cost": "150M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["C5"]
+        "hexes": ["C5"],
+        "terrain": [
+          {
+            "cost": 150,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -721,11 +729,6 @@
             "gauge": "line"
           }
         ],
-        "mountain": {
-          "cost": "150M",
-          "angle": 300,
-          "percent": 0.5
-        },
         "tokens": [
           {
             "company": "NWE",
@@ -734,7 +737,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["C7"]
+        "hexes": ["C7"],
+        "terrain": [
+          {
+            "cost": 150,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -746,13 +757,6 @@
             "bottom": "30"
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "angle": 60,
-          "size": "tiny",
-          "border": true,
-          "percent": 0.775
-        },
         "cities": [
           {
             "name": {
@@ -801,7 +805,16 @@
             "color": "offboard"
           }
         ],
-        "hexes": ["C9"]
+        "hexes": ["C9"],
+        "terrain": [
+          {
+            "cost": 50,
+            "angle": 60,
+            "size": "tiny",
+            "percent": 0.775,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -823,15 +836,17 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "100M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["C11"]
+        "hexes": ["C11"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
-        "copy": "D11",
         "industries": [
           {
             "top": "5",
@@ -850,12 +865,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "150M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["C13"]
+        "hexes": ["C13"],
+        "terrain": [
+          {
+            "cost": 150,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1014,13 +1032,6 @@
             "percent": 0.7
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "size": "tiny",
-          "border": true,
-          "angle": 180,
-          "percent": 0.75
-        },
         "cities": [
           {
             "name": {
@@ -1040,7 +1051,16 @@
             "gauge": "narrow"
           }
         ],
-        "hexes": ["D4"]
+        "hexes": ["D4"],
+        "terrain": [
+          {
+            "cost": 50,
+            "size": "tiny",
+            "angle": 180,
+            "percent": 0.75,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1059,11 +1079,6 @@
             "gauge": "line"
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "angle": 300,
-          "percent": 0.5
-        },
         "tokens": [
           {
             "company": "NWE",
@@ -1072,7 +1087,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["D6"]
+        "hexes": ["D6"],
+        "terrain": [
+          {
+            "cost": 50,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1094,12 +1117,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "100M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["D8"]
+        "hexes": ["D8"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1121,26 +1147,35 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "100M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["D10"]
+        "hexes": ["D10"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "100M"
-        },
-        "hexes": ["D12"]
+        "hexes": ["D12"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "150M"
-        },
-        "hexes": ["D14"]
+        "hexes": ["D14"],
+        "terrain": [
+          {
+            "cost": 150,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1154,12 +1189,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["D16"]
+        "hexes": ["D16"],
+        "terrain": [
+          {
+            "cost": 50,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1290,11 +1328,6 @@
             "gauge": "line"
           }
         ],
-        "mountain": {
-          "cost": "150M",
-          "angle": 300,
-          "percent": 0.5
-        },
         "tokens": [
           {
             "company": "SHE",
@@ -1303,7 +1336,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["E3"]
+        "hexes": ["E3"],
+        "terrain": [
+          {
+            "cost": 150,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "green",
@@ -1314,12 +1355,6 @@
             "percent": 0.667
           }
         ],
-        "mountain": {
-          "percent": 0.7,
-          "border": true,
-          "size": "tiny",
-          "cost": "50M"
-        },
         "cities": [
           {
             "angle": 90,
@@ -1348,29 +1383,30 @@
             "cross": "under"
           }
         ],
-        "hexes": ["E5"]
+        "hexes": ["E5"],
+        "terrain": [
+          {
+            "percent": 0.7,
+            "size": "tiny",
+            "cost": 50,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "green",
         "values": [
           {
             "value": 20,
-            "angle": -30,
+            "angle": 330,
             "percent": 0.1
           }
         ],
-        "mountain": {
-          "angle": 150,
-          "percent": 0.7,
-          "size": "tiny",
-          "border": true,
-          "cost": "50M"
-        },
         "industries": [
           {
             "top": "11",
             "bottom": "20",
-            "angle": -30,
+            "angle": 330,
             "percent": 0.667
           }
         ],
@@ -1401,7 +1437,16 @@
             "side": 3
           }
         ],
-        "hexes": ["E7"]
+        "hexes": ["E7"],
+        "terrain": [
+          {
+            "angle": 150,
+            "percent": 0.7,
+            "size": "tiny",
+            "cost": 50,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1415,12 +1460,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "100M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["E9"]
+        "hexes": ["E9"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1480,14 +1528,16 @@
             "percent": 0.625
           }
         ],
-        "mountain": {
-          "angle": 60,
-          "percent": 0.775,
-          "cost": "50M",
-          "border": true,
-          "size": "tiny"
-        },
-        "hexes": ["E11"]
+        "hexes": ["E11"],
+        "terrain": [
+          {
+            "angle": 60,
+            "percent": 0.775,
+            "cost": 50,
+            "size": "tiny",
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1547,19 +1597,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "green",
-              "cost": "40"
+              "cost": 40
             },
             {
               "color": "brown",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "gray",
-              "cost": "70"
+              "cost": 70
             }
           ]
         },
@@ -1614,11 +1664,6 @@
             "gauge": "line"
           }
         ],
-        "mountain": {
-          "cost": "150M",
-          "angle": 300,
-          "percent": 0.5
-        },
         "borders": [
           {
             "side": 4,
@@ -1637,7 +1682,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["F2"]
+        "hexes": ["F2"],
+        "terrain": [
+          {
+            "cost": 150,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1669,13 +1722,6 @@
             "percent": 0.667
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "size": "tiny",
-          "border": true,
-          "angle": 300,
-          "percent": 0.7
-        },
         "track": [
           {
             "side": 6,
@@ -1708,7 +1754,16 @@
             "color": "offboard"
           }
         ],
-        "hexes": ["F4"]
+        "hexes": ["F4"],
+        "terrain": [
+          {
+            "cost": 50,
+            "size": "tiny",
+            "angle": 300,
+            "percent": 0.7,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "green",
@@ -1773,17 +1828,23 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "100M"
-        },
-        "hexes": ["F8"]
+        "hexes": ["F8"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "150M"
-        },
-        "hexes": ["F10"]
+        "hexes": ["F10"],
+        "terrain": [
+          {
+            "cost": 150,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1797,12 +1858,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["F12"]
+        "hexes": ["F12"],
+        "terrain": [
+          {
+            "cost": 50,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1816,12 +1880,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["F14"]
+        "hexes": ["F14"],
+        "terrain": [
+          {
+            "cost": 50,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1835,19 +1902,25 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "100M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["F16"]
+        "hexes": ["F16"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "150M"
-        },
-        "hexes": ["F18"]
+        "hexes": ["F18"],
+        "terrain": [
+          {
+            "cost": 150,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "green",
@@ -1932,11 +2005,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "100M",
-          "angle": 90,
-          "percent": 0.3333
-        },
         "track": [
           {
             "type": "gentle",
@@ -1951,22 +2019,28 @@
             "percent": 0.7
           }
         ],
-        "hexes": ["G3"]
+        "hexes": ["G3"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 90,
+            "percent": 0.3333,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "150M"
-        },
-        "hexes": ["G5"]
+        "hexes": ["G5"],
+        "terrain": [
+          {
+            "cost": 150,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "100M",
-          "angle": 60,
-          "percent": 0.3333
-        },
         "track": [
           {
             "type": "gentle",
@@ -1982,14 +2056,22 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["G7"]
+        "hexes": ["G7"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 60,
+            "percent": 0.3333,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
         "values": [
           {
             "value": 30,
-            "angle": -30,
+            "angle": 330,
             "percent": 0.725
           }
         ],
@@ -2027,10 +2109,13 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "100M"
-        },
-        "hexes": ["G11"]
+        "hexes": ["G11"],
+        "terrain": [
+          {
+            "cost": 100,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "green",
@@ -2053,13 +2138,6 @@
             }
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "size": "tiny",
-          "angle": 240,
-          "percent": 0.7,
-          "border": true
-        },
         "values": [
           {
             "value": 40,
@@ -2093,14 +2171,26 @@
             "color": "offboard"
           }
         ],
-        "hexes": ["G13"]
+        "hexes": ["G13"],
+        "terrain": [
+          {
+            "cost": 50,
+            "size": "tiny",
+            "angle": 240,
+            "percent": 0.7,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "150M"
-        },
-        "hexes": ["G15"]
+        "hexes": ["G15"],
+        "terrain": [
+          {
+            "cost": 150,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "green",
@@ -2112,17 +2202,10 @@
             }
           }
         ],
-        "mountain": {
-          "cost": "100M",
-          "size": "tiny",
-          "border": true,
-          "angle": 240,
-          "percent": 0.775
-        },
         "values": [
           {
             "value": 40,
-            "angle": -60,
+            "angle": 300,
             "percent": 0.775
           }
         ],
@@ -2140,15 +2223,19 @@
             "gauge": "narrow"
           }
         ],
-        "hexes": ["G17"]
+        "hexes": ["G17"],
+        "terrain": [
+          {
+            "cost": 100,
+            "size": "tiny",
+            "angle": 240,
+            "percent": 0.775,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": -30,
-          "percent": 0.3333,
-          "cost": "150M"
-        },
         "track": [
           {
             "type": "gentle",
@@ -2164,7 +2251,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["G19"]
+        "hexes": ["G19"],
+        "terrain": [
+          {
+            "angle": 330,
+            "percent": 0.3333,
+            "cost": 150,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -2185,19 +2280,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "40"
+              "cost": 40
             },
             {
               "color": "green",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "brown",
-              "cost": "80"
+              "cost": 80
             },
             {
               "color": "gray",
-              "cost": "120"
+              "cost": 120
             }
           ]
         },
@@ -2263,19 +2358,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "40"
+              "cost": 40
             },
             {
               "color": "green",
-              "cost": "50"
+              "cost": 50
             },
             {
               "color": "brown",
-              "cost": "80"
+              "cost": 80
             },
             {
               "color": "gray",
-              "cost": "120"
+              "cost": 120
             }
           ]
         },
@@ -2347,11 +2442,6 @@
             "gauge": "line"
           }
         ],
-        "mountain": {
-          "cost": "150M",
-          "angle": 300,
-          "percent": 0.5
-        },
         "tokens": [
           {
             "company": "NWE",
@@ -2360,14 +2450,25 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["H8"]
+        "hexes": ["H8"],
+        "terrain": [
+          {
+            "cost": 150,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": "150M"
-        },
-        "hexes": ["H12"]
+        "hexes": ["H12"],
+        "terrain": [
+          {
+            "cost": 150,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2389,12 +2490,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "50M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["H14"]
+        "hexes": ["H14"],
+        "terrain": [
+          {
+            "cost": 50,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2416,12 +2520,15 @@
             "percent": 0.5
           }
         ],
-        "mountain": {
-          "cost": "100M",
-          "angle": 300,
-          "percent": 0.5
-        },
-        "hexes": ["H16"]
+        "hexes": ["H16"],
+        "terrain": [
+          {
+            "cost": 100,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -2444,19 +2551,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": 30
             },
             {
               "color": "green",
-              "cost": "40"
+              "cost": 40
             },
             {
               "color": "brown",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "gray",
-              "cost": "70"
+              "cost": 70
             }
           ]
         },
@@ -2532,19 +2639,19 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "60"
+              "cost": 60
             },
             {
               "color": "green",
-              "cost": "80"
+              "cost": 80
             },
             {
               "color": "brown",
-              "cost": "120"
+              "cost": 120
             },
             {
               "color": "gray",
-              "cost": "180"
+              "cost": 180
             }
           ]
         },

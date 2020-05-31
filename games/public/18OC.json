@@ -1112,7 +1112,7 @@
       ]
     },
     "OC21": {
-      "color": "grey",
+      "color": "gray",
       "values": [
         {
           "angle": -30,
@@ -1148,7 +1148,7 @@
       ]
     },
     "OC22": {
-      "color": "grey",
+      "color": "gray",
       "values": [
         {
           "angle": -30,
@@ -1184,7 +1184,7 @@
       ]
     },
     "OC23": {
-      "color": "grey",
+      "color": "gray",
       "values": [
         {
           "angle": -30,
@@ -1268,7 +1268,7 @@
         "hexes": ["C9", "E11"]
       },
       {
-        "color": "grey",
+        "color": "gray",
         "track": [
           {
             "side": 6,
@@ -1471,7 +1471,7 @@
         "hexes": ["F2"]
       },
       {
-        "color": "grey",
+        "color": "gray",
         "cities": [
           {
             "angle": 230,

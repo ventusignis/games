@@ -773,7 +773,6 @@
     }
   ],
   "map": {
-    "print": "landscape",
     "hexes": [
       {
         "color": "water",
@@ -851,7 +850,11 @@
       },
       {
         "color": "gray",
-        "divides": [{}],
+        "divides": [
+          {
+            "rotate": 30
+          }
+        ],
         "track": [
           {
             "type": "sharp",
@@ -1083,9 +1086,6 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 160
-        },
         "hexes": [
           "B5",
           "L5",
@@ -1098,6 +1098,12 @@
           "H11",
           "L13",
           "J13"
+        ],
+        "terrain": [
+          {
+            "cost": 160,
+            "type": "mountain"
+          }
         ]
       },
       {
@@ -1111,11 +1117,14 @@
             }
           }
         ],
-        "mountain": {
-          "size": "small",
-          "cost": 40,
-          "percent": 0.333
-        },
+        "terrain": [
+          {
+            "size": "small",
+            "cost": 40,
+            "percent": 0.333,
+            "type": "mountain"
+          }
+        ],
         "hexes": ["D5"]
       },
       {
@@ -1169,27 +1178,35 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 80
-        },
-        "hexes": ["C6", "F7", "G8", "E10"]
+        "hexes": ["C6", "F7", "G8", "E10"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
-        "copy": "D5",
-        "mountain": {
-          "cost": 160
-        },
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Corleone"
             }
           }
         ],
-        "hexes": ["E6"]
+        "hexes": ["E6"],
+        "terrain": [
+          {
+            "cost": 160,
+            "type": "mountain"
+          }
+        ]
       },
       {
-        "copy": "C4",
+        "color": "plain",
         "centerTowns": [
           {
             "name": {
@@ -1200,18 +1217,23 @@
         "hexes": ["G6"]
       },
       {
-        "copy": "E6",
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Bronte"
             }
           }
         ],
-        "mountain": {
-          "cost": 160
-        },
-        "hexes": ["K6"]
+        "hexes": ["K6"],
+        "terrain": [
+          {
+            "cost": 160,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1247,18 +1269,23 @@
         "hexes": ["M6"]
       },
       {
-        "copy": "E6",
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Troina"
             }
           }
         ],
-        "mountain": {
-          "cost": 160
-        },
-        "hexes": ["J7"]
+        "hexes": ["J7"],
+        "terrain": [
+          {
+            "cost": 160,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1287,18 +1314,23 @@
         "hexes": ["C8"]
       },
       {
-        "copy": "D5",
-        "mountain": {
-          "cost": 80
-        },
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Castrogiovanni"
             }
           }
         ],
-        "hexes": ["I8"]
+        "hexes": ["I8"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1320,32 +1352,36 @@
         "hexes": ["M8"]
       },
       {
-        "copy": "D5",
-        "mountain": {
-          "cost": 80
-        },
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Sciacca"
             }
           }
         ],
-        "hexes": ["D9"]
+        "hexes": ["D9"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 40
-        },
-        "hexes": ["B3", "F9", "J9", "K12"]
+        "hexes": ["B3", "F9", "J9", "K12"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "percent": 0.45,
-          "cost": 80
-        },
         "cities": [
           {
             "angle": 180,
@@ -1355,7 +1391,14 @@
             }
           }
         ],
-        "hexes": ["H9"]
+        "hexes": ["H9"],
+        "terrain": [
+          {
+            "percent": 0.45,
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
@@ -1391,23 +1434,30 @@
         "hexes": ["L9"]
       },
       {
-        "copy": "E6",
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Canicatti"
             }
           }
         ],
-        "mountain": {
-          "cost": 40
-        },
-        "hexes": ["G10"]
+        "hexes": ["G10"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
-        "copy": "E6",
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Piazza Armerina"
             }
@@ -1426,30 +1476,43 @@
         "hexes": ["K10"]
       },
       {
-        "copy": "H9",
-        "mountain": {
-          "cost": 40
-        },
+        "color": "plain",
         "cities": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Girgenti"
             },
             "companies": ["SFA"]
           }
         ],
-        "hexes": ["F11"]
+        "hexes": ["F11"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
-        "copy": "G10",
+        "color": "plain",
         "centerTowns": [
           {
+            "angle": 180,
+            "percent": 0.333,
             "name": {
               "name": "Caltagirone"
             }
           }
         ],
-        "hexes": ["J11"]
+        "hexes": ["J11"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
