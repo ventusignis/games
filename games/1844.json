@@ -387,7 +387,7 @@
       "price": 260,
       "color": "green",
       "image": "4T",
-      "rust": "8"
+      "rust": "8E"
     },
     {
       "name": "5",
@@ -395,7 +395,7 @@
       "price": 450,
       "color": "brown",
       "image": "5T",
-      "obsolete": "8"
+      "obsolete": "8E"
     },
     {
       "name": "5H",
