@@ -134,6 +134,7 @@
       "name": "Seaboard Coast Lines",
       "color": "red",
       "abbrev": "SCL",
+      "logo": "1832/SCL",
       "shares": "system",
       "tokens": "system"
     },
@@ -141,6 +142,7 @@
       "name": "Norfolk Southern",
       "color": "black",
       "abbrev": "NS",
+      "logo": "1832/NS",
       "shares": "system",
       "tokens": "system"
     },
@@ -148,6 +150,7 @@
       "name": "Illinois Central",
       "color": "green",
       "abbrev": "IC",
+      "logo": "1832/IC",
       "shares": "system",
       "tokens": "system"
     },
@@ -155,6 +158,7 @@
       "name": "Amtrak",
       "color": "blue",
       "abbrev": "AMTK",
+      "logo": "1832/AMTK",
       "shares": "system",
       "tokens": "system"
     },
@@ -162,62 +166,70 @@
       "name": "CSX Transportation",
       "color": "cyan",
       "abbrev": "CSX",
+      "logo": "1832/CSX",
       "shares": "system",
       "tokens": "system"
     },
     {
       "name": "Atlantic Coast Line Railroad",
       "abbrev": "ACL",
+      "logo": "1832/ACL",
       "color": "pink"
     },
     {
       "name": "Atlanta & West Point Railroad",
       "abbrev": "A&WP",
-      "logo": "AWP",
+      "logo": "1832/AWP",
       "color": "purple",
       "tokens": "two"
     },
     {
       "name": "Seaboard Air Line Railway",
       "abbrev": "SALR",
+      "logo": "1832/SALR",
       "color": "orange"
     },
     {
       "name": "Norfolk & Western Railway",
       "abbrev": "N&W",
-      "logo": "NW",
+      "logo": "1832/NW",
       "color": "black"
     },
     {
       "name": "Central of Georgia Railway",
       "abbrev": "COG",
+      "logo": "1832/COG",
       "color": "turquoise"
     },
     {
       "name": "Louisville & Nashville Railroad",
       "abbrev": "L&N",
-      "logo": "LN",
+      "logo": "1832/LN",
       "color": "blue"
     },
     {
       "name": "Georgia Railroad",
       "abbrev": "GRR",
+      "logo": "1832/GRR",
       "color": "cyan",
       "tokens": "two"
     },
     {
       "name": "Gulf, Mobile & Ohio Railroad",
       "abbrev": "GMO",
+      "logo": "1832/GMO",
       "color": "red"
     },
     {
       "name": "Southern Railway",
       "abbrev": "SOU",
+      "logo": "1832/SOU",
       "color": "green"
     },
     {
       "name": "Florida East Coast Railroad",
       "abbrev": "FECR",
+      "logo": "1832/FECR",
       "tokens": ["Free", 40, "$100 (KW)"],
       "color": "yellow"
     }

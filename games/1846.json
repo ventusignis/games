@@ -79,26 +79,28 @@
     {
       "name": "Pennsylvania",
       "abbrev": "PRR",
+      "logo": "1846/PRR",
       "tokens": ["Free", 80, 80, 80, "$80*"],
       "color": "red"
     },
     {
       "name": "New York Central",
       "abbrev": "NYC",
+      "logo": "1846/NYC",
       "tokens": ["Free", 80, 80, 80],
       "color": "black"
     },
     {
       "name": "Baltimore & Ohio",
       "abbrev": "B&O",
-      "logo": "BO",
+      "logo": "1846/BO",
       "tokens": ["Free", 80, 80, "$80*"],
       "color": "blue"
     },
     {
       "name": "Chesapeake & Ohio",
       "abbrev": "C&O",
-      "logo": "CO",
+      "logo": "1846/CO",
       "tokens": ["Free", 80, 80, 80],
       "color": "lightBlue",
       "textColor": "black"
@@ -106,6 +108,7 @@
     {
       "name": "Erie",
       "abbrev": "ERIE",
+      "logo": "1846/ERIE",
       "tokens": ["Free", 80, 80, "$80*"],
       "color": "yellow",
       "textColor": "black"
@@ -113,12 +116,14 @@
     {
       "name": "Grand Trunk",
       "abbrev": "GT",
+      "logo": "1846/GT",
       "tokens": ["Free", 80, 80],
       "color": "orange"
     },
     {
       "name": "Illinois Central",
       "abbrev": "IC",
+      "logo": "1846/IC",
       "tokens": ["Free", 80, 80, "$80*"],
       "color": "green"
     }

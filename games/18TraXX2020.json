@@ -104,7 +104,7 @@
     {
       "name": "TraXX",
       "abbrev": "TraXX",
-      "logo": "TraXX",
+      "logo": "18TraXX2020/TraXX",
       "color": "black",
       "shares": "TraXX",
       "tokens": ["Denver", 100, 100, 100, 100, 100, 100, 100]
@@ -112,56 +112,56 @@
     {
       "name": "Union Pacific Railroad",
       "abbrev": "UP",
-      "logo": "UP",
+      "logo": "18TraXX2020/UP",
       "color": "lightBlue",
       "tokens": "five"
     },
     {
       "name": "Santa Fe Railroad",
       "abbrev": "SF",
-      "logo": "ATSF",
+      "logo": "18TraXX2020/ATSF",
       "color": "blue",
       "tokens": "five"
     },
     {
       "name": "Colorado & Southern Railroad",
       "abbrev": "C&S",
-      "logo": "COSO",
+      "logo": "18TraXX2020/COSO",
       "color": "green",
       "tokens": "five"
     },
     {
       "name": "Chicago, Burlington, & Quincy Railroad",
       "abbrev": "CBQ",
-      "logo": "CBQ",
+      "logo": "18TraXX2020/CBQ",
       "color": "purple",
       "tokens": "five"
     },
     {
       "name": "Missouri Pacific Railroad",
       "abbrev": "MP",
-      "logo": "MOPAC_B",
+      "logo": "18TraXX2020/MOPAC_B",
       "color": "brown",
       "tokens": "five"
     },
     {
       "name": "Kansas City Southern Railroad",
       "abbrev": "KCS",
-      "logo": "KCS",
+      "logo": "18TraXX2020/KCS",
       "color": "red",
       "tokens": "five"
     },
     {
       "name": "Central Pacific Railroad",
       "abbrev": "CP",
-      "logo": "CENTPAC",
+      "logo": "18TraXX2020/CENTPAC",
       "color": "gray",
       "tokens": "five"
     },
     {
       "name": "Northern Pacific Railroad",
       "abbrev": "NP",
-      "logo": "NORPAC",
+      "logo": "18TraXX2020/NORPAC",
       "color": "white",
       "tokens": "five"
     },

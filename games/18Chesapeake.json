@@ -78,33 +78,33 @@
     {
       "name": "Pennsylvania Railroad",
       "abbrev": "PRR",
-      "logo": "PRR",
+      "logo": "18Chesapeake/PRR",
       "color": "green",
       "tokens": "four"
     },
     {
       "name": "Pittsburgh and Lake Erie Railroad",
       "abbrev": "PLE",
-      "logo": "PLE",
+      "logo": "18Chesapeake/PLE",
       "color": "black"
     },
     {
       "name": "Strasburg Rail Road",
       "abbrev": "SRR",
-      "logo": "SRR",
+      "logo": "18Chesapeake/SRR",
       "color": "red",
       "tokens": "two"
     },
     {
       "name": "Baltimore & Ohio Railroad",
       "abbrev": "B&O",
-      "logo": "BO",
+      "logo": "18Chesapeake/BO",
       "color": "blue"
     },
     {
       "name": "Chesapeake & Ohio Railroad",
       "abbrev": "C&O",
-      "logo": "CO",
+      "logo": "18Chesapeake/CO",
       "textColor": "black",
       "color": "lightBlue",
       "tokens": "four"
@@ -112,7 +112,7 @@
     {
       "name": "Lehigh Valley Railroad",
       "abbrev": "LV",
-      "logo": "LV",
+      "logo": "18Chesapeake/LV",
       "textColor": "black",
       "color": "yellow",
       "tokens": "two"
@@ -120,14 +120,14 @@
     {
       "name": "Camden & Amboy Railroad",
       "abbrev": "C&A",
-      "logo": "CA",
+      "logo": "18Chesapeake/CA",
       "color": "orange",
       "tokens": "two"
     },
     {
       "name": "Norfolk & Western Railway",
       "abbrev": "N&W",
-      "logo": "N&W",
+      "logo": "18Chesapeake/NW",
       "color": "brown"
     }
   ],

@@ -62,56 +62,56 @@
     {
       "name": "Pennsylvania Railroad",
       "abbrev": "PRR",
-      "logo": "PRR",
+      "logo": "1830/PRR",
       "color": "green",
       "tokens": "four"
     },
     {
       "name": "New York Central Railroad",
       "abbrev": "NYC",
-      "logo": "NYC",
+      "logo": "1830/NYC",
       "color": "black",
       "tokens": "four"
     },
     {
       "name": "Canadian Pacific Railroad",
       "abbrev": "CPR",
-      "logo": "CPR",
+      "logo": "1830/CPR",
       "color": "red",
       "tokens": "four"
     },
     {
       "name": "Baltimore & Ohio Railroad",
       "abbrev": "B&O",
-      "logo": "BO",
+      "logo": "1830/BO",
       "color": "blue",
       "tokens": "three"
     },
     {
       "name": "Chesapeake & Ohio Railroad",
       "abbrev": "C&O",
-      "logo": "CO",
+      "logo": "1830/CO",
       "color": "lightBlue",
       "tokens": "three"
     },
     {
       "name": "Erie Railroad",
       "abbrev": "ERIE",
-      "logo": "ERIE",
+      "logo": "1830/ERIE",
       "color": "yellow",
       "tokens": "three"
     },
     {
       "name": "New York, New Haven & Hartford Railroad",
       "abbrev": "NYNH",
-      "logo": "NYNH",
+      "logo": "1830/NYNH",
       "color": "orange",
       "tokens": "two"
     },
     {
       "name": "Boston & Maine Railroad",
       "abbrev": "B&M",
-      "logo": "BM",
+      "logo": "1830/BM",
       "color": "brightGreen",
       "tokens": "two"
     }

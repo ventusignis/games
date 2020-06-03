@@ -739,36 +739,42 @@
     {
       "name": "Azienda Ferroviaria Garibaldi",
       "abbrev": "AFG",
+      "logo": "1849/AFG",
       "tokens": [40, "", ""],
       "color": "red"
     },
     {
       "name": "Azienda Trasporti Archimede",
       "abbrev": "ATA",
+      "logo": "1849/ATA",
       "tokens": [30, "", ""],
       "color": "green"
     },
     {
       "name": "Compagnia Trasporti Lilibeo",
       "abbrev": "CTL",
+      "logo": "1849/CTL",
       "tokens": [40, "", ""],
       "color": "yellow"
     },
     {
       "name": "Impresa Ferroviaria Trinacria",
       "abbrev": "IFT",
+      "logo": "1849/IFT",
       "tokens": [90, "", ""],
       "color": "blue"
     },
     {
       "name": "Rete Centrale Sicula",
       "abbrev": "RCS",
+      "logo": "1849/RCS",
       "tokens": [130, "", ""],
       "color": "orange"
     },
     {
       "name": "Società Ferroviaria Akragas",
       "abbrev": "SFA",
+      "logo": "1849/SFA",
       "tokens": [40, "", ""],
       "color": "pink"
     }

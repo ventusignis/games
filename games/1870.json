@@ -77,60 +77,70 @@
     {
       "name": "Southern Pacific Railroad",
       "abbrev": "SP",
+      "logo": "1870/SP",
       "tokens": ["Free", "New Orleans", 40, 100],
       "color": "orange"
     },
     {
       "name": "Missouri Kansas Texas Railroad",
       "abbrev": "MKT",
+      "logo": "1870/MKT",
       "tokens": ["Free", "Southwest", 40, 100],
       "color": "green"
     },
     {
       "name": "Fort Worth & Denver City Railway",
       "abbrev": "FW",
+      "logo": "1870/FW",
       "tokens": ["Free", "Denver", 40],
       "color": "brightGreen"
     },
     {
       "name": "Missouri Pacific Railroad",
       "abbrev": "MP",
+      "logo": "1870/MP",
       "tokens": ["Free", "Dallas", 40, 100],
       "color": "brown"
     },
     {
       "name": "Gulf, Mobile & Ohio Railroad",
       "abbrev": "GMO",
+      "logo": "1870/GMO",
       "tokens": ["Free", "St. Louis", 40],
       "color": "pink"
     },
     {
       "name": "Texas & Pacific Railway",
       "abbrev": "TP",
+      "logo": "1870/TP",
       "tokens": ["Free", "New Orleans", 40],
       "color": "black"
     },
     {
       "name": "St. Louis Southwestern Railway",
       "abbrev": "SSW",
+      "logo": "1870/SSW",
       "tokens": ["Free", "Fort Worth", 40],
       "color": "blue"
     },
     {
       "name": "Illinois Central Railroad",
       "abbrev": "IC",
+      "logo": "1870/IC",
       "tokens": ["Free", "Chicago", 40],
       "color": "yellow"
     },
     {
       "name": "Atchison, Topeka & Santa Fe",
       "abbrev": "ATSF",
+      "logo": "1870/ATSF",
       "tokens": ["Free", "Southwest", 40, 100],
       "color": "brightBlue"
     },
     {
       "name": "St. Louis-San Francisco Railway",
       "abbrev": "SLSF",
+      "logo": "1870/SLSF",
       "tokens": ["Free", "Southeast", 40, 100],
       "color": "red"
     }
