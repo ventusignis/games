@@ -1,6 +1,6 @@
 {
   "name": "@18xx-maker/games",
-  "version": "4.0.0-1",
+  "version": "4.0.0-2",
   "description": "Game and tile files for 18xx-maker",
   "main": "index.js",
   "repository": "https://github.com/18xx-maker/games",
