@@ -1,5 +1,5 @@
 const tiles = require('./tiles');
-const publishers = require('./publishers.json');
+const publishers = require('./publishers/index.json');
 
 const games = {
 {{#each games}}
