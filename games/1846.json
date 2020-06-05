@@ -865,7 +865,7 @@
             "percent": 0.75
           }
         ],
-        "encoding": "c=r:10;c=r:10;c=r:10;c=r:10;p=a:2,b:_0;p=a:3,b:_1;p=a:4,b:_2;p=a:5,b:_3;l=Chi",
+        "encoding": "c=r:10;c=r:10;c=r:10;c=r:10;p=a:0,b:_0;p=a:3,b:_1;p=a:4,b:_2;p=a:5,b:_3;l=Chi",
         "icons": [
           {
             "type": "meat",
@@ -952,7 +952,7 @@
               }
             ],
             "name": {
-              "name": "ERIE",
+              "name": "Erie",
               "reverse": true,
               "offset": 63
             }
@@ -987,7 +987,7 @@
           }
         ],
         "removeBorders": [5],
-        "encoding": "o=yellow_30|brown_60;p=a:5,b:_0;l=E",
+        "encoding": "o=r:yellow_30|brown_60;p=a:0,b:_0;l=E",
         "hexes": ["C21"]
       },
       {
@@ -1024,7 +1024,7 @@
           ]
         },
         "removeBorders": [2],
-        "encoding": "o=yellow_30|brown_60;p=a:0,b:_0;l=E",
+        "encoding": "o=r:yellow_30|brown_60;p=a:1,b:_0;l=E",
         "hexes": ["D22"]
       },
       {
@@ -1186,7 +1186,9 @@
         ],
         "names": [
           {
-            "name": "Homewood",
+            "name": {
+              "name": "Homewood"
+            },
             "angle": 33,
             "percent": 0.65
           }
@@ -1228,7 +1230,7 @@
           }
         ],
         "removeBorders": [6],
-        "encoding": "o=yellow_30|brown_70;p=a:0,b:_0;l=E",
+        "encoding": "o=r:yellow_30|brown_70;p=a:1,b:_0;l=E",
         "hexes": ["F22"]
       },
       {
@@ -1385,7 +1387,7 @@
           ]
         },
         "removeBorders": [3],
-        "encoding": "o=yellow_30|brown_70;p=a:0,b:_0;p=a:1,b:_0;l=E",
+        "encoding": "o=r:yellow_30|brown_70;p=a:1,b:_0;p=a:2,b:_0;l=E",
         "hexes": ["G21"]
       },
       {
