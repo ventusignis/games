@@ -6,6 +6,7 @@
     "background": "orange",
     "marketTokens": 2,
     "extraStationTokens": 3,
+    "capitalization": "incremental",
     "currency": "$#"
   },
   "links": {

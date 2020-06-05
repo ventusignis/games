@@ -8,6 +8,7 @@
     "titleSize": 165,
     "subtitleSize": 17,
     "currency": "$#",
+    "capitalization": "incremental",
     "extraStationTokens": 4
   },
   "links": {
