@@ -987,8 +987,20 @@
             "label": "E"
           }
         ],
+        "offBoardRevenue": {
+          "hidden": true,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ]
+        },
         "removeBorders": [5],
-        "encoding": "o=r:yellow_30|brown_60,h:1;p=a:0,b:_0;b=e:5",
         "hexes": ["C21"]
       },
       {
@@ -1025,7 +1037,6 @@
           ]
         },
         "removeBorders": [2],
-        "encoding": "o=r:yellow_30|brown_60;p=a:1,b:_0;l=E;b=e:2",
         "hexes": ["D22"]
       },
       {
@@ -1228,8 +1239,20 @@
             "side": 1
           }
         ],
+        "offBoardRevenue": {
+          "hidden": true,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "70"
+            }
+          ]
+        },
         "removeBorders": [6],
-        "encoding": "o=r:yellow_30|brown_70,h:1;p=a:1,b:_0;b=e:0",
         "hexes": ["F22"]
       },
       {
@@ -1386,7 +1409,6 @@
           ]
         },
         "removeBorders": [3],
-        "encoding": "o=r:yellow_30|brown_70;p=a:1,b:_0;p=a:2,b:_0;l=E;b=e:3",
         "hexes": ["G21"]
       },
       {
