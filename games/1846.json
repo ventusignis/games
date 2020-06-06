@@ -1187,9 +1187,7 @@
         ],
         "names": [
           {
-            "name": {
-              "name": "Homewood"
-            },
+            "name": "Homewood",
             "angle": 33,
             "percent": 0.65
           }
