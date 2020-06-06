@@ -1060,7 +1060,8 @@
         "color": "offboard",
         "cities": [
           {
-            "companies": ["PLE"]
+            "companies": ["PLE"],
+            "group": "Pittsburgh"
           }
         ],
         "track": [
@@ -1093,12 +1094,12 @@
             }
           ]
         },
-        "encoding": "c=r:yellow_40|green_50|brown_60|gray_80,h:1;p=a:5,b:_0",
         "hexes": ["A3"]
       },
       {
         "color": "offboard",
         "offBoardRevenue": {
+          "group": "Pittsburgh",
           "name": {
             "name": "Pittsburgh"
           },
@@ -1181,6 +1182,7 @@
           "name": {
             "name": "West Virginia Coal"
           },
+          "group": "West Virginia Coal",
           "revenues": [
             {
               "color": "yellow",
@@ -1220,6 +1222,7 @@
           "name": {
             "name": "West Virginia Coal"
           },
+          "group": "West Virginia Coal",
           "revenues": [
             {
               "color": "yellow",
