@@ -1093,7 +1093,7 @@
             }
           ]
         },
-        "encoding": "c=r:yellow_40|green_50|brown_60|gray_80;p=a:5,b:_0",
+        "encoding": "c=r:yellow_40|green_50|brown_60|gray_80,h:1;p=a:5,b:_0",
         "hexes": ["A3"]
       },
       {
