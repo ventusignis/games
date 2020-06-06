@@ -1022,13 +1022,13 @@
             "side": 1
           }
         ],
-        "groups": ["Buffalo", "East"],
         "offBoardRevenue": {
           "angle": 150,
           "percent": 1,
           "name": {
             "name": "Buffalo"
           },
+          "groups": ["Buffalo", "East"],
           "revenues": [
             {
               "color": "yellow",
