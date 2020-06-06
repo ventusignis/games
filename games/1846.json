@@ -982,13 +982,6 @@
             "side": 6
           }
         ],
-        "labels": [
-          {
-            "angle": 330,
-            "percent": 0.25,
-            "label": "E"
-          }
-        ],
         "offBoardRevenue": {
           "hidden": true,
           "groups": ["Buffalo", "East"],
@@ -1020,6 +1013,13 @@
           {
             "type": "offboard",
             "side": 1
+          }
+        ],
+        "labels": [
+          {
+            "angle": 150,
+            "percent": 0.5,
+            "label": "E"
           }
         ],
         "offBoardRevenue": {
@@ -1231,13 +1231,6 @@
       },
       {
         "color": "offboard",
-        "labels": [
-          {
-            "angle": 30,
-            "percent": 0.25,
-            "label": "E"
-          }
-        ],
         "track": [
           {
             "type": "offboard",
@@ -1373,6 +1366,13 @@
       },
       {
         "color": "offboard",
+        "labels": [
+          {
+            "angle": 210,
+            "percent": 0.5,
+            "label": "E"
+          }
+        ],
         "tunnels": [
           {
             "cost": 20,
