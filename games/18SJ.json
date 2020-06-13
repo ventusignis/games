@@ -3,7 +3,7 @@
     "title": "18SJ",
     "subtitle": "Let there be rail",
     "designer": "Örjan Wennman",
-    "background": "gray",
+    "background": "_pink",
     "titleX": 50,
     "titleY": 600,
     "extraStationTokens": 1,
@@ -295,20 +295,7 @@
       "quantity": "∞",
       "print": 6,
       "price": 1100,
-      "color": "brown",
-      "description": "Cost 800 kr when trading in a 4T, 5T or 6T",
-      "discount": {
-        "4": 300,
-        "5": 300,
-        "6": 300
-      }
-    },
-    {
-      "name": "D",
-      "quantity": "∞",
-      "print": 6,
-      "price": 1100,
-      "color": "brown",
+      "color": "gray",
       "description": "Cost 800 kr when trading in a 4T, 5T or 6T",
       "discount": {
         "4": 300,
@@ -321,7 +308,7 @@
       "quantity": "∞",
       "print": 6,
       "price": 1300,
-      "color": "brown",
+      "color": "gray",
       "description": "Cost 1000 kr when trading in a 4T, 5T or 6T",
       "available": "6",
       "discount": {

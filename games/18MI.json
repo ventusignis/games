@@ -58,7 +58,8 @@
     },
     {
       "icon": "steamboat",
-      "label": "20/10"
+      "label": "20/10",
+      "fontSize": 14
     },
     {
       "icon": "port"
@@ -68,11 +69,13 @@
     },
     {
       "icon": "coal",
-      "label": "$10"
+      "label": "$10",
+      "fontSize": 18
     },
     {
       "icon": "coal",
-      "label": "$20"
+      "label": "$20",
+      "fontSize": 18
     }
   ],
   "wip": true,
