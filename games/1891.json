@@ -1189,10 +1189,10 @@
       },
       {
         "color": "plain",
-        "labels": {
+        "labels": [{
           "percent": 0.75,
           "label": "Y"
-        },
+        }],
         "cities": [
           {
             "companies": ["GET"],
