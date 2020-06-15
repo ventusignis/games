@@ -1003,7 +1003,6 @@
           {
             "name": {
               "name": "Takamatsu",
-              "reverse": false,
               "rotation": 60
             },
             "companies": ["KO"]

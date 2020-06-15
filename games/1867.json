@@ -1215,8 +1215,7 @@
             "size": 1,
             "name": {
               "name": "Timmins",
-              "rotation": -30,
-              "reverse": false
+              "rotation": -30
             },
             "companies": [
               {

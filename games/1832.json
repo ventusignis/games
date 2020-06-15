@@ -1469,8 +1469,7 @@
             "x": -20,
             "y": -15,
             "name": {
-              "name": "Winston Salem",
-              "reverse": false
+              "name": "Winston Salem"
             }
           },
           {
@@ -2309,8 +2308,7 @@
             "x": -20,
             "y": -15,
             "name": {
-              "name": "Lakeland",
-              "reverse": false
+              "name": "Lakeland"
             }
           },
           {
