@@ -697,10 +697,10 @@
     "hexes": [
       {
         "color": "plain",
-        "mountain": {
+        "terrain": [{"type": "mountain",
           "cost": 80,
           "size": "large"
-        },
+        }],
         "hexes": [
           "B5","B7","B19","B29","B31",
           "C24","C30",
@@ -710,9 +710,9 @@
       },
       {
         "color": "plain",
-        "mountain": {
+        "terrain": [{"type": "mountain",
           "cost": 40
-        },
+        }],
         "hexes": [
           "B9","B13","B17","B21",
           "C12","C16","C26",
@@ -1270,7 +1270,7 @@
         ],
         "cities": [
           {
-            "companies": ["GR"],
+            "companies": ["SR"],
             "name": {"name": "Mihara"}
           }
         ],
@@ -1380,11 +1380,11 @@
             "name": {"name": "Sera"}
           }
         ],
-        "mountain": {
+        "terrain": [{"type": "mountain",
           "cost": 40,
           "angle": 240,
           "percent": 0.6
-        },
+        }],
         "hexes": ["C22"]
       },
       {
@@ -1396,11 +1396,11 @@
             "name": {"name": "Kisa"}
           }
         ],
-        "mountain": {
+        "terrain": [{"type": "mountain",
           "cost": 40,
           "angle": 240,
           "percent": 0.6
-        },
+        }],
         "hexes": ["B23"]
       },
       {
@@ -1668,12 +1668,12 @@
       },
       {
         "color": "yellow",
-        "mountain": {
+        "terrain": [{"type": "mountain",
           "size": "large",
           "percent": 0.65,
           "angle": 180,
           "cost": 80
-        },
+        }],
         "labels": [
           {
             "label": "OO",
@@ -1726,11 +1726,11 @@
       },
       {
         "color": "yellow",
-        "mountain": {
+        "terrain": [{"type": "mountain",
           "percent": 0.65,
           "angle": -135,
           "cost": 40
-        },
+        }],
         "labels": [
           {
             "label": "OO",
