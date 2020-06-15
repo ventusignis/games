@@ -690,6 +690,10 @@
     }
   ],
   "map": {
+    "players": {
+      "x": 2325,
+      "y": 1000
+    },
     "hexes": [
       {
         "color": "plain",
