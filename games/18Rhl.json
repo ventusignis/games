@@ -757,7 +757,7 @@
           "side": 6,
           "type": "mid",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual"
         }
       ]
     },
@@ -822,7 +822,7 @@
           "side": 6,
           "type": "mid",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual"
         }
       ]
     },
@@ -890,7 +890,7 @@
           "side": 6,
           "type": "mid",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual"
         }
       ]
     },
@@ -955,7 +955,7 @@
           "side": 6,
           "type": "mid",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual"
         }
       ]
     },
@@ -1023,7 +1023,7 @@
           "side": 6,
           "type": "mid",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual"
         }
       ]
     },
@@ -1088,7 +1088,7 @@
           "side": 6,
           "type": "mid",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual"
         }
       ]
     },

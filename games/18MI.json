@@ -892,8 +892,7 @@
         {
           "label": "P",
           "angle": 150,
-          "percent": 0.8,
-          "value": 30
+          "percent": 0.8
         }
       ],
       "values": [

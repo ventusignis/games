@@ -1631,7 +1631,7 @@
     "GEA|38T": {
       "quantity": 1,
       "color": "green",
-      "rotation": 150,
+      "rotation": 180,
       "track": [
         {
           "side": 2
