@@ -392,13 +392,38 @@
     "rotations": 2,
     "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }]
   },
+  "81|c": {
+    "color": "green",
+    "rotations": 2,
+    "track": [
+      { "side": 1, "type": "gentle" },
+      { "side": 3, "type": "gentle" },
+      { "side": 5, "type": "gentle" }
+    ]
+  },
   "82": {
     "color": "green",
     "track": [{ "side": 1 }, { "side": 2 }, { "side": 4 }]
   },
+  "82|c": {
+    "color": "green",
+    "track": [
+      { "side": 1, "type": "sharp" },
+      { "side": 2, "type": "gentle" },
+      { "side": 4, "type": "straight" }
+    ]
+  },
   "83": {
     "color": "green",
     "track": [{ "side": 1 }, { "side": 6 }, { "side": 4 }]
+  },
+  "83|c": {
+    "color": "green",
+    "track": [
+      { "side": 1, "type": "straight" },
+      { "side": 6, "type": "sharp" },
+      { "side": 4, "type": "gentle" }
+    ]
   },
   "84": {
     "color": "green",
