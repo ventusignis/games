@@ -212,7 +212,6 @@
   },
   {
     "name": "2",
-    "variant": true,
     "description": "This train starts in the open market",
     "price": 100,
     "quantity": 1,
