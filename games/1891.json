@@ -144,11 +144,13 @@
   "ipo": true,
   "privates": [
     {
+      "id": "A",
       "name": "Toyohira Timbers Railway",
       "price": 20,
       "revenue": 5
     },
     {
+      "id": "B",
       "name": "Jinkou Railway",
       "price": 40,
       "revenue": 10,
@@ -156,12 +158,14 @@
       "description": "During its operating round, the public company owning this company may place a green track tile in the hex"
     },
     {
+      "id": "C",
       "name": "Japan Tramline branch in Hiroshima",
       "price": 50,
       "revenue": 10,
       "description": "During its operating round, the public company owning this company may lay one or two additional yellow track tiles at no cost in mountains. This does not close the company"
     },
     {
+      "id": "D",
       "name": "Transportation Bureau of Hiroshima City",
       "price": 70,
       "revenue": 15,
@@ -169,6 +173,7 @@
       "description": "During its operating round, the owning company for its tile and/or token actions pay to place a station marker or upgrade Hiroshima. This closes the private company at the end of the round"
     },
     {
+      "id": "E",
       "name": "Yamaguchi Prefectural Tramline",
       "price": 100,
       "revenue": 20,
@@ -176,6 +181,7 @@
       "description": "The player owning this private may exchange it for a 10% share of the IET. If owned by a public company, it receives a +10 bonus to running to Iwakuni. Other public companies can purchase this bonus from the owning company for 50"
     },
     {
+      "id": "F",
       "name": "Chugoku Railway",
       "price": 100,
       "revenue": 20,
@@ -183,8 +189,10 @@
       "description": "The public company owning this gets a +10 bonus when running to Kurashiki/Seja. Other public companies can buy this right from the owning company for 50"
     },
     {
+      "id": "G",
       "name": "San-yo Railway",
       "price": 120,
+      "company": "SR",
       "description": "This private is immediately traded in for the president's share of Sanyo Railway. It is guaranteed to operate, and is discarded if all players pass during the private auction"
     }
   ],
@@ -193,39 +201,131 @@
     "bgg": "https://www.boardgamegeek.com/boardgame/38304/1891",
     "rules": "https://www.boardgamegeek.com/filepage/142184/1891-rules"
   },
+  "trains": [
+    {
+      "name": "2",
+      "price": 100,
+      "quantity": 5,
+      "color": "yellow",
+      "rust": "4"
+
+  },
+  {
+    "name": "2",
+    "variant": true,
+    "description": "This train starts in the open market",
+    "price": 100,
+    "quantity": 1,
+    "color": "yellow",
+    "rust": "4"
+  },
+  {
+      "name": "2+2",
+      "price": 130,
+      "quantity": 2,
+      "description": "This train starts in the open market",
+      "color": "yellow",
+      "rust": "4"
+  },
+    {
+      "name": "3",
+      "quantity": 5,
+      "price": 225,
+      "color": "green",
+      "rust": "6"
+    },
+    {
+      "name": "4",
+      "quantity": 4,
+      "price": 350,
+      "color": "green",
+      "rust": "D"
+    },
+    {
+      "name": "5",
+      "quantity": 3,
+      "price": 550,
+      "color": "brown"
+    },
+    {
+      "name": "6",
+      "quantity": 2,
+      "price": 700,
+      "color": "gray"
+    },
+    {
+      "name": "D",
+      "quantity": "∞",
+      "print": 10,
+      "price": 1100,
+      "color": "black",
+      "description": "¥350 discount when trading in a 4T, 5T, or 6T",
+      "available": "6",
+      "discount": {
+        "4": 350,
+        "5": 350,
+        "6": 350
+      }
+    },
+    {
+      "name": "8",
+      "quantity": "∞",
+      "print": 10,
+      "price": 1000,
+      "color": "black",
+      "available": "6",
+      "description": "¥350 discount when trading in a 4T, 5T, or 6T",
+      "discount": {
+        "4": 350,
+        "5": 350,
+        "6": 350
+      }
+    }
+
+  ],
   "phases": [
     {
       "name": "2",
       "limit": 4,
-      "tiles": "yellow"
+      "tiles": "yellow",
+      "rounds": 1,
+      "notes": "The 6th 2T and the 2 2+2s start in the open market",
+      "train": ["2", "2+2"]
     },
     {
       "name": "3",
       "limit": 4,
+      "rounds": 2,
       "tiles": "green",
       "notes": "Private companies may be purchased."
     },
     {
       "name": "4",
       "limit": 3,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "5",
       "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private companies are closed."
     },
     {
       "name": "6",
       "limit": 2,
+      "rounds": 3,
       "tiles": "gray",
       "notes": "The JNR is started. D Trains may be purchased."
     },
     {
       "name": "D",
       "limit": 2,
-      "tiles": "gray"
+      "rounds": 3,
+      "train": ["8", "D"],
+      "tiles": "gray",
+      "notes": "The D trains can be swapped with 8 trains in the variant rules"
     }
   ],
   "turns": [
@@ -619,74 +719,6 @@
     {
       "name": "SR",
       "color": "gray"
-    }
-  ],
-  "trains": [
-    {
-      "name": "2",
-      "quantity": 6,
-      "price": 100,
-      "color": "yellow",
-      "rust": "4"
-    },
-    {
-      "name": "2+2",
-      "quantity": 2,
-      "price": 130,
-      "color": "yellow",
-      "rust": "4"
-    },
-    {
-      "name": "3",
-      "quantity": 5,
-      "price": 225,
-      "color": "green",
-      "rust": "6"
-    },
-    {
-      "name": "4",
-      "quantity": 4,
-      "price": 350,
-      "color": "green",
-      "rust": "D"
-    },
-    {
-      "name": "5",
-      "quantity": 3,
-      "price": 550,
-      "color": "brown"
-    },
-    {
-      "name": "6",
-      "quantity": 2,
-      "price": 700,
-      "color": "gray"
-    },
-    {
-      "name": "D",
-      "quantity": 6,
-      "price": 1100,
-      "color": "black",
-      "description": "Cost $750 when trading in a 4T, 5T or 6T",
-      "available": "6",
-      "discount": {
-        "4": 300,
-        "5": 300,
-        "6": 300
-      }
-    },
-    {
-      "name": "8",
-      "quantity": 6,
-      "price": 1100,
-      "color": "black",
-      "description": "Cost $750 when trading in a 4T, 5T or 6T",
-      "available": "6",
-      "discount": {
-        "4": 300,
-        "5": 300,
-        "6": 300
-      }
     }
   ],
   "map": {
