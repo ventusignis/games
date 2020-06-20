@@ -1,5 +1,10 @@
 # 18xx-maker/games
 
+[![build](https://travis-ci.org/18xx-maker/games.svg?branch=master)](https://travis-ci.org/18xx-maker/games)
+![version](https://img.shields.io/npm/v/@18xx-maker/games)
+![downloads](https://img.shields.io/npm/dt/@18xx-maker/games)
+![license](https://img.shields.io/npm/l/@18xx-maker/games)
+
 This repository contains the game and tile files that 18xx-maker uses. It's
 purpose is to allow others to get access to these files easily without needed to
 use the entire 18xx-maker repository.

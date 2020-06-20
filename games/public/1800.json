@@ -119,7 +119,7 @@
       "quantity": 1,
       "price": 300,
       "color": "green",
-      "rust": "E"
+      "rust": "2E"
     },
     {
       "name": "3",
@@ -127,7 +127,7 @@
       "price": 300,
       "color": "green",
       "players": 3,
-      "rust": "E"
+      "rust": "2E"
     },
     {
       "name": "4",
@@ -228,26 +228,22 @@
   ],
   "phases": [
     {
-      "train": "2",
       "limit": 2,
       "tiles": "yellow",
       "name": "2"
     },
     {
-      "train": "3",
       "limit": 2,
       "tiles": "green",
       "notes": "Private companies may be purchased",
       "name": "3"
     },
     {
-      "train": "4",
       "limit": 2,
       "tiles": "green",
       "name": "4"
     },
     {
-      "train": "5",
       "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed",
