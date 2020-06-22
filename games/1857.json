@@ -1091,8 +1091,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 4
+            "type": "straight",
+            "side": 4,
+            "end": 0.25
           },
           {
             "type": "sharp",
@@ -1187,8 +1188,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "hexes": ["B13"]

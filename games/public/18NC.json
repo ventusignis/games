@@ -783,7 +783,8 @@
         "track": [
           {
             "side": 5,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "labels": [
@@ -1018,11 +1019,13 @@
         "track": [
           {
             "side": 1,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           },
           {
             "side": 3,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "cities": [

@@ -3664,12 +3664,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 1
+            "type": "straight",
+            "side": 1,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 4
+            "type": "straight",
+            "side": 4,
+            "end": 0.25
           }
         ],
         "cities": [
@@ -3821,12 +3823,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 3
+            "type": "straight",
+            "side": 3,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "cities": [
@@ -4249,12 +4253,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 2
+            "type": "straight",
+            "side": 2,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 5
+            "type": "straight",
+            "side": 5,
+            "end": 0.25
           }
         ],
         "cities": [

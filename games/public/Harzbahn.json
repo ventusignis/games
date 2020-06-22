@@ -1428,14 +1428,16 @@
         ],
         "track": [
           {
-            "type": "stop",
+            "type": "straight",
             "gauge": "narrow",
-            "side": 1
+            "side": 1,
+            "end": 0.25
           },
           {
-            "type": "stop",
+            "type": "straight",
             "gauge": "narrow",
-            "side": 3
+            "side": 3,
+            "end": 0.25
           }
         ],
         "hexes": ["E7"],

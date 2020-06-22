@@ -762,7 +762,9 @@
         },
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -806,7 +808,9 @@
         },
         {
           "side": 5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -848,7 +852,9 @@
         },
         {
           "side": 5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -913,7 +919,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -958,7 +966,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1013,7 +1023,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1135,7 +1147,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1183,7 +1197,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1237,7 +1253,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -2045,7 +2063,9 @@
         "track": [
           {
             "side": 2,
-            "type": "mid"
+            "type": "straight",
+            "end": 0.5,
+            "start": 0.25
           }
         ],
         "hexes": ["F11"]
@@ -2124,7 +2144,9 @@
         "track": [
           {
             "side": 5,
-            "type": "mid"
+            "type": "straight",
+            "end": 0.5,
+            "start": 0.25
           }
         ],
         "hexes": ["L13"]

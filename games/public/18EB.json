@@ -1835,12 +1835,14 @@
             "gauge": "dashed"
           },
           {
-            "type": "stop",
-            "side": 3
+            "type": "straight",
+            "side": 3,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 5
+            "type": "straight",
+            "side": 5,
+            "end": 0.25
           }
         ],
         "labels": [

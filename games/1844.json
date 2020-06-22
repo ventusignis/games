@@ -3566,7 +3566,8 @@
           "track": [
             {
               "side": 6,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "hexes": ["L23"]
@@ -3610,7 +3611,8 @@
           "track": [
             {
               "side": 1,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "hexes": ["F9"]
@@ -3653,7 +3655,8 @@
           "track": [
             {
               "side": 1,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "hexes": ["F19"]
@@ -3688,7 +3691,8 @@
           "track": [
             {
               "side": 6,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "hexes": ["G28"]
@@ -3722,7 +3726,8 @@
           "track": [
             {
               "side": 5,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "hexes": ["F13"]
@@ -3815,11 +3820,13 @@
           "track": [
             {
               "side": 2,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             },
             {
               "side": 4,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "tokens": [
@@ -3878,7 +3885,8 @@
             },
             {
               "side": 4,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "hexes": ["I6"]

@@ -19,7 +19,11 @@
     "pink": "#ff3399"
   },
   "tokens": [
-    { "label": "Round", "quantity": 0, "print": 1 },
+    {
+      "label": "Round",
+      "quantity": 0,
+      "print": 1
+    },
     {
       "icon": "round4",
       "color": "black",
@@ -27,8 +31,16 @@
       "quantity": 0,
       "print": 1
     },
-    { "label": "APRR", "quantity": 1, "print": 0 },
-    { "logo": "APRR", "quantity": 0, "print": 2 }
+    {
+      "label": "APRR",
+      "quantity": 1,
+      "print": 0
+    },
+    {
+      "logo": "APRR",
+      "quantity": 0,
+      "print": 2
+    }
   ],
   "ipo": true,
   "bank": 8000,
@@ -303,7 +315,11 @@
     {
       "id": "4",
       "name": "Antioch Potash Railway",
-      "token": { "logo": "APRR", "quantity": 0, "print": 2 },
+      "token": {
+        "logo": "APRR",
+        "quantity": 0,
+        "print": 2
+      },
       "price": 110,
       "revenue": 20,
       "tile": "ABT9",
@@ -1291,7 +1307,15 @@
       },
       {
         "color": "gray",
-        "cities": [{ "companies": [{ "color": "black" }] }],
+        "cities": [
+          {
+            "companies": [
+              {
+                "color": "black"
+              }
+            ]
+          }
+        ],
         "track": [
           {
             "side": 1,
@@ -1653,7 +1677,8 @@
         "track": [
           {
             "side": 4,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "labels": [
@@ -1900,7 +1925,8 @@
         "track": [
           {
             "side": 4,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "labels": [
@@ -2132,7 +2158,8 @@
         "track": [
           {
             "side": 4,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "labels": [
@@ -2191,11 +2218,13 @@
         "track": [
           {
             "side": 1,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           },
           {
             "side": 4,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "labels": [
@@ -2530,7 +2559,8 @@
         "track": [
           {
             "side": 4,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "labels": [
@@ -2610,7 +2640,8 @@
         "track": [
           {
             "side": 4,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "labels": [
@@ -2863,8 +2894,25 @@
     },
     "BT1": {
       "color": "green",
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 5 }, { "side": 6 }],
-      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "shapes": [
         {
           "type": "circle",
@@ -2891,8 +2939,25 @@
     },
     "BT2": {
       "color": "green",
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 6 }],
-      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 6
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "shapes": [
         {
           "type": "circle",
@@ -2919,8 +2984,25 @@
     },
     "BT3": {
       "color": "green",
-      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 6 }],
-      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "shapes": [
         {
           "type": "circle",
@@ -3181,7 +3263,8 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "type": "custom",
@@ -3222,7 +3305,8 @@
       "track": [
         {
           "side": 1,
-          "type": "sharpStop"
+          "type": "sharp",
+          "end": 0.5
         },
         {
           "side": 3,
@@ -3258,8 +3342,9 @@
       ],
       "track": [
         {
-          "side": 2,
-          "type": "sharpStopRev"
+          "side": 1,
+          "type": "sharp",
+          "start": 0.5
         },
         {
           "side": 3,
@@ -3444,20 +3529,24 @@
       ],
       "track": [
         {
-          "side": 2,
-          "type": "sharpStopRev"
+          "side": 1,
+          "type": "sharp",
+          "start": 0.5
         },
         {
           "side": 3,
-          "type": "gentleStop"
+          "type": "gentle",
+          "end": 0.75
         },
         {
           "side": 4,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
-          "side": 6,
-          "type": "gentleStopRev"
+          "side": 4,
+          "type": "gentle",
+          "start": 0.25
         }
       ],
       "labels": [
@@ -3500,19 +3589,23 @@
       "track": [
         {
           "side": 4,
-          "type": "sharpStop"
+          "type": "sharp",
+          "end": 0.5
         },
         {
           "side": 6,
-          "type": "gentleStop"
+          "type": "gentle",
+          "end": 0.75
         },
         {
           "side": 2,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
-          "side": 3,
-          "type": "gentleStopRev"
+          "side": 1,
+          "type": "gentle",
+          "start": 0.25
         }
       ],
       "labels": [
@@ -3555,7 +3648,8 @@
       "track": [
         {
           "side": 3,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 5,
@@ -3563,7 +3657,8 @@
         },
         {
           "side": 6,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ],
       "labels": [

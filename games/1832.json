@@ -1760,15 +1760,18 @@
         "track": [
           {
             "side": 2,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 4,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 6,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           }
         ],
         "labels": [

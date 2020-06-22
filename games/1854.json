@@ -1617,15 +1617,18 @@
           "track": [
             {
               "side": 1,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             },
             {
               "side": 2,
-              "type": "sharpStop"
+              "type": "sharp",
+              "end": 0.5
             },
             {
-              "side": 6,
-              "type": "sharpStopRev"
+              "side": 5,
+              "type": "sharp",
+              "start": 0.5
             }
           ],
           "hexes": ["C23"]
@@ -2709,11 +2712,13 @@
           "track": [
             {
               "side": 1,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             },
             {
               "side": 5,
-              "type": "stop"
+              "type": "straight",
+              "end": 0.25
             }
           ],
           "hexes": ["B11"]

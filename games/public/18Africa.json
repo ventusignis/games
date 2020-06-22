@@ -883,11 +883,13 @@
         "track": [
           {
             "side": 1,
-            "type": "straightStop"
+            "type": "straight",
+            "end": 0.75
           },
           {
             "side": 2,
-            "type": "gentleStop"
+            "type": "gentle",
+            "end": 0.75
           }
         ],
         "hexes": ["M5"]

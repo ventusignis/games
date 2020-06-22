@@ -208,24 +208,23 @@
       "quantity": 5,
       "color": "yellow",
       "rust": "4"
-
-  },
-  {
-    "name": "2",
-    "description": "This train starts in the open market",
-    "price": 100,
-    "quantity": 1,
-    "color": "yellow",
-    "rust": "4"
-  },
-  {
+    },
+    {
+      "name": "2",
+      "description": "This train starts in the open market",
+      "price": 100,
+      "quantity": 1,
+      "color": "yellow",
+      "rust": "4"
+    },
+    {
       "name": "2+2",
       "price": 130,
       "quantity": 2,
       "description": "This train starts in the open market",
       "color": "yellow",
       "rust": "4"
-  },
+    },
     {
       "name": "3",
       "quantity": 5,
@@ -280,7 +279,6 @@
         "6": 350
       }
     }
-
   ],
   "phases": [
     {
@@ -728,27 +726,49 @@
     "hexes": [
       {
         "color": "plain",
-        "terrain": [{"type": "mountain",
-          "cost": 80,
-          "size": "large"
-        }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 80,
+            "size": "large"
+          }
+        ],
         "hexes": [
-          "B5","B7","B19","B29","B31",
-          "C24","C30",
-          "D15","D17",
-          "F3","F5"
+          "B5",
+          "B7",
+          "B19",
+          "B29",
+          "B31",
+          "C24",
+          "C30",
+          "D15",
+          "D17",
+          "F3",
+          "F5"
         ]
       },
       {
         "color": "plain",
-        "terrain": [{"type": "mountain",
-          "cost": 40
-        }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 40
+          }
+        ],
         "hexes": [
-          "B9","B13","B17","B21",
-          "C12","C16","C26",
-          "D3","D19","D27",
-          "E4","E12","E22",
+          "B9",
+          "B13",
+          "B17",
+          "B21",
+          "C12",
+          "C16",
+          "C26",
+          "D3",
+          "D19",
+          "D27",
+          "E4",
+          "E12",
+          "E22",
           "F19",
           "G14"
         ]
@@ -757,11 +777,35 @@
         "color": "plain",
         "hexes": [
           "B27",
-          "C2","C8","C10","C14","C20",
-          "D1","D5","D7","D23","D29",
-          "E2","E10","E14","E20","E24","E28","E32",
-          "F7","F13","F17","F25","F29","F31",
-          "G2","G4","G10","G12","G16","G22",
+          "C2",
+          "C8",
+          "C10",
+          "C14",
+          "C20",
+          "D1",
+          "D5",
+          "D7",
+          "D23",
+          "D29",
+          "E2",
+          "E10",
+          "E14",
+          "E20",
+          "E24",
+          "E28",
+          "E32",
+          "F7",
+          "F13",
+          "F17",
+          "F25",
+          "F29",
+          "F31",
+          "G2",
+          "G4",
+          "G10",
+          "G12",
+          "G16",
+          "G22",
           "H13"
         ]
       },
@@ -797,7 +841,7 @@
       {
         "color": "gray",
         "hexes": ["A18"],
-        "removeBorders": [1,4],
+        "removeBorders": [1, 4],
         "values": [
           {
             "value": 10,
@@ -825,7 +869,7 @@
       {
         "color": "gray",
         "hexes": ["A20"],
-        "removeBorders": [1,4],
+        "removeBorders": [1, 4],
         "values": [
           {
             "value": 40,
@@ -844,7 +888,7 @@
         "tokens": [
           {
             "angle": -30,
-            "percent": 0.70,
+            "percent": 0.7,
             "company": "RR",
             "destination": true
           }
@@ -1075,7 +1119,11 @@
             "side": 3
           }
         ],
-        "cities": [{"companies": ["IET"]}],
+        "cities": [
+          {
+            "companies": ["IET"]
+          }
+        ],
         "hexes": ["H1"]
       },
       {
@@ -1088,12 +1136,12 @@
           }
         ],
         "tokens": [
-            {
-              "destination": true,
-              "label": "YPT",
-              "angle": 150,
-              "percent": 0.75
-            }
+          {
+            "destination": true,
+            "label": "YPT",
+            "angle": 150,
+            "percent": 0.75
+          }
         ],
         "offBoardRevenue": {
           "name": {
@@ -1151,12 +1199,12 @@
           ]
         },
         "tokens": [
-            {
-              "destination": true,
-              "label": "CR",
-              "angle": 150,
-              "percent": 0.75
-            }
+          {
+            "destination": true,
+            "label": "CR",
+            "angle": 150,
+            "percent": 0.75
+          }
         ],
         "hexes": ["D33"]
       },
@@ -1175,7 +1223,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": {"name": "Otake"}
+            "name": {
+              "name": "Otake"
+            }
           }
         ],
         "hexes": ["H3"]
@@ -1184,7 +1234,9 @@
         "color": "plain",
         "cities": [
           {
-            "name": {"name": "Hatsukaichi"}
+            "name": {
+              "name": "Hatsukaichi"
+            }
           }
         ],
         "hexes": ["G6"]
@@ -1194,7 +1246,9 @@
         "cities": [
           {
             "companies": ["KR"],
-            "name": {"name": "Kabe"}
+            "name": {
+              "name": "Kabe"
+            }
           }
         ],
         "hexes": ["D9"]
@@ -1204,7 +1258,9 @@
         "cities": [
           {
             "companies": ["GR"],
-            "name": {"name": "Nakafukawa"}
+            "name": {
+              "name": "Nakafukawa"
+            }
           }
         ],
         "hexes": ["D11"]
@@ -1213,21 +1269,27 @@
         "color": "plain",
         "cities": [
           {
-            "name": {"name": "Mukaihara"}
+            "name": {
+              "name": "Mukaihara"
+            }
           }
         ],
         "hexes": ["B15"]
       },
       {
         "color": "plain",
-        "labels": [{
-          "percent": 0.75,
-          "label": "Y"
-        }],
+        "labels": [
+          {
+            "percent": 0.75,
+            "label": "Y"
+          }
+        ],
         "cities": [
           {
             "companies": ["GET"],
-            "name": {"name": "Kure"}
+            "name": {
+              "name": "Kure"
+            }
           }
         ],
         "hexes": ["H11"]
@@ -1250,7 +1312,9 @@
         ],
         "cities": [
           {
-            "name": {"name": "Saijo"}
+            "name": {
+              "name": "Saijo"
+            }
           }
         ],
         "hexes": ["E16"]
@@ -1267,7 +1331,9 @@
         ],
         "cities": [
           {
-            "name": {"name": "Fuchu"}
+            "name": {
+              "name": "Fuchu"
+            }
           }
         ],
         "hexes": ["C28"]
@@ -1284,7 +1350,9 @@
         ],
         "cities": [
           {
-            "name": {"name": "Takehara"}
+            "name": {
+              "name": "Takehara"
+            }
           }
         ],
         "hexes": ["G20"]
@@ -1302,7 +1370,9 @@
         "cities": [
           {
             "companies": ["SR"],
-            "name": {"name": "Mihara"}
+            "name": {
+              "name": "Mihara"
+            }
           }
         ],
         "hexes": ["F23"]
@@ -1312,7 +1382,9 @@
         "cities": [
           {
             "companies": ["TR"],
-            "name": {"name": "Tomo"}
+            "name": {
+              "name": "Tomo"
+            }
           }
         ],
         "hexes": ["G30"]
@@ -1322,7 +1394,9 @@
         "cities": [
           {
             "companies": ["OR"],
-            "name": {"name": "Onomichi"}
+            "name": {
+              "name": "Onomichi"
+            }
           }
         ],
         "hexes": ["F27"]
@@ -1331,7 +1405,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Togochi"}
+            "name": {
+              "name": "Togochi"
+            }
           }
         ],
         "hexes": ["C4"]
@@ -1340,7 +1416,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Kake"}
+            "name": {
+              "name": "Kake"
+            }
           }
         ],
         "hexes": ["C6"]
@@ -1349,7 +1427,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Iwakura"}
+            "name": {
+              "name": "Iwakura"
+            }
           }
         ],
         "hexes": ["F1"]
@@ -1360,12 +1440,17 @@
           {
             "angle": 60,
             "percent": 0.6,
-            "name": {"name": "Oasa"}
+            "name": {
+              "name": "Oasa"
+            }
           },
           {
             "angle": 240,
             "percent": 0.6,
-            "name": {"name": "Chiyoda", "reverse": true}
+            "name": {
+              "name": "Chiyoda",
+              "reverse": true
+            }
           }
         ],
         "hexes": ["B11"]
@@ -1376,12 +1461,17 @@
           {
             "angle": 60,
             "percent": 0.6,
-            "name": {"name": "Hukutomi"}
+            "name": {
+              "name": "Hukutomi"
+            }
           },
           {
             "angle": 240,
             "percent": 0.6,
-            "name": {"name": "Toyosaka", "reverse": true}
+            "name": {
+              "name": "Toyosaka",
+              "reverse": true
+            }
           }
         ],
         "hexes": ["C18"]
@@ -1392,12 +1482,17 @@
           {
             "angle": 60,
             "percent": 0.6,
-            "name": {"name": "Daiwa"}
+            "name": {
+              "name": "Daiwa"
+            }
           },
           {
             "angle": 240,
             "percent": 0.6,
-            "name": {"name": "Kui", "reverse": true}
+            "name": {
+              "name": "Kui",
+              "reverse": true
+            }
           }
         ],
         "hexes": ["D21"]
@@ -1408,14 +1503,19 @@
           {
             "angle": 60,
             "percent": 0.6,
-            "name": {"name": "Sera"}
+            "name": {
+              "name": "Sera"
+            }
           }
         ],
-        "terrain": [{"type": "mountain",
-          "cost": 40,
-          "angle": 240,
-          "percent": 0.6
-        }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 40,
+            "angle": 240,
+            "percent": 0.6
+          }
+        ],
         "hexes": ["C22"]
       },
       {
@@ -1424,21 +1524,28 @@
           {
             "angle": 60,
             "percent": 0.6,
-            "name": {"name": "Kisa"}
+            "name": {
+              "name": "Kisa"
+            }
           }
         ],
-        "terrain": [{"type": "mountain",
-          "cost": 40,
-          "angle": 240,
-          "percent": 0.6
-        }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 40,
+            "angle": 240,
+            "percent": 0.6
+          }
+        ],
         "hexes": ["B23"]
       },
       {
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Karuga"}
+            "name": {
+              "name": "Karuga"
+            }
           }
         ],
         "hexes": ["D13"]
@@ -1447,7 +1554,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Yasu-ura"}
+            "name": {
+              "name": "Yasu-ura"
+            }
           }
         ],
         "hexes": ["H15"]
@@ -1456,7 +1565,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Akitsu"}
+            "name": {
+              "name": "Akitsu"
+            }
           }
         ],
         "hexes": ["G18"]
@@ -1465,7 +1576,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Kochi"}
+            "name": {
+              "name": "Kochi"
+            }
           }
         ],
         "hexes": ["E18"]
@@ -1474,14 +1587,15 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Togo"}
+            "name": {
+              "name": "Togo"
+            }
           }
         ],
         "hexes": ["F21"]
       },
       {
         "color": "plain",
-        
         "tokens": [
           {
             "angle": 0,
@@ -1492,7 +1606,9 @@
         ],
         "centerTowns": [
           {
-            "name": {"name": "Joge"}
+            "name": {
+              "name": "Joge"
+            }
           }
         ],
         "hexes": ["B25"]
@@ -1501,7 +1617,9 @@
         "color": "plain",
         "centerTowns": [
           {
-            "name": {"name": "Mitsuki"}
+            "name": {
+              "name": "Mitsuki"
+            }
           }
         ],
         "hexes": ["D25"]
@@ -1526,7 +1644,9 @@
         "cities": [
           {
             "companies": ["IR"],
-            "name": {"name": "Kannabe"}
+            "name": {
+              "name": "Kannabe"
+            }
           }
         ],
         "companies": [
@@ -1589,20 +1709,24 @@
         "color": "yellow",
         "track": [
           {
-            "side": 1,
-            "type": "sharpStopRev"
+            "side": 6,
+            "type": "sharp",
+            "start": 0.5
           },
           {
             "side": 2,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 4,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           },
           {
             "side": 3,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           }
         ],
         "tokens": [
@@ -1668,7 +1792,8 @@
           },
           {
             "side": 6,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           }
         ],
         "values": [
@@ -1687,7 +1812,9 @@
           {
             "angle": -90,
             "percent": 0.55,
-            "name": {"name": "Kaidaichi"}
+            "name": {
+              "name": "Kaidaichi"
+            }
           },
           {
             "companies": ["MoCR"],
@@ -1699,12 +1826,15 @@
       },
       {
         "color": "yellow",
-        "terrain": [{"type": "mountain",
-          "size": "large",
-          "percent": 0.65,
-          "angle": 180,
-          "cost": 80
-        }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "large",
+            "percent": 0.65,
+            "angle": 180,
+            "cost": 80
+          }
+        ],
         "labels": [
           {
             "label": "OO",
@@ -1757,11 +1887,14 @@
       },
       {
         "color": "yellow",
-        "terrain": [{"type": "mountain",
-          "percent": 0.65,
-          "angle": -135,
-          "cost": 40
-        }],
+        "terrain": [
+          {
+            "type": "mountain",
+            "percent": 0.65,
+            "angle": -135,
+            "cost": 40
+          }
+        ],
         "labels": [
           {
             "label": "OO",
@@ -1814,7 +1947,7 @@
       "tokens": "three"
     },
     {
-      "name":  "Onomichi Railway",
+      "name": "Onomichi Railway",
       "abbrev": "OR",
       "color": "lightBrown",
       "tokens": "two"
@@ -1895,7 +2028,6 @@
         "percent": 10,
         "shares": 1
       }
-
     ]
   },
   "tokenTypes": {
@@ -1904,7 +2036,7 @@
     "three": ["Home", 40, 100],
     "four": ["Home", 40, 100, 100],
     "national": ["¥100 x 12"]
-},
+  },
   "tiles": {
     "1": 1,
     "2": 1,
@@ -1957,11 +2089,13 @@
     "623": 1,
     "H902": {
       "color": "green",
-      "labels": [{
-        "label": "H",
-        "angle": 75,
-        "percent": 0.85
-      }],
+      "labels": [
+        {
+          "label": "H",
+          "angle": 75,
+          "percent": 0.85
+        }
+      ],
       "values": [
         {
           "value": 50,
@@ -1986,19 +2120,23 @@
       "track": [
         {
           "side": 1,
-          "type": "sharpStop"
+          "type": "sharp",
+          "end": 0.5
         },
         {
-          "side": 4,
-          "type": "sharpStopRev"
+          "side": 3,
+          "type": "sharp",
+          "start": 0.5
         },
         {
           "side": 5,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 6,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ]
     },
@@ -2032,11 +2170,13 @@
     },
     "H901": {
       "color": "brown",
-      "labels": [{
-        "label": "Y",
-        "percent": 0.70,
-        "angle": 180
-      }],
+      "labels": [
+        {
+          "label": "Y",
+          "percent": 0.7,
+          "angle": 180
+        }
+      ],
       "cities": [
         {
           "size": 2,
@@ -2069,11 +2209,13 @@
     },
     "H903": {
       "color": "brown",
-      "labels": [{
-        "label": "H",
-        "angle": 75,
-        "percent": 0.85
-      }],
+      "labels": [
+        {
+          "label": "H",
+          "angle": 75,
+          "percent": 0.85
+        }
+      ],
       "values": [
         {
           "value": 60,
@@ -2098,19 +2240,23 @@
       "track": [
         {
           "side": 1,
-          "type": "sharpStop"
+          "type": "sharp",
+          "end": 0.5
         },
         {
-          "side": 4,
-          "type": "sharpStopRev"
+          "side": 3,
+          "type": "sharp",
+          "start": 0.5
         },
         {
           "side": 5,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 6,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ]
     },
@@ -2145,11 +2291,13 @@
     },
     "H904": {
       "color": "gray",
-      "labels": [{
-        "label": "H",
-        "angle": 90,
-        "percent": 0.9
-      }],
+      "labels": [
+        {
+          "label": "H",
+          "angle": 90,
+          "percent": 0.9
+        }
+      ],
       "values": [
         {
           "value": 80,
@@ -2237,11 +2385,13 @@
           "percent": 0.85
         }
       ],
-      "labels": [{
-        "label": "Y",
-        "angle": 90,
-        "percent": 0.8
-      }],
+      "labels": [
+        {
+          "label": "Y",
+          "angle": 90,
+          "percent": 0.8
+        }
+      ],
       "names": [
         {
           "name": "Fukuyama",

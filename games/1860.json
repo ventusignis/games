@@ -1399,8 +1399,9 @@
           ],
           "track": [
             {
-              "type": "stop",
-              "side": 6
+              "type": "straight",
+              "side": 6,
+              "end": 0.25
             }
           ],
           "hexes": ["G7"]
