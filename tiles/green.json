@@ -4602,6 +4602,18 @@
       }
     ]
   },
+  "749": {
+    "color": "green",
+    "values": [
+      {
+        "angle": -90,
+        "percent": 0.5,
+        "value": 10
+      }
+    ],
+    "towns": [{}],
+    "track": [{ "type": "straight", "side": 1 }]
+  },
   "750": {
     "color": "green",
     "labels": [
