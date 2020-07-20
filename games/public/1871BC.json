@@ -3,6 +3,7 @@
     "title": "1871: British Columbia",
     "subtitle": "Confederation Railways",
     "designer": "Brennan Sheremeto",
+    "publisher": "self",
     "background": "PGER_orange",
     "titleSize": 90,
     "marketTokens": 2,
@@ -46,6 +47,7 @@
     {
       "name": "Canadian Pacific Railway",
       "abbrev": "CPR",
+      "logo": "1871BC/CPR",
       "tokens": ["Free", 80, 80, 80],
       "color": "red",
       "shares": [
@@ -65,7 +67,7 @@
     {
       "name": "Northern Pacific Railway",
       "abbrev": "NPR",
-      "logo": "NORPAC",
+      "logo": "1871BC/NORPAC",
       "tokens": ["Free", 80, 80, 80],
       "color": "white",
       "shares": [
@@ -107,7 +109,7 @@
     {
       "name": "Pacific Great Eastern Railway",
       "abbrev": "PGER",
-      "logo": "PGER",
+      "logo": "1871BC/PGER",
       "color": "PGER_green",
       "tokens": ["Free", 80, 80, 80],
       "shares": [
@@ -127,7 +129,7 @@
     {
       "name": "Grand Trunk Pacific",
       "abbrev": "GTP",
-      "logo": "GTP",
+      "logo": "1871BC/GTP",
       "tokens": ["Free", 80, 80],
       "color": "black",
       "shares": [
@@ -147,7 +149,7 @@
     {
       "name": "Canadian Northern Railway",
       "abbrev": "CNR",
-      "logo": "CNOR",
+      "logo": "1871BC/CNOR",
       "tokens": ["Free", 80, 80, "$80*"],
       "color": "yellow",
       "shares": [

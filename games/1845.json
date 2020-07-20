@@ -2253,7 +2253,8 @@
       "track": [
         {
           "side": 2,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 4,
@@ -2967,11 +2968,13 @@
         "track": [
           {
             "side": 3,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           },
           {
             "side": 5,
-            "type": "stub"
+            "type": "straight",
+            "end": 0.125
           }
         ],
         "hexes": ["I23"]

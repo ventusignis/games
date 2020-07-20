@@ -58,7 +58,8 @@
     },
     {
       "icon": "steamboat",
-      "label": "20/10"
+      "label": "20/10",
+      "fontSize": 14
     },
     {
       "icon": "port"
@@ -68,11 +69,13 @@
     },
     {
       "icon": "coal",
-      "label": "$10"
+      "label": "$10",
+      "fontSize": 18
     },
     {
       "icon": "coal",
-      "label": "$20"
+      "label": "$20",
+      "fontSize": 18
     }
   ],
   "wip": true,
@@ -99,14 +102,15 @@
     {
       "name": "Lake Shore & Michigan Southern",
       "abbrev": "LSMS",
+      "logo": "18MI/LSMS",
       "color": "lightGreen",
       "tokens": ["Home", "$40", "$100"]
     },
     {
       "name": "Grand Rapids & Indiana",
       "abbrev": "GRI",
+      "logo": "18MI/GRI",
       "color": "lightBlue",
-      "logo": "GRI",
       "tokens": [
         "Home",
         "$40",
@@ -122,38 +126,42 @@
     {
       "name": "Michigan Central",
       "abbrev": "MiC",
+      "logo": "18MI/MiC",
       "color": "red",
-      "logo": "MiC",
       "tokens": ["Home", "$40", "$100", "$100", "$100"]
     },
     {
       "name": "Detroit & Mackinac",
       "abbrev": "DM",
+      "logo": "18MI/DM",
       "color": "gold",
       "tokens": ["Home"]
     },
     {
       "name": "Pere Marquette",
       "abbrev": "PM",
+      "logo": "18MI/PM",
       "color": "yellow",
       "tokens": ["Home", "Detroit Free", "$40", "$100", "Ferry $40"]
     },
     {
       "name": "Grand Trunk Railway",
       "abbrev": "GT",
+      "logo": "18MI/GT2",
       "color": "gray",
-      "logo": "GT2",
       "tokens": ["Home", "$40", "$100", "$100", "$100"]
     },
     {
       "name": "Detroit, Toledo, & Ironton",
       "abbrev": "DTI",
+      "logo": "18MI/DTI",
       "color": "pink",
       "tokens": ["Home"]
     },
     {
       "name": "Ann Arbor",
       "abbrev": "AA",
+      "logo": "18MI/AA",
       "color": "lavender",
       "tokens": ["Home", "$40", "Ferry $40"]
     }
@@ -889,8 +897,7 @@
         {
           "label": "P",
           "angle": 150,
-          "percent": 0.8,
-          "value": 30
+          "percent": 0.8
         }
       ],
       "values": [

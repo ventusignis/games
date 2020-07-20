@@ -1266,11 +1266,13 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 5,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ],
       "values": [
@@ -1310,11 +1312,13 @@
       "track": [
         {
           "side": 3,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 6,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ],
       "values": [
@@ -1423,7 +1427,8 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 5,
@@ -1480,11 +1485,13 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 2,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 4,
@@ -1537,19 +1544,23 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 2,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 4,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 6,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ],
       "tokens": [
@@ -1631,7 +1642,7 @@
     "GEA|38T": {
       "quantity": 1,
       "color": "green",
-      "rotation": 150,
+      "rotation": 180,
       "track": [
         {
           "side": 2
@@ -1824,23 +1835,28 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 2,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 4,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 5,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 6,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ],
       "tokens": [
@@ -2416,7 +2432,8 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ],
       "cities": [
@@ -3701,15 +3718,18 @@
       "track": [
         {
           "side": 1,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 2,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         },
         {
           "side": 4,
-          "type": "stub"
+          "type": "straight",
+          "end": 0.125
         }
       ],
       "tokens": [

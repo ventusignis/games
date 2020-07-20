@@ -1,23 +1,63 @@
 const tiles = require('./tiles');
-
-{{#each games}}
-const game_{{#if group}}{{group}}_{{/if}}{{object}} = require("./games/{{file}}");
-{{/each}}
+const publishers = require('./publishers/index.json');
 
 const games = {
 {{#each games}}
-  "{{name}}": game_{{#if group}}{{group}}_{{/if}}{{object}}{{#unless @last}},{{/unless}}
+  "{{{id}}}": {
+    id: "{{{id}}}",
+    slug: "{{{slug}}}",
+    file: "{{{file}}}",
+    title: "{{{title}}}",
+    {{#if subtitle}}
+    subtitle: "{{{subtitle}}}",
+    {{/if}}
+    designer: "{{{designer}}}",
+    {{#if publisher}}
+    publisher: "{{{publisher}}}",
+    {{/if}}
+    {{#if group}}
+    group: "{{{group}}}",
+    {{/if}}
+    {{#if minPlayers}}
+    minPlayers: {{minPlayers}},
+    {{/if}}
+    {{#if maxPlayers}}
+    maxPlayers: {{maxPlayers}},
+    {{/if}}
+  }{{#unless @last}},{{/unless}}
 {{/each}}
 };
 
 const publicGames = {
 {{#each public_games}}
-  "{{name}}": game_{{#if group}}{{group}}_{{/if}}{{object}}{{#unless @last}},{{/unless}}
+  "{{id}}": {
+    id: "{{{id}}}",
+    slug: "{{{slug}}}",
+    file: "{{{file}}}",
+    title: "{{{title}}}",
+    {{#if subtitle}}
+    subtitle: "{{{subtitle}}}",
+    {{/if}}
+    designer: "{{{designer}}}",
+    {{#if publisher}}
+    publisher: "{{{publisher}}}",
+    {{/if}}
+    {{#if group}}
+    group: "{{{group}}}",
+    {{/if}}
+    {{#if minPlayers}}
+    minPlayers: {{minPlayers}},
+    {{/if}}
+    {{#if maxPlayers}}
+    maxPlayers: {{maxPlayers}},
+    {{/if}}
+  }{{#unless @last}},{{/unless}}
 {{/each}}
 };
 
 module.exports = {
   games,
   public: publicGames,
+  publishers,
   tiles
 };

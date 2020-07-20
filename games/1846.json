@@ -3,6 +3,7 @@
     "title": "1846",
     "subtitle": "The Race for the Midwest",
     "designer": "Thomas Lehmann",
+    "publisher": "gmt",
     "background": "orange",
     "marketTokens": 2,
     "extraStationTokens": 3,
@@ -78,26 +79,28 @@
     {
       "name": "Pennsylvania",
       "abbrev": "PRR",
+      "logo": "1846/PRR",
       "tokens": ["Free", 80, 80, 80, "$80*"],
       "color": "red"
     },
     {
       "name": "New York Central",
       "abbrev": "NYC",
+      "logo": "1846/NYC",
       "tokens": ["Free", 80, 80, 80],
       "color": "black"
     },
     {
       "name": "Baltimore & Ohio",
       "abbrev": "B&O",
-      "logo": "BO",
+      "logo": "1846/BO",
       "tokens": ["Free", 80, 80, "$80*"],
       "color": "blue"
     },
     {
       "name": "Chesapeake & Ohio",
       "abbrev": "C&O",
-      "logo": "CO",
+      "logo": "1846/CO",
       "tokens": ["Free", 80, 80, 80],
       "color": "lightBlue",
       "textColor": "black"
@@ -105,6 +108,7 @@
     {
       "name": "Erie",
       "abbrev": "ERIE",
+      "logo": "1846/ERIE",
       "tokens": ["Free", 80, 80, "$80*"],
       "color": "yellow",
       "textColor": "black"
@@ -112,12 +116,14 @@
     {
       "name": "Grand Trunk",
       "abbrev": "GT",
+      "logo": "1846/GT",
       "tokens": ["Free", 80, 80],
       "color": "orange"
     },
     {
       "name": "Illinois Central",
       "abbrev": "IC",
+      "logo": "1846/IC",
       "tokens": ["Free", 80, 80, "$80*"],
       "color": "green"
     }
@@ -880,22 +886,26 @@
           {
             "revenue": 0,
             "side": 3,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "revenue": 1,
             "side": 4,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "revenue": 2,
             "side": 5,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "revenue": 3,
             "side": 6,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           }
         ],
         "values": [

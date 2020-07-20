@@ -24,7 +24,8 @@
         },
         {
           "side": 4,
-          "type": "gentleStop"
+          "type": "gentle",
+          "end": 0.75
         },
         {
           "side": 5,

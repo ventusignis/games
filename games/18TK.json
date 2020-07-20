@@ -1620,7 +1620,8 @@
           },
           {
             "side": 2,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           }
         ],
         "hexes": ["I15"]
@@ -2153,8 +2154,9 @@
         ],
         "track": [
           {
-            "side": 1,
-            "type": "sharpStopRev"
+            "side": 6,
+            "type": "sharp",
+            "start": 0.5
           }
         ],
         "hexes": ["E21"]
