@@ -3,6 +3,7 @@
     "title": "1889",
     "subtitle": "History of Shikoku Railways",
     "designer": "Yasutaka Ikeda",
+    "publisher": "gtg",
     "background": "water",
     "orientation": "horizontal",
     "titleX": 280,
@@ -1003,7 +1004,6 @@
           {
             "name": {
               "name": "Takamatsu",
-              "reverse": false,
               "rotation": 60
             },
             "companies": ["KO"]

@@ -3,6 +3,7 @@
     "title": "18Rhl",
     "subtitle": "Rhineland",
     "designer": "Wolfram Janich",
+    "publisher": "marflow",
     "background": "gray",
     "titleY": 1650,
     "extraTotalHeight": 300,
@@ -741,7 +742,8 @@
         },
         {
           "side": 5,
-          "type": "sharpStop"
+          "type": "sharp",
+          "end": 0.5
         },
         {
           "side": 1,
@@ -755,9 +757,11 @@
         },
         {
           "side": 6,
-          "type": "mid",
+          "type": "straight",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -820,9 +824,11 @@
         },
         {
           "side": 6,
-          "type": "mid",
+          "type": "straight",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -874,7 +880,8 @@
         },
         {
           "side": 5,
-          "type": "sharpStop"
+          "type": "sharp",
+          "end": 0.5
         },
         {
           "side": 1,
@@ -888,9 +895,11 @@
         },
         {
           "side": 6,
-          "type": "mid",
+          "type": "straight",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -953,9 +962,11 @@
         },
         {
           "side": 6,
-          "type": "mid",
+          "type": "straight",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -1007,7 +1018,8 @@
         },
         {
           "side": 5,
-          "type": "sharpStop"
+          "type": "sharp",
+          "end": 0.5
         },
         {
           "side": 1,
@@ -1021,9 +1033,11 @@
         },
         {
           "side": 6,
-          "type": "mid",
+          "type": "straight",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -1086,9 +1100,11 @@
         },
         {
           "side": 6,
-          "type": "mid",
+          "type": "straight",
           "rotation": -30,
-          "gauge": "double"
+          "gauge": "dual",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -1395,11 +1411,11 @@
       ]
     },
     "933": {
-      "tile": 148,
+      "tile": "148",
       "quantity": 2
     },
     "934": {
-      "tile": 622,
+      "tile": "622",
       "quantity": 3
     },
     "935": {
@@ -1480,12 +1496,14 @@
       ],
       "track": [
         {
-          "type": "stop",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.25
         },
         {
-          "type": "stop",
-          "side": 5
+          "type": "straight",
+          "side": 5,
+          "end": 0.25
         }
       ]
     },
@@ -1527,8 +1545,9 @@
           "side": 1
         },
         {
-          "type": "sharpStop",
-          "side": 5
+          "type": "sharp",
+          "side": 5,
+          "end": 0.5
         }
       ]
     },
@@ -1570,8 +1589,9 @@
           "side": 1
         },
         {
-          "type": "sharpStop",
-          "side": 2
+          "type": "sharp",
+          "side": 2,
+          "end": 0.5
         }
       ]
     },
@@ -1613,8 +1633,9 @@
           "side": 1
         },
         {
-          "type": "stop",
-          "side": 3
+          "type": "straight",
+          "side": 3,
+          "end": 0.25
         }
       ]
     },
@@ -2061,12 +2082,14 @@
         ],
         "track": [
           {
-            "type": "sharpStop",
-            "side": 1
+            "type": "sharp",
+            "side": 1,
+            "end": 0.5
           },
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "removeBorders": [4, 5],
@@ -2132,12 +2155,14 @@
         ],
         "track": [
           {
-            "type": "sharpStop",
-            "side": 1
+            "type": "sharp",
+            "side": 1,
+            "end": 0.5
           },
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "removeBorders": [2, 3],
@@ -2427,7 +2452,8 @@
         "track": [
           {
             "side": 4,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           }
         ],
         "hexes": ["G12"]
@@ -2474,11 +2500,13 @@
         "track": [
           {
             "side": 2,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           },
           {
-            "side": 6,
-            "type": "sharpStopRev"
+            "side": 5,
+            "type": "sharp",
+            "start": 0.5
           }
         ],
         "hexes": ["G6"]
@@ -2792,8 +2820,9 @@
         "color": "plain",
         "track": [
           {
-            "type": "stop",
-            "side": 3
+            "type": "straight",
+            "side": 3,
+            "end": 0.25
           }
         ],
         "terrain": [

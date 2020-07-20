@@ -554,16 +554,19 @@
         ],
         "track": [
           {
-            "side": 4,
-            "type": "sharpStopRev"
+            "side": 3,
+            "type": "sharp",
+            "start": 0.5
           },
           {
             "side": 5,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 6,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           }
         ],
         "hexes": ["B17"],
@@ -876,7 +879,8 @@
         "track": [
           {
             "side": 2,
-            "type": "gentleStop"
+            "type": "gentle",
+            "end": 0.75
           },
           {
             "side": 6,
@@ -1441,12 +1445,14 @@
         ],
         "track": [
           {
-            "type": "sharpStopRev",
-            "side": 3
+            "type": "sharp",
+            "side": 2,
+            "start": 0.5
           },
           {
-            "type": "sharpStop",
-            "side": 4
+            "type": "sharp",
+            "side": 4,
+            "end": 0.5
           }
         ],
         "companies": [
@@ -1487,8 +1493,9 @@
             "type": "gentle"
           },
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "values": [

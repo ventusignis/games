@@ -65,6 +65,7 @@
     {
       "name": "Southern Pacific Railroad",
       "abbrev": "SP",
+      "logo": "18OC/SP",
       "color": "yellow",
       "token": {
         "bar": true
@@ -75,6 +76,7 @@
     {
       "name": "Atchison, Topeka and Santa Fe Railway",
       "abbrev": "ATSF",
+      "logo": "18OC/ATSF",
       "color": "red",
       "token": {
         "bar": true
@@ -85,6 +87,7 @@
     {
       "name": "Southern Pacific & Santa Fe Railway",
       "abbrev": "SPSF",
+      "logo": "18OC/SPSF",
       "color": "red",
       "token": {
         "target": "yellow",
@@ -96,6 +99,7 @@
     {
       "name": "Pacific Electric Railway Company",
       "abbrev": "PE",
+      "logo": "18OC/PE",
       "token": {
         "bar": true
       },
@@ -128,6 +132,7 @@
     {
       "name": "Disneyland Railroad",
       "abbrev": "DRR",
+      "logo": "18OC/DRR",
       "token": {
         "bar": true
       },

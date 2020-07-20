@@ -1,6 +1,6 @@
 {
   "name": "@18xx-maker/games",
-  "version": "3.0.0",
+  "version": "4.1.0",
   "description": "Game and tile files for 18xx-maker",
   "main": "index.js",
   "repository": "https://github.com/18xx-maker/games",
@@ -17,10 +17,10 @@
     "ramda": "^0.27.0"
   },
   "devDependencies": {
-    "@18xx-maker/schemas": "^4.0.0",
+    "@18xx-maker/schemas": "^5.0.0",
     "handlebars": "^4.7.6",
-    "husky": ">=4",
-    "lint-staged": ">=10",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.5"
   },

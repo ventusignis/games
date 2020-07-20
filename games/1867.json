@@ -3,6 +3,7 @@
     "title": "1867",
     "subtitle": "The Railways of Canada",
     "designer": "Ian Wilson",
+    "publisher": "gtg",
     "background": "water",
     "marketTokens": 2,
     "orientation": "horizontal",
@@ -1215,8 +1216,7 @@
             "size": 1,
             "name": {
               "name": "Timmins",
-              "rotation": -30,
-              "reverse": false
+              "rotation": -30
             },
             "companies": [
               {
@@ -1580,11 +1580,13 @@
         "track": [
           {
             "side": 2,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 4,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           }
         ],
         "labels": [
@@ -1639,11 +1641,13 @@
         "track": [
           {
             "side": 2,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 5,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           }
         ],
         "labels": [

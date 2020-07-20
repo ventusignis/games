@@ -1368,12 +1368,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 1
+            "type": "straight",
+            "side": 1,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 5
+            "type": "straight",
+            "side": 5,
+            "end": 0.25
           }
         ],
         "hexes": ["E6"]
@@ -1407,12 +1409,14 @@
         ],
         "track": [
           {
-            "type": "sharpStopRev",
-            "side": 3
+            "type": "sharp",
+            "side": 2,
+            "start": 0.5
           },
           {
-            "type": "sharpStop",
-            "side": 4
+            "type": "sharp",
+            "side": 4,
+            "end": 0.5
           }
         ],
         "hexes": ["G2"]
@@ -1453,12 +1457,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 3
+            "type": "straight",
+            "side": 3,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 5
+            "type": "straight",
+            "side": 5,
+            "end": 0.25
           }
         ],
         "hexes": ["H3"]

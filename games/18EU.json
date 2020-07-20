@@ -3,6 +3,7 @@
     "title": "18EU",
     "subtitle": "Railraoding in Europe from the 1830's to the 1930's",
     "designer": "David G. D. Hecht",
+    "publisher": "dtg",
     "background": "gray",
     "orientation": "horizontal",
     "titleX": 1340,
@@ -890,12 +891,14 @@
         ],
         "track": [
           {
-            "type": "sharpStopRev",
-            "side": 5
+            "type": "sharp",
+            "side": 4,
+            "start": 0.5
           },
           {
-            "type": "sharpStop",
-            "side": 6
+            "type": "sharp",
+            "side": 6,
+            "end": 0.5
           }
         ],
         "hexes": ["A10"]
@@ -946,12 +949,14 @@
         ],
         "track": [
           {
-            "type": "sharpStop",
-            "side": 5
+            "type": "sharp",
+            "side": 5,
+            "end": 0.5
           },
           {
-            "type": "sharpStop",
-            "side": 2
+            "type": "sharp",
+            "side": 2,
+            "end": 0.5
           }
         ],
         "hexes": ["J5"]
@@ -1001,12 +1006,14 @@
         ],
         "track": [
           {
-            "type": "sharpStop",
-            "side": 4
+            "type": "sharp",
+            "side": 4,
+            "end": 0.5
           },
           {
-            "type": "sharpStop",
-            "side": 1
+            "type": "sharp",
+            "side": 1,
+            "end": 0.5
           }
         ],
         "hexes": ["K14"]

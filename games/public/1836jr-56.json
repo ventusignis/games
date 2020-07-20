@@ -1188,8 +1188,7 @@
               "companies": ["Nord"],
               "name": {
                 "name": "Lille",
-                "offset": 42,
-                "reverse": false
+                "offset": 42
               }
             }
           ],
@@ -1798,8 +1797,7 @@
               ],
               "name": {
                 "name": "Lille",
-                "offset": 42,
-                "reverse": false
+                "offset": 42
               }
             }
           ],

@@ -181,7 +181,9 @@
         },
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },

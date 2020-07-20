@@ -3,6 +3,7 @@
     "title": "1879",
     "subtitle": "US Pacific Northwest",
     "designer": "Eddie Robbins",
+    "publisher": "winsome",
     "background": "gray",
     "orientation": "horizontal",
     "titleX": 1250,
@@ -854,8 +855,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "hexes": ["C12"]
@@ -986,8 +988,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 5
+            "type": "straight",
+            "side": 5,
+            "end": 0.25
           }
         ],
         "hexes": ["D3"]

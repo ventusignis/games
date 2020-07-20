@@ -957,8 +957,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 3
+            "type": "straight",
+            "side": 3,
+            "end": 0.25
           }
         ],
         "hexes": ["I7"]
@@ -1238,8 +1239,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 5
+            "type": "straight",
+            "side": 5,
+            "end": 0.25
           }
         ],
         "hexes": ["B14"]

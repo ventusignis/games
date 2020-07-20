@@ -3,6 +3,7 @@
     "title": "1862",
     "subtitle": "Railway Mania in the Eastern Counties",
     "designer": "Mike Hutton",
+    "publisher": "gmt",
     "background": "water",
     "orientation": "horizontal",
     "titleX": 840,
@@ -1069,7 +1070,11 @@
             "side": 6
           }
         ],
-        "divides": [{ "rotate": 90 }],
+        "divides": [
+          {
+            "rotate": 90
+          }
+        ],
         "removeBorders": [1, 4],
         "hexes": ["A9"]
       },
@@ -1122,7 +1127,11 @@
             "side": 6
           }
         ],
-        "divides": [{ "rotate": 90 }],
+        "divides": [
+          {
+            "rotate": 90
+          }
+        ],
         "removeBorders": [1, 4],
         "hexes": ["A13"]
       },
@@ -1651,7 +1660,11 @@
           }
         ],
         "removeBorders": [3, 6],
-        "divides": [{ "rotate": 30 }],
+        "divides": [
+          {
+            "rotate": 30
+          }
+        ],
         "hexes": ["F2"]
       },
       {
@@ -1882,7 +1895,11 @@
           }
         ],
         "removeBorders": [2, 5],
-        "divides": [{ "rotate": 150 }],
+        "divides": [
+          {
+            "rotate": 150
+          }
+        ],
         "hexes": ["G15"]
       },
       {
@@ -2044,7 +2061,11 @@
           }
         ],
         "removeBorders": [1, 4],
-        "divides": [{ "rotate": 90 }],
+        "divides": [
+          {
+            "rotate": 90
+          }
+        ],
         "hexes": ["I7"]
       },
       {

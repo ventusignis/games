@@ -13,10 +13,30 @@ let public_games = [];
 let games = map((file) => {
   let dir = path.dirname(file);
   let group = dir === "." ? undefined : dir;
-  let name = path.basename(file, ".json");
-  let object = name.replace(/[-\.]/g, "_");
 
-  let game = { name, file, dir, object };
+  let id = path.basename(file, ".json");
+  let slug = encodeURIComponent(id);
+
+  // Load json in order to get more data
+  let data = require(`./games/${file}`);
+  let { title, subtitle, designer, publisher } = data.info;
+
+  let minPlayers = data.players ? data.players[0].number : 0;
+  let maxPlayers = data.players
+    ? data.players[data.players.length - 1].number
+    : 0;
+
+  let game = {
+    id,
+    slug,
+    file,
+    title,
+    subtitle,
+    designer,
+    publisher,
+    minPlayers,
+    maxPlayers,
+  };
 
   if (group) {
     game.group = group;
