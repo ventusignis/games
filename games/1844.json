@@ -65,7 +65,9 @@
       "label": "M5",
       "icon": "mountain",
       "color": "mountain"
-    }
+    },
+    {"label": "B"},
+    {"label": "Z"}
   ],
   "wip": true,
   "ipo": true,
@@ -124,7 +126,7 @@
         "shares": 1
       }
     ],
-    "ssb": [
+    "pre-sbb": [
       {
         "quantity": 1,
         "label": "President's Certificate",
@@ -141,18 +143,18 @@
   "tokenTypes": {
     "regional": ["Home", 40, 100],
     "historical": ["Home", 40, 100, 100, 100],
-    "ssb": ["Home", 40]
+    "pre-sbb": ["Home", 40]
   },
   "companies": [
     {
-      "name": "",
-      "abbrev": "SSB",
+      "name": "Schweizerische Bundesbahnen",
+      "abbrev": "SBB",
       "color": "black",
       "token": {
         "bar": "brown",
         "barBorderColor": "white"
       },
-      "tokens": [],
+      "tokens": [100, 100, 100, 100, 100],
       "marketTokens": 2,
       "extraStationTokens": 10,
       "shares": [
@@ -163,14 +165,21 @@
           "shares": 2
         },
         {
-          "quantity": 18,
+          "quantity": 4,
+          "label": "Double Share",
+          "percent": 10,
+          "shares": 2
+        },
+        {
+          "quantity": 10,
+          "label": "Single Share",
           "percent": 5,
           "shares": 1
         }
       ]
     },
     {
-      "id": "R1",
+      "id": "R-1",
       "minor": true,
       "name": "Jura Neuchatelois",
       "abbrev": "JN",
@@ -183,7 +192,7 @@
       "shares": "regional"
     },
     {
-      "id": "R2",
+      "id": "R0",
       "minor": true,
       "name": "Chur - Arosa",
       "abbrev": "ChA",
@@ -196,7 +205,7 @@
       "shares": "regional"
     },
     {
-      "id": "R3",
+      "id": "R1",
       "minor": true,
       "name": "Visp - Zermatt",
       "abbrev": "VZ",
@@ -209,7 +218,7 @@
       "shares": "regional"
     },
     {
-      "id": "H1",
+      "id": "H-1",
       "name": "Ferrovie Nord Milano",
       "abbrev": "FNM",
       "color": "green",
@@ -220,7 +229,7 @@
       "shares": "historical"
     },
     {
-      "id": "H2",
+      "id": "H0",
       "name": "Rhätische Bahn",
       "abbrev": "RhB",
       "color": "red",
@@ -231,7 +240,7 @@
       "shares": "historical"
     },
     {
-      "id": "H3",
+      "id": "H1",
       "name": "Bern - Lötschberg - Simplon",
       "abbrev": "BLS",
       "color": "yellow",
@@ -242,7 +251,7 @@
       "shares": "historical"
     },
     {
-      "id": "H4",
+      "id": "H2",
       "name": "Sensetalbahn",
       "abbrev": "STB",
       "color": "blue",
@@ -253,7 +262,7 @@
       "shares": "historical"
     },
     {
-      "id": "H5",
+      "id": "H3",
       "name": "Appenzeller Bahn",
       "abbrev": "AB",
       "color": "gray",
@@ -264,8 +273,8 @@
       "shares": "historical"
     },
     {
-      "id": "H6",
-      "name": "Noxtreux - Oberland bernois",
+      "id": "H4",
+      "name": "Montreux - Oberland bernois",
       "abbrev": "MOB",
       "color": "orange",
       "token": {
@@ -275,7 +284,7 @@
       "shares": "historical"
     },
     {
-      "id": "V1",
+      "id": "V-1",
       "minor": true,
       "name": "Schweizerische Nordostbahn",
       "abbrev": "NOB",
@@ -284,11 +293,11 @@
         "bar": "blue",
         "barBorderColor": "white"
       },
-      "tokens": "ssb",
-      "shares": "ssb"
+      "tokens": "pre-sbb",
+      "shares": "pre-sbb"
     },
     {
-      "id": "V2",
+      "id": "V0",
       "minor": true,
       "name": "Schweizerische Centralbahn",
       "abbrev": "SCB",
@@ -297,24 +306,24 @@
         "bar": "red",
         "barBorderColor": "white"
       },
-      "tokens": "ssb",
-      "shares": "ssb"
+      "tokens": "pre-sbb",
+      "shares": "pre-sbb"
     },
     {
-      "id": "V3",
+      "id": "V1",
       "minor": true,
-      "name": "Vereinigt Schweizer Bahnen",
+      "name": "Vereinigte Schweizer Bahnen",
       "abbrev": "VSB",
       "color": "black",
       "token": {
         "bar": "green",
         "barBorderColor": "white"
       },
-      "tokens": "ssb",
-      "shares": "ssb"
+      "tokens": "pre-sbb",
+      "shares": "pre-sbb"
     },
     {
-      "id": "V4",
+      "id": "V2",
       "minor": true,
       "name": "Jura - Simplon",
       "abbrev": "JS",
@@ -323,21 +332,21 @@
         "bar": "brightGreen",
         "barBorderColor": "white"
       },
-      "tokens": "ssb",
-      "shares": "ssb"
+      "tokens": "pre-sbb",
+      "shares": "pre-sbb"
     },
     {
-      "id": "V5",
+      "id": "V3",
       "minor": true,
-      "name": "Gatthardbahn",
+      "name": "Gotthardbahn",
       "abbrev": "GB",
       "color": "black",
       "token": {
         "bar": "yellow",
         "barBorderColor": "white"
       },
-      "tokens": "ssb",
-      "shares": "ssb"
+      "tokens": "pre-sbb",
+      "shares": "pre-sbb"
     }
   ],
   "trains": [
@@ -437,52 +446,57 @@
     {
       "id": "M1",
       "name": "Mountain #1",
-      "price": 50,
-      "revenue": 10,
+      "price": 150,
+      "revenue": 40,
       "token": {
         "icon": "mountain",
         "color": "mountain"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs to the associated mountain. Does not count towards certificate limit."
     },
     {
       "id": "M2",
       "name": "Mountain #2",
-      "price": 50,
-      "revenue": 10,
+      "price": 150,
+      "revenue": 40,
       "token": {
         "icon": "mountain",
         "color": "mountain"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs to the associated mountain. Does not count towards certificate limit."
     },
     {
       "id": "M3",
       "name": "Mountain #3",
-      "price": 50,
-      "revenue": 10,
+      "price": 150,
+      "revenue": 40,
       "token": {
         "icon": "mountain",
         "color": "mountain"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs to the associated mountain. Does not count towards certificate limit."
     },
     {
       "id": "M4",
       "name": "Mountain #4",
-      "price": 50,
-      "revenue": 10,
+      "price": 150,
+      "revenue": 40,
       "token": {
         "icon": "mountain",
         "color": "mountain"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs to the associated mountain. Does not count towards certificate limit."
     },
     {
       "id": "M5",
       "name": "Mountain #5",
-      "price": 50,
-      "revenue": 10,
+      "price": 150,
+      "revenue": 40,
       "token": {
         "icon": "mountain",
         "color": "mountain"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs to the associated mountain. Does not count towards certificate limit."
     },
     {
       "id": "T1",
@@ -492,7 +506,8 @@
       "token": {
         "color": "tunnel",
         "icon": "tunnel"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs through the associated tunnel. Does not count towards certificate limit."
     },
     {
       "id": "T2",
@@ -502,7 +517,8 @@
       "token": {
         "color": "tunnel",
         "icon": "tunnel"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs through the associated tunnel. Does not count towards certificate limit."
     },
     {
       "id": "T3",
@@ -512,7 +528,8 @@
       "token": {
         "color": "tunnel",
         "icon": "tunnel"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs through the associated tunnel. Does not count towards certificate limit."
     },
     {
       "id": "T4",
@@ -522,7 +539,8 @@
       "token": {
         "color": "tunnel",
         "icon": "tunnel"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs through the associated tunnel. Does not count towards certificate limit."
     },
     {
       "id": "T5",
@@ -532,13 +550,15 @@
       "token": {
         "color": "tunnel",
         "icon": "tunnel"
-      }
+      },
+      "description": "This certificate only begins paying revenue after a train runs through the associated tunnel. Does not count towards certificate limit."
     },
     {
       "id": "P1",
       "name": "Brienzer - Rothorn - Bahn",
       "price": 20,
-      "revenue": 5
+      "revenue": 5,
+      "description": "No special ability."
     },
     {
       "id": "P2",
@@ -546,7 +566,7 @@
       "price": 50,
       "revenue": 10,
       "tile": "8",
-      "description": "Once in the game, a company may place an additional yellow track tile according to the rules. Either that company or it's director must be the owner of the P2. Turn over the certificate after use."
+      "description": "Once in the game, a company may place an additional yellow track tile according to the rules. Either that company or its director must be the owner of the P2. Turn over the certificate after use."
     },
     {
       "id": "P3",
@@ -564,7 +584,7 @@
       "name": "Furka - Oberalpbahn",
       "price": 110,
       "revenue": 20,
-      "hex": "I18",
+      "hex": "I16",
       "description": "The owner of this Private Railway company may at any time place the Furka-Oberalp special tiles. This is an additional tile lay and free of cost."
     },
     {
@@ -1004,7 +1024,40 @@
     "468": 5,
     "611": 6,
     "619": 4,
-    "901": 1,
+    "901": {
+      "color": "green",
+      "values": [{
+          "value": 40,
+          "angle": 210,
+          "percent": 0.65
+        },
+        {
+          "value": 40,
+          "angle": 330,
+          "percent": 0.65
+        }],
+      "labels": [{
+          "label": "L",
+          "angle": 270,
+          "percent": 0.70
+      }],
+      "cities": [{ 
+          "angle": 30,
+          "percent": 0.55
+        },
+        {
+          "angle": 150,
+          "percent": 0.55
+         }],
+      "track": [{
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        }]
+    },
     "902": 1,
     "903": 1,
     "904": 1,
@@ -1022,7 +1075,7 @@
       "values": [
         {
           "value": 50,
-          "angle": 270,
+          "angle": 210,
           "percent": 0.88
         }
       ],
@@ -1030,7 +1083,7 @@
         {
           "label": "Z",
           "angle": 90,
-          "percent": 0.88
+          "percent": 0.60
         }
       ],
       "cities": [
@@ -1053,7 +1106,7 @@
         }
       ]
     },
-    "F01": {
+    "F1": {
       "color": "tunnel",
       "terrain": [
         {
@@ -1083,7 +1136,7 @@
         }
       ]
     },
-    "F02": {
+    "F2": {
       "color": "tunnel",
       "terrain": [
         {
@@ -1134,7 +1187,7 @@
         }
       ]
     },
-    "F03": {
+    "F3": {
       "color": "tunnel",
       "terrain": [
         {
@@ -1186,7 +1239,7 @@
         }
       ]
     },
-    "F04": {
+    "F4": {
       "color": "tunnel",
       "terrain": [
         {
@@ -1229,7 +1282,7 @@
         }
       ]
     },
-    "F05|V2": {
+    "F5|V2": {
       "color": "tunnel",
       "terrain": [
         {
@@ -1349,7 +1402,7 @@
     {
       "name": "Original",
       "copy": 1,
-      "remove": ["K4", "L3", "L25", "B19"],
+      "remove": ["K2", "L23", "B17"],
       "players": {
         "x": 10,
         "y": 340
@@ -1366,36 +1419,37 @@
             {
               "name": {
                 "reverse": true,
-                "offset": 54,
                 "name": "Genève"
               },
+              "rotation": 90,
+              "x": 30,
               "size": 2
             }
           ],
           "track": [
             {
               "side": 3,
-              "type": "straight"
+              "type": "gentle"
             }
           ],
           "values": [
             {
               "value": 40,
-              "angle": 180,
-              "percent": 0.667
+              "angle": 150,
+              "percent": 0.6
             }
           ],
-          "hexes": ["K2"]
+          "hexes": ["K0"]
         },
         {
           "color": "offboard",
           "track": [
             {
-              "side": 3,
+              "side": 2,
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "W→E +90",
               "percent": 0.4
@@ -1444,7 +1498,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["F13"]
+          "hexes": ["F11"]
         },
         {
           "color": "plain",
@@ -1464,7 +1518,7 @@
               }
             }
           ],
-          "hexes": ["H25"]
+          "hexes": ["H23"]
         },
         {
           "color": "plain",
@@ -1474,7 +1528,7 @@
               "cost": 60
             }
           ],
-          "hexes": ["H31", "H33"]
+          "hexes": ["H29", "H31"]
         },
         {
           "color": "plain",
@@ -1484,7 +1538,7 @@
               "cost": 30
             }
           ],
-          "hexes": ["H27", "I32", "J31", "G32", "G34"]
+          "hexes": ["H25", "I30", "J29", "G30", "G32"]
         },
         {
           "color": "plain",
@@ -1504,7 +1558,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["L23"]
+          "hexes": ["L21"]
         },
         {
           "color": "plain",
@@ -1528,7 +1582,7 @@
               "side": 6
             }
           ],
-          "hexes": ["M22"]
+          "hexes": ["M20"]
         },
         {
           "color": "mountain",
@@ -1556,7 +1610,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["M24"]
+          "hexes": ["M22"]
         },
         {
           "color": "tunnel",
@@ -1602,7 +1656,7 @@
               "side": 4
             }
           ],
-          "hexes": ["H23"]
+          "hexes": ["H21"]
         },
         {
           "color": "offboard",
@@ -1612,7 +1666,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +30",
               "percent": 0.2
@@ -1644,7 +1698,7 @@
             ]
           },
           "removeBorders": [4],
-          "hexes": ["A20"]
+          "hexes": ["A18"]
         },
         {
           "color": "mountain",
@@ -1668,7 +1722,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["K32"]
+          "hexes": ["K30"]
         },
         {
           "color": "offboard",
@@ -1678,7 +1732,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "W→E +90",
               "percent": 0.25
@@ -1709,7 +1763,7 @@
               }
             ]
           },
-          "hexes": ["F35"]
+          "hexes": ["F33"]
         },
         {
           "color": "offboard",
@@ -1723,7 +1777,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "x": 15,
               "value": "W→E +90",
@@ -1756,7 +1810,7 @@
               }
             ]
           },
-          "hexes": ["J33"]
+          "hexes": ["J31"]
         },
         {
           "color": "offboard",
@@ -1767,7 +1821,7 @@
             }
           ],
           "removeBorders": [4],
-          "hexes": ["N21"]
+          "hexes": ["N19"]
         },
         {
           "color": "offboard",
@@ -1777,7 +1831,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +40",
               "y": 22,
@@ -1812,7 +1866,7 @@
               }
             ]
           },
-          "hexes": ["N23"]
+          "hexes": ["N21"]
         },
         {
           "color": "offboard",
@@ -1826,7 +1880,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +30",
               "percent": 0.2
@@ -1857,7 +1911,7 @@
               }
             ]
           },
-          "hexes": ["B13"]
+          "hexes": ["B11"]
         }
       ]
     },
@@ -1914,7 +1968,7 @@
               }
             ]
           },
-          "hexes": ["E28"]
+          "hexes": ["E26"]
         },
         {
           "color": "offboard",
@@ -1925,7 +1979,7 @@
             }
           ],
           "removeBorders": [6],
-          "hexes": ["G32"]
+          "hexes": ["G30"]
         },
         {
           "color": "offboard",
@@ -1936,7 +1990,7 @@
             }
           ],
           "removeBorders": [2],
-          "hexes": ["I32"]
+          "hexes": ["I30"]
         },
         {
           "color": "offboard",
@@ -1955,7 +2009,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "x": 15,
               "value": "W→E +90",
@@ -1988,7 +2042,7 @@
               }
             ]
           },
-          "hexes": ["H31"]
+          "hexes": ["H29"]
         },
         {
           "color": "offboard",
@@ -2002,7 +2056,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "W→E +50",
               "percent": 0.2
@@ -2033,17 +2087,17 @@
               }
             ]
           },
-          "hexes": ["F5"]
+          "hexes": ["F3"]
         },
         {
           "color": "offboard",
           "track": [
             {
-              "side": 3,
+              "side": 2,
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "W→E +90",
               "percent": 0.4
@@ -2072,7 +2126,7 @@
               }
             ]
           },
-          "hexes": ["L3"]
+          "hexes": ["L1"]
         },
         {
           "color": "offboard",
@@ -2082,7 +2136,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +40",
               "percent": 0.4
@@ -2111,7 +2165,7 @@
               }
             ]
           },
-          "hexes": ["L17"]
+          "hexes": ["L15"]
         },
         {
           "color": "offboard",
@@ -2122,7 +2176,7 @@
             }
           ],
           "removeBorders": [4],
-          "hexes": ["M22"]
+          "hexes": ["M20"]
         },
         {
           "color": "offboard",
@@ -2132,7 +2186,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +40",
               "y": 22,
@@ -2167,7 +2221,7 @@
               }
             ]
           },
-          "hexes": ["M24"]
+          "hexes": ["M22"]
         },
         {
           "color": "offboard",
@@ -2181,7 +2235,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +40",
               "percent": 0.4
@@ -2210,7 +2264,7 @@
               }
             ]
           },
-          "hexes": ["M10"]
+          "hexes": ["M8"]
         },
         {
           "color": "offboard",
@@ -2224,7 +2278,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "W→E +50",
               "percent": 0.2
@@ -2255,7 +2309,7 @@
               }
             ]
           },
-          "hexes": ["C10"]
+          "hexes": ["C8"]
         },
         {
           "color": "offboard",
@@ -2269,7 +2323,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +40",
               "percent": 0.2
@@ -2300,7 +2354,7 @@
               }
             ]
           },
-          "hexes": ["B13"]
+          "hexes": ["B11"]
         },
         {
           "color": "offboard",
@@ -2310,7 +2364,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "N↓S +30",
               "percent": 0.2
@@ -2342,7 +2396,7 @@
             ]
           },
           "removeBorders": [4, 6],
-          "hexes": ["A20"]
+          "hexes": ["A18"]
         },
         {
           "color": "offboard",
@@ -2357,7 +2411,7 @@
             }
           ],
           "removeBorders": [1],
-          "hexes": ["A22"]
+          "hexes": ["A20"]
         },
         {
           "color": "offboard",
@@ -2368,7 +2422,7 @@
             }
           ],
           "removeBorders": [3],
-          "hexes": ["B19"]
+          "hexes": ["B17"]
         },
         {
           "color": "offboard",
@@ -2382,7 +2436,7 @@
               "type": "offboard"
             }
           ],
-          "routeBonuses": [
+          "routeBonus": [
             {
               "value": "W→E +50",
               "percent": 0.2
@@ -2413,7 +2467,7 @@
               }
             ]
           },
-          "hexes": ["C28"]
+          "hexes": ["C26"]
         },
         {
           "color": "gray",
@@ -2421,26 +2475,27 @@
             {
               "name": {
                 "reverse": true,
-                "offset": 54,
                 "name": "Genève"
               },
+              "rotation": 90,
+              "x": 30,
               "size": 2
             }
           ],
           "track": [
             {
-              "side": 6,
+              "side": 3,
               "type": "gentle"
             }
           ],
           "values": [
             {
               "value": 40,
-              "angle": 180,
-              "percent": 0.667
+              "angle": 150,
+              "percent": 0.6
             }
           ],
-          "hexes": ["K4"]
+          "hexes": ["K0"]
         },
         {
           "color": "gray",
@@ -2494,7 +2549,7 @@
               "percent": 0.75
             }
           ],
-          "hexes": ["J15"]
+          "hexes": ["J13"]
         },
         {
           "color": "gray",
@@ -2536,7 +2591,7 @@
               "percent": 0.75
             }
           ],
-          "hexes": ["G22"]
+          "hexes": ["G20"]
         },
         {
           "color": "gray",
@@ -2546,7 +2601,7 @@
               "side": 1
             }
           ],
-          "hexes": ["J19"]
+          "hexes": ["J17"]
         },
         {
           "color": "mountain",
@@ -2590,7 +2645,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["H9"]
+          "hexes": ["H7"]
         },
         {
           "color": "mountain",
@@ -2618,7 +2673,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["L15"]
+          "hexes": ["L13"]
         },
         {
           "color": "mountain",
@@ -2658,7 +2713,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["G16"]
+          "hexes": ["G14"]
         },
         {
           "color": "mountain",
@@ -2690,7 +2745,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["I16"]
+          "hexes": ["I14"]
         },
         {
           "color": "mountain",
@@ -2718,7 +2773,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["F21"]
+          "hexes": ["F19"]
         },
         {
           "color": "mountain",
@@ -2746,7 +2801,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["L25"]
+          "hexes": ["L23"]
         },
         {
           "color": "mountain",
@@ -2770,7 +2825,7 @@
               "percent": 0.25
             }
           ],
-          "hexes": ["J31"]
+          "hexes": ["J29"]
         },
         {
           "color": "tunnel",
@@ -2812,7 +2867,7 @@
               "rotation": 330
             }
           ],
-          "hexes": ["J11"]
+          "hexes": ["J9"]
         },
         {
           "color": "tunnel",
@@ -2825,7 +2880,7 @@
           "names": [
             {
               "name": "Albula",
-              "percent": 0.333
+              "percent": 0.4
             }
           ],
           "tunnelEntrances": [
@@ -2860,7 +2915,7 @@
               "rotation": 330
             }
           ],
-          "hexes": ["H29"]
+          "hexes": ["H27"]
         },
         {
           "color": "tunnel",
@@ -2873,7 +2928,7 @@
           "names": [
             {
               "name": "Lötschberg",
-              "percent": 0.333
+              "percent": 0.4
             }
           ],
           "tunnelEntrances": [
@@ -2893,7 +2948,7 @@
               "rotation": 330
             }
           ],
-          "hexes": ["I14"]
+          "hexes": ["I12"]
         },
         {
           "color": "tunnel",
@@ -2906,7 +2961,7 @@
           "names": [
             {
               "name": "Simplon",
-              "percent": 0.333
+              "percent": 0.4
             }
           ],
           "tunnelEntrances": [
@@ -2926,7 +2981,7 @@
               "rotation": 330
             }
           ],
-          "hexes": ["K16"]
+          "hexes": ["K14"]
         },
         {
           "color": "tunnel",
@@ -2957,7 +3012,7 @@
               "gauge": "dashed"
             }
           ],
-          "hexes": ["I18"]
+          "hexes": ["I16"]
         },
         {
           "color": "tunnel",
@@ -3009,7 +3064,7 @@
               "gauge": "dashed"
             }
           ],
-          "hexes": ["H19"]
+          "hexes": ["H17"]
         },
         {
           "color": "tunnel",
@@ -3059,7 +3114,7 @@
               "gauge": "dashed"
             }
           ],
-          "hexes": ["H21"]
+          "hexes": ["H19"]
         },
         {
           "color": "tunnel",
@@ -3101,7 +3156,7 @@
               "gauge": "dashed"
             }
           ],
-          "hexes": ["H23"]
+          "hexes": ["H21"]
         },
         {
           "color": "tunnel",
@@ -3146,7 +3201,7 @@
               "side": 4
             }
           ],
-          "hexes": ["H25"]
+          "hexes": ["H23"]
         },
         {
           "color": "plain",
@@ -3157,7 +3212,7 @@
               }
             }
           ],
-          "hexes": ["E10"]
+          "hexes": ["E8"]
         },
         {
           "color": "plain",
@@ -3168,7 +3223,7 @@
               }
             }
           ],
-          "hexes": ["C16"]
+          "hexes": ["C14"]
         },
         {
           "color": "plain",
@@ -3179,7 +3234,7 @@
               }
             }
           ],
-          "hexes": ["D19"]
+          "hexes": ["D17"]
         },
         {
           "color": "plain",
@@ -3190,7 +3245,7 @@
               }
             }
           ],
-          "hexes": ["D23"]
+          "hexes": ["D21"]
         },
         {
           "color": "plain",
@@ -3201,7 +3256,7 @@
               }
             }
           ],
-          "hexes": ["B25"]
+          "hexes": ["B23"]
         },
         {
           "color": "plain",
@@ -3212,7 +3267,7 @@
               }
             }
           ],
-          "hexes": ["G18"]
+          "hexes": ["G16"]
         },
         {
           "color": "plain",
@@ -3224,7 +3279,7 @@
               "companies": ["GB"]
             }
           ],
-          "hexes": ["G20"]
+          "hexes": ["G18"]
         },
         {
           "color": "plain",
@@ -3236,7 +3291,7 @@
               "companies": ["VSB"]
             }
           ],
-          "hexes": ["C26"]
+          "hexes": ["C24"]
         },
         {
           "color": "plain",
@@ -3248,7 +3303,7 @@
               "companies": ["AB"]
             }
           ],
-          "hexes": ["D27"]
+          "hexes": ["D25"]
         },
         {
           "color": "plain",
@@ -3269,7 +3324,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["I8"]
+          "hexes": ["I6"]
         },
         {
           "color": "plain",
@@ -3289,7 +3344,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["B21"]
+          "hexes": ["B19"]
         },
         {
           "color": "plain",
@@ -3317,7 +3372,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["D21"]
+          "hexes": ["D19"]
         },
         {
           "color": "plain",
@@ -3338,7 +3393,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["C14"]
+          "hexes": ["C12"]
         },
         {
           "color": "plain",
@@ -3358,7 +3413,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["E20"]
+          "hexes": ["E18"]
         },
         {
           "color": "plain",
@@ -3378,7 +3433,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["D15"]
+          "hexes": ["D13"]
         },
         {
           "color": "plain",
@@ -3399,7 +3454,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["K12"]
+          "hexes": ["K10"]
         },
         {
           "color": "plain",
@@ -3419,7 +3474,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["F23"]
+          "hexes": ["F21"]
         },
         {
           "color": "plain",
@@ -3439,7 +3494,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["I30"]
+          "hexes": ["I28"]
         },
         {
           "color": "plain",
@@ -3460,7 +3515,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["G30"]
+          "hexes": ["G28"]
         },
         {
           "color": "plain",
@@ -3494,7 +3549,7 @@
               "percent": 0.6
             }
           ],
-          "hexes": ["H15"]
+          "hexes": ["H13"]
         },
         {
           "color": "plain",
@@ -3514,7 +3569,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["K22"]
+          "hexes": ["K20"]
         },
         {
           "color": "plain",
@@ -3534,7 +3589,7 @@
               "percent": 0.4
             }
           ],
-          "hexes": ["K24"]
+          "hexes": ["K22"]
         },
         {
           "color": "plain",
@@ -3570,7 +3625,7 @@
               "end": 0.25
             }
           ],
-          "hexes": ["L23"]
+          "hexes": ["L21"]
         },
         {
           "color": "plain",
@@ -3615,7 +3670,7 @@
               "end": 0.25
             }
           ],
-          "hexes": ["F9"]
+          "hexes": ["F7"]
         },
         {
           "color": "plain",
@@ -3659,7 +3714,7 @@
               "end": 0.25
             }
           ],
-          "hexes": ["F19"]
+          "hexes": ["F17"]
         },
         {
           "color": "plain",
@@ -3695,7 +3750,7 @@
               "end": 0.25
             }
           ],
-          "hexes": ["G28"]
+          "hexes": ["G26"]
         },
         {
           "color": "plain",
@@ -3730,7 +3785,7 @@
               "end": 0.25
             }
           ],
-          "hexes": ["F13"]
+          "hexes": ["F11"]
         },
         {
           "color": "yellow",
@@ -3764,7 +3819,7 @@
               }
             }
           ],
-          "hexes": ["C22"]
+          "hexes": ["C20"]
         },
         {
           "color": "yellow",
@@ -3791,7 +3846,7 @@
               }
             }
           ],
-          "hexes": ["G10"]
+          "hexes": ["G8"]
         },
         {
           "color": "yellow",
@@ -3844,7 +3899,7 @@
               "percent": 0.667
             }
           ],
-          "hexes": ["D17"]
+          "hexes": ["D15"]
         },
         {
           "color": "yellow",
@@ -3889,7 +3944,7 @@
               "end": 0.25
             }
           ],
-          "hexes": ["I6"]
+          "hexes": ["I4"]
         },
         {
           "color": "plain",
@@ -3909,7 +3964,7 @@
               }
             }
           ],
-          "hexes": ["E12"]
+          "hexes": ["E10"]
         },
         {
           "color": "plain",
@@ -3929,7 +3984,7 @@
               }
             }
           ],
-          "hexes": ["F15"]
+          "hexes": ["F13"]
         },
         {
           "color": "plain",
@@ -3949,7 +4004,7 @@
               }
             }
           ],
-          "hexes": ["H27"]
+          "hexes": ["H25"]
         },
         {
           "color": "plain",
@@ -3969,7 +4024,7 @@
               }
             }
           ],
-          "hexes": ["H5"]
+          "hexes": ["H3"]
         },
         {
           "color": "plain",
@@ -3989,7 +4044,7 @@
               }
             }
           ],
-          "hexes": ["J13"]
+          "hexes": ["J11"]
         },
         {
           "color": "plain",
@@ -4009,7 +4064,7 @@
               }
             }
           ],
-          "hexes": ["I12"]
+          "hexes": ["I10"]
         },
         {
           "color": "plain",
@@ -4029,7 +4084,7 @@
               }
             }
           ],
-          "hexes": ["L13"]
+          "hexes": ["L11"]
         },
         {
           "color": "plain",
@@ -4049,7 +4104,7 @@
               }
             }
           ],
-          "hexes": ["K10"]
+          "hexes": ["K8"]
         },
         {
           "color": "plain",
@@ -4077,7 +4132,7 @@
               }
             }
           ],
-          "hexes": ["F27"]
+          "hexes": ["F25"]
         },
         {
           "color": "plain",
@@ -4097,7 +4152,7 @@
               }
             }
           ],
-          "hexes": ["J3"]
+          "hexes": ["J1"]
         },
         {
           "color": "plain",
@@ -4107,7 +4162,7 @@
               "cost": 20
             }
           ],
-          "hexes": ["C18", "E14", "E24", "F11"]
+          "hexes": ["C16", "E12", "E22", "F9"]
         },
         {
           "color": "plain",
@@ -4118,17 +4173,17 @@
             }
           ],
           "hexes": [
-            "C24",
-            "D25",
+            "C22",
+            "D23",
+            "D7",
             "D9",
             "D11",
-            "D13",
-            "E8",
-            "F17",
-            "H7",
-            "H17",
-            "I10",
-            "J9"
+            "E6",
+            "F15",
+            "H5",
+            "H15",
+            "I8",
+            "J7"
           ]
         },
         {
@@ -4140,23 +4195,23 @@
             }
           ],
           "hexes": [
-            "F25",
-            "G26",
+            "F23",
+            "G24",
+            "H9",
             "H11",
-            "H13",
-            "G12",
-            "K8",
-            "K14",
+            "G10",
+            "K6",
+            "K12",
+            "L7",
             "L9",
-            "L11",
-            "J17",
+            "J15",
+            "J19",
             "J21",
             "J23",
-            "J25",
+            "I22",
             "I24",
             "I26",
-            "I28",
-            "J29"
+            "J27"
           ]
         },
         {
@@ -4167,43 +4222,43 @@
               "cost": 90
             }
           ],
-          "hexes": ["I20", "I22", "G24"]
+          "hexes": ["I18", "I20", "G22"]
         },
         {
           "color": "plain",
           "hexes": [
-            "B23",
-            "C12",
-            "C20",
+            "B21",
+            "C10",
+            "C18",
+            "E14",
             "E16",
-            "E18",
-            "E22",
-            "E26",
-            "F7",
-            "F29",
+            "E20",
+            "E24",
+            "F5",
+            "F27",
+            "G4",
             "G6",
-            "G8",
-            "G14",
-            "I4"
+            "G12",
+            "I2"
           ]
         }
       ],
       "borders": [
         {
           "color": "mountain",
-          "coords": ["G6p1", "G6p6", "G6p5", "F7p6"]
+          "coords": ["G4p1", "G4p6", "G4p5", "F5p6"]
         },
         {
           "color": "mountain",
-          "coords": ["F11p3", "F11p4"]
+          "coords": ["F9p3", "F9p4"]
         },
         {
           "color": "mountain",
-          "coords": ["J13p3", "J13p4"]
+          "coords": ["J11p3", "J11p4"]
         },
         {
           "color": "mountain",
-          "coords": ["E22p3", "E22p4", "E22p5"]
+          "coords": ["E20p3", "E20p4", "E20p5"]
         }
       ]
     }
