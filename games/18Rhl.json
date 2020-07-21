@@ -746,12 +746,16 @@
           "end": 0.5
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
@@ -813,12 +817,16 @@
           "type": "gentle"
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
@@ -884,12 +892,16 @@
           "end": 0.5
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
@@ -951,12 +963,16 @@
           "type": "sharp"
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
@@ -1022,12 +1038,16 @@
           "end": 0.5
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
@@ -1089,12 +1109,16 @@
           "type": "sharp"
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
@@ -1153,12 +1177,16 @@
           "side": 6
         },
         {
-          "side": 2,
+          "side": 5,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 5,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         }
@@ -1209,12 +1237,16 @@
           "side": 6
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         }
@@ -1265,12 +1297,16 @@
           "side": 6
         },
         {
-          "side": 1,
+          "side": 4,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 4,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         }
@@ -1399,12 +1435,16 @@
           "side": 6
         },
         {
-          "side": 2,
+          "side": 5,
+          "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         },
         {
           "side": 5,
+          "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+          "type": "custom",
           "color": "water",
           "rotation": 30
         }
@@ -1419,7 +1459,7 @@
       "quantity": 3
     },
     "935": {
-      "color": "yellow",
+      "color": "orange",
       "cities": [
         {
           "name": {
@@ -1517,8 +1557,8 @@
           "value": 30
         },
         {
-          "angle": -30,
-          "percent": 0.8,
+          "x": 35,
+          "y": 45,
           "value": 30
         }
       ],
@@ -1660,11 +1700,12 @@
           "percent": 0.8
         }
       ],
-      "terrain": [
+      "tokens": [
         {
-          "type": "coalcar",
-          "angle": 150,
-          "percent": 0.75
+          "icon": "coalcar",
+          "color": "grey",
+          "x": -33,
+          "y": -52
         }
       ],
       "track": [
@@ -1757,9 +1798,9 @@
             }
           ]
         },
-        "labels": [
+        "routeBonus": [
           {
-            "label": "RGE",
+            "value": "RGE",
             "percent": 0.667,
             "y": -100
           }
@@ -1789,9 +1830,9 @@
             }
           ]
         },
-        "labels": [
+        "routeBonus": [
           {
-            "label": "RGE",
+            "value": "RGE",
             "percent": 0.667,
             "y": -100
           }
@@ -1807,7 +1848,7 @@
             }
           }
         ],
-        "removeBorders": [4],
+        "removeBorders": [4,5],
         "hexes": ["A14"],
         "track": [
           {
@@ -1833,7 +1874,7 @@
             }
           ]
         },
-        "removeBorders": [1],
+        "removeBorders": [1,5,6],
         "hexes": ["A16"]
       },
       {
@@ -1845,7 +1886,7 @@
             }
           }
         ],
-        "removeBorders": [4],
+        "removeBorders": [2,3,4],
         "hexes": ["B15"],
         "track": [
           {
@@ -1871,7 +1912,7 @@
             }
           ]
         },
-        "removeBorders": [1],
+        "removeBorders": [1,2],
         "hexes": ["B17"]
       },
       {
@@ -1973,9 +2014,9 @@
             }
           ]
         },
-        "labels": [
+        "routeBonus": [
           {
-            "label": "RGE",
+            "value": "RGE",
             "percent": 0.667
           }
         ],
@@ -2004,9 +2045,9 @@
             }
           ]
         },
-        "labels": [
+        "routeBonus": [
           {
-            "label": "RGE",
+            "value": "RGE",
             "percent": 0.667
           }
         ],
@@ -2027,10 +2068,10 @@
             }
           }
         ],
-        "labels": [
+        "routeBonus": [
           {
-            "label": "ERh",
-            "percent": 0.667
+            "value": "ERh +80",
+            "y": 50
           }
         ],
         "offBoardRevenue": {
@@ -2120,9 +2161,9 @@
             }
           ]
         },
-        "labels": [
+        "routeBonus": [
           {
-            "label": "ERh",
+            "value": "ERh +80",
             "y": 40
           }
         ],
@@ -2273,10 +2314,12 @@
             }
           ]
         },
-        "terrain": [
+        "tokens": [
           {
-            "type": "mining",
-            "y": -50
+            "icon": "mining",
+            "color": "red",
+            "destination": true,
+            "y": 53
           }
         ],
         "removeBorders": [6],
@@ -2343,10 +2386,12 @@
             }
           }
         ],
-        "terrain": [
+        "tokens": [
           {
-            "type": "coalcar",
-            "y": -50
+            "icon": "coalcar",
+            "destination": true,
+            "color": "grey",
+            "y": -60
           }
         ],
         "hexes": ["D7"]
@@ -2678,12 +2723,17 @@
         ],
         "track": [
           {
+            "side": 5,
+            "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+            "type": "custom",
             "side": 2,
             "color": "water",
             "rotation": 30
           },
           {
             "side": 5,
+            "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+            "type": "custom",
             "color": "water",
             "rotation": 30
           }
@@ -2695,8 +2745,15 @@
         "labels": [
           {
             "label": "D",
-            "x": -40,
+            "x": -30,
             "y": -37
+          }
+        ],
+        "names": [
+          {
+            "name": "Düsseldorf",
+            "x": 20,
+            "y": 10
           }
         ],
         "cities": [
@@ -2708,15 +2765,13 @@
             "y": 40
           },
           {
-            "x": 35,
-            "y": -40
+            "x": 55,
+            "y": -15,
+            "companies": ["DEE"]
           },
           {
-            "name": {
-              "name": "Düsseldorf"
-            },
             "x": 35,
-            "y": 45
+            "y": 47
           }
         ],
         "terrain": [
@@ -2728,23 +2783,28 @@
         "values": [
           {
             "value": 20,
-            "x": -20,
+            "x": -57,
             "y": -10
           },
           {
             "value": 30,
-            "x": 60,
-            "y": -5
+            "x": 20,
+            "y": -42
           }
         ],
         "track": [
           {
+            "side": 5,
+            "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+            "type": "custom",
             "side": 2,
             "color": "water",
             "rotation": 30
           },
           {
             "side": 5,
+            "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+            "type": "custom",
             "color": "water",
             "rotation": 30
           }
@@ -2760,11 +2820,14 @@
             "y": 37
           }
         ],
+        "names": [
+          {
+            "name": "Köln",
+            "x": -15
+          }
+        ],
         "cities": [
           {
-            "name": {
-              "name": "Köln"
-            },
             "x": -35,
             "y": 40,
             "companies": ["RhE"]
@@ -2804,12 +2867,17 @@
         ],
         "track": [
           {
+            "side": 5,
+            "path": "m 0 85 C 15 63.75, 15 63.75, 0 42.5 C -15 21.25, -15 21.25, 0 0",
+            "type": "custom",
             "side": 2,
             "color": "water",
             "rotation": 30
           },
           {
             "side": 5,
+            "path": "m 0 -85 C -15 -63.75, -15 -63.75, 0 -42.5 C 15 -21.25, 15 -21.25, 0 0",
+            "type": "custom",
             "color": "water",
             "rotation": 30
           }
