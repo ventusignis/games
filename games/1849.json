@@ -838,7 +838,8 @@
           {
             "name": {
               "name": "Milazzo",
-              "rotation": 30
+              "rotation": 30,
+			  "x": 20
             }
           }
         ],
@@ -931,8 +932,10 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 180,
-          "percent": 0.65,
+          "angle": 90,
+          "percent": 0.7,
+		  "y": -20,
+		  "rows": 3,
           "revenues": [
             {
               "color": "white",
@@ -1066,7 +1069,6 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 180,
           "percent": 0.65,
           "revenues": [
             {
@@ -1146,8 +1148,10 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 180,
-          "percent": 0.65,
+          "angle": 90,
+          "percent": 0.7,
+		  "y": -20,
+		  "rows": 3,
           "revenues": [
             {
               "color": "white",
@@ -1208,6 +1212,7 @@
         "terrain": [
           {
             "cost": 160,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1238,6 +1243,7 @@
         "terrain": [
           {
             "cost": 160,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1257,7 +1263,8 @@
               "name": "Taormina",
               "reverse": true,
               "rotation": -60,
-              "y": 24
+			  "y": 10,
+			  "x": 40
             }
           }
         ],
@@ -1290,6 +1297,7 @@
         "terrain": [
           {
             "cost": 160,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1335,6 +1343,7 @@
         "terrain": [
           {
             "cost": 80,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1373,6 +1382,7 @@
         "terrain": [
           {
             "cost": 80,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1455,6 +1465,7 @@
         "terrain": [
           {
             "cost": 40,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1498,6 +1509,7 @@
         "terrain": [
           {
             "cost": 40,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1517,6 +1529,7 @@
         "terrain": [
           {
             "cost": 40,
+            "percent": 0.333,
             "type": "mountain"
           }
         ]
@@ -1565,6 +1578,7 @@
           {
             "name": {
               "name": "Augusta",
+			  "x": 20,
               "rotation": 30
             }
           }
@@ -1637,8 +1651,7 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 180,
-          "percent": 0.65,
+          "percent": 0.75,
           "revenues": [
             {
               "color": "white",
