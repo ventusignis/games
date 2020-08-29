@@ -91,11 +91,866 @@
     {
       "name": 8,
       "price": 800,
-      "color": "gray",
+      "color": "black",
       "print": 16,
       "quantity": "∞"
     }
   ],
+  "map": {
+    "hexes": [
+      {
+        "color": "plain",
+        "hexes": [
+          "A6", "A8", "A10", "A18", "A20", "A22", "A24",
+          "B7", "B9", "B11", "B17", "B19", "B21", "B23", "B25",
+          "C6", "C10", "C12", "C14", "C18", "C20", "C24", "C26",
+          "D3", "D5", "D7", "D9", "D11", "D15", "D17", "D19", "D21", "D23", "D27", "D29",
+          "E2", "E6", "E8", "E10", "E12", "E14", "E16", "E18", "E20", "E24", "E26", "E28",
+          "F3", "F9", "F13", "F17", "F23", "F25", "F27", "F29",
+          "G10", "G14", "G16", "G22", "G24", "G26", "G28",
+          "H9", "H11", "H13", "H15", "H17", "H19", "H27", "H29",
+          "I12", "I14", "I18", "I20", "I22", "I24", "I26", "I28",
+          "J13", "J15", "J17", "J19", "J21", "J23", "J25", "J29",
+          "K2", "K12", "K14", "K16", "K20", "K24", "K26", "K28",
+          "L3", "L5", "L7", "L9", "L11", "L13", "L15", "L17", "L19", "L21", "L23", "L25", "L27", "L29"  
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0.4,
+            "type": "mountain",
+            "size": "large",
+            "cost": 240
+          },
+          {
+            "angle": 120,
+            "percent": 0.4,
+            "type": "mountain",
+            "size": "large"
+          },
+          {
+            "angle": -120,
+            "percent": 0.4,
+            "type": "mountain",
+            "size": "large"
+          }
+        ],
+        "hexes": [
+            "G6", "I6", "H5", "H7", "I4"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "large",
+            "cost": 120
+          }
+        ],
+        "hexes": [
+          "F5", "G2", "H3", "I2", "J3", "J5", "J7", "K6", "K8", "K10"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "medium",
+            "cost": 80
+          }
+        ],
+        "hexes": [
+          "F7", "G8", "J9", "J11", "G20", "H23"
+        ]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "TIK"}
+          }
+        ],
+        "hexes": ["C4"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "STA"}
+          }
+        ],
+        "hexes": ["E4"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "YAM"}
+          }
+        ],
+        "hexes": ["K4"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "TEM"}
+          }
+        ],
+        "hexes": ["I10"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "AKM"}
+          }
+        ],
+        "hexes": ["F11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "SIY"}
+          }
+        ],
+        "hexes": ["F15"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "PNS"}
+          }
+        ],
+        "hexes": ["K18"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "BNB"}
+          }
+        ],
+        "hexes": ["C22"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "MMK"},
+            "companies": ["MMK"]
+          }
+        ],
+        "hexes": ["C8"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "HAN"},
+            "companies": ["HAN"]
+          }
+        ],
+        "hexes": ["G12"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "POP"},
+            "companies": ["POP"]
+          }
+        ],
+        "hexes": ["I16"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "HDK"},
+            "companies": ["HDK"]
+          }
+        ],
+        "hexes": ["H21"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "TYT"},
+            "companies": ["TYT"]
+          }
+        ],
+        "hexes": ["E22"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "ORN"},
+            "companies": ["ORN"]
+          }
+        ],
+        "hexes": ["D25"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "CQL"},
+            "companies": ["CQL"]
+          }
+        ],
+        "hexes": ["J27"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "STK"},
+            "companies": ["STK"]
+          }
+        ],
+        "hexes": ["K22"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "ONP"},
+            "companies": ["ONP"]
+          }
+        ],
+        "hexes": ["G4"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "KWY"},
+            "companies": ["KWY"]
+          }
+        ],
+        "labels": {
+          "angle": 0,
+          "percent": 0.6,
+          "label": "T"
+        },
+        "hexes": ["B5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "KKR"},
+            "companies": ["KKR"]
+          }
+        ],
+        "labels": {
+          "angle": 0,
+          "percent": 0.6,
+          "label": "T"
+        },
+        "hexes": ["C16"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "JUJ"},
+            "companies": ["JUJ"]
+          }
+        ],
+        "labels": {
+          "angle": 0,
+          "percent": 0.6,
+          "label": "T"
+        },
+        "hexes": ["D13"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 3,
+            "type": "straight"
+          },
+          {
+            "side": 1,
+            "type": "straight"
+          },
+          {
+            "side": 2,
+            "type": "straight"
+          }
+        ],
+        "values": [{
+          "value": 40,
+          "angle": 0,
+          "percent": 0.7
+        }],
+        "cities": [
+          {
+            "count": 1,
+            "name": {"name": "AIK"},
+            "companies": ["AIK"]
+          }
+        ],
+        "hexes": ["F21"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+            "name": {
+                "name": "RKS"
+            },
+            "angle": 180,
+            "percent": 0.5,
+            "revenues": [
+                {
+                  "color": "yellow",
+                  "cost": 40
+                },
+                {
+                  "color": "brown",
+                    "phase": 5,
+                    "cost": 60
+                },
+                {
+                  "color": "black",
+                    "phase": 8,
+                    "cost": 80
+                }
+            ]
+
+        },
+        "hexes": ["A14"],
+        "track": [
+          {
+            "side": 4,
+            "type": "straight"
+          },
+          {
+            "side": 4,
+            "type": "gentle",
+            "cross": "over"
+          },
+          {
+            "side": 4,
+            "type": "sharp"
+          },
+          {
+            "side": 5,
+            "type": "sharp"
+          },
+          {
+            "side": 5,
+            "type": "gentle",
+            "cross": "under"
+            
+          },
+          {
+            "side": 6,
+            "type": "sharp"
+          }
+        ]
+      },
+      {
+        "color": "green",
+        "hexes": ["A12"],
+        "track": [
+          {
+            "side": 4,
+            "type": "straight"
+          },
+          {
+            "side": 4,
+            "type": "gentle"
+          }
+        ]
+      },
+      {
+        "color": "green",
+        "hexes": ["A16"],
+        "track": [
+          {
+            "side": 4,
+            "type": "straight"
+          },
+          {
+            "side": 5,
+            "type": "gentle"
+          }
+        ]
+      },
+      {
+        "color": "green",
+        "hexes": ["B13"],
+        "track": [
+          {
+            "side": 3,
+            "type": "straight"
+          },
+          {
+            "side": 3,
+            "type": "gentle"
+          }
+        ]
+      },
+      {
+        "color": "green",
+        "hexes": ["B15"],
+        "track": [
+          {
+            "side": 5,
+            "type": "straight"
+          },
+          {
+            "side": 6,
+            "type": "gentle"
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.5,
+            "company": "ONP",
+            "destination": true
+          }
+        ],
+        "offBoardRevenue": {
+            "name": {
+                "name": "TDL"
+            },
+            "angle": 180,
+            "percent": 0.25,
+            "revenues": [
+                {
+                  "color": "yellow",
+                  "cost": 40
+                },
+                {
+                  "color": "brown",
+                    "phase": 5,
+                    "cost": 60
+                },
+                {
+                  "color": "black",
+                    "phase": 8,
+                    "cost": 80
+                }
+            ]
+
+        },
+        "hexes": ["M26"],
+        "track": [
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "cities": [
+          {
+            "companies": ["DRM"],
+            "name": {"name": "DRM"}
+          }
+        ],
+        "hexes": ["L1"],
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ],
+        "labels": [
+          {
+            "label": "T",
+            "angle": 180,
+            "percent": 0.8
+          }
+        ],
+        "offBoardRevenue": {
+            "angle": 0,
+            "percent": 0.5,
+            "revenues": [
+                {
+                  "color": "yellow",
+                  "cost": 40
+                },
+                {
+                  "color": "brown",
+                    "phase": 5,
+                    "cost": 60
+                },
+                {
+                  "color": "black",
+                    "phase": 8,
+                    "cost": 80
+                }
+            ]
+
+        },
+        "tokens": [
+          {
+            "angle": 60,
+            "percent": 0.85,
+            "company": "POP",
+            "destination": true
+          },
+          {
+            "angle": 120,
+            "percent": 0.85,
+            "company": "AIK",
+            "destination": true
+          },
+          {
+            "angle": -60,
+            "percent": 0.85,
+            "company": "HDK",
+            "destination": true
+          },
+          {
+            "angle": -120,
+            "percent": 0.85,
+            "company": "HAN",
+            "destination": true
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "hexes": ["A2"],
+        "offBoardRevenue": {
+            "name": {"name": "OHH"},
+            "revenues": [
+                {
+                  "color": "yellow",
+                  "cost": 40
+                },
+                {
+                  "color": "brown",
+                    "phase": 5,
+                    "cost": 60
+                },
+                {
+                  "color": "black",
+                    "phase": 8,
+                    "cost": 80
+                }
+            ]
+
+        },
+        "removeBorders": [5,4]
+      },
+      {
+        "removeBorders": [6,1],
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "hexes": ["A4"]
+      },
+      {
+        "removeBorders": [6,2,3],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.25,
+            "company": "TYT",
+            "destination": true
+          },
+          {
+            "angle": 120,
+            "percent": 0.25,
+            "company": "ORN",
+            "destination": true
+          },
+          {
+            "angle": -120,
+            "percent": 0.25,
+            "company": "STK",
+            "destination": true
+          }
+        ],
+        "color": "offboard",
+        "hexes": ["B3"]
+      },
+      {
+        "removeBorders": [3],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "color": "offboard",
+        "hexes": ["C2"]
+      },
+      {
+        "track": [
+          {"type": "offboard", "side": 1},
+          {"type": "offboard", "side": 6}
+        ],
+        "color": "offboard",
+        "removeBorders": [4,5],
+        "hexes": ["A26"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [6,1,5],
+        "hexes": ["A28"]
+      },
+      {
+        "track": [
+          {"type": "offboard", "side": 1},
+          {"type": "offboard", "side": 6}
+        ],
+        "color": "offboard",
+        "removeBorders": [5,2,3,4],
+        "cities": [
+          {
+            "name": {"name": "RNR"},
+            "companies": ["RNR"]
+          }
+        ],
+        "hexes": ["B27"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+            "revenues": [
+                {
+                  "color": "yellow",
+                  "cost": 40
+                },
+                {
+                  "color": "brown",
+                    "phase": 5,
+                    "cost": 60
+                },
+                {
+                  "color": "black",
+                    "phase": 8,
+                    "cost": 80
+                }
+            ]
+
+        },
+        "removeBorders": [1,2,6],
+        "hexes": ["B29"]
+      },
+      {
+        "track": [
+          {"type": "offboard", "side": 1},
+          {"type": "offboard", "side": 6},
+          {"type": "offboard", "side": 5}
+        ],
+        "color": "offboard",
+        "removeBorders": [2,3],
+        "hexes": ["C28"]
+      },
+      {
+        "color": "yellow",
+        "track": [{"type": "gentle", "side": 4}],
+        "hexes": ["F19"]
+      },
+      
+      {
+        "color": "yellow",
+        "track": [
+          {"type": "center", "side": 3},
+          {"type": "center", "side": 5}
+        ],
+        "hexes": ["G18"],
+        "centerTowns": [{}],
+        "names": [{
+          "name": "HNN",
+          "angle": -90,
+          "percent": 0.5
+        }],
+        "values": [
+          {
+            "value": 30,
+            "angle": 90,
+            "percent": 0.4
+          }
+        ],
+        "labels": [
+          {
+            "label": "B",
+            "angle": 180,
+            "percent": 0.6
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 60,
+            "percent": 0.75,
+            "company": "CQL",
+            "destination": true
+          },
+          {
+            "angle": 120,
+            "percent": 0.75,
+            "company": "KWY",
+            "destination": true
+          }
+        ]
+      },
+      {
+        "color": "yellow",
+        "track": [
+          {"type": "center", "side": 6},
+          {"type": "center", "side": 2}
+        ],
+        "hexes": ["H25"],
+        "centerTowns": [{}],
+        "names": [{
+          "name": "JNR",
+          "angle": 90,
+          "percent": 0.5
+        }],
+        "values": [
+          {
+            "value": 30,
+            "angle": -90,
+            "percent": 0.4
+          }
+        ],
+        "labels": [
+          {
+            "label": "B",
+            "angle": 180,
+            "percent": 0.6
+          }
+        ],
+        "tokens": [
+          {
+            "angle": -60,
+            "percent": 0.75,
+            "company": "DRM",
+            "destination": true
+          },
+          {
+            "angle": -120,
+            "percent": 0.75,
+            "company": "MMK",
+            "destination": true
+          }
+        ]
+      },
+      
+      {
+        "color": "yellow",
+        "track": [
+          {"type": "center", "side": 4}
+        ],
+        "hexes": ["I8"],
+        "centerTowns": [{}],
+        "names": [{
+          "name": "SPO",
+          "angle": -60,
+          "percent": 0.5
+        }],
+        "values": [
+          {
+            "value": 30,
+            "angle": -135,
+            "percent": 0.5
+          }
+        ],
+        "labels": [
+          {
+            "label": "B",
+            "angle": 180,
+            "percent": 0.6
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 60,
+            "percent": 0.75,
+            "company": "KKR",
+            "destination": true
+          },
+          {
+            "angle": 120,
+            "percent": 0.75,
+            "company": "JUJ",
+            "destination": true
+          },
+          {
+            "angle": 0,
+            "percent": 0.75,
+            "company": "RNR",
+            "destination": true
+          }
+        ]
+      }
+    ]
+  },
   "tiles": {
     "5": 4,
     "6": 4,
@@ -249,7 +1104,7 @@
     },
     {
       "name": "ONP Railway Company",
-      "abbev": "ONP",
+      "abbrev": "ONP",
       "color": "purple"
     },
     {
