@@ -29,6 +29,73 @@
     "bgg": "https://www.boardgamegeek.com/boardgame/109151/18nk",
     "rules": "https://www.boardgamegeek.com/boardgame/109151/18nk"
   },
+  "rounds": [
+    {
+      "name": "OR3",
+      "color": "brown"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "yellow"
+    },
+    {
+      "name": "SR",
+      "color": "gray"
+    }
+  ],
+  "trains": [
+    {
+      "name": "2A",
+      "price": 50,
+      "quantity": 3,
+      "color": "yellow",
+      "rust": 4
+    },
+    {
+      "name": "2B",
+      "price": 120,
+      "quantity": 3,
+      "color": "yellow",
+      "rust": 5
+    },
+    {
+      "name": 3,
+      "price": 180,
+      "quantity": 5,
+      "color": "green",
+      "rust": 6
+    },
+    {
+      "name": 4,
+      "price": 250,
+      "quantity": 4,
+      "color": "green",
+      "rust": 8
+    },
+    {
+      "name": 5,
+      "price": 450,
+      "color": "brown",
+      "quantity": 4
+    },
+    {
+      "name": 6,
+      "price": 630,
+      "color": "gray",
+      "quantity": 4
+    },
+    {
+      "name": 8,
+      "price": 800,
+      "color": "gray",
+      "print": 16,
+      "quantity": "∞"
+    }
+  ],
   "tiles": {
     "5": 4,
     "6": 4,
