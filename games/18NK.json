@@ -161,6 +161,104 @@
       ]
     }
   },
+  "colors": {
+    "_drm_pink": "#b89ab2"
+  },
+  "companies": [
+    {
+      "name": "DRM Railway Company",
+      "abbrev": "DRM",
+      "color": "_drm_pink"
+    },
+    {
+      "name": "JUJ Railway Company",
+      "abbrev": "JUJ",
+      "color": "gray"
+    },
+    {
+      "name": "HAN Railway Company",
+      "abbrev": "HAN",
+      "color": "yellow"
+    },
+    {
+      "name": "ONP Railway Company",
+      "abbev": "ONP",
+      "color": "purple"
+    },
+    {
+      "name": "STK Railway Company",
+      "abbrev": "STK",
+      "color": "green"
+    },
+    {
+      "name": "TYT Railway Company",
+      "abbrev": "TYT",
+      "color": "brown"
+    },
+    {
+      "name": "AIK Railway Company",
+      "abbrev": "AIK",
+      "color": "navy"
+    },
+    {
+      "name": "MMK Railway Company",
+      "abbrev": "MMK",
+      "color": "lightGreen"
+    },
+    {
+      "name": "HDK Railway Company",
+      "abbrev": "HDK",
+      "color": "orange"
+    },
+    {
+      "name": "POP Railway Company",
+      "abbrev": "POP",
+      "color": "red"
+    },
+    {
+      "name": "ORN Railway Company",
+      "abbrev": "ORN",
+      "color": "pink"
+    },
+    {
+      "name": "KKR Railway Company",
+      "abbrev": "KKR",
+      "color": "blue"
+    },
+    {
+      "name": "CQL Railway Company",
+      "abbrev": "CQL",
+      "color": "natural"
+    },
+    {
+      "name": "KWY Railway Company",
+      "abbrev": "KWY",
+      "color": "lightBlue"
+    },
+    {
+      "name": "RNR Railway Company",
+      "abbrev": "RNR",
+      "color": "black"
+    }
+  ],
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": 20,
+        "shares": 2
+      },
+      {
+        "quantity": 8,
+        "percent": 10,
+        "shares": 1
+      }
+    ]
+  },
+  "tokenTypes": {
+    "default": ["Home", 40, 100, "BONUS"]
+  },
   "stock": {
     "type": "2D",
     "movement": {
@@ -272,7 +370,7 @@
           "label": 72,
           "par": true
         },
-        576,82,90,100,110,120,140,160,
+        76,82,90,100,110,120,140,160,
         {
           "label": 180,
           "value": 180,
