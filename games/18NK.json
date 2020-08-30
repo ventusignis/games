@@ -1,12 +1,14 @@
 {
   "info": {
     "title": "18NK",
+    "extraTotalHeight": 200,
+    "titleY": 1650,
     "subtitle": "Nagaokakyo City",
     "designer": "CTDA",
     "background": "water",
     "currency": "¥#"
   },
-  "bank": 0,
+  "bank": 12000,
   "tokens": ["Round", "+10", "+10"],
   "players": [
     {
@@ -27,10 +29,31 @@
     {
       "number": 6,
       "certLimit": 11,
+      "capital": 450
+    },
+
+    {
+      "number": "3A",
+      "certLimit": 20,
+      "capital": 800
+    },
+    {
+      "number": "4A",
+      "certLimit": 16,
+      "capital": 600
+    },
+    {
+      "number": "5A",
+      "certLimit": 13,
+      "capital": 480
+    },
+    {
+      "number": "6A",
+      "certLimit": 11,
       "capital": 400
     }
+
   ],
-  "wip": true,
   "links": {
     "bgg": "https://www.boardgamegeek.com/boardgame/109151/18nk",
     "rules": "https://www.boardgamegeek.com/boardgame/109151/18nk"
@@ -143,6 +166,10 @@
     }
   ],
   "map": {
+    "players": {
+      "y": 1650,
+      "x": 1000
+    },
     "hexes": [
       {
         "color": "plain",
@@ -1335,6 +1362,10 @@
       "legend": {
         "x": 8,
         "y": 8
+      },
+      "roundTracker": {
+        "x": 10,
+        "y": 6
       }
     },
     "market": [
