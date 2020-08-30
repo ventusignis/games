@@ -82,43 +82,43 @@
       "price": 50,
       "quantity": 3,
       "color": "yellow",
-      "rust": 4
+      "rust": ["4"]
     },
     {
       "name": "2B",
       "price": 120,
       "quantity": 3,
       "color": "yellow",
-      "rust": 5
+      "rust": ["5"]
     },
     {
-      "name": 3,
+      "name": "3",
       "price": 180,
       "quantity": 5,
       "color": "green",
-      "rust": 6
+      "rust": ["6"]
     },
     {
-      "name": 4,
+      "name": "4",
       "price": 250,
       "quantity": 4,
       "color": "green",
-      "rust": 8
+      "rust": ["8"]
     },
     {
-      "name": 5,
+      "name": "5",
       "price": 450,
       "color": "brown",
       "quantity": 4
     },
     {
-      "name": 6,
+      "name": "6",
       "price": 630,
       "color": "gray",
       "quantity": 4
     },
     {
-      "name": 8,
+      "name": "8",
       "price": 800,
       "color": "black",
       "print": 16,
@@ -137,30 +137,30 @@
       "tiles": "yellow"
     },
     {
-      "name": 3,
+      "name": "3",
       "limit": 4,
       "tiles": "green",
       "notes": "Private companies may be purchased."
     },
     {
-      "name": 4,
+      "name": "4",
       "limit": 3,
       "tiles": "green"
     },
     {
-      "name": 5,
+      "name": "5",
       "limit": 2,
       "tiles": "brown",
       "notes": "Private companies are closed."
     },
     {
-      "name": 6,
+      "name": "6",
       "limit": 2,
       "tiles": "gray",
       "notes": "The +10 token is removed"
     },
     {
-      "name": 8,
+      "name": "8",
       "limit": 2,
       "tiles": "gray"
     }
@@ -245,7 +245,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "TIK"}
           }
         ],
@@ -255,7 +254,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "STA"}
           }
         ],
@@ -265,7 +263,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "YAM"}
           }
         ],
@@ -275,7 +272,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "TEM"}
           }
         ],
@@ -285,7 +281,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "AKM"}
           }
         ],
@@ -295,7 +290,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "SIY"}
           }
         ],
@@ -305,7 +299,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "PNS"}
           }
         ],
@@ -315,7 +308,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "BNB"}
           }
         ],
@@ -325,7 +317,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "MMK"},
             "companies": ["MMK"]
           }
@@ -336,7 +327,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "HAN"},
             "companies": ["HAN"]
           }
@@ -347,7 +337,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "POP"},
             "companies": ["POP"]
           }
@@ -358,7 +347,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "HDK"},
             "companies": ["HDK"]
           }
@@ -369,7 +357,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "TYT"},
             "companies": ["TYT"]
           }
@@ -380,7 +367,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "ORN"},
             "companies": ["ORN"]
           }
@@ -391,7 +377,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "CQL"},
             "companies": ["CQL"]
           }
@@ -402,7 +387,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "STK"},
             "companies": ["STK"]
           }
@@ -413,7 +397,6 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "ONP"},
             "companies": ["ONP"]
           }
@@ -424,48 +407,45 @@
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "KWY"},
             "companies": ["KWY"]
           }
         ],
-        "labels": {
+        "labels": [{
           "angle": 0,
           "percent": 0.6,
           "label": "T"
-        },
+        }],
         "hexes": ["B5"]
       },
       {
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "KKR"},
             "companies": ["KKR"]
           }
         ],
-        "labels": {
+        "labels": [{
           "angle": 0,
           "percent": 0.6,
           "label": "T"
-        },
+        }],
         "hexes": ["C16"]
       },
       {
         "color": "plain",
         "cities": [
           {
-            "count": 1,
             "name": {"name": "JUJ"},
             "companies": ["JUJ"]
           }
         ],
-        "labels": {
+        "labels": [{
           "angle": 0,
           "percent": 0.6,
           "label": "T"
-        },
+        }],
         "hexes": ["D13"]
       },
       {
@@ -491,7 +471,6 @@
         }],
         "cities": [
           {
-            "count": 1,
             "name": {"name": "AIK"},
             "companies": ["AIK"]
           }
@@ -893,8 +872,8 @@
       {
         "color": "yellow",
         "track": [
-          {"type": "center", "side": 3},
-          {"type": "center", "side": 5}
+          {"type": "city", "side": 3},
+          {"type": "city", "side": 5}
         ],
         "hexes": ["G18"],
         "centerTowns": [{}],
@@ -935,8 +914,8 @@
       {
         "color": "yellow",
         "track": [
-          {"type": "center", "side": 6},
-          {"type": "center", "side": 2}
+          {"type": "city", "side": 6},
+          {"type": "city", "side": 2}
         ],
         "hexes": ["H25"],
         "centerTowns": [{}],
@@ -978,7 +957,7 @@
       {
         "color": "yellow",
         "track": [
-          {"type": "center", "side": 4}
+          {"type": "city", "side": 4}
         ],
         "hexes": ["I8"],
         "centerTowns": [{}],
@@ -1228,7 +1207,6 @@
       "name": "DRM Railway President's Certificate",
       "id": "D",
       "price": 120,
-      "revenue": null,
       "company": "DRM",
       "description": "This private is immediately traded in for the president's certificate of the DRM railway. The DRM railway starts with all 10% shares in the market and is immediately floated"
     },
