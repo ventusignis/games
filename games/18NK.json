@@ -7,6 +7,7 @@
     "currency": "¥#"
   },
   "bank": 0,
+  "tokens": ["Round", "+10", "+10"],
   "players": [
     {
       "number": 3,
@@ -22,6 +23,11 @@
       "number": 5,
       "certLimit": 13,
       "capital": 540
+    },
+    {
+      "number": 6,
+      "certLimit": 11,
+      "capital": 400
     }
   ],
   "wip": true,
@@ -94,6 +100,46 @@
       "color": "black",
       "print": 16,
       "quantity": "∞"
+    }
+  ],
+  "phases": [
+    {
+      "name": "2A",
+      "limit": 4,
+      "tiles": "yellow"
+    },
+    {
+      "name": "2B",
+      "limit": 4,
+      "tiles": "yellow"
+    },
+    {
+      "name": 3,
+      "limit": 4,
+      "tiles": "green",
+      "notes": "Private companies may be purchased."
+    },
+    {
+      "name": 4,
+      "limit": 3,
+      "tiles": "green"
+    },
+    {
+      "name": 5,
+      "limit": 2,
+      "tiles": "brown",
+      "notes": "Private companies are closed."
+    },
+    {
+      "name": 6,
+      "limit": 2,
+      "tiles": "gray",
+      "notes": "The +10 token is removed"
+    },
+    {
+      "name": 8,
+      "limit": 2,
+      "tiles": "gray"
     }
   ],
   "map": {
@@ -1086,6 +1132,96 @@
   "colors": {
     "_drm_pink": "#b89ab2"
   },
+  "pools": [
+    {
+      "name": "Bank Pool",
+      "notes": [
+        {
+          "color": "blue",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "purple",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first and second stock rounds"
+        },
+        {
+          "color": "blue",
+          "icon": "exclamation",
+          "note": "Once 60% of a company is sold from the IPO, the remaining shares go to the bank pool"
+        }
+      ]
+    }
+  ],
+  "privates": [
+    {
+      "name": "START Railway",
+      "price": 20,
+      "revenue": 5,
+      "id": "START"
+    },
+    {
+      "name": "OO Railway",
+      "id": "A",
+      "price": 40,
+      "revenue": 10, 
+      "company": "ORN",
+      "token": {
+        "label": "ONP",
+        "color": "purple"      },
+      "description": "By closing this company you immediate receive a 10% share of ORN or ONP"
+    },
+    {
+      "name": "MKO Railway",
+      "id": "B",
+      "price": 60,
+      "revenue": 10,
+      "company": "MMK",
+      "token": {
+        "label": "KKR",
+        "color": "blue"      },
+      "description": "By closing this company you immediately receive a 10% share of MMK or KKR"
+    },
+    {
+      "name": "BTSZ Railway",
+      "id": "C",
+      "price": 80,
+      "revenue": 15,
+      "token": {
+        "label": "+10"
+      },
+      "description": "The public company owning this company can put the +10 token in a 'T' city. The token raises the value of the city by 10, only for this owning company. The token is removed when the first 6 train is purchased"
+    },
+    {
+      "name": "DRM Railway President's Certificate",
+      "id": "D",
+      "price": 120,
+      "revenue": null,
+      "company": "DRM",
+      "description": "This private is immediately traded in for the president's certificate of the DRM railway. The DRM railway starts with all 10% shares in the market and is immediately floated"
+    },
+    {
+      "name": "ONP Railway",
+      "id": "E",
+      "price": 160,
+      "revenue": 20,
+      "company": "ONP",
+      "description": "The purchase of this private comes with a 10% share of ONP"
+    },
+    {
+      "name": "AIK Railway",
+      "id": "F",
+      "price": 190,
+      "revenue": 30,
+      "company": "AIK",
+      "description": "This company comes with the president's certificate of the AIK railway. This company cannot be bought in by a corporation. This company is closed when the AIK buys a train"
+    }
+  ],
   "companies": [
     {
       "name": "DRM Railway Company",
@@ -1185,7 +1321,7 @@
     "type": "2D",
     "movement": {
       "up": ["Sold out"],
-      "down": ["Every 10% sold"],
+      "down": ["Every 2nd 10% sold in 1 action"],
       "left": ["Revenue witheld"],
       "right": ["Revenue paid out"]
     },
