@@ -1203,7 +1203,7 @@
       "token": {
         "label": "+10"
       },
-      "description": "The public company owning this company can put the +10 token in a 'T' city. The token raises the value of the city by 10, only for this owning company. The token is removed when the first 6 train is purchased"
+      "description": "The public company owning this company can put the +10 token in a 'T' city. The token raises the value of the city by 10. The token is removed when the first 6 train is purchased"
     },
     {
       "name": "DRM Railway President's Certificate",
