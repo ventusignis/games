@@ -9,7 +9,7 @@
     "currency": "¥#"
   },
   "bank": 12000,
-  "tokens": ["Round", "+10", "+10"],
+  "tokens": ["Round", "+10"],
   "players": [
     {
       "number": 3,
@@ -1180,18 +1180,20 @@
       "token": {
         "label": "ONP",
         "color": "purple"      },
-      "description": "By closing this company you immediate receive a 10% share of ORN or ONP"
+      "description": "By closing this company you immediate receive a 10% share of ORN or ONP. You may not use this to own more than 60% of a single company"
     },
     {
       "name": "MKO Railway",
       "id": "B",
       "price": 60,
       "revenue": 10,
-      "company": "MMK",
       "token": {
-        "label": "KKR",
-        "color": "blue"      },
-      "description": "By closing this company you immediately receive a 10% share of MMK or KKR"
+        "label": "MKO",
+        "color": "blue",
+        "stripe": "purple",
+        "bar": "lightGreen"
+      },
+      "description": "By closing this company you immediately receive a 10% share of the MMK, KKR, or ONP railway. You may not use this to own more than 60% of a single company"
     },
     {
       "name": "BTSZ Railway",
