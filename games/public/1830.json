@@ -3,6 +3,7 @@
     "title": "1830",
     "subtitle": "Railways & Robber Barons",
     "designer": "Francis Tresham",
+    "publisher": "lookout",
     "background": "gray",
     "titleX": 50,
     "currency": "$#"
@@ -61,56 +62,56 @@
     {
       "name": "Pennsylvania Railroad",
       "abbrev": "PRR",
-      "logo": "PRR",
+      "logo": "1830/PRR",
       "color": "green",
       "tokens": "four"
     },
     {
       "name": "New York Central Railroad",
       "abbrev": "NYC",
-      "logo": "NYC",
+      "logo": "1830/NYC",
       "color": "black",
       "tokens": "four"
     },
     {
       "name": "Canadian Pacific Railroad",
       "abbrev": "CPR",
-      "logo": "CPR",
+      "logo": "1830/CPR",
       "color": "red",
       "tokens": "four"
     },
     {
       "name": "Baltimore & Ohio Railroad",
       "abbrev": "B&O",
-      "logo": "BO",
+      "logo": "1830/BO",
       "color": "blue",
       "tokens": "three"
     },
     {
       "name": "Chesapeake & Ohio Railroad",
       "abbrev": "C&O",
-      "logo": "CO",
+      "logo": "1830/CO",
       "color": "lightBlue",
       "tokens": "three"
     },
     {
       "name": "Erie Railroad",
       "abbrev": "ERIE",
-      "logo": "ERIE",
+      "logo": "1830/ERIE",
       "color": "yellow",
       "tokens": "three"
     },
     {
       "name": "New York, New Haven & Hartford Railroad",
       "abbrev": "NYNH",
-      "logo": "NYNH",
+      "logo": "1830/NYNH",
       "color": "orange",
       "tokens": "two"
     },
     {
       "name": "Boston & Maine Railroad",
       "abbrev": "B&M",
-      "logo": "BM",
+      "logo": "1830/BM",
       "color": "brightGreen",
       "tokens": "two"
     }
@@ -1378,7 +1379,7 @@
         "cities": [
           {
             "name": {
-              "name": "Ottowa"
+              "name": "Ottawa"
             }
           }
         ],
@@ -1551,12 +1552,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 3
+            "type": "straight",
+            "side": 3,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "hexes": ["G19"]

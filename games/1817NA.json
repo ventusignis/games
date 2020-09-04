@@ -934,12 +934,14 @@
         ],
         "track": [
           {
-            "side": 3,
-            "type": "sharpStopRev"
+            "side": 2,
+            "type": "sharp",
+            "start": 0.5
           },
           {
             "side": 6,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           }
         ],
         "values": [

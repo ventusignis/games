@@ -48,6 +48,7 @@
     "background": "water",
     "currency": "$#",
     "designer": "Marc Voyer",
+    "publisher": "aag",
     "orientation": "horizontal",
     "extraTotalWidth": 40,
     "subtitle": "",
@@ -1157,12 +1158,14 @@
         ],
         "track": [
           {
-            "side": 2,
-            "type": "sharpStopRev"
+            "side": 1,
+            "type": "sharp",
+            "start": 0.5
           },
           {
             "side": 5,
-            "type": "sharpStop"
+            "type": "sharp",
+            "end": 0.5
           }
         ],
         "values": [
@@ -1973,12 +1976,14 @@
       ],
       "track": [
         {
-          "type": "stop",
-          "side": 2
+          "type": "straight",
+          "side": 2,
+          "end": 0.25
         },
         {
-          "type": "stop",
-          "side": 5
+          "type": "straight",
+          "side": 5,
+          "end": 0.25
         }
       ]
     },

@@ -1053,12 +1053,14 @@
             "side": 4
           },
           {
-            "type": "gentleStopRev",
-            "side": 4
+            "type": "gentle",
+            "side": 2,
+            "start": 0.25
           },
           {
-            "type": "gentleStop",
-            "side": 6
+            "type": "gentle",
+            "side": 6,
+            "end": 0.75
           }
         ],
         "hexes": ["B13"]

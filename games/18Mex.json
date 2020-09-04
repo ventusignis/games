@@ -2,6 +2,7 @@
   "info": {
     "title": "18Mex",
     "designer": "Mark Derrick",
+    "publisher": "aag",
     "background": "brown",
     "orientation": "horizontal",
     "titleRotate": -90,
@@ -77,12 +78,14 @@
     {
       "name": "Chihuahua Pacific Railway",
       "abbrev": "CHI",
+      "logo": "18Mex/CHI",
       "color": "red",
       "tokens": "four"
     },
     {
       "name": "National Railways of Mexico",
       "abbrev": "NdM",
+      "logo": "18Mex/NdM",
       "color": "green",
       "tokens": ["Free", 40, 60, 80, "($80)", "($80)"],
       "shares": [
@@ -114,37 +117,42 @@
     {
       "name": "Mexican Central Railway",
       "abbrev": "MC",
+      "logo": "18Mex/MC",
       "color": "black",
       "tokens": "two"
     },
     {
       "name": "Pacific Railroad",
       "abbrev": "PAC",
+      "logo": "18Mex/PAC",
       "color": "yellow",
       "tokens": "four"
     },
     {
       "name": "Texas-Mexican Railway",
       "abbrev": "TM",
+      "logo": "18Mex/TM",
       "color": "orange",
       "tokens": "two"
     },
     {
       "name": "Mexican Railway",
       "abbrev": "MEX",
+      "logo": "18Mex/MEX",
       "color": "gray",
       "tokens": "three"
     },
     {
       "name": "Southern Pacific Railroad of Mexico",
       "abbrev": "SPM",
-      "logo": "SP",
+      "logo": "18Mex/SP",
       "color": "blue",
       "tokens": "three"
     },
     {
       "name": "United Railways of Yucatan",
       "abbrev": "UdY",
+      "logo": "18Mex/UdY",
       "color": "purple",
       "tokens": "two",
       "shares": [
@@ -754,7 +762,9 @@
         },
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -798,7 +808,9 @@
         },
         {
           "side": 5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -840,7 +852,9 @@
         },
         {
           "side": 5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         }
       ]
     },
@@ -905,7 +919,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -950,7 +966,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1005,7 +1023,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1127,7 +1147,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1175,7 +1197,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -1229,7 +1253,9 @@
       "track": [
         {
           "side": 5.5,
-          "type": "mid"
+          "type": "straight",
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "side": 1
@@ -2037,7 +2063,9 @@
         "track": [
           {
             "side": 2,
-            "type": "mid"
+            "type": "straight",
+            "end": 0.5,
+            "start": 0.25
           }
         ],
         "hexes": ["F11"]
@@ -2116,7 +2144,9 @@
         "track": [
           {
             "side": 5,
-            "type": "mid"
+            "type": "straight",
+            "end": 0.5,
+            "start": 0.25
           }
         ],
         "hexes": ["L13"]

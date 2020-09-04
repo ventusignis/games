@@ -2,11 +2,12 @@
   "info": {
     "title": "18SS",
     "designer": "CTDA",
-    "background": "water",
+    "background": "land",
     "currency": "¥#",
-    "titleX": 940,
+    "titleX": 200,
     "titleY": 1925,
     "titleSize": 150,
+    "extraTotalHeight": 300,
     "subtitleSize": 20
   },
   "links": {
@@ -19,57 +20,150 @@
   "players": [
     {
       "number": 3,
-      "capital": 600
+      "capital": 600,
+      "certLimit": "∞"
     },
     {
       "number": 4,
-      "capital": 450
+      "capital": 450,
+      "certLimit": "∞"
     },
     {
       "number": 5,
-      "capital": 360
+      "capital": 360,
+      "certLimit": "∞"
     },
     {
       "number": 6,
-      "capital": 300
+      "capital": 300,
+      "certLimit": "∞"
+    }
+  ],
+  "pools": [
+    {
+      "name": "Bank Pool",
+      "notes": [
+        {
+          "color": "green",
+          "icon": "certificate",
+          "note": "There is no limit on the number of certificates owned"
+        },
+
+        {
+          "color": "green",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "green",
+          "icon": "info",
+          "note": "20% share certificates can be sold without restriction"
+        },
+        {
+          "color": "yellow",
+          "note": "Sold shares do not make the stock price drop"
+        }
+      ]
     }
   ],
   "rounds": [
+    {
+      "name": "PA",
+      "color": "black"
+    },
+    {
+      "name": "SR1",
+      "color": "gray"
+    },
     {
       "name": "OR2",
       "color": "green"
     },
     {
       "name": "OR1",
-      "color": "yellow"
+      "color": "green"
     },
     {
-      "name": "SR",
+      "name": "SR2",
       "color": "gray"
+    },
+    {
+      "name": "OR3",
+      "color": "brown"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "green"
+    },
+    {
+      "name": "SR3",
+      "color": "gray"
+    },
+    {
+      "name": "OR3",
+      "color": "brown"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "green"
+    },
+    {
+      "name": "SR4",
+      "color": "gray"
+    },
+    {
+      "name": "OR3",
+      "color": "brown"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "green"
+    },
+    {
+      "name": "SR5",
+      "color": "gray"
+    },
+    {
+      "name": "OR ⭯",
+      "color": "red"
     }
   ],
   "phases": [
     {
       "name": "3",
       "limit": 2,
-      "tiles": "yellow",
-      "notes": "2 OR, yellow and green tiles"
+      "rounds": 2,
+      "tiles": "green"
     },
     {
       "name": "4",
       "limit": 2,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "6",
       "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private companies close"
     },
     {
       "name": "8",
       "limit": 2,
-      "tiles": "brown"
+      "rounds": 3,
+      "tiles": "gray"
     }
   ],
   "turns": [
@@ -208,11 +302,11 @@
         "quantity": 1,
         "label": "President's Certificate",
         "percent": 40,
-        "shares": 4
+        "shares": 2
       },
       {
-        "quantity": 6,
-        "percent": 10,
+        "quantity": 3,
+        "percent": 20,
         "shares": 1
       }
     ]
@@ -224,83 +318,83 @@
   "companies": [
     {
       "name": "Do Railway",
-      "abbrev": "弩 電鉄",
+      "abbrev": "弩",
       "color": "lavender",
       "tokens": "2"
     },
     {
       "name": "Sai Railway",
-      "abbrev": "皇 電鉄",
+      "abbrev": "皇",
       "color": "green",
       "tokens": "2"
     },
     {
       "name": "Ju Railway",
-      "abbrev": "寿 電鉄",
+      "abbrev": "寿",
       "color": "gray",
       "tokens": "2"
     },
     {
       "name": "Ho Railway",
-      "abbrev": "歩 電鉄",
+      "abbrev": "歩",
       "color": "red",
       "tokens": "2"
     },
     {
       "name": "Koku Railway",
-      "abbrev": "告 電鉄",
+      "abbrev": "告",
       "color": "natural",
       "tokens": "2"
     },
     {
       "name": "Ryu Railway",
-      "abbrev": "流 電鉄",
+      "abbrev": "流",
       "color": "black",
       "tokens": "2"
     },
     {
       "name": "Momo Railway",
-      "abbrev": "桃 電鉄",
+      "abbrev": "桃",
       "color": "brightGreen"
     },
     {
       "name": "Yuu Railway",
-      "abbrev": "優 電鉄",
-      "color": "turquoise"
+      "abbrev": "優",
+      "color": "cyan"
     },
     {
       "name": "Cha Railway",
-      "abbrev": "茶 電鉄",
+      "abbrev": "茶",
       "color": "brown"
     },
     {
       "name": "On Railway",
-      "abbrev": "音 電鉄",
+      "abbrev": "音",
       "color": "purple"
     },
     {
       "name": "Kuri Railway",
-      "abbrev": "栗 電鉄",
-      "color": "blue"
+      "abbrev": "栗",
+      "color": "turquoise"
     },
     {
       "name": "Hana Railway",
-      "abbrev": "花 電鉄",
+      "abbrev": "花",
       "color": "yellow"
     },
     {
       "name": "Ai Railway",
-      "abbrev": "愛 電鉄",
-      "color": "cyan"
+      "abbrev": "愛",
+      "color": "blue"
     },
     {
       "name": "Rin Railway",
-      "abbrev": "鈴 電鉄",
+      "abbrev": "鈴",
       "color": "pink"
     },
     {
       "name": "Ha Railway",
-      "abbrev": "葉 電鉄",
+      "abbrev": "葉",
       "color": "orange"
     }
   ],
@@ -314,8 +408,11 @@
     {
       "name": "Otsu Tramway",
       "price": 40,
-      "revenue": 10,
-      "description": "By closing this company, the owning company may install +10 tokens in any city and company. A company with +10 tokens will calculate the revenue with +10 the value of the city where the + 10 token was placed. This company will be closed when the first 6 train is purchased."
+      "revenue": 10, 
+      "token": {
+        "label": "+10"
+      },
+      "description": "By closing this company, the owning company may install a +10 token in any city and company. A company with +10 tokens will calculate the revenue with +10 the value of the city where the + 10 token was placed. This company will be closed when the first 6 train is purchased."
     },
     {
       "name": "Hei Tramway",
@@ -327,30 +424,24 @@
       "name": "Tei Tramway",
       "price": 140,
       "revenue": 20,
-      "token": {
-        "color": "white",
-        "label": "優 電鉄"
-      },
+      "company": "優",
       "description": "When purchasing this private company for the first time, receive the president's 40% share certificate of Yuu Railway free of charge. This company will be closed when Yuu Railway purchases a train."
     },
     {
       "name": "Bo Tramway",
       "price": 170,
       "revenue": 25,
+      "company": "愛",
       "token": {
-        "color": "white",
-        "label": "愛 電鉄"
-      },
-      "description": "When purchasing this private company for the first time, receive a 20% share certificate of Ai Railway and a 20% share certificate of Yuu Railway free of charge. This company will be closed when the first 6 train is purchased, or when Ai Railway purchases a train. 20% share certificates of Ai Railway obtained through this private company can not be sold until Ai Railway is established."
+        "label": "優",
+        "color": "cyan"      },
+      "description": "This private comes with a 20% share certificate of Ai Railway and a 20% share certificate of Yuu Railway. This company will be closed when the first 6 train is purchased, or when Ai Railway purchases a train. 20% share certificates of Ai Railway obtained through this private company can not be sold until Ai Railway is established."
     },
     {
       "name": "Ki Tramway",
       "price": 200,
       "revenue": 30,
-      "token": {
-        "color": "white",
-        "label": "葉 電鉄"
-      },
+      "company": "葉",
       "description": "When purchasing this private company for the first time, receive the president's 40% share certificate of Ha Railway free of charge. This company will be closed when the first 6 train is purchased, or when Ha Railway purchases a train."
     }
   ],
@@ -384,6 +475,14 @@
   ],
   "map": [
     {
+      "roundTracker": {
+          "x": 0,
+          "y": 2175
+      },
+      "players": {
+        "x": 1000,
+        "y": 1925
+      },
       "hexes": [
         {
           "color": "offboard",
@@ -406,7 +505,7 @@
               }
             ]
           },
-          "hexes": ["P10"],
+          "hexes": ["O10"],
           "track": [
             {
               "side": 2,
@@ -439,7 +538,7 @@
               }
             ]
           },
-          "hexes": ["O15"],
+          "hexes": ["N15"],
           "track": [
             {
               "side": 1,
@@ -476,7 +575,7 @@
               }
             ]
           },
-          "hexes": ["O3"],
+          "hexes": ["N3"],
           "track": [
             {
               "side": 2,
@@ -496,16 +595,16 @@
           "color": "plain",
           "cities": [
             {
-              "companies": ["愛 電鉄"]
+              "companies": ["愛"]
             }
           ],
-          "hexes": ["N12"]
+          "hexes": ["M12"]
         },
         {
           "color": "yellow",
           "cities": [
             {
-              "companies": ["鈴 電鉄"]
+              "companies": ["鈴"]
             }
           ],
           "track": [
@@ -521,21 +620,30 @@
               "value": 20
             }
           ],
-          "hexes": ["N10"]
+          "hexes": ["M10"]
         },
         {
           "color": "plain",
           "cities": [{}],
-          "hexes": ["L6", "L14"]
+          "hexes": ["K6", "K14", "M4"]
         },
         {
           "color": "plain",
           "cities": [
             {
-              "companies": ["花 電鉄"]
+              "companies": ["花"]
             }
           ],
-          "hexes": ["K15"]
+          "hexes": ["J13"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["葉"]
+            }
+          ],
+          "hexes": ["M6"]
         },
         {
           "color": "yellow",
@@ -557,35 +665,35 @@
             {
               "angle": 330,
               "percent": 0.8,
-              "companies": ["告 電鉄"]
+              "companies": ["告"]
             },
             {
               "angle": 30,
               "percent": 0.8,
-              "companies": ["流 電鉄"]
+              "companies": ["流"]
             },
             {
               "angle": 90,
               "percent": 0.8,
-              "companies": ["弩 電鉄"]
+              "companies": ["弩"]
             },
             {
               "angle": 150,
               "percent": 0.8,
-              "companies": ["皇 電鉄"]
+              "companies": ["皇"]
             },
             {
               "angle": 210,
               "percent": 0.8,
-              "companies": ["寿 電鉄"]
+              "companies": ["寿"]
             },
             {
               "angle": 270,
               "percent": 0.8,
-              "companies": ["歩 電鉄"]
+              "companies": ["歩"]
             }
           ],
-          "hexes": ["K9"]
+          "hexes": ["J9"]
         },
         {
           "color": "plain",
@@ -594,16 +702,16 @@
               "label": "A"
             }
           ],
-          "hexes": ["J8", "J10", "K7", "K11", "L8", "L10"]
+          "hexes": ["I8", "I10", "J7", "J11", "K8", "K10"]
         },
         {
           "color": "plain",
           "cities": [
             {
-              "companies": ["桃 電鉄"]
+              "companies": ["桃"]
             }
           ],
-          "hexes": ["I5"]
+          "hexes": ["H5"]
         },
         {
           "color": "offboard",
@@ -626,7 +734,7 @@
               }
             ]
           },
-          "hexes": ["H16"],
+          "hexes": ["G16"],
           "track": [
             {
               "side": 1,
@@ -642,20 +750,20 @@
           "color": "plain",
           "cities": [
             {
-              "companies": ["栗 電鉄"]
+              "companies": ["栗"]
             }
           ],
-          "hexes": ["H12"]
+          "hexes": ["G12"]
         },
         {
           "color": "plain",
           "cities": [{}],
-          "hexes": ["H8"]
+          "hexes": ["G8"]
         },
         {
           "color": "plain",
           "cities": [{}],
-          "hexes": ["H4"]
+          "hexes": ["G4"]
         },
         {
           "color": "green",
@@ -678,12 +786,12 @@
           ],
           "values": [
             {
-              "value": 10,
+              "value": 20,
               "angle": 90,
               "percent": 0.5
             }
           ],
-          "hexes": ["B2"]
+          "hexes": ["A2"]
         },
         {
           "color": "green",
@@ -720,41 +828,41 @@
               "percent": 0.5
             }
           ],
-          "hexes": ["G11"]
+          "hexes": ["F11"]
         },
         {
           "color": "plain",
           "cities": [{}],
-          "hexes": ["G9"]
+          "hexes": ["F9"]
         },
         {
           "color": "plain",
           "cities": [{}],
-          "hexes": ["F14"]
+          "hexes": ["E14"]
         },
         {
           "color": "plain",
           "cities": [
             {
-              "companies": ["茶 電鉄"]
+              "companies": ["茶"]
             }
           ],
-          "hexes": ["D8"]
+          "hexes": ["C8"]
         },
         {
           "color": "plain",
           "cities": [
             {
-              "companies": ["音 電鉄"]
+              "companies": ["音"]
             }
           ],
-          "hexes": ["C13"]
+          "hexes": ["B13"]
         },
         {
           "color": "gray",
           "cities": [
             {
-              "companies": ["優 電鉄"]
+              "companies": ["優"]
             }
           ],
           "track": [
@@ -778,7 +886,7 @@
               "value": 40
             }
           ],
-          "hexes": ["C5"]
+          "hexes": ["B5"]
         },
         {
           "color": "offboard",
@@ -801,7 +909,7 @@
               }
             ]
           },
-          "hexes": ["B16"],
+          "hexes": ["A16"],
           "track": [
             {
               "side": 1,
@@ -845,123 +953,641 @@
               "percent": 0.5
             }
           ],
-          "hexes": ["B10"]
-        },
-        {
-          "color": "gray",
-          "hexes": [
-            "A1",
-            "A3",
-            "A5",
-            "A7",
-            "A9",
-            "A11",
-            "A13",
-            "A15",
-            "A17",
-            "C1",
-            "E1",
-            "G1",
-            "I1",
-            "K1",
-            "M1",
-            "O1",
-            "P2",
-            "P4",
-            "P6",
-            "P8",
-            "P12",
-            "P14",
-            "P16",
-            "C17",
-            "E17",
-            "G17",
-            "I17",
-            "K17",
-            "M17",
-            "O17"
-          ]
+          "hexes": ["A10"]
         },
         {
           "color": "plain",
           "hexes": [
-            "B4",
-            "B6",
-            "B8",
-            "B12",
-            "B14",
-            "C3",
-            "C7",
-            "C9",
-            "C11",
-            "C15",
-            "D2",
-            "D4",
-            "D6",
-            "D10",
-            "D12",
-            "D14",
-            "D16",
-            "E3",
-            "E5",
-            "E7",
-            "E9",
-            "E11",
-            "E13",
-            "E15",
-            "F2",
-            "F4",
-            "F6",
-            "F8",
-            "F10",
-            "F12",
-            "F16",
-            "G3",
-            "G5",
-            "G7",
-            "G13",
-            "G15",
-            "H2",
-            "H6",
-            "H10",
-            "H14",
-            "I3",
-            "I7",
-            "I9",
-            "I11",
-            "I13",
-            "I15",
-            "J2",
-            "J4",
-            "J6",
-            "J12",
-            "J14",
-            "J16",
-            "K3",
-            "K5",
-            "K13",
-            "L2",
-            "L4",
-            "L12",
-            "L16",
-            "M3",
-            "M5",
-            "M7",
-            "M9",
-            "M11",
-            "M13",
-            "M15",
-            "N2",
-            "N4",
-            "N6",
-            "N8",
-            "N14",
-            "N16",
-            "O5",
-            "O7",
-            "O9",
-            "O11",
-            "O13"
+            "A4",
+            "A6",
+            "A8",
+            "A12",
+            "A14",
+            "B3",
+            "B7",
+            "B9",
+            "B11",
+            "B15",
+            "C2",
+            "C4",
+            "C6",
+            "C10",
+            "C12",
+            "C14",
+            "C16",
+            "D3",
+            "D5",
+            "D7",
+            "D9",
+            "D11",
+            "D13",
+            "D15",
+            "E2",
+            "E4",
+            "E6",
+            "E8",
+            "E10",
+            "E12",
+            "E16",
+            "F3",
+            "F5",
+            "F7",
+            "F13",
+            "F15",
+            "G2",
+            "G6",
+            "G10",
+            "G14",
+            "H3",
+            "H7",
+            "H9",
+            "H11",
+            "H13",
+            "H15",
+            "I2",
+            "I4",
+            "I6",
+            "I12",
+            "I14",
+            "I16",
+            "J3",
+            "J5",
+            "J15",
+            "K2",
+            "K4",
+            "K12",
+            "K16",
+            "L3",
+            "L5",
+            "L7",
+            "L9",
+            "L11",
+            "L13",
+            "L15",
+            "M2",
+            "M8",
+            "M14",
+            "M16",
+            "N5",
+            "N7",
+            "N9",
+            "N11",
+            "N13"
+          ]
+        }
+      ]
+    },
+    {
+      "hexes": [
+        {
+          "color": "offboard",
+          "offBoardRevenue": {
+            "angle": 0,
+            "percent": 0.3,
+            "reverse": true,
+            "revenues": [
+              {
+                "color": "green",
+                "cost": "60"
+              },
+              {
+                "color": "brown",
+                "cost": "20"
+              },
+              {
+                "color": "gray",
+                "cost": "0"
+              }
+            ]
+          },
+          "hexes": ["O10"],
+          "track": [
+            {
+              "side": 2,
+              "type": "offboard"
+            },
+            {
+              "side": 3,
+              "type": "offboard"
+            }
+          ]
+        },
+        {
+          "color": "offboard",
+          "offBoardRevenue": {
+            "angle": 270,
+            "percent": 0.3,
+            "reverse": true,
+            "revenues": [
+              {
+                "color": "green",
+                "cost": "40"
+              },
+              {
+                "color": "brown",
+                "cost": "60"
+              },
+              {
+                "color": "gray",
+                "cost": "80"
+              }
+            ]
+          },
+          "hexes": ["N15"],
+          "track": [
+            {
+              "side": 1,
+              "type": "offboard"
+            },
+            {
+              "side": 2,
+              "type": "offboard"
+            },
+            {
+              "side": 3,
+              "type": "offboard"
+            }
+          ]
+        },
+        {
+          "color": "offboard",
+          "offBoardRevenue": {
+            "angle": 90,
+            "percent": 0.3,
+            "reverse": true,
+            "revenues": [
+              {
+                "color": "green",
+                "cost": "40"
+              },
+              {
+                "color": "brown",
+                "cost": "60"
+              },
+              {
+                "color": "gray",
+                "cost": "80"
+              }
+            ]
+          },
+          "hexes": ["N3"],
+          "track": [
+            {
+              "side": 2,
+              "type": "offboard"
+            },
+            {
+              "side": 3,
+              "type": "offboard"
+            },
+            {
+              "side": 4,
+              "type": "offboard"
+            }
+          ]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["愛"]
+            }
+          ],
+          "hexes": ["M12"]
+        },
+        {
+          "color": "yellow",
+          "cities": [
+            {
+              "companies": ["鈴"]
+            }
+          ],
+          "track": [
+            {
+              "side": 1,
+              "type": "straight"
+            }
+          ],
+          "values": [
+            {
+              "angle": 180,
+              "percent": 0.7,
+              "value": 20
+            }
+          ],
+          "hexes": ["M10"]
+        },
+        {
+          "color": "plain",
+          "cities": [{}],
+          "hexes": ["K6", "K14", "M4"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["花"]
+            }
+          ],
+          "hexes": ["J13"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["葉"]
+            }
+          ],
+          "hexes": ["M6"]
+        },
+        {
+          "color": "yellow",
+          "values": [
+            {
+              "angle": 0,
+              "percent": 0.2,
+              "value": 50
+            }
+          ],
+          "labels": [
+            {
+              "label": "P",
+              "angle": 180,
+              "percent": 0.2
+            }
+          ],
+          "cities": [
+            {
+              "angle": 330,
+              "percent": 0.8,
+              "companies": ["告"]
+            },
+            {
+              "angle": 30,
+              "percent": 0.8,
+              "companies": ["流"]
+            },
+            {
+              "angle": 90,
+              "percent": 0.8,
+              "companies": ["弩"]
+            },
+            {
+              "angle": 150,
+              "percent": 0.8,
+              "companies": ["皇"]
+            },
+            {
+              "angle": 210,
+              "percent": 0.8,
+              "companies": ["寿"]
+            },
+            {
+              "angle": 270,
+              "percent": 0.8,
+              "companies": ["歩"]
+            }
+          ],
+          "hexes": ["J9"]
+        },
+        {
+          "color": "plain",
+          "labels": [
+            {
+              "label": "A"
+            }
+          ],
+          "hexes": ["I8", "I10", "J7", "J11", "K8", "K10"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["桃"]
+            }
+          ],
+          "hexes": ["H5"]
+        },
+        {
+          "color": "offboard",
+          "offBoardRevenue": {
+            "angle": 270,
+            "percent": 0.3,
+            "reverse": true,
+            "revenues": [
+              {
+                "color": "green",
+                "cost": "40"
+              },
+              {
+                "color": "brown",
+                "cost": "60"
+              },
+              {
+                "color": "gray",
+                "cost": "80"
+              }
+            ]
+          },
+          "hexes": ["G16"],
+          "track": [
+            {
+              "side": 1,
+              "type": "offboard"
+            },
+            {
+              "side": 6,
+              "type": "offboard"
+            }
+          ]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["栗"]
+            }
+          ],
+          "hexes": ["G12"]
+        },
+        {
+          "color": "plain",
+          "cities": [{}],
+          "hexes": ["G8"]
+        },
+        {
+          "color": "plain",
+          "cities": [{}],
+          "hexes": ["G4"]
+        },
+        {
+          "color": "green",
+          "labels": [
+            {
+              "label": "C",
+              "angle": 210,
+              "percent": 0.55
+            }
+          ],
+          "centerTowns": [
+            {
+              "rotate": 30
+            }
+          ],
+          "track": [
+            {
+              "side": 5
+            }
+          ],
+          "values": [
+            {
+              "value": 20,
+              "angle": 90,
+              "percent": 0.5
+            }
+          ],
+          "hexes": ["A2"]
+        },
+        {
+          "color": "green",
+          "labels": [
+            {
+              "label": "B",
+              "angle": 210,
+              "percent": 0.55
+            }
+          ],
+          "centerTowns": [
+            {
+              "rotate": 30
+            }
+          ],
+          "track": [
+            {
+              "side": 1
+            },
+            {
+              "side": 2
+            },
+            {
+              "side": 4
+            },
+            {
+              "side": 5
+            }
+          ],
+          "values": [
+            {
+              "value": 20,
+              "angle": 30,
+              "percent": 0.5
+            }
+          ],
+          "hexes": ["F11"]
+        },
+        {
+          "color": "plain",
+          "cities": [{}],
+          "hexes": ["F9"]
+        },
+        {
+          "color": "plain",
+          "cities": [{}],
+          "hexes": ["E14"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["茶"]
+            }
+          ],
+          "hexes": ["C8"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "companies": ["音"]
+            }
+          ],
+          "hexes": ["B13"]
+        },
+        {
+          "color": "gray",
+          "cities": [
+            {
+              "companies": ["優"]
+            }
+          ],
+          "track": [
+            {
+              "side": 1,
+              "type": "straight"
+            },
+            {
+              "side": 3,
+              "type": "straight"
+            },
+            {
+              "side": 5,
+              "type": "straight"
+            }
+          ],
+          "values": [
+            {
+              "angle": 180,
+              "percent": 0.7,
+              "value": 40
+            }
+          ],
+          "hexes": ["B5"]
+        },
+        {
+          "color": "offboard",
+          "offBoardRevenue": {
+            "angle": 270,
+            "percent": 0.37,
+            "reverse": true,
+            "revenues": [
+              {
+                "color": "green",
+                "cost": "10"
+              },
+              {
+                "color": "brown",
+                "cost": "40"
+              },
+              {
+                "color": "gray",
+                "cost": "120"
+              }
+            ]
+          },
+          "hexes": ["A16"],
+          "track": [
+            {
+              "side": 1,
+              "type": "offboard"
+            },
+            {
+              "side": 6,
+              "type": "offboard"
+            }
+          ]
+        },
+        {
+          "color": "green",
+          "labels": [
+            {
+              "label": "L",
+              "angle": 210,
+              "percent": 0.55
+            }
+          ],
+          "centerTowns": [
+            {
+              "rotate": 30
+            }
+          ],
+          "track": [
+            {
+              "side": 1
+            },
+            {
+              "side": 4
+            },
+            {
+              "side": 5
+            }
+          ],
+          "values": [
+            {
+              "value": 20,
+              "angle": 150,
+              "percent": 0.5
+            }
+          ],
+          "hexes": ["A10"]
+        },
+        {
+          "color": "plain",
+          "hexes": [
+            "A4",
+            "A6",
+            "A8",
+            "A12",
+            "A14",
+            "B3",
+            "B7",
+            "B9",
+            "B11",
+            "B15",
+            "C2",
+            "C4",
+            "C6",
+            "C10",
+            "C12",
+            "C14",
+            "C16",
+            "D3",
+            "D5",
+            "D7",
+            "D9",
+            "D11",
+            "D13",
+            "D15",
+            "E2",
+            "E4",
+            "E6",
+            "E8",
+            "E10",
+            "E12",
+            "E16",
+            "F3",
+            "F5",
+            "F7",
+            "F13",
+            "F15",
+            "G2",
+            "G6",
+            "G10",
+            "G14",
+            "H3",
+            "H7",
+            "H9",
+            "H11",
+            "H13",
+            "H15",
+            "I2",
+            "I4",
+            "I6",
+            "I12",
+            "I14",
+            "I16",
+            "J3",
+            "J5",
+            "J15",
+            "K2",
+            "K4",
+            "K12",
+            "K16",
+            "L3",
+            "L5",
+            "L7",
+            "L9",
+            "L11",
+            "L13",
+            "L15",
+            "M2",
+            "M8",
+            "M14",
+            "M16",
+            "N5",
+            "N7",
+            "N9",
+            "N11",
+            "N13"
           ]
         }
       ]

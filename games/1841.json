@@ -3,6 +3,7 @@
     "title": "1841",
     "subtitle": "Railways in Northern Italy",
     "designer": "Federico Vellani and Manlio Manzini",
+    "publisher": "dtg",
     "background": "water",
     "orientation": "horizontal",
     "marketTokens": 2,
@@ -1479,12 +1480,14 @@
           ],
           "track": [
             {
-              "type": "sharpStop",
-              "side": 2
+              "type": "sharp",
+              "side": 2,
+              "end": 0.5
             },
             {
-              "type": "sharpStopRev",
-              "side": 1
+              "type": "sharp",
+              "side": 6,
+              "start": 0.5
             }
           ],
           "hexes": ["K2"]
@@ -2169,8 +2172,9 @@
           ],
           "track": [
             {
-              "type": "straightStop",
-              "side": 5
+              "type": "straight",
+              "side": 5,
+              "end": 0.75
             },
             {
               "type": "custom",
@@ -2282,7 +2286,8 @@
             },
             {
               "side": 3,
-              "type": "sharpStop"
+              "type": "sharp",
+              "end": 0.5
             }
           ],
           "hexes": ["N19"]
@@ -2552,8 +2557,9 @@
               "type": "gentle"
             },
             {
-              "side": 5,
-              "type": "sharpStopRev"
+              "side": 4,
+              "type": "sharp",
+              "start": 0.5
             }
           ],
           "hexes": ["D9"]

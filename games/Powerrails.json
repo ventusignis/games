@@ -1037,12 +1037,14 @@
       ],
       "track": [
         {
-          "type": "stop",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.25
         },
         {
-          "type": "stop",
-          "side": 3
+          "type": "straight",
+          "side": 3,
+          "end": 0.25
         }
       ]
     },
@@ -1106,8 +1108,9 @@
       ],
       "track": [
         {
-          "type": "stop",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.25
         },
         {
           "type": "sharp",
@@ -1175,8 +1178,9 @@
       ],
       "track": [
         {
-          "type": "stop",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.25
         },
         {
           "type": "gentle",
@@ -1244,8 +1248,9 @@
       ],
       "track": [
         {
-          "type": "stop",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.25
         },
         {
           "type": "bent",
@@ -1948,12 +1953,14 @@
           "side": 6
         },
         {
-          "type": "stub",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.125
         },
         {
-          "type": "stub",
-          "side": 4
+          "type": "straight",
+          "side": 4,
+          "end": 0.125
         }
       ]
     },
@@ -2157,12 +2164,14 @@
           "side": 6
         },
         {
-          "type": "stub",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.125
         },
         {
-          "type": "stub",
-          "side": 4
+          "type": "straight",
+          "side": 4,
+          "end": 0.125
         }
       ]
     },
@@ -2326,12 +2335,14 @@
           "path": "m 0 75 L 30 10"
         },
         {
-          "type": "stub",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "end": 0.125
         },
         {
-          "type": "stub",
-          "side": 4
+          "type": "straight",
+          "side": 4,
+          "end": 0.125
         },
         {
           "type": "custom",
@@ -2902,8 +2913,9 @@
           "side": 3
         },
         {
-          "type": "stub",
-          "side": 4
+          "type": "straight",
+          "side": 4,
+          "end": 0.125
         },
         {
           "type": "sharp",
@@ -2947,8 +2959,9 @@
           "side": 2
         },
         {
-          "type": "stub",
-          "side": 3
+          "type": "straight",
+          "side": 3,
+          "end": 0.125
         },
         {
           "type": "sharp",
@@ -2992,8 +3005,9 @@
           "side": 1
         },
         {
-          "type": "stop",
-          "side": 2
+          "type": "straight",
+          "side": 2,
+          "end": 0.25
         },
         {
           "type": "sharp",
@@ -3037,8 +3051,9 @@
           "side": 1
         },
         {
-          "type": "stop",
-          "side": 2
+          "type": "straight",
+          "side": 2,
+          "end": 0.25
         },
         {
           "type": "gentle",
@@ -3082,9 +3097,10 @@
           "side": 4
         },
         {
-          "type": "straightStop",
+          "type": "straight",
           "side": 2,
-          "cross": "over"
+          "cross": "over",
+          "end": 0.75
         },
         {
           "type": "gentle",
@@ -3131,8 +3147,9 @@
           "side": 6
         },
         {
-          "type": "gentleStop",
-          "side": 5
+          "type": "gentle",
+          "side": 5,
+          "end": 0.75
         }
       ]
     },
@@ -3172,8 +3189,9 @@
           "side": 1
         },
         {
-          "type": "stop",
-          "side": 2
+          "type": "straight",
+          "side": 2,
+          "end": 0.25
         },
         {
           "type": "sharp",
@@ -3223,8 +3241,9 @@
           "cross": "over"
         },
         {
-          "type": "sharpStop",
-          "side": 6
+          "type": "sharp",
+          "side": 6,
+          "end": 0.5
         }
       ]
     },
@@ -3270,8 +3289,9 @@
           "cross": "under"
         },
         {
-          "type": "stop",
-          "side": 5
+          "type": "straight",
+          "side": 5,
+          "end": 0.25
         }
       ]
     },
@@ -3346,12 +3366,15 @@
           "cross": "over"
         },
         {
-          "type": "stop",
-          "side": 4
+          "type": "straight",
+          "side": 4,
+          "end": 0.25
         },
         {
-          "type": "mid",
-          "side": 4
+          "type": "straight",
+          "side": 4,
+          "end": 0.5,
+          "start": 0.25
         },
         {
           "type": "sharp",
@@ -3401,8 +3424,9 @@
           "cross": "under"
         },
         {
-          "type": "stop",
-          "side": 3
+          "type": "straight",
+          "side": 3,
+          "end": 0.25
         }
       ]
     },
@@ -3448,8 +3472,9 @@
           "cross": "under"
         },
         {
-          "type": "gentleStopRev",
-          "side": 2
+          "type": "gentle",
+          "side": 6,
+          "start": 0.25
         }
       ]
     },
@@ -3493,12 +3518,14 @@
           "side": 1
         },
         {
-          "type": "stop",
-          "side": 5
+          "type": "straight",
+          "side": 5,
+          "end": 0.25
         },
         {
-          "type": "stop",
-          "side": 6
+          "type": "straight",
+          "side": 6,
+          "end": 0.25
         }
       ]
     },
@@ -3681,8 +3708,9 @@
           "side": 5
         },
         {
-          "type": "stop",
-          "side": 6
+          "type": "straight",
+          "side": 6,
+          "end": 0.25
         }
       ]
     },

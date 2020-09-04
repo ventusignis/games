@@ -3,6 +3,7 @@
     "title": "1857",
     "designer": "Eddie Robbins",
     "background": "purple",
+    "publisher": "winsome",
     "orientation": "horizontal",
     "titleY": 500,
     "titleX": 200,
@@ -1090,8 +1091,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 4
+            "type": "straight",
+            "side": 4,
+            "end": 0.25
           },
           {
             "type": "sharp",
@@ -1186,8 +1188,9 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "hexes": ["B13"]

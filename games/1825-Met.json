@@ -65,16 +65,18 @@
       ],
       "track": [
         {
-          "type": "sharpStop",
-          "side": 1
+          "type": "sharp",
+          "side": 1,
+          "end": 0.5
         },
         {
           "path": "m 0 85 C 0 85, 10 75, 20 60, 30 45, 20 30, 10 15, 0 0, -10 -15, -20 -30, -30 -45, -20 -60, -10 -75, 0 -85, 0 -85, 0 -85 L 0 -85",
           "type": "custom"
         },
         {
-          "type": "sharpStop",
-          "side": 4
+          "type": "sharp",
+          "side": 4,
+          "end": 0.5
         }
       ]
     },
@@ -135,16 +137,18 @@
       ],
       "track": [
         {
-          "type": "sharpStop",
-          "side": 1
+          "type": "sharp",
+          "side": 1,
+          "end": 0.5
         },
         {
           "path": "m 0 85 C 0 85, 10 75, 20 60, 30 45, 20 30, 10 15, 0 0, -10 -15, -20 -30, -30 -45, -20 -60, -10 -75, 0 -85, 0 -85, 0 -85 L 0 -85",
           "type": "custom"
         },
         {
-          "type": "sharpStop",
-          "side": 4
+          "type": "sharp",
+          "side": 4,
+          "end": 0.5
         }
       ]
     }

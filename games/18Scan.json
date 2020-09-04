@@ -3,6 +3,7 @@
     "title": "18Scan",
     "subtitle": "Railroading under the Northern Lights",
     "designer": "David G. D. Hecht",
+    "publisher": "dtg",
     "background": "water",
     "titleRotate": -90,
     "titleSize": 100,
@@ -626,7 +627,7 @@
       ],
       "terrain": [
         {
-          "cost": "K40",
+          "cost": 40,
           "size": "tiny",
           "x": -50,
           "y": -20
@@ -1070,11 +1071,13 @@
         "track": [
           {
             "side": 1,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 2,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           }
         ],
         "values": [

@@ -18,18 +18,20 @@
     "Round",
     {
       "label": "$10/$20",
-      "icon": "token"
+      "icon": "token",
+      "iconColor": "yellow"
     },
     {
-      "label": 20,
-      "icon": "token"
+      "label": "$20",
+      "icon": "token",
+      "iconColor": "yellow"
     },
     {
       "label": "$10/$20",
       "icon": "port"
     },
     {
-      "label": 20,
+      "label": "$20",
       "icon": "port"
     },
     {
@@ -39,10 +41,12 @@
       "icon": "meat"
     },
     {
-      "icon": "fish"
+      "icon": "fish",
+      "iconColor": "blue"
     },
     {
-      "icon": "fish"
+      "icon": "fish",
+      "iconColor": "blue"
     },
     {
       "icon": "coal"
@@ -224,7 +228,7 @@
     },
     {
       "name": "Chicago & NorthWestern",
-      "abbrev": "C&N",
+      "abbrev": "CNW",
       "tokens": ["Free", 40, 100, 100, "Salt Lake City, UT"],
       "color": "brown"
     },
@@ -518,6 +522,7 @@
   ],
   "privates": [
     {
+      "id": "W1",
       "name": "Great River Shipping Company",
       "price": 20,
       "revenue": 5,
@@ -525,6 +530,7 @@
       "description": ""
     },
     {
+      "id": "W2",
       "name": "Mississippi River Bridge Company",
       "price": 40,
       "revenue": 10,
@@ -532,6 +538,7 @@
       "description": "Can be pruchased by a company with home token adjancent to East/Plains border in Phase Two. Until this corperation is closed/purchased, no track may be laid to cross the Mississippi River. Purchasing company may bridge river once at $40 discount (unless home is adjacent border, than free extra tile lay to bridge river"
     },
     {
+      "id": "W3",
       "name": "The Southern Cattle Company",
       "price": 50,
       "revenue": 10,
@@ -539,6 +546,7 @@
       "description": "This company has a token that may be placed on any city with a cattle symbol. Increases value of city by $10 for owning corperation."
     },
     {
+      "id": "W4",
       "name": "Grace Mountain Lumber Company",
       "price": 50,
       "revenue": 10,
@@ -546,6 +554,7 @@
       "description": "This company has a token that may be placed on any city with a tree symbol. Increases value of city by $10 for owning corperation."
     },
     {
+      "id": "W5",
       "name": "Colorado Engineers",
       "price": 60,
       "revenue": 10,
@@ -553,13 +562,16 @@
       "description": "Recieves one Engineer marker. Other four can be purchaseed by other corperations for $50. Engineer markers allow for half price mountin builds in Plains or West Zones."
     },
     {
+      "id": "W6",
       "name": "Gold Eagle Mining",
       "price": 80,
       "revenue": 15,
       "icon": "token",
+      "iconColor": "yellow",
       "description": "$20/$10 marker can be place in any city with a gold symbol. This marker increases the value of that city by $20 for owning corperation and $10 for other corperations. By closing this private, replace the marker with the $20 marker, and only benfits the owning corperation."
     },
     {
+      "id": "W7",
       "name": "Central Pacific",
       "price": 100,
       "revenue": 15,
@@ -567,6 +579,7 @@
       "description": "Once purchased, the owning company recieves one marker. Others may be purchased from the company for $25. Companies owning a marker gain one extra plains tile laying point."
     },
     {
+      "id": "W8",
       "name": "Denver-Grand Junction",
       "price": 160,
       "revenue": 25,
@@ -574,6 +587,7 @@
       "description": "Comes with a share of the Denver & Rio Grand Western. Blocks tile placement in the D&RGW hex until purchased/closed."
     },
     {
+      "id": "W9",
       "name": "The Southern Pacific Railroad",
       "price": 220,
       "revenue": 30,
@@ -581,12 +595,14 @@
       "description": "Comes with director's cert of the Southern Pacific. Purchaser must set par price of SP. Closed when SP buys a train. Blocks tile placement in the SP hex until closed."
     },
     {
+      "id": "E1",
       "name": "Schuylkill Valley",
       "price": 20,
       "revenue": 5,
       "description": "Blocks tile placement on SV hex until purchased/closed."
     },
     {
+      "id": "E2",
       "name": "Keystone Tunnel",
       "price": 40,
       "revenue": 10,
@@ -594,13 +610,16 @@
       "description": "May be purchased by a company with home token in East for $0 in Phase Two. Owning corperation may lay one mountain tile in the east zone at a $60 discount which closes the company."
     },
     {
+      "id": "E3",
       "name": "Azure Fisheries",
       "price": 50,
       "revenue": 10,
       "icon": "fish",
+      "iconColor": "blue",
       "description": "This company has a token that may be placed on any city with a fish symbol. Increases value of city by $10 for owning corperation."
     },
     {
+      "id": "E4",
       "name": "Appalachian Coal Mining",
       "price": 50,
       "revenue": 10,
@@ -608,6 +627,7 @@
       "description": "This company has a token that may be placed on any city with a coal symbol. Increases value of city by $10 for owning corperation."
     },
     {
+      "id": "E5",
       "name": "The Gulf Shipping Company",
       "price": 80,
       "revenue": 15,
@@ -615,6 +635,7 @@
       "description": "$20/$10 marker can be place in any city with a port symbol. This marker increases the value of that city by $20 for owning corperation and $10 for other corperations. By closing this private, replace the marker with the $20 marker, and only benfits the owning corperation."
     },
     {
+      "id": "E6",
       "name": "Mohawk & Hudson",
       "price": 110,
       "revenue": 20,
@@ -622,6 +643,7 @@
       "description": "May be exchanged for a share of the New York Central. If owned by the NYC, may be exchanged for a share of the NYC as a corperation redemption."
     },
     {
+      "id": "E7",
       "name": "Camden & Amboy",
       "price": 160,
       "revenue": 25,
@@ -629,6 +651,7 @@
       "description": "Comes with a share of the Pennsylvania. Blocks tile placement in the C&A hex until purchased/closed."
     },
     {
+      "id": "E8",
       "name": "The Southern Railroad",
       "price": 160,
       "revenue": 25,
@@ -636,6 +659,7 @@
       "description": "Comes with a share of the Southern. Blocks tile placement in the Southern (Atlanta) hex until purchased/closed."
     },
     {
+      "id": "E9",
       "name": "Baltimore & Ohio",
       "price": 220,
       "revenue": 30,
@@ -1356,7 +1380,6 @@
     "125": 5,
     "131": 1,
     "170": 5,
-    "171": 1,
     "172": 1,
     "448": 6,
     "590": 1,
@@ -1365,10 +1388,10 @@
     "593": 5,
     "594": {
       "tile": 597,
-      "quantity": 5
+      "quantity": 8
     },
     "595": {
-      "tile": 172,
+      "tile": "172",
       "quantity": 32
     },
     "596": 4,
@@ -1385,6 +1408,30 @@
       "y": 2850
     },
     "hexes": [
+      {
+        "color": "water",
+        "removeBorders": [1,2,3,4,5,6],
+        "hexes": [
+          "B55",
+          "B57",
+          "C52",
+          "C54",
+          "C56",
+          "C58",
+          "C60",
+          "E60",
+          "E64",
+          "E66",
+          "F59",
+          "F65",
+          "F67",
+          "G58",
+          "G64",
+          "H57",
+          "I58",
+          "P19"
+        ]
+      },
       {
         "color": "plain",
         "hexes": [
@@ -1666,7 +1713,6 @@
           "M54",
           "M56",
           "M58",
-          "M72",
           "N3",
           "N15",
           "N17",
@@ -1836,30 +1882,12 @@
         ]
       },
       {
-        "color": "gray",
-        "hexes": [
-          "B55",
-          "B57",
-          "C52",
-          "C54",
-          "C56",
-          "C58",
-          "C60",
-          "E60",
-          "E64",
-          "E66",
-          "F59",
-          "F65",
-          "F67",
-          "G58",
-          "G64",
-          "H57",
-          "I58",
-          "P19"
-        ]
-      },
-      {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium"
+        }],
         "hexes": [
           "A8",
           "A14",
@@ -1961,17 +1989,15 @@
           "S30",
           "S60",
           "T29"
-        ],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "type": "mountain"
-          }
         ]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 120,
+          "size": "large"
+        }],
         "hexes": [
           "C6",
           "D7",
@@ -2019,17 +2045,15 @@
           "S28",
           "T25",
           "T27"
-        ],
-        "terrain": [
-          {
-            "cost": 120,
-            "size": "large",
-            "type": "mountain"
-          }
         ]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "water",
+          "size": "tiny",
+          "cost": 20
+        }],
         "hexes": [
           "B21",
           "B23",
@@ -2052,16 +2076,15 @@
           "I18",
           "J69",
           "K68"
-        ],
-        "terrain": [
-          {
-            "cost": 20,
-            "type": "water"
-          }
         ]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "water",
+          "size": "small",
+          "cost": 40
+        }],
         "hexes": [
           "A10",
           "F13",
@@ -2095,16 +2118,15 @@
           "Q46",
           "Q48",
           "R51"
-        ],
-        "terrain": [
-          {
-            "cost": 40,
-            "type": "water"
-          }
         ]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "water",
+          "size": "medium",
+          "cost": 60
+        }],
         "hexes": [
           "B9",
           "C8",
@@ -2124,16 +2146,15 @@
           "W48",
           "W50",
           "W52"
-        ],
-        "terrain": [
-          {
-            "cost": 60,
-            "type": "water"
-          }
         ]
       },
       {
         "color": "plain",
+        "terrain":[{
+          "type": "water",
+          "size": "large",
+          "cost": 80
+        }],
         "hexes": [
           "A46",
           "D61",
@@ -2153,12 +2174,6 @@
           "Q74",
           "T15",
           "AA66"
-        ],
-        "terrain": [
-          {
-            "cost": 80,
-            "type": "water"
-          }
         ]
       },
       {
@@ -2203,6 +2218,14 @@
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "size": "tiny",
+            "cost": 20,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2210,14 +2233,7 @@
             }
           }
         ],
-        "hexes": ["D37"],
-        "terrain": [
-          {
-            "cost": 20,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["D37"]
       },
       {
         "color": "plain",
@@ -2258,10 +2274,17 @@
           },
           {
             "type": "token",
+            "color": "yellow",
             "angle": 210,
             "percent": 0.75
           }
         ],
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -2269,15 +2292,7 @@
             }
           }
         ],
-        "hexes": ["E18"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["E18"]
       },
       {
         "color": "plain",
@@ -2306,6 +2321,14 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "tiny",
+            "cost": 20,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2313,14 +2336,7 @@
             }
           }
         ],
-        "hexes": ["E46"],
-        "terrain": [
-          {
-            "cost": 20,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["E46"]
       },
       {
         "color": "plain",
@@ -2331,6 +2347,14 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "tiny",
+            "cost": 20,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2338,14 +2362,7 @@
             }
           }
         ],
-        "hexes": ["F47"],
-        "terrain": [
-          {
-            "cost": 20,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["F47"]
       },
       {
         "color": "plain",
@@ -2377,7 +2394,7 @@
         "cities": [
           {
             "name": {
-              "name": "Ottowa"
+              "name": "Ottawa"
             }
           }
         ],
@@ -2393,6 +2410,7 @@
           },
           {
             "type": "fish",
+            "color": "blue",
             "angle": 210,
             "percent": 0.75
           }
@@ -2458,6 +2476,13 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2465,14 +2490,7 @@
             }
           }
         ],
-        "hexes": ["H13"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["H13"]
       },
       {
         "color": "plain",
@@ -2483,6 +2501,14 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "tiny",
+            "cost": 20,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2490,14 +2516,7 @@
             }
           }
         ],
-        "hexes": ["H19"],
-        "terrain": [
-          {
-            "cost": 20,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["H19"]
       },
       {
         "color": "plain",
@@ -2523,6 +2542,14 @@
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 80,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2530,14 +2557,7 @@
             }
           }
         ],
-        "hexes": ["H69"],
-        "terrain": [
-          {
-            "cost": 80,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["H69"]
       },
       {
         "color": "plain",
@@ -2566,6 +2586,14 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "tiny",
+            "cost": 20,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2573,14 +2601,7 @@
             }
           }
         ],
-        "hexes": ["I16"],
-        "terrain": [
-          {
-            "cost": 20,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["I16"]
       },
       {
         "color": "plain",
@@ -2613,6 +2634,14 @@
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 80,
+            "percent": 0.75
+          }
+        ],
         "labels": [
           {
             "label": "L",
@@ -2627,17 +2656,16 @@
             }
           }
         ],
-        "hexes": ["J63"],
-        "terrain": [
-          {
-            "cost": 80,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["J63"]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -2645,21 +2673,14 @@
             }
           }
         ],
-        "hexes": ["J75"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["J75"]
       },
       {
         "color": "plain",
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
@@ -2707,6 +2728,7 @@
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
@@ -2722,9 +2744,15 @@
       },
       {
         "color": "plain",
+        "terrain": [{ "type": "mountain",
+          "cost": 120,
+          "size": "large",
+          "percent": 0.75
+        }],
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
@@ -2736,15 +2764,7 @@
             }
           }
         ],
-        "hexes": ["M8"],
-        "terrain": [
-          {
-            "cost": 120,
-            "size": "large",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["M8"]
       },
       {
         "color": "plain",
@@ -2752,6 +2772,13 @@
           {
             "type": "coal",
             "angle": 180,
+            "percent": 0.75
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
             "percent": 0.75
           }
         ],
@@ -2762,14 +2789,7 @@
             }
           }
         ],
-        "hexes": ["N65"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["N65"]
       },
       {
         "color": "plain",
@@ -2780,6 +2800,13 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2787,14 +2814,7 @@
             }
           }
         ],
-        "hexes": ["O42"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["O42"]
       },
       {
         "color": "plain",
@@ -2805,6 +2825,12 @@
             "percent": 0.75
           }
         ],
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -2812,15 +2838,7 @@
             }
           }
         ],
-        "hexes": ["O68"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["O68"]
       },
       {
         "color": "plain",
@@ -2842,6 +2860,12 @@
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -2849,21 +2873,14 @@
             }
           }
         ],
-        "hexes": ["P9"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["P9"]
       },
       {
         "color": "plain",
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
@@ -2958,10 +2975,17 @@
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
         ],
+        "terrain": [{
+          "type": "mountain",
+          "cost": 120,
+          "size": "large",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -2969,15 +2993,7 @@
             }
           }
         ],
-        "hexes": ["R27"],
-        "terrain": [
-          {
-            "cost": 120,
-            "size": "large",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["R27"]
       },
       {
         "color": "plain",
@@ -2988,6 +3004,13 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -2995,14 +3018,7 @@
             }
           }
         ],
-        "hexes": ["R49"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["R49"]
       },
       {
         "color": "plain",
@@ -3027,6 +3043,7 @@
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
@@ -3074,17 +3091,10 @@
             "percent": 0.75
           }
         ],
-        "icons": [
-          {
-            "type": "meat",
-            "angle": 180,
-            "percent": 0.75
-          }
-        ],
         "cities": [
           {
             "name": {
-              "name": "Tuscon"
+              "name": "Tucson"
             }
           }
         ],
@@ -3120,6 +3130,7 @@
         "icons": [
           {
             "type": "fish",
+            "color": "blue",
             "angle": 180,
             "percent": 0.75
           }
@@ -3176,6 +3187,19 @@
             "type": "port",
             "angle": 180,
             "percent": 0.75
+          },
+          {
+            "type": "bridge",
+            "angle": 90,
+            "percent": 0.7
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 60,
+            "percent": 0.75
           }
         ],
         "cities": [
@@ -3185,14 +3209,7 @@
             }
           }
         ],
-        "hexes": ["V51"],
-        "terrain": [
-          {
-            "cost": 60,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["V51"]
       },
       {
         "color": "plain",
@@ -3214,6 +3231,14 @@
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 60,
+            "percent": 0.75
+          }
+        ],
         "icons": [
           {
             "type": "port",
@@ -3240,17 +3265,18 @@
             }
           }
         ],
-        "hexes": ["W46"],
-        "terrain": [
-          {
-            "cost": 60,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["W46"]
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 60,
+            "percent": 0.75
+          }
+        ],
         "icons": [
           {
             "type": "port",
@@ -3272,14 +3298,7 @@
             }
           }
         ],
-        "hexes": ["Y42"],
-        "terrain": [
-          {
-            "cost": 60,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["Y42"]
       },
       {
         "color": "yellow",
@@ -3288,10 +3307,13 @@
             "type": "tree",
             "angle": 180,
             "percent": 0.75
-          },
+          }
+        ],
+        "terrain": [
           {
-            "type": "fish",
-            "angle": 240,
+            "type": "water",
+            "size": "medium",
+            "cost": 80,
             "percent": 0.75
           }
         ],
@@ -3340,14 +3362,7 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["C4"],
-        "terrain": [
-          {
-            "cost": 80,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["C4"]
       },
       {
         "color": "plain",
@@ -3418,10 +3433,17 @@
           },
           {
             "type": "token",
+            "color": "yellow",
             "angle": 160,
             "percent": 0.75
           }
         ],
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "labels": [
           {
             "label": "P",
@@ -3445,18 +3467,25 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["E4"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["E4"]
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
+        "icons": [
+          
+          {
+            "type": "bridge",
+            "angle": 90,
+            "percent": 0.7
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -3465,14 +3494,7 @@
             "companies": ["CMP"]
           }
         ],
-        "hexes": ["F49"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["F49"]
       },
       {
         "color": "plain",
@@ -3504,7 +3526,9 @@
         "color": "plain",
         "companies": [
           {
-            "label": "M&H"
+            "label": "M&H",
+            "left": 30,
+            "right": 30
           }
         ],
         "hexes": ["H77"]
@@ -3515,6 +3539,14 @@
           {
             "label": "B",
             "angle": -45,
+            "percent": 0.75
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 80,
             "percent": 0.75
           }
         ],
@@ -3540,14 +3572,7 @@
             }
           }
         ],
-        "hexes": ["I64"],
-        "terrain": [
-          {
-            "cost": 80,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["I64"]
       },
       {
         "color": "plain",
@@ -3593,6 +3618,7 @@
         "icons": [
           {
             "type": "fish",
+            "color": "blue",
             "angle": 180,
             "percent": 0.75
           }
@@ -3621,6 +3647,7 @@
         ],
         "cities": [
           {
+            "companies": ["B&M"],
             "name": {
               "name": "Boston",
               "rotation": -90
@@ -3664,12 +3691,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 1
+            "type": "straight",
+            "side": 1,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 4
+            "type": "straight",
+            "side": 4,
+            "end": 0.25
           }
         ],
         "cities": [
@@ -3729,7 +3758,7 @@
         ],
         "tokens": [
           {
-            "company": "C&N",
+            "company": "CNW",
             "destination": true,
             "angle": 90,
             "percent": 0.75
@@ -3739,6 +3768,13 @@
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
         "icons": [
           {
             "type": "meat",
@@ -3754,16 +3790,25 @@
             "companies": ["UP"]
           }
         ],
-        "hexes": ["K44"],
-        "terrain": [
-          {
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["K44"]
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
+        "icons": [
+          
+          {
+            "type": "bridge",
+            "angle": -90,
+            "percent": 0.7
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -3772,31 +3817,24 @@
             "companies": ["CBQ"]
           }
         ],
-        "hexes": ["K52"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["K52"]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "companies": [
           {
-            "label": "SV"
+            "label": "SV",
+            "left": 30,
+            "right": 30
           }
         ],
-        "hexes": ["K74"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["K74"]
       },
       {
         "color": "yellow",
@@ -3805,6 +3843,15 @@
             "label": "NY",
             "angle": -75,
             "percent": 0.6
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 80,
+            "angle": -15,
+            "percent": 0.75
           }
         ],
         "values": [
@@ -3821,12 +3868,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 3
+            "type": "straight",
+            "side": 3,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 6
+            "type": "straight",
+            "side": 6,
+            "end": 0.25
           }
         ],
         "cities": [
@@ -3847,42 +3896,41 @@
             "companies": ["NYNH"]
           }
         ],
-        "hexes": ["K78"],
-        "terrain": [
-          {
-            "cost": 80,
-            "angle": -15,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["K78"]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 120,
+          "size": "large",
+          "percent": 0.75
+        }],
         "companies": [
           {
-            "label": "D&RW"
+            "label": "D&RGW",
+            "left": 30,
+            "right": 30
           }
         ],
-        "hexes": ["L27"],
-        "terrain": [
-          {
-            "cost": 120,
-            "size": "large",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["L27"]
       },
       {
         "color": "plain",
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
         ],
+        "terrain": [{
+          "type": "mountain",
+          "cost": 120,
+          "size": "large",
+          "percent": 0.75
+        }],
         "labels": [
           {
             "label": "P",
@@ -3900,7 +3948,7 @@
         ],
         "tokens": [
           {
-            "company": "CMP",
+            "company": "CBQ",
             "destination": true,
             "angle": 115,
             "percent": 0.75
@@ -3912,15 +3960,7 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["L29"],
-        "terrain": [
-          {
-            "cost": 120,
-            "size": "large",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["L29"]
       },
       {
         "color": "plain",
@@ -3976,27 +4016,29 @@
         "color": "plain",
         "companies": [
           {
-            "label": "C&A"
+            "label": "C&A",
+            "left": 30,
+            "right": 30
           }
         ],
         "hexes": ["L77"]
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "companies": [
           {
-            "label": "CP"
+            "label": "CP",
+            "left": 30,
+            "right": 30
           }
         ],
-        "hexes": ["M6"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["M6"]
       },
       {
         "color": "plain",
@@ -4026,6 +4068,13 @@
             "percent": 0.75
           }
         ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
         "values": [
           {
             "value": "30",
@@ -4049,17 +4098,25 @@
             "companies": ["MKT"]
           }
         ],
-        "hexes": ["M46"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["M46"]
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
+        "icons": [
+          
+          {
+            "type": "bridge",
+            "angle": -90,
+            "percent": 0.7
+          }
+        ],
         "labels": [
           {
             "label": "P",
@@ -4089,17 +4146,17 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["M52"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["M52"]
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -4115,14 +4172,7 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["M62"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["M62"]
       },
       {
         "color": "yellow",
@@ -4164,24 +4214,37 @@
             "percent": 0.75
           }
         ],
+        "hexes": ["M74"]
+      },
+      {
+        "color": "plain",
         "companies": [
           {
             "label": "B&O",
-            "angle": 90,
-            "percent": 1
+            "angle": -90,
+            "left": 40,
+            "right": 40,
+            "percent": 0.8
           }
         ],
-        "hexes": ["M74"]
+        "hexes": ["M72"]
       },
       {
         "color": "plain",
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
         ],
+        "terrain": [{
+          "type": "mountain",
+          "cost": 120,
+          "size": "large",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -4197,18 +4260,17 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["N29"],
-        "terrain": [
-          {
-            "cost": 120,
-            "size": "large",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["N29"]
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": 40,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -4217,14 +4279,7 @@
             "companies": ["L&N"]
           }
         ],
-        "hexes": ["N59"],
-        "terrain": [
-          {
-            "cost": 40,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["N59"]
       },
       {
         "color": "yellow",
@@ -4233,6 +4288,15 @@
             "label": "NY",
             "angle": 60,
             "percent": 0.6
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 80,
+            "angle": 15,
+            "percent": 0.75
           }
         ],
         "values": [
@@ -4249,12 +4313,14 @@
         ],
         "track": [
           {
-            "type": "stop",
-            "side": 2
+            "type": "straight",
+            "side": 2,
+            "end": 0.25
           },
           {
-            "type": "stop",
-            "side": 5
+            "type": "straight",
+            "side": 5,
+            "end": 0.25
           }
         ],
         "cities": [
@@ -4283,18 +4349,15 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["O4"],
-        "terrain": [
-          {
-            "cost": 80,
-            "angle": 15,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["O4"]
       },
       {
-        "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -4303,15 +4366,7 @@
             "companies": ["SLSF"]
           }
         ],
-        "hexes": ["O48"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["O48"]
       },
       {
         "color": "plain",
@@ -4354,6 +4409,14 @@
             "percent": 0.75
           }
         ],
+        "icons": [
+          {
+            "type": "fish",
+            "color": "blue",
+            "angle": 180,
+            "percent": 0.75
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -4369,10 +4432,17 @@
         "icons": [
           {
             "type": "token",
+            "color": "yellow",
             "angle": 180,
             "percent": 0.75
           }
         ],
+        "terrain": [{
+          "type": "mountain",
+          "cost": 120,
+          "size": "large",
+          "percent": 0.75
+        }],
         "cities": [
           {
             "name": {
@@ -4388,15 +4458,7 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["Q28"],
-        "terrain": [
-          {
-            "cost": 120,
-            "size": "large",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["Q28"]
       },
       {
         "color": "plain",
@@ -4404,6 +4466,18 @@
           {
             "type": "port",
             "angle": 180,
+            "percent": 0.75
+          },
+          {
+            "type": "bridge",
+            "angle": 90,
+            "percent": 0.7
+          }
+        ],
+        "terrain": [{
+            "type": "water",
+            "size": "medium",
+            "cost": 60,
             "percent": 0.75
           }
         ],
@@ -4415,14 +4489,7 @@
             "companies": ["SLS"]
           }
         ],
-        "hexes": ["Q54"],
-        "terrain": [
-          {
-            "cost": 60,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["Q54"]
       },
       {
         "color": "yellow",
@@ -4459,6 +4526,12 @@
       },
       {
         "color": "plain",
+        "terrain": [{
+          "type": "mountain",
+          "cost": 60,
+          "size": "medium",
+          "percent": 0.75
+        }],
         "labels": [
           {
             "label": "L",
@@ -4474,32 +4547,26 @@
             "companies": ["SP"]
           }
         ],
-        "hexes": ["R9"],
-        "terrain": [
-          {
-            "cost": 60,
-            "size": "small",
-            "percent": 0.75,
-            "type": "mountain"
-          }
-        ]
+        "hexes": ["R9"]
       },
       {
         "color": "plain",
+        "terrain": [{
+            "type": "water",
+            "cost": 40
+          }
+        ],
         "companies": [
           {
             "label": "SP",
             "angle": 30,
-            "percent": 1
+            "rotate": -30,
+            "left": 60,
+            "right": 20,
+            "percent": 0.7
           }
         ],
-        "hexes": ["S16"],
-        "terrain": [
-          {
-            "cost": 40,
-            "type": "water"
-          }
-        ]
+        "hexes": ["S16"]
       },
       {
         "color": "plain",
@@ -4529,6 +4596,12 @@
       },
       {
         "color": "yellow",
+        "terrain": [{
+          "type": "mountain",
+          "angle": 70,
+          "percent": 0.75,
+          "cost": 60
+        }],
         "icons": [
           {
             "type": "coal",
@@ -4539,7 +4612,7 @@
         "labels": [
           {
             "label": "B",
-            "angle": 90,
+            "angle": 110,
             "percent": 0.75
           }
         ],
@@ -4570,6 +4643,8 @@
         "companies": [
           {
             "label": "S",
+            "left": 30,
+            "right": 30,
             "percent": 0.75
           }
         ],
@@ -4611,6 +4686,13 @@
       },
       {
         "color": "plain",
+        "icons": [
+          {
+            "type": "bridge",
+            "angle": 90,
+            "percent": 0.7
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -4627,6 +4709,14 @@
           {
             "label": "K",
             "angle": -90,
+            "percent": 0.75
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "size": "medium",
+            "cost": 60,
             "percent": 0.75
           }
         ],
@@ -4652,14 +4742,7 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["U28"],
-        "terrain": [
-          {
-            "cost": 60,
-            "percent": 0.75,
-            "type": "water"
-          }
-        ]
+        "hexes": ["U28"]
       },
       {
         "color": "plain",
@@ -4692,6 +4775,7 @@
         "icons": [
           {
             "type": "fish",
+            "color": "blue",
             "angle": 180,
             "percent": 0.75
           }
@@ -4715,6 +4799,12 @@
             "percent": 0.75
           }
         ],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
         "tokens": [
           {
             "company": "CP",
@@ -4724,16 +4814,24 @@
           }
         ],
         "removeBorders": [4],
-        "hexes": ["A4"],
-        "track": [
-          {
-            "side": 5,
-            "type": "offboard"
-          }
-        ]
+        "hexes": ["A4"]
       },
       {
         "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
         "offBoardRevenue": {
           "angle": 90,
           "percent": 1,
@@ -4766,21 +4864,7 @@
           ]
         },
         "removeBorders": [1],
-        "hexes": ["A6"],
-        "track": [
-          {
-            "side": 4,
-            "type": "offboard"
-          },
-          {
-            "side": 5,
-            "type": "offboard"
-          },
-          {
-            "side": 6,
-            "type": "offboard"
-          }
-        ]
+        "hexes": ["A6"]
       },
       {
         "color": "offboard",
@@ -5119,6 +5203,7 @@
         "icons": [
           {
             "type": "fish",
+            "color": "blue",
             "angle": -150,
             "percent": 0.75
           }
@@ -5131,21 +5216,21 @@
             "percent": 0.7
           }
         ],
-        "hexes": ["E88"],
         "track": [
           {
-            "side": 1,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 1
           },
           {
-            "side": 2,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 2
           },
           {
-            "side": 6,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 6
           }
-        ]
+        ],
+        "hexes": ["E88"]
       },
       {
         "color": "offboard",
@@ -5270,6 +5355,7 @@
         "icons": [
           {
             "type": "fish",
+            "color": "blue",
             "angle": 180,
             "percent": 0.75
           }
@@ -5475,18 +5561,18 @@
             "percent": 0.7
           }
         ],
-        "removeBorders": [4],
-        "hexes": ["Z39"],
         "track": [
           {
-            "side": 2,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 2
           },
           {
-            "side": 3,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 3
           }
-        ]
+        ],
+        "removeBorders": [4],
+        "hexes": ["Z39"]
       },
       {
         "color": "offboard",
@@ -5521,18 +5607,18 @@
             }
           ]
         },
-        "removeBorders": [1],
-        "hexes": ["Z41"],
         "track": [
           {
-            "side": 2,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 2
           },
           {
-            "side": 3,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 3
           }
-        ]
+        ],
+        "removeBorders": [1],
+        "hexes": ["Z41"]
       },
       {
         "color": "offboard",
@@ -5565,17 +5651,18 @@
             }
           ]
         },
-        "hexes": ["AA68"],
         "track": [
           {
-            "side": 1,
-            "type": "offboard"
+            
+            "type": "offboard",
+            "side": 1
           },
           {
-            "side": 2,
-            "type": "offboard"
+            "type": "offboard",
+            "side": 2
           }
-        ]
+        ],
+        "hexes": ["AA68"]
       }
     ],
     "borders": [
@@ -5675,7 +5762,7 @@
         ]
       },
       {
-        "color": "brown",
+        "color": "green",
         "dashed": "true",
         "coords": [
           "B19p5",
@@ -5723,7 +5810,7 @@
         ]
       },
       {
-        "color": "green",
+        "color": "blue",
         "dashed": "true",
         "coords": [
           "B45p5",
@@ -5778,23 +5865,23 @@
         ]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["C50p1", "C50p6"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["C62p2", "C62p1"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["F21p1", "F21p6", "F21p5"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["F21p6", "F23p1"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": [
           "G70p1",
           "G70p6",
@@ -5807,27 +5894,27 @@
         ]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["G84p2", "G84p1"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["I66p1", "I66p6", "I68p1", "I68p6", "I68p5"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["J19p2", "J19p1", "J19p6"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["O20p1", "O20p6", "O20p5"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["P17p2", "P17p1", "P17p6"]
       },
       {
-        "color": "red",
+        "color": "water",
         "coords": ["Q74p2", "Q74p1"]
       }
     ]
